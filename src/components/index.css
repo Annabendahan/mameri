@@ -1,0 +1,134 @@
+.banner{
+  width : 110%;
+  margin-left: -20px;
+  margin-top: -10px;
+
+  background-size: cover;
+
+
+}
+
+
+.yellows{
+  margin-right: 10px;
+}
+
+.home-div{
+}
+
+.title{
+  font-family: avenir;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #2a4b80;
+
+}
+
+.title-w{
+  font-family: avenir;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+}
+
+
+.desc{
+  font-family: avenir;
+  font-size: .8rem;
+  color: #313030;
+}
+
+.desc-w{
+  font-family: avenir;
+  font-size: .8rem;
+  color: white;
+}
+
+
+.box{
+  display: flex;
+  width: 100%;
+margin:auto;
+padding: 50px;
+background: red;
+
+}
+
+
+.rightbox{
+font-family: avenir;
+box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+padding: 50px;
+}
+
+.leftbox{
+  flex: 0 0 50%;
+  margin-right: 100px;
+}
+
+
+
+.number{
+  font-weight: 700;
+  color: #2a4b80;
+}
+.n2{
+  margin-top: -20px;
+}
+
+
+.hours{
+  font-size: .7rem
+}
+
+
+.blue{
+  display: flex;
+  padding: 100px ;
+  background: #2a4b80;
+  color: white;
+  font-family: avenir;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.blue h3{
+  font-size: .9rem
+}
+
+.blue p{
+  font-weight:100;
+  font-size: .7rem
+}
+
+
+.indemn{
+  flex: 0 0 30%;
+}
+
+.salar{
+  flex: 0 0 30%;
+}
+
+.ass{
+  flex: 0 0 30%;
+}
+
+.profile-pic-contact{
+ height : 200px;
+ width: 200px;
+}
+
+
+.contact-box{
+  display: flex;
+  font-size: .8rem;
+}
+
+.title2{
+margin-top:-20px;
+}
+
+.contact-right{
+  padding-left:40px;
+}

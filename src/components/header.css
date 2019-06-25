@@ -1,0 +1,14 @@
+.logo{
+  width: 80px;
+}
+
+
+.onglets{
+  margin-top: 40px
+}
+
+
+.active{
+  color: red;
+  font-weight: 900;
+}

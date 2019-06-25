@@ -1,0 +1,28 @@
+.lecabinet-box{
+  display: flex;
+  padding: 100px;
+}
+
+
+.profile-pic{
+  width: 400px;
+}
+
+
+.lecabinet-left{
+  flex: 0 0 50%;
+}
+
+
+.lecabinet-left p{
+  color: #2a4b80;
+  font-weight: 700;
+  font-size: .8rem;
+  font-family: avenir;
+  margin: 5px;
+}
+
+.lecabinet-right{
+font-size: .7rem;
+text-align: justify;
+}
