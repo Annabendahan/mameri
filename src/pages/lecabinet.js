@@ -42,7 +42,7 @@ En 2015, Maître MAMERI a créé en partenariat avec l’Université de Lyon une
 
   </div>
 
-    <Link to="/">Go back to the homepage</Link>
+
   </Layout>
 )
 

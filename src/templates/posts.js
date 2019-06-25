@@ -11,7 +11,7 @@ class PostsTemplate extends Component {
         return(
           <Layout>
             <div className="posts">
-                <h1>NOS PUBLICATIONS</h1>
+
                 <h2 className="title">
   <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#FFF509"/>
@@ -27,7 +27,7 @@ class PostsTemplate extends Component {
 
                         <div className="post-desc"  dangerouslySetInnerHTML={{__html: node.excerpt}} />
 
-                        {node.date}
+
                          </div>
                         </Link>
                     </div>
@@ -46,7 +46,7 @@ class PostsTemplate extends Component {
   <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#FFF509"/>
   </svg>
-  ARTICLES</h2>
+  MÉMOIRES D'ÉTUDE</h2>
 
   <p className="desc-w"> <svg  className="yellows" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="2.5" cy="2.5" r="2.5" fill="white"/>

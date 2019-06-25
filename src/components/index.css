@@ -4,6 +4,8 @@
   margin-top: -10px;
 
   background-size: cover;
+  position: relative;
+  z-index: 1;
 
 
 }
@@ -50,27 +52,35 @@
   width: 100%;
 margin:auto;
 padding: 50px;
-background: red;
+justify-content: space-around;
+align-items: center;
+
 
 }
 
 
 .rightbox{
 font-family: avenir;
-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 padding: 50px;
+}
+
+.rightbox:hover{
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.45);
+  cursor: pointer
 }
 
 .leftbox{
   flex: 0 0 50%;
-  margin-right: 100px;
+  margin-right: 70px;
 }
 
 
 
 .number{
-  font-weight: 700;
+  font-weight: 900;
   color: #2a4b80;
+  font-family: avenir;
 }
 .n2{
   margin-top: -20px;
@@ -103,20 +113,37 @@ padding: 50px;
 
 
 .indemn{
-  flex: 0 0 30%;
+  flex: 0 0 28%;
+  text-align: center;
+}
+
+.indemn p{
+  text-align: justify;
 }
 
 .salar{
-  flex: 0 0 30%;
+  flex: 0 0 28%;
+  text-align: center;
 }
 
+.salar p{
+  text-align: justify;
+}
+
+
 .ass{
-  flex: 0 0 30%;
+  flex: 0 0 28%;
+  text-align: center;
+}
+
+
+.ass p{
+  text-align: justify;
 }
 
 .profile-pic-contact{
  height : 200px;
- width: 200px;
+ width: 220px;
 }
 
 

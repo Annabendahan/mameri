@@ -1,0 +1,35 @@
+.footer{
+  font-family: avenir;
+  font-size: .6rem;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin-top: 100px;
+  align-items: center;
+
+}
+
+.up{
+  margin-top: -30px;
+}
+
+
+.up2{
+   margin-top: -43px;
+
+}
+
+.name{
+  margin-bottom: -8px
+}
+
+
+
+.high-s{
+  color: #2a4b80;
+  font-weight: 700;
+  font-size: .6rem;
+  font-family: avenir;
+
+
+}

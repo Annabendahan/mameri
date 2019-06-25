@@ -1,14 +1,81 @@
 .logo{
-  width: 80px;
+  width: 70px;
 }
 
 
 .onglets{
-  margin-top: 40px
+margin-top: 30px;
+}
+
+.polygon{
+margin-bottom: 3px;
+margin-left: 3px;
 }
 
 
 .active{
   color: red;
   font-weight: 900;
+}
+
+.top{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: .7rem;
+}
+
+
+.so{
+  visibility: hidden;
+  background: white;
+  padding-right: 100px;
+  padding-left:10px;
+  color: #2a4b80;
+}
+
+.so a{
+  text-decoration: none;
+  color: #2a4b80;
+}
+
+.sub-onglet{
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  background: white;
+  color: #2a4b80;
+}
+
+
+.sub-onglet:hover{
+  font-weight: 900;
+}
+
+
+.sub-onglet2{
+  position: absolute;
+  top: 45px;
+  left: -10px;
+  background: white;
+  color: #2a4b80;
+}
+.sub-onglet2:hover{
+  font-weight: 900;
+}
+
+.sub-onglet3{
+  position: absolute;
+  top: 70px;
+  left: -10px;
+  background: white;
+  color: #2a4b80;
+}
+.sub-onglet3:hover{
+  font-weight: 900;
+}
+
+
+.de:hover > .so{
+ visibility: visible;
 }
