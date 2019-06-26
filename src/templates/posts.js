@@ -17,24 +17,31 @@ class PostsTemplate extends Component {
   <rect width="10" height="10" fill="#FFF509"/>
   </svg>
   ARTICLES</h2>
+
+  <div>
                 {data.allWordpressPost.edges.map(({node}) => (
-                    <div key={node.slug} className={"post"} style={{ marginBottom: 50 }}>
-                        <Link to={'posts/' + node.slug}>
-                          <div className="article">
+
+                    <div key={node.slug} className={"article"}>
+                    <Link  to={'posts/' + node.slug}>
+
+
+
                               <p className="high2">
                                {node.title}</p>
 
 
-                        <div className="post-desc"  dangerouslySetInnerHTML={{__html: node.excerpt}} />
+                        <p className="post-desc"  dangerouslySetInnerHTML={{__html: node.excerpt}} ></p>
 
 
-                         </div>
-                        </Link>
+
+
+                  </Link>
                     </div>
 
 
 
                 ))}
+                </div>
 
 
             </div>
