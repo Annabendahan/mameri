@@ -1,10 +1,17 @@
 .noshonoraires-box{
   display: flex;
   text-align: justify;
+  margin:auto;
+  width: 90%;
 
 }
 .noshonoraires-right{
   padding-left: 50px;
+  flex: 0 0 50%;
+}
+
+.noshonoraires-left{
+  flex: 0 0 50%;
 }
 
 
@@ -13,7 +20,11 @@
   font-weight: 700;
   font-size: .9rem;
   font-family: avenir;
-  padding: 0px 150px;
+  width: 70%;
+  margin:auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
+
 
 }
 
@@ -21,4 +32,9 @@
 .background-hono{
 padding: 100px;
 text-align: justify;
+}
+
+
+.hono-pic{
+width: 500px;
 }

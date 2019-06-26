@@ -78,15 +78,15 @@ const Header = ({ siteTitle }) => (
 </svg>
 
 
-          <span className="so sub-onglet">  <Link >HELLO <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <span className="so sub-onglet">  <Link to="/indemnisation-des-victimes/" > INDEMNISATION DES VICTIMES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
 </svg>
  </Link> </span>
-          <span className="so sub-onglet2">  <Link >HELLO <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <span className="so sub-onglet2">  <Link to= "/defense-des-salaries/"> DÉFENSE DES SALARIÉS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
 </svg>
  </Link> </span>
-          <span className="so sub-onglet3">  <Link >HELLO <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <span className="so sub-onglet3">  <Link to= "/defense-des-personnes-malades-handicap/" > DÉFENSE DES PERSONNES MALADES ET EN SITUATION DE HANDICAP <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
 </svg>
  </Link> </span>

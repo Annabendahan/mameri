@@ -1,0 +1,15 @@
+.salaries{
+  display: flex;
+}
+
+
+.picdefense{
+  width: 400px;
+}
+
+
+.salaries-right{
+flex: 0 0 60%;
+text-align: justify;
+margin-left: 50px
+}

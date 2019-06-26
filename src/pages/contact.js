@@ -15,8 +15,8 @@ const Contact = () => (
     NOUS CONTACTER</h2>
 
     <p className="desc">
-    Vous pouvez contacter le Cabinet au 0640843619, par mail à l’adresse suivante : qmameri.avocat@gmail.com  ou par le formulaire de contact ci-joint.
-    Le Cabinet de Me Quentin MAMERI se situe près du Palais de Justice de Paris, au 16 rue Sauffroy, 75017 PARIS</p>
+    Vous pouvez contacter le Cabinet au <span className="bold"> 0640843619 </span>, par mail à l’adresse suivante : <span className="bold"> qmameri.avocat@gmail.com </span>  ou par le formulaire de contact ci-joint.
+    Le Cabinet de Me Quentin MAMERI se situe près du  Palais de Justice de Paris , au <span className="bold"> 16 rue Sauffroy, 75017 PARIS. </span></p>
 
     <p className="high-m" > <svg width="48" height="21" viewBox="0 0 48 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="10.5" cy="10.5" r="9.5" stroke="#244C82" stroke-width="2"/>
