@@ -1,0 +1,144 @@
+.menu{
+background: #2a4b80;
+color:white;
+z-index: 300;
+top: -0px;
+padding: 50px 20px;
+font-weight: 500;
+position: absolute;
+height: 100vh;
+width:200px;
+ transition: all .5s ease-out;
+ font-family: avenir;
+
+}
+
+.ppetit p{
+  font-size: .3rem;
+  padding: 0px 10px;
+  font-weight: 100;
+}
+
+.menu p{
+font-size: .6rem;
+font-weight: 700;
+margin-bottom: 10px
+}
+
+
+
+
+.menu p:hover{
+  font-weight: 700;
+    cursor: pointer;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: .7rem;
+
+}
+
+.menu a:hover{
+  font-weight: 900;
+    cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.menuSmall{
+ width : 50px;
+  color: black;
+  z-index: 300;
+  margin: 20px;
+  transition: all 2s ease-out;
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  right: -15px;
+
+
+}
+
+
+@media(max-width: 901px) {
+  .menuSmall{
+    visibility: visible;
+  }
+}
+
+
+.menu-svg{
+  transition: all 2s ease-out;
+}
+
+.menu-svg:hover .line{
+height: 2;
+}
+
+
+
+.line{
+  position: absolute;
+  width: 30px;
+}
+
+.line2{
+  top: 10px;
+}
+
+.line3{
+  top: 20px;
+}
+
+
+.menu-svg{
+  position: relative;
+  margin-top: 10px;
+  margin-right: -20px;
+  width: 50px;
+  height: 50px;
+
+}
+
+svg#cross:hover{
+   width: 32px;
+  height: 32px;
+}
+svg#svg{
+
+  width: 50px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+svg#svg:hover > #line1 {
+
+  color: red;
+  transition: all .5s ease-out;
+}
+
+.menuSmall:hover{
+  cursor: pointer;
+
+}
+
+
+.close{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  font-weight: 100;
+  margin-right: 10px;
+   margin-top: 0px;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+
+.Fa{
+  padding: 10px;
+}

@@ -18,7 +18,7 @@ const IndexPage = () => (
 
   <div className="home-div"
   style={{
-marginTop: "500px",
+
 background: "white",
 position: "relative",
 zIndex: 10
@@ -28,7 +28,7 @@ zIndex: 10
   <div className="leftbox">
   <h2 className="title">
   <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="10" height="10" fill="#FFF509"/>
+  <rect width="10" height="10" fill="#F2DC17"/>
   </svg>
   DÉFENSE DES VICTIMES D'ACCIDENT, DES SALARIÉS, DES ASSURÉS</h2>
   <p className="desc">Maître Quentin MAMERI est Avocat au barreau de
@@ -71,7 +71,7 @@ zIndex: 10
 
 
   <div className="blue">
-  <div className="indemn">
+  <div className="indemn"><Link to="indemnisation-des-victimes">
     <img  src={pic3} className="picindex" alt="fireSpot" />
   <h3> INDEMNISATION DES VICTIMES </h3>
   <p>
@@ -80,30 +80,30 @@ zIndex: 10
   la réparation intégrale de vos préjudices.
   </p>
 
-  <p> <Link to="indemnisation-des-victimes"> Lire plus <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <p className="lire">  Lire plus <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z" fill="white"/>
-</svg> </Link> </p>
-  </div>
-  <div className="salar">
+</svg> </p>
+  </Link></div>
+ <div className="salar"> <Link to="defense-des-salaries">
    <img  src={pic4} className="picindex" alt="fireSpot" />
   <h3> DÉFENSE DES SALARIÉS </h3>
   <p>
 
   Vous avez un litige avec votre employeur? Me MAMERI vous conseillera utilement et assurera la défense de vos intérêts tant par la voie amiable que par la voie judiciaire notamment devant le Conseil de Prud’hommes.
   </p>
-  <p> <Link to="defense-des-salaries"> Lire plus <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <p className="lire">  Lire plus  <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z" fill="white"/>
-</svg> </Link> </p>
-  </div>
-  <div className="ass">
+</svg>  </p>
+  </Link></div>
+  <div className="ass"><Link to="defense-des-personnes-malades-handicap">
    <img  src={pic5} className="picindex2" alt="fireSpot" />
   <h3> DÉFENSE EN MATIÈRE DE SÉCURITE ET D’AIDE SOCIALES </h3>
   <p>
   Vous avez un litige concernant des prestations sociales? Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de sécurité sociale et d’aide sociale en matière de santé et de handicap.</p>
-   <p> <Link to="defense-des-personnes-malades-handicap"> Lire plus <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <p className="lire">  Lire plus <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z" fill="white"/>
-</svg> </Link> </p>
-  </div>
+</svg>  </p>
+  </Link></div>
 
 
   </div>

@@ -10,7 +10,7 @@ const Contact = () => (
 
       <h2 className="title">
     <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="10" height="10" fill="#FFF509"/>
+    <rect width="10" height="10" fill="#F2DC17"/>
     </svg>
     NOUS CONTACTER</h2>
 

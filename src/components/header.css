@@ -5,6 +5,7 @@
 
 .onglets{
 margin-top: 30px;
+visibility: hidden;
 }
 
 .polygon{
@@ -80,3 +81,16 @@ margin-left: 3px;
 .de:hover > .so{
  visibility: visible;
 }
+
+
+
+@media(min-width: 900px) {
+  .onglets{
+    visibility: visible;
+  }
+}
+
+
+
+
+

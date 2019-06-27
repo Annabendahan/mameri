@@ -3,13 +3,43 @@
 }
 
 
+
+
 .picdefense{
   width: 400px;
 }
 
+@media(max-width: 1200px) {
+  .picdefense{
+
+  width: 300px;
+
+}}
+
+
+
+@media(max-width: 900px) {
+  .picdefense{
+
+  width: 250px;
+
+}}
 
 .salaries-right{
 flex: 0 0 60%;
 text-align: justify;
-margin-left: 50px
+margin-right: 50px;
+margin-top: 30px;
 }
+
+
+@media(max-width: 600px) {
+  .salaries{
+
+  display: block;
+
+}
+.salaries-right{
+  margin-right: 0px
+
+  }}

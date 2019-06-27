@@ -1,6 +1,5 @@
 .banner{
-  width : 110%;
-  margin-left: -20px;
+  width : 100%;
 
 
   background-size: cover;
@@ -11,6 +10,15 @@
   z-index: 1;
 
 
+}
+
+
+@media(max-width: 600px) {
+  .banner{
+
+  top: 70px;
+
+}
 }
 
 
@@ -35,7 +43,18 @@
 }
 
 .home-div{
+  margin-top: 500px;
 }
+
+
+@media(max-width: 600px) {
+  .home-div{
+  margin-top: 400px;
+}
+}
+
+
+
 
 .title{
   font-family: avenir;
@@ -70,7 +89,7 @@
   display: flex;
   width: 100%;
 margin:auto;
-padding: 50px;
+padding: 50px 15%;
 justify-content: space-around;
 align-items: center;
 
@@ -78,10 +97,20 @@ align-items: center;
 }
 
 
+@media(max-width: 600px) {
+  .box{
+
+  display: block;
+}
+}
+
+
+
 .rightbox{
 font-family: avenir;
 box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
-padding: 50px;
+padding: 35px;
+
 }
 
 .rightbox:hover{
@@ -92,8 +121,13 @@ padding: 50px;
 .leftbox{
   flex: 0 0 50%;
   margin-right: 70px;
+
 }
 
+
+.leftbox p{
+  text-align: justify;
+}
 
 
 .number{
@@ -107,18 +141,26 @@ padding: 50px;
 
 
 .hours{
-  font-size: .7rem
+  font-size: .7rem;
+  color: #313030;
 }
 
 
 .blue{
   display: flex;
-  padding: 100px ;
+  padding: 100px 10%;
   background: #2a4b80;
   color: white;
   font-family: avenir;
   font-weight: 700;
   justify-content: space-between;
+}
+
+@media(max-width: 600px) {
+  .blue{
+
+  display: block;
+}
 }
 
 .blue h3{
@@ -133,19 +175,22 @@ padding: 50px;
 
 .blue a {
   color: white;
-  font-weight: 700;
+  font-weight: 900;
 }
 
-.blue a:hover {
-  color: white;
+.lire {
   font-weight: 900;
+  margin-right: 5px;
 }
 
 
 .indemn{
   flex: 0 0 28%;
   text-align: center;
+  margin:  20px;
 }
+
+
 
 .indemn p{
   text-align: justify;
@@ -154,6 +199,7 @@ padding: 50px;
 .salar{
   flex: 0 0 28%;
   text-align: center;
+  margin:  20px;
 }
 
 .salar p{
@@ -164,6 +210,7 @@ padding: 50px;
 .ass{
   flex: 0 0 28%;
   text-align: center;
+  margin:  20px;
 }
 
 
@@ -172,8 +219,8 @@ padding: 50px;
 }
 
 .profile-pic-contact{
- height : 200px;
- width: 220px;
+ height : 180px;
+ width: 200px;
 }
 
 
@@ -182,10 +229,42 @@ padding: 50px;
   font-size: .8rem;
 }
 
+
+@media(max-width: 900px) {
+  .contact-box{
+
+  display: block;
+}
+
+
+.box{
+  padding:30px 10%;
+}
+
+.leftbox{
+  margin-right: 30px;
+}
+}
+
+
 .title2{
 margin-top:-20px;
 }
 
 .contact-right{
-  padding-left:40px;
+  padding-left:20px;
+  flex: 0 0 60%;
+}
+
+@media(max-width: 900px) {
+  .contact-right{
+    padding-left: 0px;
+  }
+}
+
+
+@media(max-width: 600px) {
+  .leftbox{
+    margin-right:0px;
+  }
 }

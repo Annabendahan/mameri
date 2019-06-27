@@ -16,25 +16,59 @@
 
 
 .high{
-  color: #2a4b80;
+  color: white;
+  background: #2a4b80;
   font-weight: 700;
   font-size: .9rem;
   font-family: avenir;
-  width: 70%;
+  width: 100%;
+  padding: 50px 20%;
   margin:auto;
-  margin-bottom: 80px;
-  margin-top: 30px;
+
 
 
 }
 
 
 .background-hono{
-padding: 100px;
+padding: 100px 10%;
 text-align: justify;
+}
+
+
+
+@media(max-width: 1200px) {
+  .background-hono{
+padding: 7%;
+
+}
 }
 
 
 .hono-pic{
 width: 500px;
+}
+
+@media(max-width: 1200px) {
+  .hono-pic{
+  width: 400px;
+}
+}
+
+
+@media(max-width: 901px) {
+  .hono-pic{
+  width: 300px;
+}
+}
+
+@media(max-width: 601px) {
+  .noshonoraires-box{
+  display: block;
+}
+
+.noshonoraires-right{
+  padding-left: 0px;
+
+}
 }
