@@ -1,6 +1,6 @@
 .lecabinet-box{
   display: flex;
-  padding: 10%;
+  padding: 8%;
 }
 
 
@@ -11,19 +11,56 @@
 }
 }
 
+.parcours{
+  color:white;
+  background: #2a4b80;
+  padding: 50px 20px;
+  width: 400px;
+}
 
 
+@media(max-width: 901px) & (min-width: 601px) {
+  .parcours{
+  width: 300px;
+  margin: auto;
+}
+}
+
+
+@media(max-width: 901px) {
+  .parcours{
+    margin:auto;
+  }
+}
+
+.parcours p{
+  color:white;
+  text-align: justify;
+
+}
+
+.parcours h4{
+  color:white;
+
+  text-align: center;
+}
 
 .profile-pic{
   width: 400px;
 }
 
-@media(max-width: 901px) {
+@media(max-width: 901px) & (min-width: 601px) {
   .profile-pic{
   width: 300px;
+  margin: auto;
 }
 }
 
+@media(max-width: 901px) {
+  .profile-pic{
+    margin-left: 10%;
+  }
+}
 
 
 .lecabinet-left{
@@ -34,17 +71,23 @@
 
 
 .lecabinet-left p{
-  color: #2a4b80;
+
   font-weight: 700;
   font-size: .8rem;
   font-family: avenir;
   margin: 5px;
+
 }
 
 .lecabinet-right{
 font-size: .7rem;
 text-align: justify;
 
+
+}
+
+.lecabinet-right p{
+  margin-bottom: 200px;
 }
 
 
@@ -57,3 +100,25 @@ text-align: justify;
 }
 }
 
+
+.button{
+  padding: 10px 20px;
+  background: #2a4b80;
+  color:white;
+  font-family: avenir;
+  margin-top: 100px;
+  width: 100px;
+  font-size: .8rem;
+  margin-left:40%;
+
+
+}
+
+.button:hover{
+  background: #204679;
+}
+
+
+.yellowr{
+  margin-left: 10px;
+}
