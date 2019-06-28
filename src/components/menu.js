@@ -50,7 +50,7 @@ render() {
             <Link to="/lecabinet/"> <p> LE CABINET <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg> </p> </Link>
-            <Link to="/"> <p> DOMAINES D'EXPERTISES <svg className="polygon" width="10" height="4" viewBox="0 0 10 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Link to="/domaines-d-expertise"> <p> DOMAINES D'EXPERTISES <svg className="polygon" width="10" height="4" viewBox="0 0 10 4" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5 4L0.669823 0.5H9.33008L5 4Z" fill="white"/>
 </svg> </p> </Link>
 <div className="ppetit">
@@ -73,7 +73,7 @@ render() {
             <Link to="/contact/"> <p>  CONTACT <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>   </p> </Link>
-            <Link to="/contact/"> <p> LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Link to="/liens-utiles/"> <p> LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
 

@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => (
 
 
         <Link
-          to="/"
+          to="/domaines-d-expertise/"
           className="de"
           activeClassName="active"
           style={{
@@ -144,7 +144,7 @@ const Header = ({ siteTitle }) => (
         </Link>
 
         <Link
-          to="/"
+          to="/liens-utiles/"
           activeClassName="active"
           style={{
             color: `#2a4b80`,

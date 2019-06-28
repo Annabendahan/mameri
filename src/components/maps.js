@@ -16,7 +16,7 @@ const AnyReactComponent = ({ text }) => <div>{<svg width="44" height="44" viewBo
 }</div>
 
 const GoogleMap = () => (
-  <div style={{ height: '300px', width: '50%' }}>
+  <div className="maps">
     <GoogleMapReact
 
       bootstrapURLKeys={{ key: 'AIzaSyC1nLr6NbDWfdKFNEEj8eDvT0B3-f1mO80' }}

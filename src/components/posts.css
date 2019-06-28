@@ -12,6 +12,8 @@ margin: 20px 0px;
 
 
 
+
+
 .article:hover{
   box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.45);
 }
@@ -22,6 +24,23 @@ padding: 10%;
 margin:auto;
 width: 90%;
 
+}
+
+.posts h1{
+   font-family: avenir;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2a4b80;
+  padding-bottom: 70px;
+
+  margin-bottom: 0;
+  margin-top: -20px;
+}
+
+@media(max-width: 601px) {
+  .posts h1{
+margin-top: 10px;
+  }
 }
 
 
@@ -55,3 +74,4 @@ width: 90%;
 
 
 }
+

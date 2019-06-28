@@ -10,11 +10,6 @@
 }
 
 
-.contact{
-  padding: 100px;
-
-
-}
 
 .righto{
   margin-right: 100px;
@@ -28,3 +23,31 @@
   text-align: justify;
 
 }
+
+.maps{
+  width: 50%;
+  height: 400px;
+}
+
+
+@media(max-width: 600px) {
+  .lefto{
+  float: none;
+   width: 100%;
+   margin-left: 0px;
+}
+
+.righto{
+  margin-right: 0px;
+  text-align: justify;
+  width:100%;
+}
+
+.maps{
+  width: 100%;
+  margin: auto;
+}
+
+}
+
+

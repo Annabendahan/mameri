@@ -8,7 +8,8 @@ import MapContainer from "../components/maps2"
 
 const Contact = () => (
   <Layout>
-    <div className="contact">
+    <div className="background-hono">
+    <h1> NOUS CONTACTER </h1>
 
 
 
@@ -18,7 +19,7 @@ const Contact = () => (
       <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="10" height="10" fill="#F2DC17"/>
       </svg>
-      NOUS CONTACTER</h2>
+      CONTACT ET ACCÈS</h2>
 
       <p className="desc">
       Vous pouvez contacter le Cabinet au <span className="bold"> 0640843619 </span>, par mail à l’adresse suivante : <span className="bold"> qmameri.avocat@gmail.com </span>  ou par le formulaire de contact ci-joint.
