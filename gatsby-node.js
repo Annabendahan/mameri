@@ -37,6 +37,7 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
+
     }
   `)
 
@@ -46,7 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Access query results via object destructuring
-  const { allWordpressPage, allWordpressPost } = result.data
+  const { allWordpressPage, allWordpressPost, allLocationData  } = result.data
 
   // Create Page pages.
   const pageTemplate = path.resolve(`./src/templates/page.js`)

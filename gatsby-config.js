@@ -1,3 +1,6 @@
+require('regenerator-runtime/runtime')
+
+
 module.exports = {
   pathPrefix: `/mameri`,
   siteMetadata: {
@@ -49,6 +52,13 @@ module.exports = {
         useACF: true,
       }
     },
+    {
+      resolve: 'gatsby-source-googlemaps-geocoding',
+      options: {
+        key: 'AIzaSyC1nLr6NbDWfdKFNEEj8eDvT0B3-f1mO80',
+        address: 'Paris, France'
+      },
+    }
 
 
 

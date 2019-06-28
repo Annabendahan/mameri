@@ -4,6 +4,7 @@
   font-weight: 700;
   font-size: .8rem;
   font-family: avenir;
+  margin-left: 10px;
 
 
 }
@@ -11,4 +12,19 @@
 
 .contact{
   padding: 100px;
+
+
+}
+
+.righto{
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.lefto{
+  float: left;
+  width: 40%;
+  margin-left: 55%;
+  text-align: justify;
+
 }
