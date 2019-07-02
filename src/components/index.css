@@ -13,12 +13,32 @@
 }
 
 
+
+
 @media(max-width: 600px) {
   .banner{
 
   top: 70px;
 
 }
+}
+
+
+.subt{
+  font-weight: 300;
+}
+
+.titleQ{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2a4b80 ;
+}
+.titleQ2{
+  font-weight: 300;
+ font-size: .8rem;
+  color: #2a4b80 ;
+  position: absolute;
+  top : 20px;
 }
 
 
@@ -29,12 +49,12 @@
 
 
 .picindex{
-  width: 170px;
+
   margin-bottom: 70px;
 }
 
 .picindex2{
-  width: 140px;
+
   margin-bottom: 70px;
 }
 
@@ -145,6 +165,13 @@ padding: 35px;
 
 }
 
+.uuup{
+  padding-top:20px;
+}
+
+.uup{
+  margin-top:-20px;
+}
 
 .leftbox p{
   text-align: justify;
@@ -164,6 +191,7 @@ padding: 35px;
 .hours{
   font-size: .7rem;
   color: #313030;
+
 }
 
 
@@ -247,6 +275,7 @@ padding: 35px;
 
 .contact-box{
   display: flex;
+  position: relative;
   font-size: .8rem;
 }
 
@@ -275,6 +304,11 @@ margin-top:-20px;
 .contact-right{
   padding-left:20px;
   flex: 0 0 60%;
+}
+
+
+.contact-right p{
+  color: #313030;
 }
 
 @media(max-width: 900px) {

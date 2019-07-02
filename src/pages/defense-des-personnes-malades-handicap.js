@@ -1,5 +1,6 @@
 import React from "react"
 import '../components/contact.css'
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/footer.css'
@@ -11,10 +12,10 @@ const Malade = () => (
   <div className="background-hono">
 
 
-  <div className="salaries">
+  <div className="salaries2">
 
 
-    <div className="salaries-right">
+
 
           <h2 className="title">
         <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,11 +31,9 @@ Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de 
 
           </p>
 
-      </div>
 
-       <div className="salaries-left">
-      <img  src={pic3} className="picdefense" alt="fireSpot" />
-    </div>
+
+
 
 
 
@@ -43,6 +42,29 @@ Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de 
 
 
     </div>
+
+
+   <div className="blue2">
+  <div className="indemn b"><Link to="indemnisation-des-victimes">
+    <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> LITIGE AVEC LA SECURITE SOCIALE </h3>
+
+
+
+  </Link></div>
+ <div className="salar b"> <Link to="defense-des-salaries">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> LITIGE AVEC LA MDPH </h3>
+
+
+  </Link></div>
+  <div className="ass b"><Link to="defense-des-personnes-malades-handicap">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> LITIGE AVEC LES COMPAGNIES D'ASSURANCE</h3>
+
+  </Link></div>
+
+  </div>
 
   </Layout>
 )

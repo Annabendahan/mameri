@@ -47,6 +47,7 @@ const Header = ({ siteTitle }) => (
         <div className='onglets'>
         <Link
           to="/lecabinet/"
+          className="ong"
           activeClassName="active"
           style={{
             color: `#2a4b80`,
@@ -64,7 +65,7 @@ const Header = ({ siteTitle }) => (
 
         <Link
           to="/domaines-d-expertise/"
-          className="de"
+          className="de "
           activeClassName="active"
           style={{
             color: `#2a4b80`,
@@ -103,6 +104,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/noshonoraires/"
           activeClassName="active"
+          className="ong"
           style={{
             color: `#2a4b80`,
             textDecoration: `none`,
@@ -120,6 +122,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/posts/"
           activeClassName="active"
+          className="ong"
           style={{
             color: `#2a4b80`,
             textDecoration: `none`,
@@ -133,6 +136,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/contact/"
           activeClassName="active"
+          className="ong"
           style={{
             color: `#2a4b80`,
             textDecoration: `none`,
@@ -146,6 +150,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/liens-utiles/"
           activeClassName="active"
+          className="ong"
           style={{
             color: `#2a4b80`,
             textDecoration: `none`,
