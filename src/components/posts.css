@@ -28,13 +28,13 @@ width: 90%;
 
 .posts h1{
    font-family: avenir;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #2a4b80;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 
   margin-bottom: 0;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 @media(max-width: 601px) {

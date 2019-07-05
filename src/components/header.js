@@ -109,12 +109,10 @@ const Header = ({ siteTitle }) => (
             color: `#2a4b80`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
-            marginRight: `30px`,
-
+            marginRight: `30px`
           }}
         >
           NOS HONORAIRES
-
         </Link>
 
 

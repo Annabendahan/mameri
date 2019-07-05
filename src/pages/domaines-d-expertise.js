@@ -20,24 +20,24 @@ const DomainesDexpertise = () => (
  </div>
 
   <div className="blue2">
-  <div className="indemn b"><Link to="indemnisation-des-victimes">
+  <Link to="indemnisation-des-victimes"><div className="indemn2 ">
     <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> INDEMNISATION DES VICTIMES </h3>
 
 
 
-  </Link></div>
- <div className="salar b"> <Link to="defense-des-salaries">
+  </div></Link>
+ <Link to="defense-des-salaries"><div className="salar2 ">
    <img  src={pic4} className="picindex3" alt="fireSpot" />
   <h3> DÉFENSE DES SALARIÉS </h3>
 
 
-  </Link></div>
-  <div className="ass b"><Link to="defense-des-personnes-malades-handicap">
-   <img  src={pic5} className="picindex3" alt="fireSpot" />
+</div></Link>
+  <Link to="defense-des-personnes-malades-handicap"><div className="ass2">
+   <img  src={pic5} className="picindex4" alt="fireSpot" />
   <h3> DÉFENSE EN MATIÈRE DE SÉCURITE ET D’AIDE SOCIALES </h3>
 
-  </Link></div>
+  </div></Link>
 
   </div>
 

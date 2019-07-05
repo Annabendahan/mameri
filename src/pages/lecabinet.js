@@ -20,12 +20,12 @@ const LeCabinet = () => (
   <rect width="10" height="10" fill="#F2DC17"/>
   </svg>
   PARCOURS</h2>
-      <p> - CAPA </p>
-  <p> - Master II Règlement des Différends, Rouen </p>
-  <p> - Master II Droit de la Santé, Faculté de droit de Poitiers </p>
-  <p> - DU Actions et Contentieux de la Sécurité sociale, Faculté de Droit
+      <p> • CAPA </p>
+  <p> • Master II Règlement des Différends, Rouen </p>
+  <p> • Master II Droit de la Santé, Faculté de droit de Poitiers </p>
+  <p> • DU Actions et Contentieux de la Sécurité sociale, Faculté de Droit
    de Montpellier </p>
-  <p> - DU éthiques, soins et santé, Faculté de médecine de Rouen </p>
+  <p> • DU éthiques, soins et santé, Faculté de médecine de Rouen </p>
   </div>
 
 
@@ -33,7 +33,7 @@ const LeCabinet = () => (
 
     <div className="lecabinet-right">
     <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="10" height="10" fill="#FFF509"/>
+  <rect width="10" height="10" fill="#F2DC17"/>
   </svg> PRÉSENTATION </h2>
     <p className="desc"> Me Quentin MAMERI a suivi un <span className="bold"> cursus universitaire très spécialisé </span> qui lui a permis d’acquérir une solide expertise dans ses domaines d’intervention. </p>
 

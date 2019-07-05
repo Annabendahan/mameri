@@ -12,6 +12,7 @@
 
 .noshonoraires-left{
   flex: 0 0 50%;
+
 }
 
 
@@ -31,16 +32,16 @@
 
 
 .background-hono{
-padding: 100px 10%;
+padding: 80px 8%;
 text-align: justify;
 }
 
 .background-hono h1{
   font-family: avenir;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #2a4b80;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 
   margin-bottom: 0;
   margin-top: -20px;
@@ -60,6 +61,16 @@ padding: 7%;
 
 }
 }
+
+
+@media(max-width: 600px) {
+  .background-hono{
+padding: 10%;
+
+}
+
+}
+
 
 
 .hono-pic{

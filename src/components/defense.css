@@ -1,16 +1,22 @@
 .salaries{
   display: flex;
+  justify-content: space-between;
+  align-items: center
 }
 
-.b{
-  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
-  padding: 20px 10px;
-}
+
 
 .picindex3{
-  width: 150px;
+  width: 100px;
+  margin-bottom: 0px;
+  margin-right: 10px
 }
 
+.picindex4{
+  width: 80px;
+  margin-bottom: 0px;
+  margin-right: 10px
+}
 
 .b:hover{
 
@@ -19,8 +25,8 @@
 }
 .blue2{
   display: flex;
-  padding: 50px 10%;
-  margin-top: -120px;
+  padding: 50px 7%;
+  margin-top: -80px;
   background: white;
   color: #2a4b80;
   font-family: avenir;
@@ -32,12 +38,15 @@
   .blue2{
 
   display: block;
+  margin-top:0px;
+  padding: 10%
 }
 }
 
 .blue2 h3{
-  font-size: .9rem;
+  font-size: .8rem;
    color: #2a4b80;
+   margin-bottom:0px;
 }
 
 .blue2 p{
@@ -46,17 +55,19 @@
    color: #2a4b80;
 }
 
+
+
 .blue2 a {
   color: white;
   font-weight: 900;
 }
 
 .picdefense{
-  width: 400px;
+  width: 300px;
 }
 
 .picdefense2{
-  width: 150px;
+  width: 200px;
 }
 
 @media(max-width: 1200px) {
@@ -76,10 +87,15 @@
 }}
 
 .salaries-right{
-flex: 0 0 60%;
+flex: 0 0 30%;
 text-align: justify;
-margin-right: 50px;
-margin-top: 30px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+.salaries-left{
+  flex: 0 0 60%;
+ margin-right: 50px;
 }
 
 
@@ -89,21 +105,26 @@ margin-top: 30px;
   display: block;
 
 }
-.salaries-right{
+.salaries-left{
   margin-right: 0px
 
+  }
+.picdefense{
+  width: 95%;
+  margin:auto;
   }}
 
 
 
 .indemn2{
+
   display: flex;
   padding: 15px;
-  text-align: center;
-  justify-content: space-around;
+
+  justify-content: space-between;
   align-items: center;
   margin:  10px;
-    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.45);
+    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
 
@@ -112,32 +133,47 @@ margin-top: 30px;
   text-align: justify;
 }
 
+.indemn2:hover {
+ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+}
+
 .salar2{
+
   display:flex;
-  text-align: center;
-  justify-content: space-around;
-  margin:  20px;
+
+  justify-content: space-between;
+  margin:  10px;
   align-items: center;
   padding: 15px;
-    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.45);
+    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
 .salar2 p{
   text-align: justify;
 }
 
+.salar2:hover {
+ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+}
+
+
 
 .ass2{
+
  display:flex;
   padding: 15px;
   align-items: center;
-  text-align: center;
-  justify-content: space-around;
-  margin:  20px;
-    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.45);
+
+  justify-content: space-between;
+  margin:  10px;
+    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
 
 .ass2 p{
   text-align: justify;
+}
+
+.ass2:hover {
+ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }

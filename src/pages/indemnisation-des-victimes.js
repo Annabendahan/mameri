@@ -13,7 +13,8 @@ const Indemnisation = () => (
   <div className="background-hono">
 
 
-  <div className="salaries2">
+  <div className="salaries">
+    <div className="salaries-left">
 
 
 
@@ -32,6 +33,9 @@ Me MAMERI vous conseillera utilement et assurera la défense de vos intérêts t
 
           </p>
 
+ </div>
+<div className="salaries-right"><img  src={pic3} className="picdefense" alt="fireSpot" /> </div>
+
 
 
 
@@ -43,51 +47,56 @@ Me MAMERI vous conseillera utilement et assurera la défense de vos intérêts t
 
 
    <div className="blue2">
-  <div className="indemn b"><Link to="indemnisation-des-victimes">
+
+  <Link to="indemnisation-des-victimes"><div className="indemn2 ">
     <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> ACCIDENT DE LA ROUTE </h3>
 
 
 
-  </Link></div>
- <div className="salar b"> <Link to="defense-des-salaries">
+  </div></Link>
+ <Link to="defense-des-salaries"><div className="salar2 ">
    <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> AGRESSION ET DELITS ROUTIERS </h3>
 
 
-  </Link></div>
-  <div className="ass b"><Link to="defense-des-personnes-malades-handicap">
+ </div> </Link>
+  <Link to="defense-des-personnes-malades-handicap"><div className="ass2 ">
    <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> ACCIDENTS MEDICAUX</h3>
 
-  </Link></div>
+  </div></Link>
 
   </div>
 
 
    <div className="blue2">
-  <div className="indemn b"><Link to="indemnisation-des-victimes">
+  <Link to="indemnisation-des-victimes"><div className="indemn2 ">
     <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> ACCIDENT DE SPORT </h3>
 
 
 
-  </Link></div>
-
-   <div className="salar b"> <Link to="defense-des-salaries">
-   <img  src={pic3} className="picindex3" alt="fireSpot" />
-  <h3> ACCIDENTS DU TRAVAIL </h3>
+  </div></Link>
 
 
-  </Link></div>
 
 
- <div className="salar b"> <Link to="defense-des-salaries">
+ <Link to="defense-des-salaries"><div className="ass2 ">
    <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> ACCIDENTS DE LA VIE PRIVÉE </h3>
 
 
-  </Link></div>
+</div>  </Link>
+
+
+ <Link to="defense-des-salaries"><div className="salar2 ">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> ACCIDENTS DU TRAVAIL </h3>
+
+
+
+  </div></Link>
 
 
   </div>

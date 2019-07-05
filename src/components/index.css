@@ -88,7 +88,7 @@
 
 .title{
   font-family: avenir;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 100;
   color: #2a4b80;
 
@@ -96,7 +96,7 @@
 
 .title-w{
   font-family: avenir;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 100;
   color: white;
 
@@ -104,7 +104,7 @@
 
 .title-w2{
   font-family: avenir;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 100;
   color: white;
   text-align: center;
@@ -238,11 +238,13 @@ padding: 35px;
 .indemn{
   flex: 0 0 28%;
   text-align: center;
-  margin:  20px;
+  margin:  10px;
+  padding: 15px;
 }
 
-.indemn:hover ~ .lire{
-  color: red;
+.indemn:hover {
+background:#28487B
+;
 }
 
 
@@ -254,23 +256,32 @@ padding: 35px;
 .salar{
   flex: 0 0 28%;
   text-align: center;
-  margin:  20px;
+  margin:  10px;
+   padding: 15px;
 }
 
 .salar p{
   text-align: justify;
+}
+.salar:hover {
+background:#28487B;
 }
 
 
 .ass{
   flex: 0 0 28%;
   text-align: center;
-  margin:  20px;
+  margin:  10px;
+  padding: 15px;
 }
 
 
 .ass p{
   text-align: justify;
+}
+
+.ass:hover {
+background:#28487B;
 }
 
 .profile-pic-contact{

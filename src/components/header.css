@@ -7,6 +7,9 @@
 margin-top: 30px;
 visibility: hidden;
 }
+.ong{
+  padding: 10px 0px;
+}
 
 .ong:hover{
   font-weight: 900;
@@ -32,10 +35,12 @@ margin-left: 3px;
 
 
 .so{
+  margin-top: -6px;
   visibility: hidden;
   background: white;
 
   padding-left:10px;
+  padding-top: 10px;
   color: #2a4b80;
   width: 300px;
 }
@@ -47,10 +52,11 @@ margin-left: 3px;
 
 .sub-onglet{
   position: absolute;
-  top: 20px;
+  top: 25px;
   left: -10px;
   background: white;
   color: #2a4b80;
+
 }
 
 
@@ -61,7 +67,7 @@ margin-left: 3px;
 
 .sub-onglet2{
   position: absolute;
-  top: 45px;
+  top: 55px;
   left: -10px;
   background: white;
   color: #2a4b80;
@@ -72,7 +78,7 @@ margin-left: 3px;
 
 .sub-onglet3{
   position: absolute;
-  top: 70px;
+  top: 85px;
   left: -10px;
   background: white;
   color: #2a4b80;

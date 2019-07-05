@@ -12,7 +12,8 @@ const Malade = () => (
   <div className="background-hono">
 
 
-  <div className="salaries2">
+  <div className="salaries">
+   <div className="salaries-left">
 
 
 
@@ -31,6 +32,9 @@ Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de 
 
           </p>
 
+ </div>
+<div className="salaries-right"><img  src={pic3} className="picdefense2" alt="fireSpot" /> </div>
+
 
 
 
@@ -42,24 +46,24 @@ Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de 
 
 
    <div className="blue2">
-  <div className="indemn b"><Link to="indemnisation-des-victimes">
+  <Link to="indemnisation-des-victimes"><div className="indemn2 ">
     <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> LITIGE AVEC LA SECURITE SOCIALE </h3>
 
 
 
-  </Link></div>
- <div className="salar b"> <Link to="defense-des-salaries">
+ </div> </Link>
+ <Link to="defense-des-salaries"><div className="salar2 ">
    <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> LITIGE AVEC LA MDPH </h3>
 
 
-  </Link></div>
-  <div className="ass b"><Link to="defense-des-personnes-malades-handicap">
+  </div></Link>
+ <Link to="defense-des-personnes-malades-handicap"> <div className="ass2 ">
    <img  src={pic3} className="picindex3" alt="fireSpot" />
   <h3> LITIGE AVEC LES COMPAGNIES D'ASSURANCE</h3>
 
-  </Link></div>
+ </div> </Link>
 
   </div>
 
