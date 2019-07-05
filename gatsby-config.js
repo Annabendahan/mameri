@@ -1,8 +1,12 @@
 require('regenerator-runtime/runtime')
+require('dotenv').config({
+  path: '.env',
+});
+const path = require('path');
 
 
 module.exports = {
-
+  pathPrefix: `/mameri`,
   siteMetadata: {
     title: `quentinmameri`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -40,7 +44,7 @@ module.exports = {
          */
         baseUrl: "qmavocats.wordpress.com",
         // The protocol. This can be http or https.
-        protocol: "http",
+        protocol: "https",
         // Indicates whether the site is hosted on wordpress.com.
         // If false, then the assumption is made that the site is self hosted.
         // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
