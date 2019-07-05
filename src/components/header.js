@@ -77,7 +77,7 @@ const Header = ({ siteTitle }) => (
         >
           DOMAINES D'EXPERTISE <svg className="polygon" width="10" height="4" viewBox="0 0 10 4" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5 4L0.669823 0.5H9.33008L5 4Z" fill="#244C82"/>
-</svg> </Link>
+</svg>
 
 
           <span className="so sub-onglet">  <Link to="/indemnisation-des-victimes/" > INDEMNISATION DES VICTIMES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,19 +101,6 @@ const Header = ({ siteTitle }) => (
 
 
 
-        <Link
-          to="/noshonoraires/"
-          activeClassName="active"
-          className="ong"
-          style={{
-            color: `#2a4b80`,
-            textDecoration: `none`,
-            fontFamily: `Avenir`,
-            marginRight: `30px`
-          }}
-        >
-          NOS HONORAIRES
-        </Link>
 
 
 
@@ -144,6 +131,22 @@ const Header = ({ siteTitle }) => (
         >
           CONTACT
         </Link>
+
+
+        <Link
+          to="/noshonoraires/"
+          activeClassName="active"
+          className="ong"
+          style={{
+            color: `#2a4b80`,
+            textDecoration: `none`,
+            fontFamily: `Avenir`,
+            marginRight: `30px`
+          }}
+        >
+          NOS HONORAIRES
+        </Link>
+
 
         <Link
           to="/liens-utiles/"
