@@ -99,7 +99,19 @@ const Header = ({ siteTitle }) => (
 
 
 
-
+           <Link
+          to="/noshonoraires/"
+          activeClassName="active"
+          className="ong"
+          style={{
+            color: `#2a4b80`,
+            textDecoration: `none`,
+            fontFamily: `Avenir`,
+            marginRight: `30px`
+          }}
+        >
+          NOS HONORAIRES
+        </Link>
 
 
 
@@ -133,19 +145,7 @@ const Header = ({ siteTitle }) => (
         </Link>
 
 
-        <Link
-          to="/noshonoraires/"
-          activeClassName="active"
-          className="ong"
-          style={{
-            color: `#2a4b80`,
-            textDecoration: `none`,
-            fontFamily: `Avenir`,
-            marginRight: `30px`
-          }}
-        >
-          NOS HONORAIRES
-        </Link>
+
 
 
         <Link
