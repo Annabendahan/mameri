@@ -106,5 +106,5 @@ exports.createPages = async ({ graphql, actions }) => {
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 // You can delete this file if you're not using it
