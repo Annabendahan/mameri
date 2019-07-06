@@ -60,6 +60,7 @@ module.exports = {
         // This feature is untested for sites hosted on wordpress.com.
         // Defaults to true.
         useACF: true,
+        verboseOutput: true
 
       }
     },
