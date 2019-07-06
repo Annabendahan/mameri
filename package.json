@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
-    "gatsby": "^2.8.3",
+    "gatsby": "^2.13.4",
     "gatsby-cli": "^2.7.3",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-manifest": "^2.1.1",
