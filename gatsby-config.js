@@ -50,7 +50,12 @@ module.exports = {
         // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
         // If your site is hosted on wordpress.org, then set this to false.
         hostingWPCOM: true,
-
+         auth: {
+        wpcom_app_clientSecret: 'AIzaSyD9xS96UNyqAxbWXaAFMuOI7_E6Kc-y8As',
+        wpcom_app_clientId: '429137227362-a4hv6a48vtqg0oubrk8qci9ulncsj0gt.apps.googleusercontent.com',
+        wpcom_user: 'mameri@qmavocats.com',
+        wpcom_pass: '17mameri17',
+      },
         // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
         // This feature is untested for sites hosted on wordpress.com.
         // Defaults to true.
