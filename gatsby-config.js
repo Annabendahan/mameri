@@ -53,13 +53,13 @@ module.exports = {
          auth: {
         wpcom_app_clientSecret: 'Bkbg9upbqm2bNUAoQjPFxCzkMM0D3gGKdu23ws2YtokHNUbzgnNh0zTvWnasoxRP',
         wpcom_app_clientId: '66249',
-        wpcom_user: 'mameri@qmavocats.com',
+        wpcom_user: 'quentinmameri17',
         wpcom_pass: '17mameri17',
       },
         // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
         // This feature is untested for sites hosted on wordpress.com.
         // Defaults to true.
-        useACF: false,
+        useACF: true,
         verboseOutput: true
 
       }
