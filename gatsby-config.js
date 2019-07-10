@@ -51,8 +51,8 @@ module.exports = {
         // If your site is hosted on wordpress.org, then set this to false.
         hostingWPCOM: true,
          auth: {
-        wpcom_app_clientSecret: 'AIzaSyD9xS96UNyqAxbWXaAFMuOI7_E6Kc-y8As',
-        wpcom_app_clientId: 'Tp0PDNd5-rEXH3mXOhAkcv38',
+        wpcom_app_clientSecret: 'Bkbg9upbqm2bNUAoQjPFxCzkMM0D3gGKdu23ws2YtokHNUbzgnNh0zTvWnasoxRP',
+        wpcom_app_clientId: '66249',
         wpcom_user: 'mameri@qmavocats.com',
         wpcom_pass: '17mameri17',
       },
