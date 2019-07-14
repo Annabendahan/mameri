@@ -10,22 +10,22 @@
 @media(max-width: 1200px) {
   .lecabinet-box{
 
-  padding: 10% 6%;
+  padding: 20px 6%;
 }
 }
 
 .parcours{
   color:white;
   background: #2a4b80;
-  padding: 50px 20px;
-  width: 400px;
+  padding: 50px 7%;
+  width: 350px;
 }
 
 
-@media(max-width: 901px) {
+@media(max-width: 901px) and (min-width: 601px) {
   .parcours{
-  width: 300px;
-  margin: auto;
+  width: 250px;
+
 }
 }
 
@@ -48,14 +48,14 @@
 }
 
 .profile-pic{
-  width: 400px;
+  width: 350px;
 }
 
 
 
-@media(max-width: 901px) {
+@media (min-width: 601px) and (max-width: 901px){
   .profile-pic{
-  width: 300px;
+  width: 250px;
   margin: auto;
 }
 }

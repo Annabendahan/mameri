@@ -1,0 +1,25 @@
+.bigbox{
+  display: flex;
+  justify-content: space-between;
+ padding-top: 40px;
+
+}
+
+
+@media(max-width: 600px) {
+.bigbox{
+  display: block
+
+
+}}
+
+@media(min-width: 1200px){
+   .bigbox{
+    width: 97%;
+    margin: auto;
+}}
+
+.bleft{
+  margin-right: 40px;
+  flex: 70%;
+}

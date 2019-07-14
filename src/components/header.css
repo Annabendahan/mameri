@@ -1,5 +1,5 @@
 .logo{
-  width: 70px;
+  width: 100px;
 }
 
 
@@ -50,6 +50,223 @@ margin-left: 3px;
   color: #2a4b80;
 }
 
+
+.so2{
+  margin-top: 0px;
+  visibility: visible;
+  background: white;
+
+  padding-left:10px;
+  padding-top: 10px;
+  color: #2a4b80;
+  width: 300px;
+  text-decoration: none
+}
+
+.so2 a{
+
+  text-decoration: none;
+  color: #2a4b80;
+}
+
+
+.so3{
+  margin-top: 0px;
+  visibility: visible;
+  background: white;
+
+  padding-left:10px;
+  padding-top: 10px;
+  color: #2a4b80;
+  width: 300px;
+}
+
+.so3 a{
+
+  text-decoration: none;
+  color: #2a4b80;
+}
+
+.so4{
+  margin-top: 0px;
+  visibility: visible;
+  background: white;
+
+  padding-left:10px;
+  padding-top: 10px;
+  color: #2a4b80;
+  width: 300px;
+}
+
+.so4 a{
+
+  text-decoration: none;
+  color: #2a4b80;
+}
+
+.so2:hover{
+  visibility: visible;
+
+}
+
+.so3:hover{
+  visibility: visible
+}
+
+.so4:hover{
+  visibility: visible
+}
+
+.sub-onglet4{
+  visibility:  hidden;
+  padding: 10px;
+   position: absolute;
+  top: 20px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+   text-decoration: none
+}
+
+
+
+
+.sub-onglet5{
+  visibility:  hidden;
+   position: absolute;
+  top: 55px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+
+.sub-onglet6{
+  visibility:  hidden;
+   position: absolute;
+  top: 85px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+.sub-onglet7{
+  visibility:  hidden;
+   position: absolute;
+  top: 50px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+
+.sub-onglet8{
+  visibility:  hidden;
+   position: absolute;
+  top: 85px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+.sub-onglet9{
+  visibility:  hidden;
+   position: absolute;
+  top: 115px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+
+.sub-onglet10{
+  visibility:  hidden;
+   position: absolute;
+  top: 115px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+.sub-onglet11{
+  visibility:  hidden;
+   position: absolute;
+  top: 145px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+.sub-onglet12{
+  visibility:  hidden;
+   position: absolute;
+  top: 175px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+.sub-onglet13{
+  visibility:  hidden;
+   position: absolute;
+  top: 80px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+.sub-onglet14{
+  visibility:  hidden;
+   position: absolute;
+  top: 115px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+
+.sub-onglet15{
+  visibility:  hidden;
+   position: absolute;
+  top: 145px;
+  left: 280px;
+  background: white;
+  color: #2a4b80;
+  padding: 10px;
+}
+
+
+
+
 .sub-onglet{
   position: absolute;
   top: 25px;
@@ -64,6 +281,35 @@ margin-left: 3px;
   font-weight: 900;
 }
 
+.sub-onglet:hover ~ .so2{
+  visibility: visible;
+}
+
+.sub-onglet:hover ~ .sub-onglet4{
+  visibility: visible;
+}
+
+.sub-onglet:hover ~ .sub-onglet5{
+  visibility: visible;
+}
+
+.sub-onglet:hover ~ .sub-onglet6{
+  visibility: visible;
+}
+
+
+.sub-onglet:hover ~ .sub-onglet10{
+  visibility: visible;
+}
+
+.sub-onglet:hover ~ .sub-onglet11{
+  visibility: visible;
+}
+
+.sub-onglet:hover ~ .sub-onglet12{
+  visibility: visible;
+}
+
 
 .sub-onglet2{
   position: absolute;
@@ -75,6 +321,20 @@ margin-left: 3px;
 .sub-onglet2:hover{
   font-weight: 900;
 }
+
+.sub-onglet2:hover ~ .sub-onglet7{
+  visibility: visible;
+}
+
+.sub-onglet2:hover ~ .sub-onglet8{
+  visibility: visible;
+}
+
+.sub-onglet2:hover ~ .sub-onglet9{
+  visibility: visible;
+}
+
+
 
 .sub-onglet3{
   position: absolute;
@@ -88,19 +348,40 @@ margin-left: 3px;
 }
 
 
+.sub-onglet3:hover ~ .sub-onglet13{
+  visibility: visible;
+}
+
+.sub-onglet3:hover ~ .sub-onglet14{
+  visibility: visible;
+}
+
+.sub-onglet3:hover ~ .sub-onglet15{
+  visibility: visible;
+}
+
+
+
+
 .de:hover > .so{
  visibility: visible;
 }
 
 
 
-@media(min-width: 900px) {
+
+@media(min-width: 1201px) {
   .onglets{
     visibility: visible;
   }
 }
 
 
+.m{
+margin-bottom: 0px; }
+
+.m:hover{
+font-weight: 900}
 
 
 

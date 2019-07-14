@@ -1,25 +1,28 @@
 import React from "react"
 import '../components/defense.css'
-import '../components/liens.css'
-import { Link } from "gatsby"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/footer.css'
-import pic3 from '../images/work2.png';
+import pic1 from '../images/parispic.png';
 import pic2 from '../images/quentinmameripic.png';
+import pic3 from '../images/prejudice.png';
+import pic4 from '../images/work.png';
+import pic5 from '../images/handi3.png';
 
-const LiensUtiles = () => (
+const Privée = () => (
   <Layout>
 
   <div className="background-hono">
 
 
-
-    <div className="bigbox">
+<div className="bigbox">
       <div className="bleft">
-       <h1> LIENS UTILES </h1>
+       <h1> ACCIDENTS DE LA VIE PRIVÉE</h1>
+    <p className="desc"> Phrase introductive </p>
 
-      TEXTE
+
+
       </div>
 
       <div className="rightbox">
@@ -65,9 +68,15 @@ const LiensUtiles = () => (
     </div>
 
 
-    </div>
+
+
+
+  </div>
+
+
 
   </Layout>
 )
 
-export default LiensUtiles;
+
+export default Privée;

@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
         paddingLeft: `1.4rem`,
         display: `flex`,
         justifyContent: `space-between`,
-        height: `90px`
+        height: `120px`
 
       }}
     >
@@ -45,6 +45,24 @@ const Header = ({ siteTitle }) => (
 
 
         <div className='onglets'>
+
+        <Link
+          to="/"
+          className="ong"
+          activeClassName="active"
+          style={{
+            color: `#2a4b80`,
+            textDecoration: `none`,
+            fontFamily: `Avenir`,
+            marginRight: `30px`,
+
+
+          }}
+        >
+          ACCUEIL
+        </Link>
+
+
         <Link
           to="/lecabinet/"
           className="ong"
@@ -80,6 +98,7 @@ const Header = ({ siteTitle }) => (
 </svg>
 
 
+
           <span className="so sub-onglet">  <Link to="/indemnisation-des-victimes/" > INDEMNISATION DES VICTIMES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
 </svg>
@@ -92,6 +111,45 @@ const Header = ({ siteTitle }) => (
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
 </svg>
  </Link> </span>
+
+
+   <span className="so2 sub-onglet4">  <Link  to="/accidents-de-la-route/" > <p className="m"> - ACCIDENT DE LA ROUTE </p>
+   </Link>
+   <Link className="m" to="/agressions-et-delits-routiers/" > <p className="m"> - AGRESSIONS ET DELITS ROUTIERS </p>
+   </Link>
+    <Link className="m" to="/accidents-medicaux/" > <p className="m"> - ACCIDENTS MEDICAUX </p>
+   </Link>
+    <Link className="m" to="/accidents-de-sport/" >  <p className="m">- ACCIDENTS DE SPORT </p>
+   </Link>
+   <Link className="m" to="/accidents-de-la-vie-privee/" >  <p className="m">- ACCIDENTS DE LA VIE PRIVÉE </p>
+   </Link>
+   <Link className="m" to="/accidents-du-travail/" > <p className="m"> - ACCIDENTS DU TRAVAIL </p>
+   </Link></span>
+
+
+
+
+
+
+  <span className="so3 sub-onglet7">  <Link to="/rupture-conventionnelle/" > <p className="m"> - RUPTURE CONVENTIONNELLE </p>
+ </Link>
+ <Link to="/licenciements-abusifs/" > <p className="m"> - LICENCIEMENTS ABUSIFS </p>
+ </Link>
+
+   <Link to="/manquements-graves/" > <p className="m"> - MANQUEMENTS GRAVES DE L'EMPLOYEUR ET HARCÈLEMENT MORAL </p>
+ </Link> </span>
+
+
+
+
+ <span className="so4 r sub-onglet13">  <Link to="/litige-secu/" ><p className="m"> - LITIGE AVEC LA SECURITE SOCIALE</p>
+ </Link>
+ <Link to="/litige-mdph/" > <p className="m"> - LITIGE AVEC LA MDPH </p>
+ </Link>
+ <Link to="/litige-assurances/" >  <p className="m"> - LITIGE AVEC LES COMPAGNIES D'ASSURANCE</p>
+ </Link></span>
+
+
 
 
                   </Link>
@@ -130,19 +188,6 @@ const Header = ({ siteTitle }) => (
           NOS PUBLICATIONS
         </Link>
 
-        <Link
-          to="/contact/"
-          activeClassName="active"
-          className="ong"
-          style={{
-            color: `#2a4b80`,
-            textDecoration: `none`,
-            fontFamily: `Avenir`,
-            marginRight: `30px`
-          }}
-        >
-          CONTACT
-        </Link>
 
 
 
@@ -159,8 +204,24 @@ const Header = ({ siteTitle }) => (
             marginRight: `30px`
           }}
         >
-          LIENS UTILES
+          NOS INFOS ET CONSEILS PRATIQUES
         </Link>
+
+
+         <Link
+          to="/contact/"
+          activeClassName="active"
+          className="ong"
+          style={{
+            color: `#2a4b80`,
+            textDecoration: `none`,
+            fontFamily: `Avenir`,
+            marginRight: `30px`
+          }}
+        >
+          CONTACT ET ACCÈS
+        </Link>
+
 
 
 

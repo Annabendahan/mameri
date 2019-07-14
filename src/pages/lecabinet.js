@@ -4,6 +4,7 @@ import '../components/lecabinet.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import pic1 from '../images/quentinmameripic.png';
+import pic2 from '../images/mameri2.png';
 
 const LeCabinet = () => (
   <Layout>
@@ -13,7 +14,23 @@ const LeCabinet = () => (
   <h1> LE CABINET </h1>
   <div className="lecabinet-box">
   <div className="lecabinet-left">
-    <img  src={pic1} className="profile-pic" alt="fireSpot" />
+
+
+
+
+
+
+
+          <img  src={pic2} className="profile-pic" alt="fireSpot" />
+
+
+        <Link to="/contact/">
+
+         </Link>
+
+
+
+
     <div className="parcours">
     <h2 className="title-w2">
   <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
