@@ -20,9 +20,8 @@ margin: 20px 0px;
 
 
 .posts{
-padding: 7%;
-margin:auto;
-width: 100%;
+padding: 60px 8%;
+text-align: justify;
 
 }
 
@@ -68,10 +67,16 @@ margin-top: 10px;
 
 
 .memoires{
-  background:#2a4b80 ;
+  background:#F8F8F8 ;
+  color: #2a4b80;
   padding: 70px  15%;
   margin-bottom: 150px;
 
 
+}
+
+.mem{
+  text-align: justify;
+  margin-left: 15%;
 }
 

@@ -19,7 +19,19 @@ const Mdph = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> LITIGE AVEC LA MDPH </h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc"> Vous avez sollicité auprès de la MDPH une prestation pour vous garantir des ressources
+et/ou pour compenser votre handicap (allocations aux adultes handicapés, allocation
+d’éducation de l’enfant handicapé, prestation de compensation du handicap), pour faciliter
+vos déplacements ou vos transports (carte de mobilité-inclusion priorité ou stationnement)
+ou bien encore pour que votre handicap soit pris en compte au niveau de l’emploi
+(reconnaissance de qualité de travailleurs handicapés).
+Ces prestations vous ont été refusées pour des motifs médicaux ou administratifs ou vous
+contestez leurs évaluations.
+Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou
+judiciaires.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

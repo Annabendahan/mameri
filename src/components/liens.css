@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
  padding-top: 40px;
+ margin-top: 60px;
+
 
 }
 
@@ -15,11 +17,26 @@
 
 @media(min-width: 1200px){
    .bigbox{
-    width: 97%;
-    margin: auto;
+
+
 }}
 
 .bleft{
   margin-right: 40px;
   flex: 70%;
+}
+
+
+.background-hono h3{
+  color:  #2a4b80;
+  text-align: justify;
+  font-weight: 700;
+   font-family: avenir;
+   font-size: 1rem;
+   line-height: 5px;
+ }
+
+
+.o:hover{
+cursor:pointer;
 }

@@ -18,15 +18,21 @@
 
 .righto{
   margin-right: 100px;
+  margin-top: 60px;
   text-align: justify;
+  font-weight: 300;
+  font-size: .8rem;
+  font-family: avenir;
+  line-height: 5px
 }
 
 .lefto{
   float: left;
   width: 40%;
-  margin-left: 75%;
+  margin-left: 78%;
   text-align: justify;
-  margin-top: -60px
+  margin-top: -20px;
+
 
 }
 
@@ -64,4 +70,8 @@
 
 }
 
+
+.contact-title{
+  margin-top: 60px
+}
 

@@ -10,7 +10,7 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 
-const Médicaux = () => (
+const Rupturetorts = () => (
   <Layout>
 
   <div className="background-hono">
@@ -18,14 +18,17 @@ const Médicaux = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> ACCIDENTS MÉDICAUX</h1>
-    <p className="desc"> Que vous soyez victime d’une infection nosocomiale, d’une faute médicale, d’un produit de santé ou d’un aléa thérapeutique, Maître Quentin MAMERI mettra en œuvre une stratégie personnalisée et adaptée tendant à engager la responsabilité d’un professionnel ou établissement de santé public ou privé.
-
-Maître MAMERI vous représentera et vous assistera devant toutes les juridictions civiles ou administratives mais également devant les commissions de conciliation et d’indemnisation des accidents médicaux.
-
-Il sera présent à vos côtés lors de l’expertise médicale qui est un moment clef de la procédure puisqu’elle permettra d’apprécier d’une part, si les conditions de la responsabilité de l’établissement ou du professionnel sont réunies, et d’autre part, de procéder à l’évaluation médicale de vos préjudices.
-
-Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
+       <h1> RUPTURE DU CONTRAT DE TRAVAIL AUX TORTS DE L'EMPLOYEUR </h1>
+    <p className="desc"> Votre employeur a commis des manquements graves dans l’exécution de votre contrat de
+travail rendant impossible le maintien de la relation de travail.
+Vous pouvez, dans certaines conditions, obtenir une rupture du contrat aux torts de votre
+employeur (prise d’acte de rupture du contrat ou résiliation judiciaire).
+Me MAMERI analysera votre dossier, vous conseillera utilement sur la procédure la plus
+adaptée au regard de votre situation, et défendra vos droits de salariés devant le conseil de
+prud’hommes.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 
@@ -85,4 +88,4 @@ Il vous fera bénéficier de son réseau de médecin-conseil et de professionnel
 )
 
 
-export default Médicaux;
+export default Rupturetorts;

@@ -19,7 +19,16 @@ const Sport = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENT DE SPORT</h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc"> Vous avez été victime d’un accident dans le cadre d’une activité ou d’une compétition
+sportive ou de loisirs.
+Maitre Quentin MAMERI vous conseillera utilement et mettra en œuvre une stratégie
+adaptée et personnalisée pour vous permettre d’obtenir réparation des préjudices que vous
+avez subis.
+Il vous accompagnera tout au long de la procédure, de l’expertise médicale à la phase
+d’indemnisation des préjudices et ce jusqu’au recouvrement effectif de votre indemnisation.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

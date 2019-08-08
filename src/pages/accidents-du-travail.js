@@ -19,7 +19,14 @@ const Travail = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DU TRAVAIL</h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc">
+Me MAMERI vous accompagne dans le cadre des procédures en accident du travail.
+
+Me MAMERI vous accompagne à tous les stades de la procédure :
+
+Reconnaissance d’un accident du travail
+Contestation du taux d’incapacité fixé par le médecin Conseil de la CPAM
+Reconnaissance de la faute inexcusable de l’employeur. </p>
 
 
 

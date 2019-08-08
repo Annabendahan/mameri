@@ -5,7 +5,7 @@ import '../components/index.css'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import pic1 from '../images/parispic.png';
+import pic1 from '../images/istockphoto-1022759756-1024x1024.jpg';
 import pic2 from '../images/picq.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
@@ -35,23 +35,24 @@ zIndex: 10
   <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="10" height="10" fill="#F2DC17"/>
       </svg> DEFENSE DE ...  </h2>
-   <p className="desc"> Il assure <span className="bold">la défense des victimes d’accidents et d’agression </span>
-  de toute nature en vue de la réparation de leurs préjudices corporels,
-  <span className="bold"> la défense des salariés </span> dans le cadre de procédures prud’homales et <span className="bold">la
-  défense des assurés </span> en litige avec les organismes de sécurité sociale ou
-  leur compagnie d’assurance.
-  </p>
-  <p className="desc"> " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam obcaecati doloribus perspiciatis officiis odio autem tempore, accusantium repellendus perferendis quasi optio debitis dolore dignissimos veniam, laborum voluptatem at libero!"
-  </p>
+   <p className="desc"> Maître Quentin MAMERI est Avocat au barreau de Paris. </p>
+
+<p className="desc"> <span className="bold"> Il  assure  la défense des victimes d’accidents et d’infractions pénales pour obtenir réparation de leur dommage corporel, la défense des salariés dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la défense des personnes malades et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </span> </p>
+
+<p className="desc">Me Quentin MAMERI intervient devant toutes les juridictions et sur l’ensemble du territoire français y compris les DOM-TOM. </p>
+
+<p className="desc">Me MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité de vous déplacer, Me MAMERI pourra se rendre à votre domicile où dans le lieu où vous êtes hospitalisé (établissement de santé, centre de rééducation….). </p>
+
+
   </div>
   <div className="rightbox">
-
+<Link to="/contact/">
       <div className="contact-box">
         <div className="contact-left">
           <img  src={pic2} className="profile-pic-contact" alt="fireSpot" />
         </div>
 
-        <Link to="/contact/">
+
         <div className="contact-right">
         <h3 className="titleQ"> QUENTIN MAMERI </h3>
 
@@ -79,10 +80,11 @@ zIndex: 10
        qmameri.avocat@gmail.com</p>
 
         </div>
-         </Link>
+
 
 
       </div>
+      </Link>
       </div>
   </div>
 
@@ -127,6 +129,11 @@ zIndex: 10
   </div>
 
   </div>
+
+
+    <Link to="/domaines-d-expertise/" className="button bt2"> NOS DOMAINES D'EXPERTISE <svg className="yellowr" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z" fill="yellow"/>
+</svg> </Link>
 
   </Layout>
   )

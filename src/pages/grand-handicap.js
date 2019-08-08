@@ -1,16 +1,15 @@
 import React from "react"
-import '../components/defense.css'
-import Layout from "../components/layout"
 import { Link } from "gatsby"
+import '../components/contact.css'
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/footer.css'
-import pic1 from '../images/parispic.png';
+import GoogleMap from "../components/maps"
+import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
-import pic3 from '../images/prejudice.png';
-import pic4 from '../images/work.png';
-import pic5 from '../images/handi3.png';
 
-const Médicaux = () => (
+const Aggravation = () => (
+
   <Layout>
 
   <div className="background-hono">
@@ -18,14 +17,12 @@ const Médicaux = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> ACCIDENTS MÉDICAUX</h1>
-    <p className="desc"> Que vous soyez victime d’une infection nosocomiale, d’une faute médicale, d’un produit de santé ou d’un aléa thérapeutique, Maître Quentin MAMERI mettra en œuvre une stratégie personnalisée et adaptée tendant à engager la responsabilité d’un professionnel ou établissement de santé public ou privé.
+       <h1> AGGRAVATION </h1>
+    <p className="desc"> Le Cabinet intervient dans l’indemnisation du grand handicap et ce quel que soit l’origine de l’accident.
 
-Maître MAMERI vous représentera et vous assistera devant toutes les juridictions civiles ou administratives mais également devant les commissions de conciliation et d’indemnisation des accidents médicaux.
+Le grand handicap peut être un handicap visible (amputation, grand brûlés, paraplégie, hémiplégie …) ou un handicap invisible comme c’est le cas en matière de traumatisme crânien où l’évaluation des séquelles et de leur retentissement nécessite une évaluation spécifique par des professionnels spécialisés.
 
-Il sera présent à vos côtés lors de l’expertise médicale qui est un moment clef de la procédure puisqu’elle permettra d’apprécier d’une part, si les conditions de la responsabilité de l’établissement ou du professionnel sont réunies, et d’autre part, de procéder à l’évaluation médicale de vos préjudices.
-
-Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
+Me MAMERI vous accompagne pour obtenir l’indemnisation de tous les préjudices en lien avec votre handicap.</p>
 
 
 
@@ -81,8 +78,10 @@ Il vous fera bénéficier de son réseau de médecin-conseil et de professionnel
 
 
 
+
   </Layout>
+
 )
 
 
-export default Médicaux;
+  export default Aggravation

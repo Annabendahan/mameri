@@ -17,9 +17,33 @@ const LiensUtiles = () => (
 
     <div className="bigbox">
       <div className="bleft">
-       <h1> LIENS UTILES </h1>
+       <h1> NOS INFOS ET CONSEILS PRATIQUES </h1>
 
-      TEXTE
+
+
+       <div className="blue2">
+
+  <Link to="/conseils-pratiques/"><div className="indemn2 ">
+    <img  src={pic3} className="picindex3" alt="fireSpot" />
+   <h3> CONSEILS PRATIQUES</h3>
+  </div></Link>
+
+  <Link to="/infos-pratiques/"><div className="salar2 ">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> INFOS PRATIQUES </h3>
+
+
+  </div></Link>
+  <Link to="/modeles-et-formulaires/"><div className="ass2 ">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> MODELES ET FORMULAIRES </h3>
+
+  </div></Link>
+
+  </div>
+
+
+
       </div>
 
       <div className="rightbox">

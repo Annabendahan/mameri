@@ -19,7 +19,22 @@ const Route = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DE LA ROUTE </h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc"> Restez toujours vigilant face aux compagnies d’assurance.
+Elles ne défendent pas les intérêts des victimes ! </p>
+
+<p className="desc"> <span className="bold">Que vous soyez conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues ou piéton victime d’un accident, Maître MAMERI mettra en œuvre la stratégie la plus adaptée et assurera à tous les stades de la procédure la défense de vos droits de victimes afin de vous permettre d’obtenir la réparation intégrale de vos préjudices.
+</span></p>
+<p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule face aux compagnies d’assurance, Me MAMERI vous accompagnera dans le cadre amiable ou contentieux afin de rétablir l’équilibre et de veiller à ce que vos intérêts soient préservés.
+
+Les assureurs ont mis en place des conventions entre assureurs qui prévoient que l’indemnisation est gérée par le propre assureur de la victime qui se retournera ensuite contre l’assureur du tiers-responsable.
+
+L’objectif affiché de ce dispositif est d’accélérer l’indemnisation mais ce dispositif n’est pas dans l’intérêt des victimes.
+
+Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voient ainsi exposées au risque de minimisation de leur préjudice tant dans le cadre de l’expertise médicale, confiée au médecin de la compagnie d’assurance, que lors de la fixation du montant de leur indemnisation.
+
+Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux expertises médicales et dans le cadre des procédures d’indemnisation.
+
+Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
 
 
 

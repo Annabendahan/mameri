@@ -10,7 +10,7 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 
-const Médicaux = () => (
+const Harcelement = () => (
   <Layout>
 
   <div className="background-hono">
@@ -18,14 +18,24 @@ const Médicaux = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> ACCIDENTS MÉDICAUX</h1>
-    <p className="desc"> Que vous soyez victime d’une infection nosocomiale, d’une faute médicale, d’un produit de santé ou d’un aléa thérapeutique, Maître Quentin MAMERI mettra en œuvre une stratégie personnalisée et adaptée tendant à engager la responsabilité d’un professionnel ou établissement de santé public ou privé.
+       <h1> HARCÈLEMENT MORAL</h1>
+    <p className="desc"> Vous êtes victime d’agissements répétés de la part de votre employeur ou l’un de vos
+collègues qui ont pour objet ou pour effet de dégrader vos conditions de travail.
 
-Maître MAMERI vous représentera et vous assistera devant toutes les juridictions civiles ou administratives mais également devant les commissions de conciliation et d’indemnisation des accidents médicaux.
-
-Il sera présent à vos côtés lors de l’expertise médicale qui est un moment clef de la procédure puisqu’elle permettra d’apprécier d’une part, si les conditions de la responsabilité de l’établissement ou du professionnel sont réunies, et d’autre part, de procéder à l’évaluation médicale de vos préjudices.
-
-Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
+3
+Il s’agit alors d’un harcèlement moral qui constitue un manquement grave de l’employeur au
+regard des règles protectrices du droit du travail mais il s’agit également d’une infraction
+pénale.
+La loi a mis en place des règles facilitant la preuve par le salarié du harcèlement moral dont il
+est victime.
+Le salarié doit présenter des éléments de fait laissant supposer l’existence d’un harcèlement.
+L’employeur devra alors fournir des éléments de preuve pour démontrer que les mesures en
+cause sont étrangères à tout harcèlement moral.
+Me Quentin MAMERI mettra tout en œuvre pour faire reconnaître votre statut de victime et
+défendre vos droits.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous.</p>
 
 
 
@@ -85,4 +95,4 @@ Il vous fera bénéficier de son réseau de médecin-conseil et de professionnel
 )
 
 
-export default Médicaux;
+export default Harcelement;

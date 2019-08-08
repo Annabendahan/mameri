@@ -19,7 +19,15 @@ const Secu = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> LITIGE AVEC LA SÉCURITÉ SOCIALE </h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc"> Vous avez sollicité une prestation auprès de la sécurité sociale pour pallier une perte de
+revenu (temps-partiel thérapeutique, arrêts de travail, placement en invalidité …) ou
+obtenir un statut protecteur (affection de longue durée …).
+Vous êtes en litige avec la sécurité sociale qui a rejeté ou mal évalué ces prestations.
+Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou
+judiciaires.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

@@ -19,7 +19,9 @@ const Privée = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DE LA VIE PRIVÉE</h1>
-    <p className="desc"> Phrase introductive </p>
+    <p className="desc"> En cas d’accidents de la vie privée, vous  pouvez être indemnisé par votre compagnie d’assurance si vous avez souscrit une garantie dite des accidents de la vie.
+
+Me MAMERI vous assistera lors de l’expertise médicale et durant toute la procédure d’indemnisation afin d’obtenir la réparation qui vous est due contractuellement. </p>
 
 
 

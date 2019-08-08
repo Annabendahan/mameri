@@ -18,8 +18,14 @@ const Assurance = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> LITIGE AVEC LES COMPAGNIES D'ASSURANCE </h1>
-    <p className="desc"> Phrase introductive </p>
+       <h1> LITIGE AVEC LES ASSURANCES </h1>
+    <p className="desc"> Vous êtes en litige avec une compagnie d’assurance concernant une prestation d’assurance
+en lien avec la santé et le handicap (prévoyance, assurance de prêt immobilier …)
+Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou
+judiciaires.
+Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

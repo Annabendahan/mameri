@@ -2,17 +2,18 @@ import { NavLink, Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './header.css'
-import pic1 from '../images/Qmameri_cmjn.png';
+import pic1 from '../images/Qmameri_blanc.png';
 import Menu from './menu.js'
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `white`,
+      background: `#2a4b80`,
 
        boxShadow: `0px 4px 20px rgba(189, 188, 188, 0.25)`,
        position: `fixed`,
        width: `100%`,
+       padding: `10px`,
        zIndex: 15
 
     }}
@@ -20,12 +21,12 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        fontSize: `.7rem`,
-        paddingTop: `.7rem`,
+        fontSize: `.8rem`,
+        paddingTop: `1rem`,
         paddingLeft: `1.4rem`,
         display: `flex`,
         justifyContent: `space-between`,
-        height: `120px`
+        height: `140px`
 
       }}
     >
@@ -36,7 +37,7 @@ const Header = ({ siteTitle }) => (
           to="/"
 
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >
@@ -51,7 +52,7 @@ const Header = ({ siteTitle }) => (
           className="ong"
           activeClassName="active"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`,
@@ -68,7 +69,7 @@ const Header = ({ siteTitle }) => (
           className="ong"
           activeClassName="active"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`,
@@ -86,7 +87,7 @@ const Header = ({ siteTitle }) => (
           className="de "
           activeClassName="active"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`,
@@ -100,15 +101,15 @@ const Header = ({ siteTitle }) => (
 
 
           <span className="so sub-onglet">  <Link to="/indemnisation-des-victimes/" > INDEMNISATION DES VICTIMES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>
  </Link> </span>
           <span className="so sub-onglet2">  <Link to= "/defense-des-salaries/"> DÉFENSE DES SALARIÉS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>
  </Link> </span>
           <span className="so sub-onglet3">  <Link to= "/defense-des-personnes-malades-handicap/" > DÉFENSE DES PERSONNES MALADES ET EN SITUATION DE HANDICAP <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="#244C82"/>
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>
  </Link> </span>
 
@@ -124,6 +125,11 @@ const Header = ({ siteTitle }) => (
    <Link className="m" to="/accidents-de-la-vie-privee/" >  <p className="m">- ACCIDENTS DE LA VIE PRIVÉE </p>
    </Link>
    <Link className="m" to="/accidents-du-travail/" > <p className="m"> - ACCIDENTS DU TRAVAIL </p>
+   </Link>
+   <Link className="m" to="/grand-handicap/" > <p className="m"> - INDEMNISATION DU GRAND HANDICAP </p>
+   </Link>
+
+   <Link className="m" to="/aggravation/" > <p className="m"> - REOUVERTURE EN AGGRAVATION </p>
    </Link></span>
 
 
@@ -131,13 +137,21 @@ const Header = ({ siteTitle }) => (
 
 
 
-  <span className="so3 sub-onglet7">  <Link to="/rupture-conventionnelle/" > <p className="m"> - RUPTURE CONVENTIONNELLE </p>
+  <span className="so3 sub-onglet7">
+  <Link to="/rupture-torts-employeur/" > <p className="m"> - RUPTURE AUX TORTS DE L'EMPLOYEUR </p>
+ </Link>
+
+   <Link to="/rupture-conventionnelle/" > <p className="m"> - RUPTURE CONVENTIONNELLE </p>
  </Link>
  <Link to="/licenciements-abusifs/" > <p className="m"> - LICENCIEMENTS ABUSIFS </p>
  </Link>
 
-   <Link to="/manquements-graves/" > <p className="m"> - MANQUEMENTS GRAVES DE L'EMPLOYEUR ET HARCÈLEMENT MORAL </p>
- </Link> </span>
+   <Link to="/harcelement-moral/" > <p className="m"> - HARCÈLEMENT MORAL </p>
+ </Link>
+
+ <Link to="/sanction-disciplinaire/" > <p className="m"> - SANCTION DISCIPLINAIRE </p>
+ </Link>
+  </span>
 
 
 
@@ -146,7 +160,7 @@ const Header = ({ siteTitle }) => (
  </Link>
  <Link to="/litige-mdph/" > <p className="m"> - LITIGE AVEC LA MDPH </p>
  </Link>
- <Link to="/litige-assurances/" >  <p className="m"> - LITIGE AVEC LES COMPAGNIES D'ASSURANCE</p>
+ <Link to="/litige-assurances/" >  <p className="m"> - LITIGE AVEC LES ASSURANCES</p>
  </Link></span>
 
 
@@ -162,7 +176,7 @@ const Header = ({ siteTitle }) => (
           activeClassName="active"
           className="ong"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`
@@ -179,7 +193,7 @@ const Header = ({ siteTitle }) => (
           activeClassName="active"
           className="ong"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`
@@ -196,16 +210,38 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/liens-utiles/"
           activeClassName="active"
-          className="ong"
+          className="onge"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`
           }}
         >
           NOS INFOS ET CONSEILS PRATIQUES
-        </Link>
+         <span className="so soo1">  <Link to="/conseils-pratiques/" > CONSEILS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>
+ </Link> </span>
+          <span className="so soo2">  <Link to= "/infos-pratiques/"> INFOS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>
+ </Link> </span>
+          <span className="so soo3">  <Link to= "/modeles-et-formulaires/" > MODÈLES ET FORMULAIRES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>
+ </Link> </span>
+
+
+
+<span className=" soo11">  <Link  to="/conseils-aux-victimes/" > <p className="m"> - CONSEILS AUX VICTIMES </p>
+   </Link>
+   <Link className="soo12" to="/agressions-et-delits-routiers/" > <p className="m"> - AGRESSIONS ET DELITS ROUTIERS </p>
+   </Link> </span>
+
+
+
+ </Link>
 
 
          <Link
@@ -213,7 +249,7 @@ const Header = ({ siteTitle }) => (
           activeClassName="active"
           className="ong"
           style={{
-            color: `#2a4b80`,
+            color: `white`,
             textDecoration: `none`,
             fontFamily: `Avenir`,
             marginRight: `30px`
