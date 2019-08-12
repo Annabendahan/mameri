@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image 3.png';
 
 const Médicaux = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Médicaux = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS MÉDICAUX</h1>
+       <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Que vous soyez victime d’une infection nosocomiale, d’une faute médicale, d’un produit de santé ou d’un aléa thérapeutique, Maître Quentin MAMERI mettra en œuvre une stratégie personnalisée et adaptée tendant à engager la responsabilité d’un professionnel ou établissement de santé public ou privé.
 
 Maître MAMERI vous représentera et vous assistera devant toutes les juridictions civiles ou administratives mais également devant les commissions de conciliation et d’indemnisation des accidents médicaux.

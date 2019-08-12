@@ -74,7 +74,7 @@ render() {
             <Link to="/posts/">  <p> NOS PUBLICATIONS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
- <Link to="/liens-utiles/"> <p> NOS INFOS ET CONSEILS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <Link to="/liens-utiles/"> <p> NOS INFOS ET CONSEILS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
             <Link to="/contact/"> <p>  CONTACT ET ACCÈS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">

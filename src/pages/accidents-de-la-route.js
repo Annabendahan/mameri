@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image.png';
 
 const Route = () => (
   <Layout>
@@ -24,6 +25,8 @@ Elles ne défendent pas les intérêts des victimes ! </p>
 
 <p className="desc"> <span className="bold">Que vous soyez conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues ou piéton victime d’un accident, Maître MAMERI mettra en œuvre la stratégie la plus adaptée et assurera à tous les stades de la procédure la défense de vos droits de victimes afin de vous permettre d’obtenir la réparation intégrale de vos préjudices.
 </span></p>
+
+<img  src={pic6} className="picdefense" alt="fireSpot" />
 <p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule face aux compagnies d’assurance, Me MAMERI vous accompagnera dans le cadre amiable ou contentieux afin de rétablir l’équilibre et de veiller à ce que vos intérêts soient préservés.
 
 Les assureurs ont mis en place des conventions entre assureurs qui prévoient que l’indemnisation est gérée par le propre assureur de la victime qui se retournera ensuite contre l’assureur du tiers-responsable.

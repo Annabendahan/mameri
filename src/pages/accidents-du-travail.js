@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic8 from '../images/image 5.png';
 
 const Travail = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Travail = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DU TRAVAIL</h1>
+       <img  src={pic8} className="picdefense" alt="fireSpot" />
     <p className="desc">
 Me MAMERI vous accompagne dans le cadre des procédures en accident du travail.
 
