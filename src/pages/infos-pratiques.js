@@ -31,6 +31,12 @@ const Infos = () => (
    <img  src={pic2} className="picindex3" alt="fireSpot" />
   <h3> DROIT DU TRAVAIL </h3>
 
+   </div></Link>
+
+   <Link to="/protection-sociale/"> <div className="salar2 ">
+   <img  src={pic2} className="picindex3" alt="fireSpot" />
+  <h3> PROTECTION SOCIALE </h3>
+
 
   </div></Link>
 

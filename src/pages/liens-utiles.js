@@ -1,48 +1,33 @@
 import React from "react"
-import '../components/defense.css'
-import '../components/liens.css'
 import { Link } from "gatsby"
+import '../components/contact.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/footer.css'
-import pic3 from '../images/work2.png';
+import GoogleMap from "../components/maps"
+import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
+import pic3 from '../images/image 16.png';
 
-const LiensUtiles = () => (
+const Liens= () => (
+
+
   <Layout>
 
   <div className="background-hono">
 
-
-
-    <div className="bigbox">
+<div className="bigbox">
       <div className="bleft">
-       <h1> NOS INFOS ET CONSEILS PRATIQUES </h1>
+
+      <h1> LIENS UTILES </h1>
 
 
 
-       <div className="blue2">
+   <Link to="/indemnisation-des-victimes/"><div className="indemn2 ">
+      <img  src={pic3} className="picindex3" alt="fireSpot" />
+    <h3> INDEMNISATION DES VICTIMES </h3>
 
-  <Link to="/conseils-pratiques/"><div className="indemn2 ">
-    <img  src={pic3} className="picindex3" alt="fireSpot" />
-   <h3> CONSEILS PRATIQUES</h3>
-  </div></Link>
-
-  <Link to="/infos-pratiques/"><div className="salar2 ">
-   <img  src={pic3} className="picindex3" alt="fireSpot" />
-  <h3> INFOS PRATIQUES </h3>
-
-
-  </div></Link>
-  <Link to="/modeles-et-formulaires/"><div className="ass2 ">
-   <img  src={pic3} className="picindex3" alt="fireSpot" />
-  <h3> MODELES ET FORMULAIRES </h3>
-
-  </div></Link>
-
-  </div>
-
-
+    </div></Link>
 
       </div>
 
@@ -89,9 +74,14 @@ const LiensUtiles = () => (
     </div>
 
 
+
     </div>
 
-  </Layout>
-)
 
-export default LiensUtiles;
+
+  </Layout>
+
+  )
+
+
+export default Liens

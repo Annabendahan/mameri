@@ -13,6 +13,7 @@
 
 .metro{
   margin-bottom: -5px;
+  margin-right: 5px
 }
 
 
@@ -73,5 +74,9 @@
 
 .contact-title{
   margin-top: 60px
+}
+
+.pictrain{
+  width:80px;
 }
 

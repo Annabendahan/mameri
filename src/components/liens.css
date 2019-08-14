@@ -32,7 +32,7 @@
   text-align: justify;
   font-weight: 700;
    font-family: avenir;
-   font-size: 1rem;
+   font-size: .9rem;
    line-height: 5px;
  }
 
@@ -43,4 +43,9 @@ cursor:pointer;
 
 .title-spe{
   margin-top: 100px;
+}
+
+
+.p{
+  margin-bottom: 60px
 }

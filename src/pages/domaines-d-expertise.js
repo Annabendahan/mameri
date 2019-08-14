@@ -19,7 +19,7 @@ const DomainesDexpertise = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> DOMAINES D'EXPERTISES </h1>
-    <p className="desc"> Phrase introductive </p>
+
 
 
     <div className="blue2">

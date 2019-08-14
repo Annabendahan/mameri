@@ -5,7 +5,7 @@ import '../components/index.css'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import pic1 from '../images/istockphoto-1022759756-1024x1024.jpg';
+import pic1 from '../images/home1.png';
 import pic2 from '../images/picq.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
@@ -32,9 +32,7 @@ zIndex: 10
   <h1 className="title">
     QUENTIN MAMERI, AVOCAT AU BARREAU DE PARIS
   </h1>
-  <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="10" height="10" fill="#F2DC17"/>
-      </svg> DEFENSE DE ...  </h2>
+
    <p className="desc"> Maître Quentin MAMERI est Avocat au barreau de Paris. </p>
 
 <p className="desc"> <span className="bold"> Il  assure  la défense des victimes d’accidents et d’infractions pénales pour obtenir réparation de leur dommage corporel, la défense des salariés dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la défense des personnes malades et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </span> </p>

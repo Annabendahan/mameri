@@ -12,6 +12,7 @@ import pic7 from '../images/image 4.png';
 import pic8 from '../images/image 5.png';
 import pic9 from '../images/image 7.png';
 import pic2 from '../images/quentinmameripic.png';
+import pic10 from '../images/image 16.png';
 
 const Indemnisation = () => (
   <Layout>
@@ -60,6 +61,13 @@ const Indemnisation = () => (
           <Link to="/accidents-du-travail/"><div className="salar2 ">
           <img  src={pic8} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENTS DU TRAVAIL </h3>
+
+          </div></Link>
+
+
+          <Link to="/aggravation/"><div className="salar2 ">
+          <img  src={pic10} className="picindex3" alt="fireSpot" />
+          <h3> RÉOUVERTURE EN AGGRAVATION </h3>
 
           </div></Link>
         </div>
