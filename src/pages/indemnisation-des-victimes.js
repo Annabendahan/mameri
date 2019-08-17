@@ -27,14 +27,15 @@ const Indemnisation = () => (
         Me MAMERI vous conseillera utilement et assurera la défense de vos intérêts tant par la voie amiable que par la voie judiciaire notamment devant le Conseil de Prud’hommes.
         </p>
         <div className="blue2">
+        <Link to="/infractions-penales/"><div className="salar2 ">
+          <img  src={pic5} className="picindex3" alt="fireSpot" />
+          <h3> INFRACTIONS PÉNALES</h3>
+          </div> </Link>
           <Link to="/accidents-de-la-route/"><div className="indemn2 ">
           <img  src={pic4} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENT DE LA ROUTE </h3>
           </div></Link>
-          <Link to="/agressions-et-delits-routiers/"><div className="salar2 ">
-          <img  src={pic5} className="picindex3" alt="fireSpot" />
-          <h3> AGRESSION ET DELITS ROUTIERS </h3>
-          </div> </Link>
+
           <Link to="/accidents-medicaux/"><div className="ass2 ">
           <img  src={pic6} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENTS MEDICAUX</h3>

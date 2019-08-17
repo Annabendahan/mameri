@@ -8,6 +8,10 @@ import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/image 16.png';
+import pic4 from '../images/ajdclogo.png';
+import pic5 from '../images/FranceAssosSante_logo.png';
+import pic6 from '../images/Logo-Legifrance.jpg';
+import pic7 from '../images/logo_cada.png';
 
 const Liens= () => (
 
@@ -23,11 +27,50 @@ const Liens= () => (
 
 
 
-   <Link to="/indemnisation-des-victimes/"><div className="indemn2 ">
-      <img  src={pic3} className="picindex3" alt="fireSpot" />
-    <h3> INDEMNISATION DES VICTIMES </h3>
+   <a target="blank" href="https://www.defenseurdesdroits.fr/"> <div className="lien">
+      <img  src={pic3} className="piclien" alt="fireSpot" />
 
-    </div></Link>
+
+    </div></a>
+
+
+
+
+   <a target="blank" href="http://www.ajdommagecorporel.fr/"><div className="lien">
+      <img  src={pic4} className="piclien" alt="fireSpot" />
+
+
+    </div></a>
+
+
+
+
+
+
+   <a target="blank" href="https://www.france-assos-sante.org/"><div className="lien">
+      <img  src={pic5} className="piclien" alt="fireSpot" />
+
+
+    </div></a>
+
+
+
+   <a target="blank" href="https://www.legifrance.gouv.fr/"><div className="lien">
+      <img  src={pic6} className="piclien" alt="fireSpot" />
+
+
+    </div></a>
+
+
+    <a target="blank" href="https://www.cada.fr/"><div className="lien">
+      <img  src={pic7} className="piclien" alt="fireSpot" />
+
+
+    </div></a>
+
+
+
+
 
       </div>
 

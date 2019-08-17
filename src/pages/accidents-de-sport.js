@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic9 from '../images/image 7.png';
 
 const Sport = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Sport = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENT DE SPORT</h1>
+       <img  src={pic9} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous avez été victime d’un accident dans le cadre d’une activité ou d’une compétition
 sportive ou de loisirs.
 Maitre Quentin MAMERI vous conseillera utilement et mettra en œuvre une stratégie

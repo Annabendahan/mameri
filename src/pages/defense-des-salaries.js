@@ -36,7 +36,7 @@ const Salaries = () => (
 
 
   </div></Link>
-  <Link to="/manquements-graves/"><div className="ass2 ">
+  <Link to="/harcelement-moral/"><div className="ass2 ">
    <img  src={pic6} className="picindex3" alt="fireSpot" />
   <h3> MANQUEMENTS GRAVES DE L'EMPLOYEUR ET HARCÈLEMENT MORAL</h3>
 

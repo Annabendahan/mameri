@@ -398,6 +398,10 @@ visibility: visible
   left:-10px;
 }
 
+.soo1:hover{
+  font-weight: 900;
+}
+
 
 .soo2{
   position: absolute;
@@ -405,25 +409,65 @@ visibility: visible
   left:-10px;
 }
 
+.soo2:hover{
+  font-weight: 900;
+}
+
+
 .soo3{
   position: absolute;
   top: 85px;
   left:-10px;
 }
 
+.soo3:hover{
+  font-weight: 900;
+}
+
+
+.soo4{
+  position: absolute;
+  top: 115px;
+  left:-10px;
+}
+
+.soo4:hover{
+  font-weight: 900;
+}
+
 .soo1:hover ~ .soo11{
   visibility: visible
 }
 
-.soo1:hover ~ .soo12{
+
+.soo2:hover ~ .soo12{
   visibility: visible
 }
+
+.soo11:hover{
+    visibility: visible;
+
+}
+
+
+.soo12:hover{
+    visibility: visible;
+
+}
+
 
 .soo11{
    visibility:hidden;
   position: absolute;
-  left: 80px;
-  top: 20px;
+  left: 210px;
+  top: 25px;
+  width: 200px;
+  background: #2a4b80;
+  color: white;
+}
+.soo11 a{
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -431,8 +475,18 @@ visibility: visible
 .soo12{
    visibility:hidden;
   position: absolute;
-  top: 80px;
-   left: 80px;
+  left: 210px;
+  top: 55px;
+  width: 200px;
+  background: #2a4b80;
+  color: white;
 }
+.soo12 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
 
 

@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image 2.png';
 
 const Agression = () => (
   <Layout>
@@ -18,8 +19,14 @@ const Agression = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> AGRESSIONS ET DELITS ROUTIERS </h1>
-    <p className="desc"> Phrase introductive </p>
+       <h1> INFRACTIONS PENALES </h1>
+       <img  src={pic6} className="picindex3" alt="fireSpot" />
+    <p className="desc"> Si vous avez été victime d’une infraction pénale (agression, délit routier …) à l’origine d’un
+dommage corporel, Me MAMERI mettra tout en œuvre pour que vous obteniez réparation
+intégrale de votre préjudice. </p>
+<p className="desc"> Me MAMERI intervient devant les juridictions pénales (tribunal de police, tribunal
+correctionnel,...) et devant les Commissions d’indemnisation des victimes d’infractions pour
+solliciter l’indemnisation de vos préjudices. </p>
 
 
 

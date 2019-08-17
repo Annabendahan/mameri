@@ -62,7 +62,7 @@ class ConseilsSala extends  Component {
   <div className="bigbox">
       <div className="bleft">
 
-<h1 className="title-spe"> CONSEILS AUX SALARIÉS </h1>
+<h1 > CONSEILS AUX SALARIÉS </h1>
 
   <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>

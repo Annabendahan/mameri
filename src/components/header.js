@@ -114,9 +114,9 @@ const Header = ({ siteTitle }) => (
  </Link> </span>
 
 
-   <span className="so2 sub-onglet4">  <Link  to="/accidents-de-la-route/" > <p className="m"> - ACCIDENT DE LA ROUTE </p>
+   <span className="so2 sub-onglet4">  <Link  to="/infractions-penales/" > <p className="m"> - INFRACTIONS PÉNALES </p>
    </Link>
-   <Link className="m" to="/agressions-et-delits-routiers/" > <p className="m"> - AGRESSIONS ET DELITS ROUTIERS </p>
+   <Link className="m" to="/accidents-de-la-route/" > <p className="m"> - ACCIDENTS DE LA ROUTE</p>
    </Link>
     <Link className="m" to="/accidents-medicaux/" > <p className="m"> - ACCIDENTS MEDICAUX </p>
    </Link>
@@ -231,7 +231,7 @@ const Header = ({ siteTitle }) => (
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>
  </Link> </span>
-        <span className="so soo3">  <Link to= "/liens-utiles/" > LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <span className="so soo4">  <Link to= "/liens-utiles/" > LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
       </svg>
        </Link> </span>
@@ -240,8 +240,17 @@ const Header = ({ siteTitle }) => (
 
 <span className=" soo11">  <Link  to="/conseils-aux-victimes/" > <p className="m"> - CONSEILS AUX VICTIMES </p>
    </Link>
-   <Link className="soo12" to="/agressions-et-delits-routiers/" > <p className="m"> - AGRESSIONS ET DELITS ROUTIERS </p>
-   </Link> </span>
+   <Link to="/conseils-aux-salaries/" > <p className="m"> - CONSEILS AUX SALARIÉS </p>
+  </Link> </span>
+
+
+  <span className=" soo12">  <Link  to="/reparation-dommage-corporel/" > <p className="m"> - DOMMAGE CORPOREL </p>
+   </Link>
+   <Link to="/droit-du-travail/" > <p className="m"> - DROIT DU TRAVAIL </p>
+  </Link>
+   <Link to="/protection-sociale/" > <p className="m"> - PROTECTION SOCIALE </p>
+  </Link>
+  </span>
 
 
 
