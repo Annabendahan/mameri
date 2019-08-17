@@ -31,14 +31,18 @@ zIndex: 10
 
   <div className="leftbox">
 
+   <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="10" height="10" fill="#F2DC17"/>
+      </svg> DÉFENSE DES VICTIMES, DES SALARIÉS ET DES MALADES  </h2>
+
 
    <p className="desc-r"> Maître Quentin MAMERI est Avocat au barreau de Paris. </p>
 
-<p className="desc-r"> <span className="bold"> Il  assure  la défense des victimes d’accidents et d’infractions pénales pour obtenir réparation de leur dommage corporel, la défense des salariés dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la défense des personnes malades et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </span> </p>
+<p className="desc-r"> <span className="bold"> Il  assure  la défense des victimes d’accidents et d’infractions pénales pour obtenir réparation de leur dommage corporel, la défense des salariés dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la défense des personnes malades et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </span>
 
-<p className="desc-r">Me Quentin MAMERI intervient devant toutes les juridictions et sur l’ensemble du territoire français y compris les DOM-TOM. </p>
+Me Quentin MAMERI intervient devant toutes les juridictions et sur l’ensemble du territoire français y compris les DOM-TOM.
 
-<p className="desc">Me MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité de vous déplacer, Me MAMERI pourra se rendre à votre domicile où dans le lieu où vous êtes hospitalisé (établissement de santé, centre de rééducation….). </p>
+Me MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité de vous déplacer, Me MAMERI pourra se rendre à votre domicile où dans le lieu où vous êtes hospitalisé (établissement de santé, centre de rééducation….). </p>
 
 
   </div>

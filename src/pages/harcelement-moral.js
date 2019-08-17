@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image 10.png';
 
 const Harcelement = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Harcelement = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> HARCÈLEMENT MORAL</h1>
+       <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous êtes victime d’agissements répétés de la part de votre employeur ou l’un de vos
 collègues qui ont pour objet ou pour effet de dégrader vos conditions de travail.
 

@@ -38,7 +38,14 @@ const Salaries = () => (
   </div></Link>
   <Link to="/harcelement-moral/"><div className="ass2 ">
    <img  src={pic6} className="picindex3" alt="fireSpot" />
-  <h3> MANQUEMENTS GRAVES DE L'EMPLOYEUR ET HARCÈLEMENT MORAL</h3>
+  <h3>  HARCÈLEMENT MORAL</h3>
+
+  </div></Link>
+
+
+   <Link to="/sanction-disciplinaire/"><div className="ass2 ">
+   <img  src={pic6} className="picindex3" alt="fireSpot" />
+  <h3> SANCTION DISCIPLINAIRE</h3>
 
   </div></Link>
 

@@ -129,7 +129,7 @@ const Header = ({ siteTitle }) => (
    <Link className="m" to="/grand-handicap/" > <p className="m"> - INDEMNISATION DU GRAND HANDICAP </p>
    </Link>
 
-   <Link className="m" to="/aggravation/" > <p className="m"> - REOUVERTURE EN AGGRAVATION </p>
+   <Link className="m" to="/aggravation/" > <p className="m"> - AGGRAVATION </p>
    </Link></span>
 
 
@@ -227,13 +227,9 @@ const Header = ({ siteTitle }) => (
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>
  </Link> </span>
-          <span className="so soo3">  <Link to= "/modeles-et-formulaires/" > MODÈLES ET FORMULAIRES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
-</svg>
+          <span className="so soo3">  <Link to= "/modeles-et-formulaires/" > MODÈLES ET FORMULAIRES
  </Link> </span>
-        <span className="so soo4">  <Link to= "/liens-utiles/" > LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
-      </svg>
+        <span className="so soo4">  <Link to= "/liens-utiles/" > LIENS UTILES
        </Link> </span>
 
 

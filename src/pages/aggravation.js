@@ -18,7 +18,7 @@ const Aggravation = () => (
 
 <div className="bigbox">
       <div className="bleft">
-       <h1> RÉOUVERTURE EN AGGRAVATION </h1>
+       <h1> AGGRAVATION </h1>
 
     <p className="desc"> Si vos séquelles se sont aggravées depuis votre indemnisation, vous avez la possibilité de faire réouvrir votre dossier pour être indemnisé de vos nouveaux préjudices. </p>
 <img  src={pic3} className="pic-defense" alt="fireSpot" />

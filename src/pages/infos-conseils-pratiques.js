@@ -40,6 +40,13 @@ const LiensUtiles = () => (
 
   </div></Link>
 
+
+  <Link to="/liens-utiles/"><div className="ass2 ">
+   <img  src={pic3} className="picindex3" alt="fireSpot" />
+  <h3> LIENS UTILES </h3>
+
+  </div></Link>
+
   </div>
 
 

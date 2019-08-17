@@ -30,21 +30,24 @@ démarches envisagées.</p>
       <rect width="10" height="10" fill="#F2DC17"/>
       </svg> DES HONORAIRES CLAIRS ET DETERMINÉS PAR AVANCE </h2>
       <p className="desc"> Dès le premier rendez-vous, la question des honoraires sera abordée sans aucun tabou et en toute
-transparence. Me MAMERI vous adressera une convention d’honoraire détaillée qui vous permettra,
+transparence. Me MAMERI vous adressera une <span className="bold"> convention d’honoraire détaillée </span> qui vous permettra,
 avant de vous engager, de connaître, par avance, le montant de ses honoraires pour les diligences
 envisagées.</p>
 
  <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="10" height="10" fill="#F2DC17"/>
       </svg> LA FIXATION DES HONORAIRES </h2>
-      <p className="desc"> A l’honoraire fixe s’ajoute un honoraire de résultat qui s’applique sur <span className="bold"> le montant des sommes ou condamnations obtenues (entre 10 % et 15 %). </span></p>
+      <p className="desc">Les honoraires de Me MAMERI se décomposent en un <span className="bold"> honoraire fixe </span> qui correspond aux diligences
+envisagées auquel s’ajoute un <span className="bold"> honoraire de résultat </span>.
+L’honoraire pratiquée par Me MAMERI est un <span className="bold"> honoraire forfaitaire </span> afin que vous puissiez prévoir à
+l’avance ce que cela va vous coûter.</p>
 
 
       <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="10" height="10" fill="#F2DC17"/>
       </svg> LA PRISE EN CHARGE DES HONORAIRES </h2>
       <p className="desc"> Les honoraires fixes de Me Quentin MAMERI peuvent être couverts en tout ou partie par une
-assurance de protection juridique dont vous seriez éventuellement titulaire (assurance habitation,
+<span className="bold"> assurance de protection juridique </span> dont vous seriez éventuellement titulaire (assurance habitation,
 assurance des moyens de paiement,…).  Maître MAMERI pourra se rapprocher de votre compagnie
 d’assurance pour l’interroger sur la mise en œuvre et sur l’étendue de sa prise en charge.
 Enfin, sachez que la loi prévoit la possibilité pour la partie gagnante de solliciter auprès du juge

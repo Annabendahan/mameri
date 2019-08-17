@@ -20,7 +20,7 @@ const Agression = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> INFRACTIONS PENALES </h1>
-       <img  src={pic6} className="picindex3" alt="fireSpot" />
+       <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Si vous avez été victime d’une infraction pénale (agression, délit routier …) à l’origine d’un
 dommage corporel, Me MAMERI mettra tout en œuvre pour que vous obteniez réparation
 intégrale de votre préjudice. </p>

@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image 15.png';
 
 const Abusifs = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Abusifs = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> LICENCIEMENTS ABUSIFS </h1>
+       <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous avez été licencié pour faute par votre employeur ou pour tout autre motif que vous
 estimez infondé (licenciement pour arrêt de travail perturbant gravement le fonctionnement
 de l’entreprise, licenciement pour inaptitude …)

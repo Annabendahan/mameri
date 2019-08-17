@@ -37,7 +37,7 @@ Me MAMERI vous représentera et vous assistera dans l’ensemble des litiges de 
   </div></Link>
  <Link to="/litige-assurances/"> <div className="ass2 ">
    <img  src={pic5} className="picindex3" alt="fireSpot" />
-  <h3> LITIGE AVEC LES COMPAGNIES D'ASSURANCE</h3>
+  <h3> LITIGE AVEC LES ASSURANCES</h3>
 
  </div> </Link>
 

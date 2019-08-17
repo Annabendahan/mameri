@@ -64,7 +64,7 @@ render() {
               <Link to="/defense-des-salaries/" > <p style={{ fontWeight: `100`}}  >  DÉFENSE DES SALARIÉS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
-              <Link to="/defense-des-personnes-malades-handicap/" > <p style={{ fontWeight: `100`}} >  DÉFENSE DES PERSONNES MALADES ET ATTEINTES D'UN HANDICAP <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <Link to="/defense-des-personnes-malades-handicap/" > <p style={{ fontWeight: `100`}} >  DÉFENSE DES MALADES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
 </div>
@@ -77,6 +77,20 @@ render() {
  <Link to="/liens-utiles/"> <p> NOS INFOS ET CONSEILS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>  </p> </Link>
+<div className="ppetit">
+              <Link to="/conseils-pratiques/" > <p style={{ fontWeight: `100`}}  >  CONSEILS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>  </p> </Link>
+              <Link to="/infos-pratiques/" > <p style={{ fontWeight: `100`}}  >  INFOS PRATIQUES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>  </p> </Link>
+              <Link to="/modeles-et-formulaires/" > <p style={{ fontWeight: `100`}} >  MODÈLES ET FORMULAIRES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>  </p> </Link>
+<Link to="/liens-utiles/" > <p style={{ fontWeight: `100`}} >  LIENS UTILES <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
+</svg>  </p> </Link>
+</div>
             <Link to="/contact/"> <p>  CONTACT ET ACCÈS <svg width="5" height="7" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.08008 4.74994L0.580078 9.08012L0.580078 0.419861L4.08008 4.74994Z" fill="white"/>
 </svg>   </p> </Link>

@@ -9,6 +9,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/image 14.png';
 
 const Rupture = () => (
   <Layout>
@@ -19,6 +20,7 @@ const Rupture = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> RUPTURE CONVENTIONNELLE </h1>
+       <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous souhaitez rompre votre contrat de travail avec votre employeur d’un commun accord.
 Il est important de prendre contact avec un avocat préalablement à toute démarche.
 En effet, la conclusion d’une rupture conventionnelle suppose un consentement libre et
