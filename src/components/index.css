@@ -66,14 +66,14 @@
 
 
 .transparent{
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   height: 150px;
   text-align: center;
   color: #2a4b80;
   font-family: avenir;
   font-size: 2rem;
   font-weight: 700;
-  padding: 30px;
+  padding: 20px;
 
 }
 
@@ -89,8 +89,8 @@
 
 .home-div h1{
    font-family: avenir;
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 500;
   color: #2a4b80;
 
   margin-bottom: 40px;
@@ -188,6 +188,10 @@ align-items: center;
 
 }
 
+.box h2{
+  margin-bottom: 60px;
+}
+
 
 @media(max-width: 600px) {
   .box{
@@ -220,6 +224,7 @@ max-height: 450px;
 .leftbox{
   flex: 0 0 70%;
   margin-right: 70px;
+  margin-top: -50px
 
 }
 
@@ -256,8 +261,8 @@ max-height: 450px;
 
 .blue{
   display: flex;
-  padding: 100px 10%;
-  background:#EFEFEF;
+  padding: 100px 6%;
+  background:#F5F5F5;
   color: #313030;
   font-family: avenir;
   font-weight: 700;
@@ -300,12 +305,12 @@ max-height: 450px;
   flex: 0 0 28%;
   text-align: center;
   margin:  10px;
-  padding: 15px;
-}
+  padding: 30px 40px;
+  background: white;}
 
 .indemn:hover {
-background:#EFEFEF
-;
+box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+
 }
 
 
@@ -318,14 +323,15 @@ background:#EFEFEF
   flex: 0 0 28%;
   text-align: center;
   margin:  10px;
-   padding: 15px;
+  padding: 30px 40px;
+  background: white;
 }
 
 .salar p{
   text-align: justify;
 }
 .salar:hover {
-background:#EFEFEF;
+box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }
 
 
@@ -333,7 +339,8 @@ background:#EFEFEF;
   flex: 0 0 28%;
   text-align: center;
   margin:  10px;
-  padding: 15px;
+  padding: 30px 40px;
+  background: white;
 }
 
 
@@ -342,7 +349,7 @@ background:#EFEFEF;
 }
 
 .ass:hover {
-background:#EFEFEF;
+box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.35);
 }
 
 .profile-pic-contact{

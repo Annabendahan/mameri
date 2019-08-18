@@ -7,7 +7,7 @@ import '../components/footer.css'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
-import pic3 from '../images/image 16.png';
+import pic3 from '../images/logo_hd.png';
 import pic4 from '../images/ajdclogo.png';
 import pic5 from '../images/FranceAssosSante_logo.png';
 import pic6 from '../images/Logo-Legifrance.jpg';

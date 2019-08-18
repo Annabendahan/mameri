@@ -29,7 +29,7 @@
 
 .background-hono h3{
   color:  #2a4b80;
-  text-align: justify;
+
   font-weight: 700;
    font-family: avenir;
    font-size: .9rem;
@@ -61,7 +61,9 @@ cursor:pointer;
   float: left;
   margin: 10px;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+
+
 }
 
 .lien:hover {
@@ -72,4 +74,6 @@ cursor:pointer;
 .piclien{
 width: 200px;
 margin: auto;
+padding-top: 30px;
+
 }

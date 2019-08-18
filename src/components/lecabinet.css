@@ -2,7 +2,7 @@
 
 .parcours{
   color: #2a4b80;
-  background:#EFEFEF;
+  background:#F5F5F5;
   padding: 50px 7%;
   text-align: center;
   margin-bottom: 100px
@@ -28,7 +28,8 @@
   font-weight: 700;
    font-family: avenir;
    font-size: .8rem;
-   line-height: 5px;
+   margin: 5px;
+
 
 }
 

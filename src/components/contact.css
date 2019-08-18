@@ -72,11 +72,14 @@
 }
 
 
-.contact-title{
-  margin-top: 60px
-}
+
 
 .pictrain{
   width:80px;
 }
+
+.special{
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 8px;}
 
