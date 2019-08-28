@@ -13,6 +13,14 @@
 }
 
 
+.av{
+  font-size: .8rem;
+  font-weight: 500;
+  margin-top: -20px;
+  color: #313030;
+}
+
+
 
 
 @media(max-width: 600px) {
@@ -118,7 +126,7 @@ h3{
   font-size: 1rem;
   font-weight: 700;
   color: #2a4b80;
-  margin-top: 40px;
+  margin-top: 60px;
 
 }
 
@@ -166,11 +174,11 @@ h3{
 
 .desc-r{
    font-family: avenir;
-  font-size: .8rem;
+  font-size: .9rem;
   color: #313030;
 
    text-align: justify;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
 
 }
 
@@ -244,7 +252,7 @@ max-height: 450px;
 
 .number{
   font-weight: 900;
-  color: #2a4b80;
+  color: white;
   font-family: avenir;
 }
 .n2{
@@ -284,7 +292,8 @@ max-height: 450px;
 .blue p{
   font-weight:100;
   font-size: .7rem;
-  color: #313030;
+  margin-bottom: -.3rem;
+
 
 }
 
@@ -297,15 +306,24 @@ max-height: 450px;
 
 .lire {
   font-weight: 900;
-  margin-right: 5px;
+  background:#2a4b80 ;
+
+  color:white;
+  margin-top: 30px;
+  margin-bottom: 0px
 }
+
+.lire p{
+color: white;
+margin: 0px}
 
 
 .indemn{
   flex: 0 0 28%;
   text-align: center;
-  margin:  10px;
-  padding: 30px 40px;
+  margin:  20px 10px;
+  padding-top: 20px ;
+
   background: white;}
 
 .indemn:hover {
@@ -317,18 +335,21 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 
 .indemn p{
   text-align: justify;
+  padding: 0px 20px;
 }
 
 .salar{
   flex: 0 0 28%;
   text-align: center;
-  margin:  10px;
-  padding: 30px 40px;
+  margin:  20px 10px;
+  padding-top: 20px;
+
   background: white;
 }
 
 .salar p{
   text-align: justify;
+  padding: 0px 20px;
 }
 .salar:hover {
 box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
@@ -338,14 +359,16 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 .ass{
   flex: 0 0 28%;
   text-align: center;
-  margin:  10px;
-  padding: 30px 40px;
+  margin:  20px 10px;
+  padding-top: 20px;
+
   background: white;
 }
 
 
 .ass p{
   text-align: justify;
+  padding: 0px 20px;
 }
 
 .ass:hover {
