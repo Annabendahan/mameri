@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
+import MotsClefs from '../components/Mots-Clefs'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
@@ -35,7 +36,7 @@ En effet, la jurisprudence permet à une victime dont l’état de santé ne s�
 
 Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI, avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
-
+<MotsClefs />
 
       </div>
 <VisitCard />

@@ -18,7 +18,7 @@ const Droittravail = () => (
      <div className="bigbox">
       <div className="bleft">
 
-      <h1 className="title-spe"> DROIT DU TRAVAIL </h1>
+      <h1> DROIT DU TRAVAIL </h1>
 
       <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>
@@ -83,13 +83,13 @@ représentatives dans l’entreprise, par un conseiller du salarié inscrit sur 
 auprès de la préfecture.</p>
 <p className="desc"> A compter de la signature de la convention, chaque partie dispose d’un délai de 15
 jours pour se rétracter.</p>
-<p className="desc"> A l’issue de ce délai, l’employeur ou le salarié adressent la convention auprès de la
+<p className="desc" id="I"> A l’issue de ce délai, l’employeur ou le salarié adressent la convention auprès de la
 Direccte pour homologation. La Direccte dispose d’un délai de 15 jours pour se
 prononcer. A défaut, l’homologation est acquise.</p>
 
 
 
-<p className="desc" id="I">Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
+<p className="desc" >Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
 formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-
 vous.</p>
 

@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
+import MotsClefs from '../components/Mots-Clefs'
 import pic1 from '../images/parispic.png';
 import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
@@ -24,7 +25,7 @@ const Route = () => (
     <p className="desc"> Restez toujours vigilant face aux compagnies d’assurance.
 Elles ne défendent pas les intérêts des victimes ! </p>
 
-<p className="desc"> <span className="bold">Que vous soyez conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues ou piéton victime d’un accident, Maître MAMERI mettra en œuvre la stratégie la plus adaptée et assurera à tous les stades de la procédure la défense de vos droits de victimes afin de vous permettre d’obtenir la réparation intégrale de vos préjudices.
+<p className="desc"> <span className="bold">Que vous soyez conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues ou piéton victime d’un accident, Maître MAMERI mettra en œuvre la stratégie la plus adaptée et assurera à tous les stades de la procédure la défense de vos droits de victimes afin de vous permettre d’obtenir la <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale de vos préjudices. </Link>
 </span></p>
 
 <img  src={pic6} className="picdefense" alt="fireSpot" />
@@ -34,12 +35,15 @@ Elles ne défendent pas les intérêts des victimes ! </p>
 
 L’objectif affiché de ce dispositif est d’accélérer l’indemnisation mais ce dispositif n’est pas dans l’intérêt des victimes.
 
-Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voient ainsi exposées au risque de minimisation de leur préjudice tant dans le cadre de l’expertise médicale, confiée au médecin de la compagnie d’assurance, que lors de la fixation du montant de leur indemnisation. </p>
+<span className= "bold" > Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voient ainsi exposées au risque de minimisation de leur préjudice tant dans le cadre de l’expertise médicale, confiée au médecin de la compagnie d’assurance, que lors de la fixation du montant de leur indemnisation. </span> </p>
 
-<p className="desc">Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux <span className= "bold" >  <Link to="/reparation-dommage-corporel/#EM"> expertises médicales </Link> </span> et dans le cadre des procédures d’indemnisation.
+<p className="desc">Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux <span className= "bold" >  <Link to="/reparation-dommage-corporel/#EM"> expertises médicales</Link> </span> et dans le cadre des procédures d’indemnisation.
 
 Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
 
+
+
+<MotsClefs />
 
 
       </div>

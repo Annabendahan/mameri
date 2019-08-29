@@ -68,7 +68,7 @@ font droit à cette demande au moins partiellement.</p>
 
 
   <div className="high">
-  “Les honoraires sont fixés selon les usages, en fonction de la situation de fortune du client, de la difficulté de l’affaire, des frais exposés par l’avocat, de sa notoriété́ et des diligences de celui-ci (article 11-2 du règlement intérieur de la profession d’avocat)”
+  “Les honoraires sont fixés selon les usages, en fonction de la situation de fortune du client, de la difficulté de l’affaire, des frais exposés par l’avocat, de sa notoriété et des diligences de celui-ci (article 11-2 du règlement intérieur de la profession d’avocat)”
   </div>
 
   <Link to="/contact/" className="button bt2"> NOUS CONTACTER <svg className="yellowr" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">

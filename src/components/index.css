@@ -337,7 +337,7 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 
 .indemn p{
   text-align: justify;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .salar{
@@ -351,7 +351,7 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 
 .salar p{
   text-align: justify;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 .salar:hover {
 box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
@@ -370,7 +370,7 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 
 .ass p{
   text-align: justify;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .ass:hover {

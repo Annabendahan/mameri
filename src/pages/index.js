@@ -28,6 +28,7 @@ zIndex: 10
 
 
 <div className="transparent"><h1 className="title"> QUENTIN MAMERI, AVOCAT AU BARREAU DE PARIS </h1> </div>
+
   <div className="box">
 
 

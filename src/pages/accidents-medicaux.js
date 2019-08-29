@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
+import MotsClefs from '../components/Mots-Clefs'
 import pic1 from '../images/parispic.png';
 import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
@@ -30,7 +31,7 @@ Il sera présent à vos côtés lors de l’ <span className= "bold" ><Link to="
 
 Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
 
-
+<MotsClefs />
 
       </div>
 

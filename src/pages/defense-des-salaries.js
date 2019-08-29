@@ -28,7 +28,7 @@ const Salaries = () => (
 
         <Link to="/rupture-torts-employeurs/"><div className="indemn2 ">
     <img  src={pic4} className="picindex3" alt="fireSpot" />
-   <h3> RUPTURE AUX TORTS de L'EMPLOYEUR </h3>
+   <h3> RUPTURE AUX TORTS DE L'EMPLOYEUR </h3>
   </div></Link>
 
 

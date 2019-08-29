@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
+import MotsClefs from '../components/Mots-Clefs'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
@@ -25,7 +26,7 @@ Le grand handicap peut être un handicap visible (amputation, grand brûlés, pa
 
 Me MAMERI vous accompagne pour obtenir l’indemnisation de tous les préjudices en lien avec votre handicap.</p>
 
-
+<MotsClefs />
 
       </div>
 

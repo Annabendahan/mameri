@@ -37,6 +37,17 @@
  }
 
 
+ .box h3{
+
+  color:  #2a4b80;
+
+  font-weight: 700;
+   font-family: avenir;
+   font-size: .9rem;
+
+ }
+
+
 .o:hover{
 cursor:pointer;
 }

@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
+import MotsClefs from '../components/Mots-Clefs'
 import pic1 from '../images/parispic.png';
 import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
@@ -27,14 +28,14 @@ Me MAMERI vous accompagne dans le cadre des procédures en accident du travail.
 
 Il vous accompagne à tous les stades de la procédure : </p>
 
-<p className="desc">-  Reconnaissance d’un accident du travail </p>
-<p className="desc"> -Contestation du taux d’incapacité fixé par le médecin Conseil de la CPAM </p>
+<p className="desc-s">-  Reconnaissance d’un accident du travail </p>
+<p className="desc-s"> - Contestation du taux d’incapacité fixé par le médecin Conseil de la CPAM </p>
 <p className="desc">- Reconnaissance de la faute inexcusable de l’employeur. </p>
 
 
 <p className="desc"> <span className= "bold" > <Link to= "/reparation-dommage-corporel/#FIE"> En savoir plus sur la faute inexcusable de l'employeur  </Link> </span> </p>
 
-
+<MotsClefs />
 
       </div>
 

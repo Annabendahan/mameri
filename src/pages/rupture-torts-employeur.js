@@ -23,8 +23,8 @@ const Rupturetorts = () => (
     <p className="desc"> Votre employeur a commis des manquements graves dans l’exécution de votre contrat de
 travail rendant impossible le maintien de la relation de travail.
 Vous pouvez, dans certaines conditions, obtenir une rupture du contrat aux torts de votre
-employeur (prise d’acte de rupture du contrat ou résiliation judiciaire).
-Me MAMERI analysera votre dossier, vous conseillera utilement sur la procédure la plus
+employeur (prise d’acte de rupture du contrat ou résiliation judiciaire). </p>
+<p className="desc"> Me MAMERI analysera votre dossier, vous conseillera utilement sur la procédure la plus
 adaptée au regard de votre situation, et défendra vos droits de salariés devant le conseil de
 prud’hommes.
 Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,

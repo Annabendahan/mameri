@@ -33,7 +33,7 @@ class Reparation extends  Component {
 
      <div className="bigbox">
       <div className="bleft">
-      <h1> RÉPARATION DU DOMMAGE CORPOREL </h1>
+      <h1 id="C"> RÉPARATION DU DOMMAGE CORPOREL </h1>
 
 
 
@@ -57,12 +57,12 @@ corporel. </p>
  <p className="desc"> En effet, l’indemnisation définitive des préjudices de la victime ne peut se faire que lorsque
 la victime est consolidée. </p>
 
-<p className="desc"> Cela ne signifie pas que la victime est guérie mais que son état de santé est stabilisé c’est-à-
+<p className="desc" id="RIP"> Cela ne signifie pas que la victime est guérie mais que son état de santé est stabilisé c’est-à-
 dire que son état n’est ni susceptible d’amélioration, ni d’aggravation. Tel n’est pas le cas si
 une intervention chirurgicale est programmée ou si des soins sont en cours car l’état sera
 encore susceptible d’évoluer.</p>
 
-<p className="desc" id="RIP"> La phase de consolidation marque donc la séparation entre préjudices temporaires qui sont
+<p className="desc" > La phase de consolidation marque donc la séparation entre préjudices temporaires qui sont
 le résultat des lésions et des préjudices permanents qui correspondent à des séquelles. </p>
 
 
@@ -85,7 +85,7 @@ réparation intégrale des préjudices de la victime. </p>
 victime dans l’état où elle se trouvait si le fait dommageable n’avait pas eu lieu.</p>
 
 
- <p className="desc"> Le rôle d’un avocat de victime est essentiel pour vous permettre que tous vos préjudices
+ <p className="desc" id="PI"> Le rôle d’un avocat de victime est essentiel pour vous permettre que tous vos préjudices
 soient évalués lors de l’expertise médicale et qu’ils soient bien évalués sur le plan financier.</p>
 
  <p className="desc"> Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
@@ -119,7 +119,7 @@ passé sous silence par l’expert ce qui aura pour conséquence que l’assureu
 fera aucune proposition à ce titre.</p>
 
 
-<p className="desc-s"> - La victime peut être encline à accepter une sous-indemnisation. Cela n’est pas sans
+<p className="desc"> - La victime peut être encline à accepter une sous-indemnisation. Cela n’est pas sans
 conséquence pour l’avenir car il arrive souvent que des préjudices importants soient
 oubliés et que la victime se rendre compte bien plus tard que l’indemnisation qui lui
 a été versée ne compense pas ses besoins.</p>
@@ -171,10 +171,10 @@ Ce certificat médical initial fera l’inventaire des blessures constatées et 
 d’incapacité.
 Dans le cas où vous ne seriez pas hospitalisé, il est conseillé de vous rendre sans tarder chez
 votre médecin traitant afin que ce dernier puisse certifier des lésions qu’il a lui-même
-constaté suite à son examen clinique.
+constaté suite à son examen clinique. <span id="EM"> </span>
 Ce certificat est initial est essentiel pour rattacher les lésions à l’accident subi. </p>
 
-  <p className="desc" id="EM"> Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+  <p className="desc" > Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
 avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
 exposer votre situation et convenir d’un rendez-vous.
 Exemples de certificat médical initial :
@@ -183,7 +183,7 @@ http: </p>
 
  <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>
-  </svg> L'EXPERTISE MEDICALE (CMI)</h2>
+  </svg> L'EXPERTISE MEDICALE </h2>
 
 
   <p className="desc"> L’expertise médicale est une étape très importante de la procédure en réparation du

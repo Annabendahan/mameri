@@ -24,9 +24,9 @@ const Harcelement = () => (
        <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous êtes victime d’agissements répétés de la part de votre employeur ou l’un de vos
 collègues qui ont pour objet ou pour effet de dégrader vos conditions de travail.
-Il s’agit alors d’un harcèlement moral qui constitue un manquement grave de l’employeur au
+<span className= "bold" > Il s’agit alors d’un harcèlement moral qui constitue un manquement grave de l’employeur au
 regard des règles protectrices du droit du travail mais il s’agit également d’une infraction
-pénale.
+pénale. </span>
 La loi a mis en place des règles facilitant la preuve par le salarié du harcèlement moral dont il
 est victime.
 Le salarié doit présenter des éléments de fait laissant supposer l’existence d’un harcèlement.
