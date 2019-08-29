@@ -57,10 +57,10 @@ Me MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité
   <div className="blue">
   <div className="indemn"><Link to="indemnisation-des-victimes">
     <img  src={pic3} className="picindex" alt="fireSpot" />
-  <h3> DÉFENSE DES VICTIMES (INDEMNISATION) </h3>
+  <h3> DÉFENSE DES VICTIMES (INDEMNISATION DES PREJUDICES) </h3>
   <p>
   Vous êtes victime d’une agression ou d’un accident? Maître Quentin MAMERI
-  assure votre défense et vous accompagne à tous les stades de la procédure  pour obtenir
+  assurera votre défense et vous accompagnera à tous les stades de la procédure  pour obtenir
   la réparation intégrale de vos préjudices.
   </p>
 
