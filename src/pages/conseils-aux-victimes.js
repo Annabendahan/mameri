@@ -182,7 +182,12 @@ En matière de responsabilité médicale, hospitalière ou même dentaire, le do
 
 Depuis la loi du 4 mars 2002, le patient a un droit d’accès direct aux éléments médicaux formalisés qui le concerne. Il n’est donc pas obligé de passer par son médecin traitant. </p>
 
-<p className="desc"> Foire au question sur le dossier médical : lien vers sous onglet Info pratiques dans info et conseils utiles – sous sous onglet : le dossier médical </p>
+
+
+<p className="desc"> <span className= "bold" > <Link to= "/conseils-aux-victimes/"> En savoir plus sur le dossier médical  </Link> </span> </p>
+
+<p className="desc"> <span className= "bold" > <Link to= "/modeles-et-formulaires/"> Accès au modèle de dossier médical  </Link> </span> </p>
+
 
 
 <h3 className="o" onClick={this.handle1}> Que contient le dossier médical? {bas1} </h3>

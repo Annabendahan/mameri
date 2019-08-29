@@ -31,7 +31,7 @@ Outre l’aggravation médicale, votre dossier peut être réouvert en cas d’a
 
 En effet, la jurisprudence permet à une victime dont l’état de santé ne s’est pas médicalement aggravé de demander une nouvelle réparation en cas de changement de situation postérieurement à votre indemnisation (ex : besoin en aide humaine nouveau du fait de la naissance d’un enfant / nécessité d’un logement adapté suite à un déménagement). </p>
 
-<p className="desc">Me MAMERI mettra tout en œuvre pour faire reconnaitre votre situation d’aggravation et vous permettre d’obtenir réparation intégrale de vos préjudices. Il défendra vos droits de victime à chaque stade de la procédure et vous fera bénéficier de son réseau de médecin-conseil de victimes.
+<p className="desc">Me MAMERI mettra tout en œuvre pour faire reconnaitre votre situation d’aggravation et vous permettre d’obtenir <span className= "bold" ><Link to="/reparation-dommage-corporel/#RIP">  réparation intégrale de vos préjudices. </Link> </span> Il défendra vos droits de victime à chaque stade de la procédure et vous fera bénéficier de son réseau de médecin-conseil de victimes.
 
 Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI, avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 

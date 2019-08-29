@@ -23,7 +23,7 @@ const Secu = () => (
        <h1> LITIGE AVEC LA SÉCURITÉ SOCIALE </h1>
        <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous avez sollicité une prestation auprès de la sécurité sociale pour pallier une perte de
-revenu ( <span className="bold"> <Link to="/protection-sociale/#TPT"> temps-partiel thérapeutique</Link> </span>, <span className="bold"> <Link to="/protection-sociale/#AT"> arrêts de travail</Link> </span>, placement en <span className="bold"> <Link to="/protection-sociale/#I"> invalidité </Link> </span> …) ou
+revenu ( <span className="bold"> <Link to="/protection-sociale/#TPT" className="underl"> temps-partiel thérapeutique</Link> </span>, <span className="bold"> <Link to="/protection-sociale/#AT" className="underl"> arrêts de travail</Link> </span>, placement en <span className="bold"> <Link to="/protection-sociale/" className="underl"> invalidité </Link> </span> …) ou
 obtenir un statut protecteur (affection de longue durée …).
 Vous êtes en litige avec la sécurité sociale qui a rejeté ou mal évalué ces prestations.
 Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou

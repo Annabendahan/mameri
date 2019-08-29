@@ -40,6 +40,8 @@ Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAM
 avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
 exposer votre situation et convenir d’un rendez-vous. </p>
 
+<p className="desc"> <span className= "bold" > <Link to= "/droit-du-travail/#RC" className="underl"> En savoir plus sur la rupture conventionnelle </Link> </span> </p>
+
 
 
       </div>

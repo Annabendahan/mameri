@@ -30,57 +30,43 @@ const Liens= () => (
 
    <a target="blank" href="https://www.defenseurdesdroits.fr/"> <div className="lien">
       <img  src={pic3} className="piclien" alt="fireSpot" />
-
-
     </div></a>
-
 
 
 
    <a target="blank" href="http://www.ajdommagecorporel.fr/"><div className="lien">
       <img  src={pic4} className="piclien" alt="fireSpot" />
-
-
     </div></a>
-
-
 
 
 
 
    <a target="blank" href="https://www.france-assos-sante.org/"><div className="lien">
       <img  src={pic5} className="piclien" alt="fireSpot" />
-
-
     </div></a>
 
 
 
    <a target="blank" href="https://www.legifrance.gouv.fr/"><div className="lien">
       <img  src={pic6} className="piclien" alt="fireSpot" />
-
-
     </div></a>
 
 
     <a target="blank" href="https://www.cada.fr/"><div className="lien">
       <img  src={pic7} className="piclien" alt="fireSpot" />
-
-
     </div></a>
-
-
-
 
 
       </div>
 
-      <VisitCard />
+       <VisitCard />
+
+
+    </div>
+
     </div>
 
 
-
-    </div>
 
 
 

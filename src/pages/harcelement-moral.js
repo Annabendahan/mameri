@@ -38,7 +38,7 @@ Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAM
 avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
 exposer votre situation et convenir d’un rendez-vous.</p>
 
-<p className="desc"> <span className= "bold" > <Link to= "/reparation-dommage-corporel/#H"> En savoir plus sur le harcèlement moral  </Link> </span> </p>
+<p className="desc"> <span className= "bold" > <Link to= "/droit-du-travail/#H"> En savoir plus sur le harcèlement moral  </Link> </span> </p>
 
 
 

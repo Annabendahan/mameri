@@ -36,7 +36,7 @@ L’objectif affiché de ce dispositif est d’accélérer l’indemnisation mai
 
 Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voient ainsi exposées au risque de minimisation de leur préjudice tant dans le cadre de l’expertise médicale, confiée au médecin de la compagnie d’assurance, que lors de la fixation du montant de leur indemnisation. </p>
 
-<p className="desc">Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux expertises médicales et dans le cadre des procédures d’indemnisation.
+<p className="desc">Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux <span className= "bold" >  <Link to="/reparation-dommage-corporel/#EM"> expertises médicales </Link> </span> et dans le cadre des procédures d’indemnisation.
 
 Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
 

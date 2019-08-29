@@ -23,11 +23,11 @@ const Mdph = () => (
        <h1> LITIGE AVEC LA MDPH </h1>
        <img  src={pic6} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous avez sollicité auprès de la MDPH une prestation pour vous garantir des ressources
-et/ou pour compenser votre handicap ( <span className="bold"> <Link to="/protection-sociale/#AAH"> allocations aux adultes handicapés  </Link> </span>, allocation
-d’éducation de l’enfant handicapé, <span className="bold">  <Link to="/protection-sociale/#PCH"> prestation de compensation du handicap </Link> </span>), pour faciliter
-vos déplacements ou vos transports (<span className="bold"> <Link to="/protection-sociale/#CMI"> carte de mobilité-inclusion </Link> </span> priorité ou stationnement)
+et/ou pour compenser votre handicap ( <span className="bold"> <Link to="/protection-sociale/#AAH" className="underl"> allocations aux adultes handicapés  </Link> </span>, allocation
+d’éducation de l’enfant handicapé, <span className="bold">  <Link to="/protection-sociale/#PCH" className="underl"> prestation de compensation du handicap </Link> </span>), pour faciliter
+vos déplacements ou vos transports (<span className="bold"> <Link to="/protection-sociale/#CMI" className="underl"> carte de mobilité-inclusion </Link> </span> priorité ou stationnement)
 ou bien encore pour que votre handicap soit pris en compte au niveau de l’emploi
-(<span className="bold"> <Link to="/protection-sociale/#RTH"> reconnaissance de qualité de travailleurs handicapés </Link> </span>).
+(<span className="bold"> <Link to="/protection-sociale/#RTH" className="underl"> reconnaissance de qualité de travailleurs handicapés </Link> </span>).
 Ces prestations vous ont été refusées pour des motifs médicaux ou administratifs ou vous
 contestez leurs évaluations. </p>
 <p className="desc"> Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou

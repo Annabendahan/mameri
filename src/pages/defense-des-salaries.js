@@ -26,6 +26,23 @@ const Salaries = () => (
   Me MAMERI vous conseillera utilement et assurera la défense de vos intérêts tant par la voie amiable que par la voie judiciaire notamment devant le Conseil de Prud’hommes.</p>
         <div className="blue2">
 
+        <Link to="/rupture-torts-employeurs/"><div className="indemn2 ">
+    <img  src={pic4} className="picindex3" alt="fireSpot" />
+   <h3> RUPTURE AUX TORTS de L'EMPLOYEUR </h3>
+  </div></Link>
+
+
+  <Link to="/inaptitude/"><div className="indemn2 ">
+    <img  src={pic4} className="picindex3" alt="fireSpot" />
+   <h3> INAPTITUDE </h3>
+  </div></Link>
+
+
+  <Link to="/harcelement-moral/"><div className="indemn2 ">
+    <img  src={pic4} className="picindex3" alt="fireSpot" />
+   <h3> HARCÈLEMENT MORAL </h3>
+  </div></Link>
+
   <Link to="/rupture-conventionnelle/"><div className="indemn2 ">
     <img  src={pic4} className="picindex3" alt="fireSpot" />
    <h3> RUPTURE CONVENTIONNELLE </h3>

@@ -33,7 +33,7 @@ class Protection extends  Component {
 
      <div className="bigbox">
       <div className="bleft">
-      <h1 id="I"> PROTECTION SOCIALE </h1>
+      <h1> PROTECTION SOCIALE </h1>
 
   <h2 className="title" > <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>
@@ -60,9 +60,9 @@ class Protection extends  Component {
 
 <p className="desc"> - <span className="bold"> Pension d’invalidité catégorie 1  : </span> Invalides capables d'exercer une activité rémunérée </p>
 <p className="desc"> - <span className="bold"> Pension d’invalidité catégorie 2 : </span> Invalides absolument incapables d'exercer une profession quelconque </p>
-<p className="desc"> - <span className="bold"> Pension d’invalidité catégorie 3 : </span> Invalides qui, étant absolument incapables d'exercer une profession, sont, en outre, dans l'obligation d'avoir recours à l'assistance d'une tierce personne pour effectuer les actes ordinaires de la vie. </p>
+<p className="desc" id="TPT"> - <span className="bold"> Pension d’invalidité catégorie 3 : </span> Invalides qui, étant absolument incapables d'exercer une profession, sont, en outre, dans l'obligation d'avoir recours à l'assistance d'une tierce personne pour effectuer les actes ordinaires de la vie. </p>
 
-  <p className="desc" id="TPT">En cas de refus d’invalidité pour des raisons médicales ou administratives ou en cas de contestation du niveau d’invalidité, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.
+  <p className="desc" >En cas de refus d’invalidité pour des raisons médicales ou administratives ou en cas de contestation du niveau d’invalidité, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.
  </p>
 
 
@@ -75,12 +75,12 @@ class Protection extends  Component {
     <p className="desc"><span className="bold"> Le temps partiel thérapeutique est une réduction de la durée de travail destinée à favoriser une amélioration de l’état de santé du salarié. </span> </p>
 
 
-      <p className="desc"> Le temps partiel thérapeutique, limitée dans le temps comme l’arrêt maladie, a pour finalité de permettre au salarié de reprendre progressivement son activité professionnelle. La Caisse de sécurité sociale versera au salarié un complément du revenu qu’il perçoit à temps partiel sous forme d’indemnités journalières.
+      <p className="desc" id="AT"> Le temps partiel thérapeutique, limitée dans le temps comme l’arrêt maladie, a pour finalité de permettre au salarié de reprendre progressivement son activité professionnelle. La Caisse de sécurité sociale versera au salarié un complément du revenu qu’il perçoit à temps partiel sous forme d’indemnités journalières.
  </p>
 
 
 
-      <p className="desc" id="AT"> En cas de refus de temps partiel thérapeutique, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
+      <p className="desc" > En cas de refus de temps partiel thérapeutique, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
 
 
    <h2 className="title" > <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,11 +102,11 @@ class Protection extends  Component {
   </svg> AFFECTION DE LONGUE DURÉE</h2>
 
 
-  <p className="desc"> <span className="bold">L’affection de longue durée (ALD) permet à un assuré social de bénéficier d’une prise en charge de ses frais de santé à 100 %, d’une dispense d’absence de frais, et d’un prolongement de la durée de ses droits aux indemnités journalières (3 ans à compter du premier arrêt en lien avec l’ALD). </span> </p>
+  <p className="desc"id="AAH"> <span className="bold">L’affection de longue durée (ALD) permet à un assuré social de bénéficier d’une prise en charge de ses frais de santé à 100 %, d’une dispense d’absence de frais, et d’un prolongement de la durée de ses droits aux indemnités journalières (3 ans à compter du premier arrêt en lien avec l’ALD). </span> </p>
 
 
 
-  <p className="desc"  id="AAH"> En cas de refus d’ALD, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
+  <p className="desc"  > En cas de refus d’ALD, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
 
 
 
@@ -149,12 +149,12 @@ Elle est attribuée aux personnes qui présentent un taux d'incapacité permanen
 Elle est attribuée aux personnes atteintes d'une incapacité inférieure à 80 % rendant la station debout pénible. </p>
 
 
- <p className="desc"> - <span className="bold"> La CMI stationnement </span>  permet d'utiliser gratuitement et sans limitation de durée, toutes les places de stationnement ouvertes au public.
+ <p className="desc" id="RTH"> - <span className="bold"> La CMI stationnement </span>  permet d'utiliser gratuitement et sans limitation de durée, toutes les places de stationnement ouvertes au public.
 
 Elle est attribuée aux personnes atteintes d'un handicap qui réduit de manière importante et durable leur capacité et leur autonomie de déplacement à pied ou qui impose qu’elles soient accompagnées par une tierce personne dans ses déplacements ou pour les bénéficiaires de l’Allocation personnalisé d’autonomie (APA) classé en groupe 1 ou 2 de la grille Aggir. </p>
 
 
-<p className="desc" id="RTH"> En cas de refus de CMI pour des raisons médicales ou administratives, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.</p>
+<p className="desc" > En cas de refus de CMI pour des raisons médicales ou administratives, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.</p>
 
 
 
@@ -166,9 +166,9 @@ Elle est attribuée aux personnes atteintes d'un handicap qui réduit de manièr
 
 
 
-  <p className="desc"> La RQTH est reconnue à toute personne dont les possibilités d'obtenir ou de conserver un emploi sont effectivement réduites par suite de l'altération d'une ou plusieurs fonctions (physique, sensorielle, mentale ou psychique). </p>
+  <p className="desc" id="PCH"> La RQTH est reconnue à toute personne dont les possibilités d'obtenir ou de conserver un emploi sont effectivement réduites par suite de l'altération d'une ou plusieurs fonctions (physique, sensorielle, mentale ou psychique). </p>
 
- <p className="desc" id="PCH"> En cas de refus de RQTH, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.
+ <p className="desc" > En cas de refus de RQTH, vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous.
  </p>
 
 

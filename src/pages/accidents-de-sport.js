@@ -27,7 +27,7 @@ sportive ou de loisirs. </p>
 <p className="desc">Maitre Quentin MAMERI vous conseillera utilement et mettra en œuvre une stratégie
 adaptée et personnalisée pour vous permettre d’obtenir réparation des préjudices que vous
 avez subis.
-Il vous accompagnera tout au long de la procédure, de l’expertise médicale à la phase
+Il vous accompagnera tout au long de la procédure, de l’ <span className= "bold" ><Link to="/reparation-dommage-corporel/#EM"> expertise médicale </Link> </span> à la phase
 d’indemnisation des préjudices et ce jusqu’au recouvrement effectif de votre indemnisation.
 Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
 avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui

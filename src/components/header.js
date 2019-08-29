@@ -142,6 +142,12 @@ const Header = ({ siteTitle }) => (
   <Link to="/rupture-torts-employeur/" > <p className="m"> - RUPTURE AUX TORTS DE L'EMPLOYEUR </p>
  </Link>
 
+ <Link to="/inaptitude/" > <p className="m"> - INAPTITUDE </p>
+ </Link>
+
+ <Link to="/harcelement-moral/" > <p className="m"> - HARCÈLEMENT MORAL</p>
+ </Link>
+
    <Link to="/rupture-conventionnelle/" > <p className="m"> - RUPTURE CONVENTIONNELLE </p>
  </Link>
  <Link to="/licenciements-abusifs/" > <p className="m"> - LICENCIEMENTS ABUSIFS </p>

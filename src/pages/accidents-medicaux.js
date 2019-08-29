@@ -26,7 +26,7 @@ const Médicaux = () => (
 
   <p className="desc">Maître MAMERI vous représentera et vous assistera devant toutes les juridictions civiles ou administratives mais également devant les commissions de conciliation et d’indemnisation des accidents médicaux.
 
-Il sera présent à vos côtés lors de l’expertise médicale qui est un moment clef de la procédure puisqu’elle permettra d’apprécier d’une part, si les conditions de la responsabilité de l’établissement ou du professionnel sont réunies, et d’autre part, de procéder à l’évaluation médicale de vos préjudices.
+Il sera présent à vos côtés lors de l’ <span className= "bold" ><Link to="/reparation-dommage-corporel/#EM"> expertise médicale  </Link> </span> qui est un moment clef de la procédure puisqu’elle permettra d’apprécier d’une part, si les conditions de la responsabilité de l’établissement ou du professionnel sont réunies, et d’autre part, de procéder à l’évaluation médicale de vos préjudices.
 
 Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
 

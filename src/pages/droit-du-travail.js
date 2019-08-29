@@ -14,6 +14,10 @@ const Droittravail = () => (
 
     <div className="background-hono">
 
+
+     <div className="bigbox">
+      <div className="bleft">
+
       <h1 className="title-spe"> DROIT DU TRAVAIL </h1>
 
       <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,9 +58,9 @@ Il convient comme la prise d’acte de démontrer des manquements graves de l’
 
 Si le juge estime le(s) manquement(s) invoqué(s) suffisamment grave, le contrat est résilié par le juge aux torts de l’employeur ce qui implique le versement des indemnités afférentes à la rupture comme pour la prise d’acte ainsi que des dommages et intérêts.
 
-Si au contraire, le juge n’estime pas le(s) manquement(s) invoqué(s) suffisamment grave, le contrat n’est pas résilié et il conviendra, dans ce cas d’envisager, un autre mode de rupture puisque dans ce cas, le salarié fera toujours partie des effectifs de l’entreprise.
+Si au contraire, le juge n’estime pas le(s) manquement(s) invoqué(s) suffisamment grave, le contrat n’est pas résilié et il conviendra, dans ce cas d’envisager, un autre mode de rupture puisque dans ce cas, le salarié fera toujours partie des effectifs de l’entreprise. </p>
 
-Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI, avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
+ <p className="desc" id="RC"> Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI, avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 
@@ -85,7 +89,7 @@ prononcer. A défaut, l’homologation est acquise.</p>
 
 
 
-<p className="desc">Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
+<p className="desc" id="I">Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
 formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-
 vous.</p>
 
@@ -141,6 +145,12 @@ moral.</p>
 Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer
 votre situation et de convenir d’un rendez-vous.</p>
 
+</p>
+
+</div>
+
+     <VisitCard />
+    </div>
 
 
     </div>

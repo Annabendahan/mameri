@@ -38,7 +38,7 @@ const Modeles = () => (
       <p className="desc-s"> Pour la personne elle-même : modèle en cours de préparation </p>
  <p className="desc-s"> Pour un proche décédé : modèle en cours de préparation </p>
 <p className="desc-s"> Pour un enfant mineur : modèle en cours de préparation </p>
-<p className="desc-s"> Pour un majeur sous protection judiciaire : modèle en cours de préparation </p>
+<p className="desc"> Pour un majeur sous protection judiciaire : modèle en cours de préparation </p>
 
       <h3> - Auprès de la médecine du travail, le médecin-conseil de la CPAM ou un médecin d’assurance </h3>
 
@@ -60,15 +60,15 @@ const Modeles = () => (
 
       <h3> - Formulaire de demande :  </h3>
 
-<p className="desc-s"> file:///C:/Users/ecoutants/Downloads/cerfa_15692-01%20(1).pdf </p>
+<p className="desc"> file:///C:/Users/ecoutants/Downloads/cerfa_15692-01%20(1).pdf </p>
 
  <h3> - Certificat médical MDPH   :   </h3>
 
- <p className="desc-s"> ///C:/Users/ecoutants/Downloads/cerfa_15695-01%20(1).pdf </p>
+ <p className="desc"> ///C:/Users/ecoutants/Downloads/cerfa_15695-01%20(1).pdf </p>
 
 <h3> - Guide MDPH :   </h3>
 
-<p className="desc-s"> https://www.formulaires.modernisation.gouv.fr/gf/getNotice.do?cerfaNotice=52154&cerfaFormulaire=15695 </p>
+<p className="desc"> https://www.formulaires.modernisation.gouv.fr/gf/getNotice.do?cerfaNotice=52154&cerfaFormulaire=15695 </p>
 
 
 

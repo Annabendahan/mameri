@@ -62,7 +62,7 @@ dire que son état n’est ni susceptible d’amélioration, ni d’aggravation.
 une intervention chirurgicale est programmée ou si des soins sont en cours car l’état sera
 encore susceptible d’évoluer.</p>
 
-<p className="desc"> La phase de consolidation marque donc la séparation entre préjudices temporaires qui sont
+<p className="desc" id="RIP"> La phase de consolidation marque donc la séparation entre préjudices temporaires qui sont
 le résultat des lésions et des préjudices permanents qui correspondent à des séquelles. </p>
 
 
@@ -114,12 +114,12 @@ conséquences :</p>
 
 
 
-<p className="desc"> - Si l’expert ne l’interroge pas sur un préjudice, celui-ci ne sera pas abordé et sera
+<p className="desc-s"> - Si l’expert ne l’interroge pas sur un préjudice, celui-ci ne sera pas abordé et sera
 passé sous silence par l’expert ce qui aura pour conséquence que l’assureur ne lui
 fera aucune proposition à ce titre.</p>
 
 
-<p className="desc"> - La victime peut être encline à accepter une sous-indemnisation. Cela n’est pas sans
+<p className="desc-s"> - La victime peut être encline à accepter une sous-indemnisation. Cela n’est pas sans
 conséquence pour l’avenir car il arrive souvent que des préjudices importants soient
 oubliés et que la victime se rendre compte bien plus tard que l’indemnisation qui lui
 a été versée ne compense pas ses besoins.</p>
@@ -135,19 +135,19 @@ exposer votre situation et convenir d’un rendez-vous.</p>
 
 
 <p className="desc">  Préjudices de la victime directe et des victimes par ricochet
-Sont indemnisables :
-- les préjudices de la victime directe c’est à dire celle qui a subi le dommage dans sa
-personne ou ses biens
-- les préjudices de la victime dite indirecte c’est-à-dire celles qui a souffert d’un
+Sont indemnisables : </p>
+<p className="desc-s"> - <span className="bold"> les préjudices de la victime directe </span> c’est à dire celle qui a subi le dommage dans sa
+personne ou ses biens </p>
+<p className="desc-s"> - <span className="bold"> les préjudices de la victime dite indirecte </span> c’est-à-dire celles qui a souffert d’un
 préjudice parce qu’une première personne, la victime directe, avec laquelle elle avait
 des liens, a subi un dommage. </p>
 <p className="desc"> Types de préjudice envisageables :
- Préjudices patrimoniaux et extrapatrimoniaux
+<p className="desc-s"> <span className="bold"> Préjudices patrimoniaux et extrapatrimoniaux </span> </p>
 Une victime peut obtenir indemnisation de ses préjudices dits patrimoniaux c’est-à-dire des
 préjudices évaluables sur le plan économiques (pertes de gains professionnels …) et des
 préjudices extrapatrimoniaux c’est-à-dire des préjudices personnels (souffrances endurées,
 préjudice esthétique …).
- Préjudices temporaires et préjudice permanents
+<p className="desc-s"> <span className="bold"> Préjudices temporaires et préjudice permanents </span> </p>
 
 
 Une victime peut obtenir indemnisation de préjudices patrimoniaux ou extrapatrimoniaux
@@ -172,9 +172,9 @@ d’incapacité.
 Dans le cas où vous ne seriez pas hospitalisé, il est conseillé de vous rendre sans tarder chez
 votre médecin traitant afin que ce dernier puisse certifier des lésions qu’il a lui-même
 constaté suite à son examen clinique.
-Ce certificat est initial est essentiel pour rattacher les lésions à l’accident subi.
+Ce certificat est initial est essentiel pour rattacher les lésions à l’accident subi. </p>
 
-Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
+  <p className="desc" id="EM"> Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
 avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
 exposer votre situation et convenir d’un rendez-vous.
 Exemples de certificat médical initial :
@@ -190,15 +190,15 @@ http: </p>
 dommage corporel car er d’évaluer sur le plan médical le préjudice subis par la victime (en
 savoir plus sur les préjudices indemnisables).</p>
 <p className="desc">L’Expertise peut être mise en place dans différents cadres :</p>
-<p className="desc"> Le cadre purement amiable : cela consiste en l’organisation d’une expertise amiable
+<p className="desc">  <span className="bold"> Le cadre purement amiable : </span> cela consiste en l’organisation d’une expertise amiable
 avec l’établissement mis en cause ou son assureur.</p>
-<p className="desc"> Le cadre de la Commission de conciliation et d’indemnisation des accidents
-médicaux (uniquement pour les actions en responsabilité médicale) : Cette
+<p className="desc-s">  <span className="bold"> Le cadre de la Commission de conciliation et d’indemnisation des accidents
+médicaux (uniquement pour les actions en responsabilité médicale) :  </span>  Cette
 commission a été créée en 2002 par la loi Kouchner. Cette procédure présente
 l’avantage de la gratuité (procédure et frais d’expertise) et d’une certaine rapidité.
 Cependant, la CCI n’est compétente que pour les accidents les plus graves. Le seuil de
 gravité est fixé par décret.</p>
-<p className="desc">  Le cadre judiciaire : ce recours auprès du Tribunal consiste à solliciter la désignation
+<p className="desc-s">  <span className="bold">  Le cadre judiciaire : </span>  ce recours auprès du Tribunal consiste à solliciter la désignation
 d’un expert indépendant. Les frais d’expertises sont à la charge du demandeur mais
 peuvent être pris en charge par une assurance de protection juridique dont vous
 seriez éventuellement titulaire.
@@ -218,15 +218,15 @@ exposer votre situation et convenir d’un rendez-vous.</p>
     <p className="desc">La reconnaissance en accident du travail ouvre de nombreux avantages au salarié : </p>
 
 
-     <p className="desc"> - une prise en charge de ses frais de santé à 100 % ainsi qu’une dispense d’avance de frais   </p>
+     <p className="desc-s"> - une prise en charge de ses frais de santé à 100 % ainsi qu’une dispense d’avance de frais   </p>
 
- <p className="desc"> - le versement d’indemnités journalières en cas d’arrêt maladie sans durée limite jusqu’à la consolidation </p>
-
-
+ <p className="desc-s"> - le versement d’indemnités journalières en cas d’arrêt maladie sans durée limite jusqu’à la consolidation </p>
 
 
-<p className="desc">- à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue.  </p>
-<p className="desc"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …). </p>
+
+
+<p className="desc-s">- à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue.  </p>
+<p className="desc-s"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …). </p>
 <p className="desc"> En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
@@ -245,15 +245,15 @@ exposer votre situation et convenir d’un rendez-vous.</p>
 
 
 
-      <p className="desc"> - une prise en charge de ses frais de santé à 100 %
+      <p className="desc-s"> - une prise en charge de ses frais de santé à 100 %
        ainsi qu’une dispense d’avance de frais   </p>
 
-        <p className="desc"> - le versement d’indemnités journalières en cas d’arrêt maladie sans durée limite jusqu’à la consolidation   </p>
+        <p className="desc-s"> - le versement d’indemnités journalières en cas d’arrêt maladie sans durée limite jusqu’à la consolidation   </p>
 
 
-        <p className="desc"> - à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue. </p>
+        <p className="desc-s"> - à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue. </p>
 
-        <p className="desc" id="FIE"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …).   </p>
+        <p className="desc-s" id="FIE"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …).   </p>
 
 
   <p className="desc">En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.   </p>
