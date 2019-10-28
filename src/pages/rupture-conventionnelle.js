@@ -22,25 +22,25 @@ const Rupture = () => (
       <div className="bleft">
        <h1> RUPTURE CONVENTIONNELLE </h1>
        <img  src={pic6} className="picdefense" alt="fireSpot" />
-    <p className="desc"> Vous souhaitez rompre votre contrat de travail avec votre employeur d’un commun accord.
-Il est important de prendre contact avec un avocat préalablement à toute démarche.
-En effet, la conclusion d’une rupture conventionnelle suppose un consentement libre et
-éclairé de chaque partie.
-Il est donc important d’être certain préalablement que cette démarche ne résulte pas d’une
-pression de l’employeur ou de manquements graves commis par lui dans l’exécution du
-contrat de travail.
-Dans ce cas, d’autres modes de ruptures pourraient être envisagées.
-Par ailleurs, le rôle d’un avocat est également primordial pour défendre vos droits lors de
-l’évaluation de vos indemnités de départ.
-Me Quentin MAMERI pourra vous conseiller utilement sur les procédures à engager,
-notamment sur l’opportunité d’un tel mode de rupture, et veillera, le cas échéant, à ce que
-vos droits soient respectés et notamment à ce que vos indemnités de départ soient
-correctement évaluées.
-Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
-avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
-exposer votre situation et convenir d’un rendez-vous. </p>
+    <p className="desc"> Vous souhaitez rompre votre contrat de travail avec votre employeur d’un commun accord. </p>
+ <p className="desc">Il est important de prendre contact avec un avocat préalablement à toute démarche. En effet, la conclusion d’une rupture conventionnelle suppose un consentement libre et éclairé de chaque partie. </p>
+ <p className="desc">Cela implique que votre décision ne doit pas résulter de pressions de l’employeur ou être motivée par des manquements graves commis par l’employeur dans l’exécution du contrat de travail. </p>
+ <p className="desc">
 
-<p className="desc"> <span className= "bold" > <Link to= "/droit-du-travail/#RC" className="underl"> En savoir plus sur la rupture conventionnelle </Link> </span> </p>
+Dans ce cas, d’autres modes de ruptures pourraient être envisagées (prise d’acte de rupture du contrat de travail, résiliation judiciaire …). </p>
+
+ <p className="desc">
+Par ailleurs, le rôle d’un avocat est également primordial dans le cadre d’une rupture conventionnelle pour défendre vos droits lors de l’évaluation de vos indemnités de départ. </p>
+
+
+ <p className="desc">
+Maître Quentin MAMERI pourra vous conseiller utilement sur les procédures à engager, notamment sur l’opportunité d’un tel mode de rupture, et veillera, le cas échéant, à ce que vos droits soient respectés et notamment à ce que vos indemnités de départ soient correctement évaluées.  </p>
+
+ <p className="desc">
+
+Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
+
+
 
 
 

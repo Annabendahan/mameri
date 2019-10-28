@@ -22,24 +22,29 @@ const Route = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DE LA ROUTE </h1>
-    <p className="desc"> Restez toujours vigilant face aux compagnies d’assurance.
-Elles ne défendent pas les intérêts des victimes ! </p>
 
-<p className="desc"> <span className="bold">Que vous soyez conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues ou piéton victime d’un accident, Maître MAMERI mettra en œuvre la stratégie la plus adaptée et assurera à tous les stades de la procédure la défense de vos droits de victimes afin de vous permettre d’obtenir la <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale de vos préjudices. </Link>
-</span></p>
+
+<p className="desc"> Que vous soyez victime d’un accident en qualité de piéton, conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues (vélo, moto, scooter …) ou de toute autre véhicule,  Maître MAMERI vous accompagnera à tous les stades de la procédure pour veiller au respect de vos droits de victimes et mettra tout en œuvre pour vous permettre d’obtenir la <span className= "bold" >  <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale</Link></span> de vos préjudices.</p>
+
+
+
 
 <img  src={pic6} className="picdefense" alt="fireSpot" />
-<p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule face aux compagnies d’assurance, Me MAMERI vous accompagnera dans le cadre amiable ou contentieux afin de rétablir l’équilibre et de veiller à ce que vos intérêts soient préservés. </p>
+<p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule à la merci des compagnies d’assurance, Maître Quentin MAMERI vous accompagnera dans un cadre amiable ou judiciaire afin de rétablir l’équilibre et de veiller à ce que vos intérêts et vos droits de victimes soient préservés et respectés.  </p>
 
-<p className="desc">Les assureurs ont mis en place des conventions entre assureurs qui prévoient que l’indemnisation est gérée par le propre assureur de la victime qui se retournera ensuite contre l’assureur du tiers-responsable.
 
-L’objectif affiché de ce dispositif est d’accélérer l’indemnisation mais ce dispositif n’est pas dans l’intérêt des victimes.
+<p className="desc"> <i> Restez toujours vigilant face aux compagnies d’assurance. Elles ne défendent pas l’intérêt des victimes !  </i> </p>
 
-<span className= "bold" > Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voient ainsi exposées au risque de minimisation de leur préjudice tant dans le cadre de l’expertise médicale, confiée au médecin de la compagnie d’assurance, que lors de la fixation du montant de leur indemnisation. </span> </p>
 
-<p className="desc">Le Cabinet qui intervient uniquement pour les victimes de dommage corporel et jamais pour les assureurs vous garantira une indépendance face à la compagnie d’assurance, vous assistera aux <span className= "bold" >  <Link to="/reparation-dommage-corporel/#EM"> expertises médicales</Link> </span> et dans le cadre des procédures d’indemnisation.
+<p className="desc">Les assureurs ont mis en place des conventions entre assureurs qui prévoient que l’indemnisation est gérée par le propre assureur de la victime qui se retournera ensuite contre l’assureur du tiers-responsable. </p>
 
-Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
+<p className="desc"> L’objectif affiché de ce dispositif est d’accélérer l’indemnisation mais n’est en réalité pas dans l’intérêt des victimes mais des assureurs. Il contribue à  diminuer la vigilance des victimes qui sont naturellement enclines à faire confiance à leur propre assureur pour gérer leur indemnisation et se voit ainsi exposée au risque de minimisation de son préjudice tant dans le cadre de l’<span className= "bold" ><Link to="/reparation-dommage-corporel/#EM">expertise médicale</Link> </span> amiable, confiée systématiquement au médecin de la compagnie d’assurance, que lors de la fixation du montant de son indemnisation. </p>
+
+<p className="desc">Maître Quentin MAMERI intervient uniquement pour les victimes de dommage corporel que ce soit les victimes directes ou leurs proches et vous garantira une indépendance face à la compagnie d’assurance. Il vous accompagnera à tous les stades de la procédure, de l’expertise médicale à la phase d’indemnisation et ce jusqu’au recouvrement effectif de votre indemnisation. </p>
+
+<p className="desc">Il vous apportera non seulement un soutien juridique et technique mais également un soutien humain. Il vous fera bénéficier de son réseau de médecin-conseil et de professionnels qualifiés (ergothérapeute, architecte …). </p>
+
+<p className="desc">Vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

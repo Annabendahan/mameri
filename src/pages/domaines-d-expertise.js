@@ -39,7 +39,7 @@ const DomainesDexpertise = () => (
   </div></Link>
     <Link to="/defense-des-personnes-malades-handicap/"><div className="ass2">
      <img  src={pic5} className="picindex3" alt="fireSpot" />
-    <h3> DÉFENSE EN MATIÈRE DE SÉCURITE ET D’AIDE SOCIALES </h3>
+    <h3> DÉFENSE DES PERSONNES MALADES ET EN SITUATION DE HANDICAP </h3>
 
     </div></Link>
 

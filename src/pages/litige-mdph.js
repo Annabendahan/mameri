@@ -27,14 +27,15 @@ et/ou pour compenser votre handicap ( <span className="bold"> <Link to="/protect
 d’éducation de l’enfant handicapé, <span className="bold">  <Link to="/protection-sociale/#PCH" className="underl"> prestation de compensation du handicap </Link> </span>), pour faciliter
 vos déplacements ou vos transports (<span className="bold"> <Link to="/protection-sociale/#CMI" className="underl"> carte de mobilité-inclusion </Link> </span> priorité ou stationnement)
 ou bien encore pour que votre handicap soit pris en compte au niveau de l’emploi
-(<span className="bold"> <Link to="/protection-sociale/#RTH" className="underl"> reconnaissance de qualité de travailleurs handicapés </Link> </span>).
+(<span className="bold"> <Link to="/protection-sociale/#RTH" className="underl"> reconnaissance de qualité de travailleurs handicapés </Link> </span>). </p>
+ <p className="desc">
 Ces prestations vous ont été refusées pour des motifs médicaux ou administratifs ou vous
 contestez leurs évaluations. </p>
-<p className="desc"> Me Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou
-judiciaires.
-Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
-avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
-exposer votre situation et convenir d’un rendez-vous. </p>
+<p className="desc">
+Maître Quentin MAMERI vous accompagnera dans vos démarches de contestation amiables ou judiciaires notamment devant le TGI pôle social désormais compétent pour les litiges de sécurité sociale (le TGI remplace le TASS et le TCI). </p>
+
+<p className="desc">
+Vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
 

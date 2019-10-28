@@ -66,35 +66,36 @@ let basse = <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="htt
 
 
 
-    let text =  <p className="desc ">
-  L’article R 1111-2 du Code de la Santé Publique énumère les documents que doivent composer le dossier médical :
-« Un dossier médical est constitué pour chaque patient hospitalisé dans un établissement de santé public ou privé. Ce dossier contient au moins les éléments suivants, ainsi classés : 
-1° Les informations formalisées recueillies lors des consultations externes dispensées dans l'établissement, lors de l'accueil au service des urgences ou au moment de l'admission et au cours du séjour hospitalier, et notamment : 
-a) La lettre du médecin qui est à l'origine de la consultation ou, en cas d'admission, la lettre de liaison prévue à l'article R. 111 »2-1-1 ; 
-b) Les motifs d'hospitalisation ; 
-c) La recherche d'antécédents et de facteurs de risques ; 
-d) Les conclusions de l'évaluation clinique initiale ; 
-e) Le type de prise en charge prévu et les prescriptions effectuées à l'entrée ; 
-f) La nature des soins dispensés et les prescriptions établies lors de la consultation externe ou du passage aux urgences ; 
-g) Les informations relatives à la prise en charge en cours d'hospitalisation : état clinique, soins reçus, examens para-cliniques, notamment d'imagerie ; 
+    let text = <div>
+   <p className="desc"> L’article R 1111-2 du Code de la Santé Publique énumère les documents que doivent composer le dossier médical : </p>
+  <p className="desc art ">
+« Un dossier médical est constitué pour chaque patient hospitalisé dans un établissement de santé public ou privé. Ce dossier contient au moins les éléments suivants, ainsi classés : <br/>
+1° Les informations formalisées recueillies lors des consultations externes dispensées dans l'établissement, lors de l'accueil au service des urgences ou au moment de l'admission et au cours du séjour hospitalier, et notamment :  <br/>
+a) La lettre du médecin qui est à l'origine de la consultation ou, en cas d'admission, la lettre de liaison prévue à l'article R. 111 »2-1-1 ; <br/>
+b) Les motifs d'hospitalisation ;<br/> 
+c) La recherche d'antécédents et de facteurs de risques ; <br/>
+d) Les conclusions de l'évaluation clinique initiale ; <br/>
+e) Le type de prise en charge prévu et les prescriptions effectuées à l'entrée ; <br/><br/>
+f) La nature des soins dispensés et les prescriptions établies lors de la consultation externe ou du passage aux urgences ; <br/>
+g) Les informations relatives à la prise en charge en cours d'hospitalisation : état clinique, soins reçus, examens para-cliniques, notamment d'imagerie ; <br/>
 h) Les informations sur la démarche médicale, adoptée dans les conditions prévues à l'article L. 1111-4 ; 
-i) Le dossier d'anesthésie ; 
-j) Le compte rendu opératoire ou d'accouchement ; 
-k) Le consentement écrit du patient pour les situations où ce consentement est requis sous cette forme par voie légale ou réglementaire ; 
-l) La mention des actes transfusionnels pratiqués sur le patient et, le cas échéant, copie de la fiche d'incident transfusionnel mentionnée au deuxième alinéa de l'article R. 1221-40 ; 
-m) Les éléments relatifs à la prescription médicale, à son exécution et aux examens complémentaires ; 
-n) Le dossier de soins infirmiers ou, à défaut, les informations relatives aux soins infirmiers ; 
-o) Les informations relatives aux soins dispensés par les autres professionnels de santé ; 
-p) Les correspondances échangées entre professionnels de santé ; 
+i) Le dossier d'anesthésie ;<br/> 
+j) Le compte rendu opératoire ou d'accouchement ; <br/>
+k) Le consentement écrit du patient pour les situations où ce consentement est requis sous cette forme par voie légale ou réglementaire ; <br/>
+l) La mention des actes transfusionnels pratiqués sur le patient et, le cas échéant, copie de la fiche d'incident transfusionnel mentionnée au deuxième alinéa de l'article R. 1221-40 ; <br/>
+m) Les éléments relatifs à la prescription médicale, à son exécution et aux examens complémentaires ; <br/>
+n) Le dossier de soins infirmiers ou, à défaut, les informations relatives aux soins infirmiers ; <br/>
+o) Les informations relatives aux soins dispensés par les autres professionnels de santé ; <br/>
+p) Les correspondances échangées entre professionnels de santé ; <br/>
 q) Les directives anticipées mentionnées à l'article L. 1111-11 ou, le cas échéant, la mention de leur existence ainsi que les coordonnées de la personne qui en est détentrice. 
-2° Les informations formalisées établies à la fin du séjour. Elles comportent notamment : 
-a) La lettre de liaison remise à la sortie prévue par l'article R. 1112-1-2 ; 
-b) La prescription de sortie et les doubles d'ordonnance de sortie ; 
-c) Les modalités de sortie (domicile, autres structures) ; 
-d) La fiche de liaison infirmière ; 
+2° Les informations formalisées établies à la fin du séjour. Elles comportent notamment : <br/>
+a) La lettre de liaison remise à la sortie prévue par l'article R. 1112-1-2 ; <br/>
+b) La prescription de sortie et les doubles d'ordonnance de sortie ; <br/>
+c) Les modalités de sortie (domicile, autres structures) ; <br/>
+d) La fiche de liaison infirmière ; <br/>
 3° Les informations mentionnant qu'elles ont été recueillies auprès de tiers n'intervenant pas dans la prise en charge thérapeutique ou concernant de tels tiers. 
-Sont seules communicables les informations énumérées aux 1° et 2°.
-  </p>
+Sont seules communicables les informations énumérées aux 1° et 2°.</p> </div>
+
     let text2 =  <p className="desc ">  "La demande de communication de dossier médical doit être adressée par courrier recommandé avec accusé de réception à l’attention du directeur si le dossier médical est détenu par un établissement de santé, ou directement auprès du professionnel de santé concernée dans le cadre d’une prise en charge libérale. Afin que le traitement de votre demande soit facilité, il est conseillé au demandeur de bien identifier dans son courrier les périodes ainsi que les services dans lequel il a été pris en charge et dont il souhaite obtenir la copie du dossier.
 
 En aucun cas, vous n’avez l’obligation de motiver votre demande.
@@ -174,19 +175,21 @@ Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir
   <rect width="10" height="10" fill="#F2DC17"/>
   </svg> SOLLICITER LA COMMUNICATION DE VOTRE ENTIER DOSSIER MEDICAL  </h2>
 
- <p className="desc"> <span className="bold"> Avant toute procédure, il est essentiel pour une victime d’obtenir la communication de son dossier médical auprès de chaque professionnel de santé ou d’établissement de santé qui a assuré sa prise en charge. </span> </p>
+ <p className="desc"> Avant toute procédure, il est essentiel pour une victime d’obtenir la communication de son dossier médical auprès de chaque professionnel ou établissement de santé qui a assuré sa prise en charge.</p>
 
-<p className="desc"> Ce dossier médical est essentiel quel que soit la nature de l’accident dont vous avez été victime pour déterminer l’étendue de vos lésions et séquelles et pouvoir ainsi se prononcer sur vos préjudices sur le plan médical.
+<p className="desc"> Ce dossier médical est essentiel quel que soit la nature de l’accident dont vous avez été victime pour déterminer l’étendue de vos lésions et séquelles et pouvoir ainsi se prononcer sur vos préjudices sur le plan médical. </p>
 
-En matière de responsabilité médicale, hospitalière ou même dentaire, le dossier médical permet au-delà de l’évaluation du préjudice de déterminer si les conditions de la responsabilité du professionnel sont médicalement réunies. L’examen des pièces médicales permettra notamment de se prononcer sur la qualité de la prise en charge et ainsi de mettre en évidence une faute commise que ce soit dans l’établissement du diagnostic, dans la mise en œuvre du traitement ou de l’intervention ou bien encore dans le cadre du suivi.
+<p className="desc">En matière de responsabilité médicale, hospitalière ou même dentaire, le dossier médical permet au-delà de l’évaluation du préjudice de déterminer si les conditions de la responsabilité du professionnel sont médicalement réunies. </p>
 
-Depuis la loi du 4 mars 2002, le patient a un droit d’accès direct aux éléments médicaux formalisés qui le concerne. Il n’est donc pas obligé de passer par son médecin traitant. </p>
+
+
+<p className="desc">Depuis la loi du 4 mars 2002, le patient a un droit d’accès direct aux éléments médicaux formalisés qui le concerne. Il n’est donc pas obligé de le solliciter par l’intermédiaire de son médecin traitant. </p>
 
 
 
 <p className="desc"> <span className= "bold" > <Link to= "/conseils-aux-victimes/"> En savoir plus sur le dossier médical  </Link> </span> </p>
 
-<p className="desc"> <span className= "bold" > <Link to= "/modeles-et-formulaires/"> Accès au modèle de dossier médical  </Link> </span> </p>
+<p className="desc"> <span className= "bold" > <Link to= "/modeles-et-formulaires/"> Accéder aux modèles de demande de dossier médical </Link> </span> </p>
 
 
 

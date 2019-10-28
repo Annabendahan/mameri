@@ -33,6 +33,13 @@ margin-left: 3px;
   font-size: .7rem;
 }
 
+.top2{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: .7rem;
+}
+
 
 .so{
   margin-top: -6px;

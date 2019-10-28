@@ -21,13 +21,12 @@ const Sanction = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> SANCTION DISCIPLINAIRE</h1>
-    <p className="desc"> Vous avez été sanctionné disciplinairement par votre employeur et vous contestez la
-sanction dans son principe ou son étendue (avertissement, blâme, mise à pied …).
-Maitre MAMERI analysera votre dossier et mettra en œuvre la procédure la plus adaptée
-pour défendre vos droits de salarié.
-Pour toute information complémentaire, vous pouvez contacter Maitre Quentin MAMERI,
-avocat de victime à Paris, par téléphone, mail ou par le formulaire de contact afin de lui
-exposer votre situation et convenir d’un rendez-vous.</p>
+    <p className="desc"> Vous avez été sanctionné disciplinairement par votre employeur et vous contestez la sanction dans son principe ou son étendue (avertissement, blâme, mise à pied, etc.). </p>
+
+   <p className="desc">
+Maître Quentin MAMERI vous conseillera utilement et mettra en œuvre la procédure la plus adaptée pour défendre vos droits de salarié.</p>
+
+ <p className="desc">Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.</p>
 
 
 <MotsClefs />

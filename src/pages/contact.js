@@ -34,7 +34,7 @@ const Contact = () => (
   </svg>
      station Brochant
  </p>
- <p className="desc"> <svg className="metro" width="51" height="23" viewBox="0 0 51 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <p className="desc "> <svg className="metro" width="51" height="23" viewBox="0 0 51 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="11.5" cy="11.5" r="10.5" stroke="#244C82" stroke-width="2"/>
 <circle cx="39.5" cy="11.5" r="10.5" stroke="#ECDC49" stroke-width="2"/>
 <path d="M41.91 8.412C41.546 8.02 41.1913 7.75867 40.846 7.628C40.51 7.49733 40.1693 7.432 39.824 7.432C39.3107 7.432 38.844 7.52533 38.424 7.712C38.0133 7.88933 37.6587 8.14133 37.36 8.468C37.0613 8.78533 36.828 9.15867 36.66 9.588C36.5013 10.0173 36.422 10.4793 36.422 10.974C36.422 11.506 36.5013 11.996 36.66 12.444C36.828 12.892 37.0613 13.2793 37.36 13.606C37.6587 13.9327 38.0133 14.1893 38.424 14.376C38.844 14.5627 39.3107 14.656 39.824 14.656C40.2253 14.656 40.6127 14.5627 40.986 14.376C41.3687 14.18 41.7233 13.872 42.05 13.452L43.506 14.488C43.058 15.104 42.512 15.552 41.868 15.832C41.224 16.112 40.538 16.252 39.81 16.252C39.0447 16.252 38.34 16.1307 37.696 15.888C37.0613 15.636 36.5107 15.286 36.044 14.838C35.5867 14.3807 35.2273 13.8347 34.966 13.2C34.7047 12.5653 34.574 11.8607 34.574 11.086C34.574 10.2927 34.7047 9.574 34.966 8.93C35.2273 8.27667 35.5867 7.72133 36.044 7.264C36.5107 6.80667 37.0613 6.45667 37.696 6.214C38.34 5.962 39.0447 5.836 39.81 5.836C40.482 5.836 41.1027 5.95733 41.672 6.2C42.2507 6.43333 42.7873 6.83467 43.282 7.404L41.91 8.412Z" fill="#ECDC49"/>
@@ -55,7 +55,7 @@ const Contact = () => (
 <path d="M115.588 4.088H122.322V5.628L118.36 14H116.386L120.432 5.684H115.588V4.088ZM127.975 11.984H123.761V10.318L127.751 4.088H129.655V10.472H131.097V11.984H129.655V14H127.975V11.984ZM127.975 6.468H127.947L125.469 10.472H127.975V6.468Z" fill="black"/>
 </svg>
   station Brochant-Cardinet  </p>
- <p className="desc"> <img  src={pic3} className="pictrain" alt="fireSpot" />  <span className="special">  station Pont Cardinet </span> </p>
+ <p className="desc last"> <img  src={pic3} className="pictrain" alt="fireSpot" />  <span className="special">  station Pont Cardinet </span> </p>
 <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="10" height="10" fill="#F2DC17"/>
         </svg> SI VOUS VENEZ EN VOITURE </h2>
