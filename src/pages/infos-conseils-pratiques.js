@@ -8,6 +8,9 @@ import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
 import pic3 from '../images/work2.png';
 import pic2 from '../images/quentinmameripic.png';
+import pic4 from '../images/modeles-form.jpeg';
+import pic5 from '../images/liens-utiles.jpeg';
+import pic6 from '../images/conseils-pratiques.jpeg';
 
 const LiensUtiles = () => (
   <Layout>
@@ -25,7 +28,7 @@ const LiensUtiles = () => (
        <div className="blue2">
 
   <Link to="/conseils-pratiques/"><div className="indemn2 ">
-    <img  src={pic3} className="picindex3" alt="fireSpot" />
+    <img  src={pic6} className="picindex3" alt="fireSpot" />
    <h3> CONSEILS PRATIQUES</h3>
   </div></Link>
 
@@ -36,14 +39,14 @@ const LiensUtiles = () => (
 
   </div></Link>
   <Link to="/modeles-et-formulaires/"><div className="ass2 ">
-   <img  src={pic3} className="picindex3" alt="fireSpot" />
+   <img  src={pic4} className="picindex3" alt="fireSpot" />
   <h3> MODELES ET FORMULAIRES </h3>
 
   </div></Link>
 
 
   <Link to="/liens-utiles/"><div className="ass2 ">
-   <img  src={pic3} className="picindex3" alt="fireSpot" />
+   <img  src={pic5} className="picindex3" alt="fireSpot" />
   <h3> LIENS UTILES </h3>
 
   </div></Link>

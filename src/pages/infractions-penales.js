@@ -12,6 +12,8 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/image 2.png';
+import pic16 from '../images/ip.jpeg';
+
 
 const Agression = () => (
   <Layout>
@@ -22,7 +24,7 @@ const Agression = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> INFRACTIONS PENALES </h1>
-       <img  src={pic6} className="picdefense" alt="fireSpot" />
+       <img  src={pic16} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous êtes victime d’une infraction pénale à l’origine d’un dommage corporel. </p>
 <p className="desc"> Il peut s’agir d’une contravention, d’un délit ou d’un crime.  </p>
 <p className="desc"> Les infractions pénales peuvent être de nature diverse : agression, homicide involontaire, délits routiers …  </p>

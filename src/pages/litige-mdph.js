@@ -11,6 +11,7 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/Group 2.png';
+import pic12 from '../images/mdph.jpeg';
 
 const Mdph = () => (
   <Layout>
@@ -21,7 +22,7 @@ const Mdph = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> LITIGE AVEC LA MDPH </h1>
-       <img  src={pic6} className="picdefense" alt="fireSpot" />
+       <img  src={pic12} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous avez sollicité auprès de la MDPH une prestation pour vous garantir des ressources
 et/ou pour compenser votre handicap ( <span className="bold"> <Link to="/protection-sociale/#AAH" className="underl"> allocations aux adultes handicapés  </Link> </span>, allocation
 d’éducation de l’enfant handicapé, <span className="bold">  <Link to="/protection-sociale/#PCH" className="underl"> prestation de compensation du handicap </Link> </span>), pour faciliter

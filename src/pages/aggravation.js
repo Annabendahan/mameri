@@ -10,6 +10,7 @@ import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/image 16.png';
+import pic17 from '../images/agg.jpeg';
 
 const Aggravation = () => (
 
@@ -23,7 +24,7 @@ const Aggravation = () => (
        <h1> AGGRAVATION </h1>
 
     <p className="desc"> Si vos séquelles se sont aggravées depuis votre indemnisation judiciaire ou amiable, vous avez la possibilité de faire rouvrir votre dossier pour être indemnisé de vos nouveaux préjudices. </p>
-<img  src={pic3} className="picdefense" alt="fireSpot" />
+<img  src={pic17} className="picdefense" alt="fireSpot" />
 <p className="desc">Il peut s’agir d’une aggravation « médicale » se manifestant par l’apparition de nouvelles lésions ou d’une aggravation des séquelles préexistantes. </p>
 
 <p className="desc">

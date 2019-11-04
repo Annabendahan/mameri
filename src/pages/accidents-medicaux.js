@@ -12,6 +12,8 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/image 3.png';
+import pic12 from '../images/am.jpeg';
+
 
 const Médicaux = () => (
   <Layout>
@@ -22,8 +24,8 @@ const Médicaux = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS MÉDICAUX</h1>
-       <img  src={pic6} className="picdefense" alt="fireSpot" />
-    <p className="desc"> Que vous soyez victime d’une <span className="bold" > faute médicale </span> ou dentaire (faute de diagnostic, faute technique, défaut d’information …), du défaut d’un produit de santé, d’une <span className="bold" >  infection nosocomiale </span> ou même d’un <span className="bold" > accident médical non fautif </span> (aléa thérapeutique), Maître Quentin MAMERI mettra tout en œuvre pour que la responsabilité du professionnel ou de l’établissement de santé soit reconnue et que vous puissiez obtenir <span className= "bold" >  <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale </Link> </span> de vos préjudices. </p>
+       <img  src={pic12} className="picdefense" alt="fireSpot" />
+    <p className="desc"> Que vous soyez victime d’une <span className="bold" > <Link to="/reparation-dommage-corporel/#FM">faute médicale</Link></span> ou dentaire (faute de diagnostic, faute technique, défaut d’information …), du défaut d’un produit de santé, d’une <span className="bold" >  <Link to="/reparation-dommage-corporel/#IN"> infection nosocomiale</Link> </span> ou même d’un <span className="bold" > <Link to="/reparation-dommage-corporel/#AMNF">  accident médical non fautif</Link></span> (aléa thérapeutique), Maître Quentin MAMERI mettra tout en œuvre pour que la responsabilité du professionnel ou de l’établissement de santé soit reconnue et que vous puissiez obtenir <span className= "bold" >  <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale</Link> </span> de vos préjudices. </p>
 
 
     <p className="desc"> Maître Quentin MAMERI intervient exclusivement pour les victimes et leurs proches. </p>
@@ -40,7 +42,13 @@ const Médicaux = () => (
 
 <p className="desc"> Vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.</p>
 
-<MotsClefs />
+<MotsClefs
+  link1=<Link to="/reparation-dommage-corporel/#EM"> Expertise médicale</Link>
+  link2=<Link to="/reparation-dommage-corporel/#IN"> Infection nosocomiale</Link>
+  link3=<Link to="/reparation-dommage-corporel/#AMNF"> Accident médical non fautif</Link>
+  link4=<Link to="/reparation-dommage-corporel/#RIP"> Réparation intégrale</Link>
+  link5=<Link to="/reparation-dommage-corporel/#FM"> Faute médicale</Link>
+  />
 
       </div>
 

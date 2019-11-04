@@ -11,6 +11,8 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/image 13.png';
+import pic13 from '../images/ass.jpeg';
+
 
 const Assurance = () => (
   <Layout>
@@ -21,7 +23,7 @@ const Assurance = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> LITIGE AVEC LES ASSURANCES </h1>
-       <img  src={pic6} className="picdefense" alt="fireSpot" />
+       <img  src={pic13} className="picdefense" alt="fireSpot" />
     <p className="desc"> Vous êtes en litige avec une compagnie d’assurance concernant une prestation d’assurance en lien avec la santé et le handicap (prévoyance, assurance de prêt immobilier …).</p>
     <p className="desc">
 Le désaccord est d’ordre administratif ou médical.</p>

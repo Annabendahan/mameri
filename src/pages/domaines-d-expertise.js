@@ -10,6 +10,11 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic6 from '../images/P1011943.jpg';
+import pic15 from '../images/malade.jpeg';
+import pic16 from '../images/icone.jpeg';
+
+
 
 const DomainesDexpertise = () => (
   <Layout>
@@ -25,20 +30,20 @@ const DomainesDexpertise = () => (
 
     <div className="blue2">
     <Link to="/indemnisation-des-victimes/"><div className="indemn2 ">
-      <img  src={pic3} className="picindex3" alt="fireSpot" />
-    <h3> INDEMNISATION DES VICTIMES </h3>
+      <img  src={pic16} className="picindex3" alt="fireSpot" />
+    <h3> DÉFENSE DES VICTIMES </h3>
 
 
 
     </div></Link>
    <Link to="/defense-des-salaries/"><div className="salar2 ">
-     <img  src={pic4} className="picindex3" alt="fireSpot" />
+     <img  src={pic6} className="picindex3" alt="fireSpot" />
     <h3> DÉFENSE DES SALARIÉS </h3>
 
 
   </div></Link>
     <Link to="/defense-des-personnes-malades-handicap/"><div className="ass2">
-     <img  src={pic5} className="picindex3" alt="fireSpot" />
+     <img  src={pic15} className="picindex3" alt="fireSpot" />
     <h3> DÉFENSE DES PERSONNES MALADES ET EN SITUATION DE HANDICAP </h3>
 
     </div></Link>

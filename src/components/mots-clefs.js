@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import '../components/footer.css'
 import '../components/motsclefs.css'
 
-const MotsClefs= () => (
+const MotsClefs= (props) => (
 
     <div className="motsclefs">
 
@@ -15,10 +15,13 @@ const MotsClefs= () => (
 
 <p className="desc-s"> NOTIONS CLEFS </p>
 
- <span className= "bold" >  <Link to="/reparation-dommage-corporel/#EM"> Expertise médicale  </Link> </span> -
- <span className= "bold" >  <Link to="/reparation-dommage-corporel/#PI"> Préjudices  </Link> </span> -
-  <span className= "bold" >  <Link to="/reparation-dommage-corporel/#C"> Consolidation   </Link> </span> -
- <span className= "bold" >  <Link to="/reparation-dommage-corporel/#RIP"> Réparation intégrale </Link> </span>
+
+
+ <span className= "bold" >  {props.link1} </span> -
+ <span className= "bold" >  {props.link2}</span> -
+  <span className= "bold" > {props.link3}</span> -
+ <span className= "bold" >  {props.link4} </span>
+  <span className= "bold" >  {props.link5} </span>
 
 </p>
 

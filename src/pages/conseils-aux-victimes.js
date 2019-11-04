@@ -225,13 +225,13 @@ Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir
   <rect width="10" height="10" fill="#F2DC17"/>
   </svg> NE JAMAIS RIEN SIGNER SANS L'AVOIR FAIT VÉRIFIER PAR UN AVOCAT </h2>
 
-   <p className="desc">  Dès l’accident, vous devez être vigilant.
+   <p className="desc">  Dès la survenance de l’accident, vous devez être vigilant quant au document que vous serez amené à signer que ce soit avec les personnes impliquées dans l’accident ou avec l’assureur.</p>
 
-Vous devez, en premier lieu, faire attention à la rédaction du constat amiable.
+<p className="desc">Ne jamais signer de documents sans les avoir lu préalablement et fait vérifié par un avocat.</p>
 
-Pensez à conserver une copie des documents que vous avez adressés à l’assureur
-Ne jamais signer un document sans l’avoir lu et sans l’avoir fait vérifié par un avocat </p>
+<p className="desc">N’oubliez pas que la signature d’un protocole d’indemnisation définitif avec l’assureur met fin au litige et vous empêche de faire un recours même dans le cas où vous auriez été mal indemnisé, hormis l’hypothèse de l’aggravation. </p>
 
+<p className="desc">Enfin, pensez à conserver une copie des documents que vous avez adressés à l’assureur et notamment des courriers que vous lui adressez. </p>
 
 
 
@@ -240,35 +240,26 @@ Ne jamais signer un document sans l’avoir lu et sans l’avoir fait vérifié 
   <rect width="10" height="10" fill="#F2DC17"/>
   </svg> CONSERVER LES DOCUMENTS MEDICAUX ET ADMINITRATIFS RELATIFS À VOTRE AFFAIRE </h2>
 
-   <p className="desc">  Les pièces relatives à votre accident sont essentielles pour constituer votre dossier en vue de la réparation de vos préjudices.
+   <p className="desc"> Les pièces relatives à votre accident sont essentielles pour constituer votre dossier en vue de la réparation de vos préjudices. Ces pièces seront essentielles lors de l’expertise médicale qui sera mis en œuvre pour se prononcer sur les conditions de la responsabilité du professionnel ou de l’établissement et dans tous les cas sur les séquelles et lésions consécutives à l’accident ou à l’agression.
+ </p>
 
-Ces pièces seront essentielles lors de l’expertise médicale qui sera mis en œuvre pour se prononcer sur les conditions de la responsabilité du professionnel ou de l’établissement et dans tous les cas sur les séquelles et lésions consécutives à l’accident ou à l’agression. </p>
+<p className="desc"> Il convient préalablement à toute procédure de solliciter une copie de votre dossier médical (en savoir plus sur l’accès au dossier médical). </p>
 
-<p className="desc"> Il convient préalablement à toute procédure de solliciter une copie de votre dossier médical (en savoir plus).
+<p className="desc">Il convient également de conserver toutes les pièces relatifs à votre accident idéalement classés de manière chronologique que ce soit les pièces médicales (certificat médical initiales, prescriptions médicales, arrêt de travail) ou administratives (courriers échangés avec l’assureur, avec la sécurité sociale ….). </p>
 
-Il convient également de conserver toutes les pièces relatifs à votre accident idéalement classés de manière chronologique que ce soit les pièces médicales (certificat médical initiales, prescriptions médicales, arrêt de travail) ou administratives (courriers échangés avec l’assureur, avec la sécurité sociale ….).
+<p className="desc">Vous devez conserver un double de toutes les pièces médicales (courriers, ordonnances, clichés et compte-rendu des imageries réalisées (radiologie, IRM, …).et ne jamais remettre les originaux à l’assureur. </p>
 
-Vous devez conserver un double de toutes les pièces médicales (courriers, ordonnances, clichés et compte-rendu des imageries réalisées (radiologie, IRM, …).et ne jamais remettre les originaux à l’assureur.
-
-Enfin, vous pouvez prendre des photographies périodiques de vos lésions ce qui pourra être précieux notamment pour démontrer notamment l’importance des répercussions sur le plan esthétique.</p>
+<p className="desc">Enfin, vous pouvez prendre des photographies périodiques de vos lésions ce qui pourra être précieux notamment pour démontrer notamment l’importance des répercussions sur le plan esthétique.</p>
 
 <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>
   </svg> NE JAMAIS VOUS RENDRE A UNE EXPERTISE MEDICALE SANS ETRE ASSISTÉ PAR UN AVOCAT </h2>
 
-   <p className="desc">  Nombre de victimes se présentent seule à l’expertise amiable médicale organisée par la compagnie d’assurance.
+   <p className="desc">  Nombre de victimes se présentent seule à l’expertise amiable médicale organisée par la compagnie d’assurance. Que ce soit le médecin-conseil de votre compagnie d’assurance ou de la compagnie adverse, n’oubliez jamais que ce médecin est mandaté par la compagnie d’assurance qui le rémunère. Le médecin-conseil de compagnie d’assurance n’est donc pas impartial. Il ne défend pas vos intérêts mais ceux de la compagnie pour laquelle il travaille.. </p>
 
-Que ce soit le médecin-conseil de votre compagnie d’assurance ou de la compagnie adverse, n’oubliez jamais que ce médecin est mandaté par la compagnie d’assurance qui le rémunère.
+<p className="desc"> Dans ces conditions, il est important pour vous victime d’être accompagné par un avocat lors de cette expertise afin que vos droits puissent être défendus et que vous puissiez être conseillé utilement. </p>
 
-Le médecin-conseil de compagnie d’assurance n’est donc pas impartial. Il ne défend pas vos intérêts mais ceux de la compagnie pour laquelle il travaille. </p>
-
-<p className="desc"> <span className="bold"> Dans ces conditions, il est important pour vous victime d’être accompagné par un avocat lors de cette expertise afin que vos droits puisse être défendus et que vous puissiez être conseillé utilement.
-
-Il est important d’être assisté même lorsque l’expertise est organisé dans un cadre judiciaire. </span>
-
-En effet, dans ce cas, l’ensemble des mis en cause sont convoqués et pourront être assisté d’un avocat et d’un médecin-conseil.
-
-Le rôle de l’avocat est de vous conseiller et de défendre vos droits de victime tout au long de l’expertise. Son assistance est primordiale tant en terme de soutien humain que sur le plan juridique.
+<p className="desc">Il est important d’être assisté même lorsque l’expertise est organisée dans un cadre judiciaire. En effet, dans ce cas, l’ensemble des mis en cause sont convoqués et pourront être assisté d’un avocat et d’un médecin-conseil. Le rôle de l’avocat est de vous conseiller et de défendre vos droits de victime tout au long de l’expertise. Son assistance est primordiale tant en terme de soutien humain que sur le plan juridique.
 </p>
 
 

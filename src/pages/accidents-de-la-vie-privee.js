@@ -12,6 +12,7 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic9 from '../images/image 7.png';
+import pic14 from '../images/avp.jpeg';
 
 const Privée = () => (
   <Layout>
@@ -22,7 +23,7 @@ const Privée = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> ACCIDENTS DE LA VIE PRIVÉE</h1>
-       <img  src={pic9} className="picdefense" alt="fireSpot" />
+       <img  src={pic14} className="picdefense" alt="fireSpot" />
 
 
     <p className="desc"> En cas d’accidents de la vie privée, vous pouvez être indemnisé par votre compagnie d’assurance si vous avez souscrit une garantie dite des accidents de la vie.  </p>

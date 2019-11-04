@@ -13,6 +13,7 @@ import pic4 from '../images/ajdclogo.png';
 import pic5 from '../images/FranceAssosSante_logo.png';
 import pic6 from '../images/Logo-Legifrance.jpg';
 import pic7 from '../images/logo_cada.png';
+import pic8 from '../images/servicepub.png';
 
 const Liens= () => (
 
@@ -54,6 +55,11 @@ const Liens= () => (
 
     <a target="blank" href="https://www.cada.fr/"><div className="lien">
       <img  src={pic7} className="piclien" alt="fireSpot" />
+    </div></a>
+
+
+  <a target="blank" href="https://www.service-public.fr/"><div className="lien">
+      <img  src={pic8} className="piclien" alt="fireSpot" />
     </div></a>
 
 

@@ -7,7 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import VisitCard from '../components/VisitCard'
-import pic1 from '../images/home1.png';
+import pic1 from '../images/P1012002.jpg';
 import pic2 from '../images/picq.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
@@ -41,7 +41,7 @@ zIndex: 10
 
    <p className="desc-r"> Maître Quentin MAMERI est Avocat au barreau de Paris. </p>
 
-<p className="desc-r"> <span className="bold"> Il  assure  la défense des victimes d’accidents et d’infractions pénales pour obtenir réparation de leur dommage corporel, la défense des salariés dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la défense des personnes malades et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </span> </p>
+<p className="desc-r">  Il  assure  la  <b> défense des  victimes d’accidents et d’infractions pénales </b> pour obtenir réparation de leur dommage corporel , la <b> défense des salariés </b> dans le cadre de l’exécution ou la rupture de la relation de travail ainsi que la <b> défense des personnes malades </b> et en situation de handicap dans leurs litiges avec la sécurité sociale, la MDPH ou les compagnies d’assurance. </p>
 
 <p className="desc-r"> Me Quentin MAMERI intervient devant toutes les juridictions et sur l’ensemble du territoire français y compris les DOM-TOM.
 

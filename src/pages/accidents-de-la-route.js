@@ -12,6 +12,8 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/image.png';
+import pic11 from '../images/ar.jpeg';
+
 
 const Route = () => (
   <Layout>
@@ -29,7 +31,7 @@ const Route = () => (
 
 
 
-<img  src={pic6} className="picdefense" alt="fireSpot" />
+<img  src={pic11} className="picdefense" alt="fireSpot" />
 <p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule à la merci des compagnies d’assurance, Maître Quentin MAMERI vous accompagnera dans un cadre amiable ou judiciaire afin de rétablir l’équilibre et de veiller à ce que vos intérêts et vos droits de victimes soient préservés et respectés.  </p>
 
 
@@ -48,7 +50,10 @@ const Route = () => (
 
 
 
-<MotsClefs />
+<MotsClefs
+  link1=<Link to="/reparation-dommage-corporel/#RIP"> Réparation intégrale</Link>
+  link2=<Link to="/reparation-dommage-corporel/#EM"> Expertise médicale</Link>
+/>
 
 
       </div>

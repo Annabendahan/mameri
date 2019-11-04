@@ -11,6 +11,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic15 from '../images/sd.jpeg';
 
 const Sanction = () => (
   <Layout>
@@ -21,6 +22,7 @@ const Sanction = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> SANCTION DISCIPLINAIRE</h1>
+
     <p className="desc"> Vous avez été sanctionné disciplinairement par votre employeur et vous contestez la sanction dans son principe ou son étendue (avertissement, blâme, mise à pied, etc.). </p>
 
    <p className="desc">

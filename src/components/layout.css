@@ -202,6 +202,7 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
+  overflow:hidden;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -252,7 +253,7 @@ h2 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 h3 {
   margin-left: 0;
@@ -498,6 +499,7 @@ address {
 }
 b {
   font-weight: bold;
+  color: #2a4b80;
 }
 strong {
   font-weight: bold;

@@ -11,6 +11,7 @@ import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
 import pic6 from '../images/image 14.png';
+import pic13 from '../images/rc.jpeg';
 
 const Rupture = () => (
   <Layout>
@@ -21,24 +22,16 @@ const Rupture = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> RUPTURE CONVENTIONNELLE </h1>
-       <img  src={pic6} className="picdefense" alt="fireSpot" />
-    <p className="desc"> Vous souhaitez rompre votre contrat de travail avec votre employeur d’un commun accord. </p>
- <p className="desc">Il est important de prendre contact avec un avocat préalablement à toute démarche. En effet, la conclusion d’une rupture conventionnelle suppose un consentement libre et éclairé de chaque partie. </p>
- <p className="desc">Cela implique que votre décision ne doit pas résulter de pressions de l’employeur ou être motivée par des manquements graves commis par l’employeur dans l’exécution du contrat de travail. </p>
+       <img  src={pic13} className="picdefense" alt="fireSpot" />
+    <p className="desc"> La rupture conventionnelle est un mode de rupture du contrat de travail. Elle permet à l’employeur et au salarié de mettre fin, d’un commun accord, au contrat de travail à durée indéterminée qui les lie à des conditions qu’ils déterminent ensemble. </p>
+ <p className="desc">Cet accord est formalisé par une convention qui est négociée au cours d’un ou plusieurs entretiens préalables obligatoires au cours desquels le salarié peut être assisté par un membre de l’entreprise, d’un membre syndical ou d’une institution représentative du personnel ou, à défaut de syndicat ou d’institutions représentatives dans l’entreprise, par un conseiller du salarié inscrit sur une liste auprès de la préfecture. </p>
+ <p className="desc">A compter de la signature de la convention, chaque partie dispose d’un délai de 15 jours pour se rétracter.
+ </p>
  <p className="desc">
-
-Dans ce cas, d’autres modes de ruptures pourraient être envisagées (prise d’acte de rupture du contrat de travail, résiliation judiciaire …). </p>
-
- <p className="desc">
-Par ailleurs, le rôle d’un avocat est également primordial dans le cadre d’une rupture conventionnelle pour défendre vos droits lors de l’évaluation de vos indemnités de départ. </p>
-
+A l’issue de ce délai, l’employeur ou le salarié adressent la convention auprès de la DIREECTE pour homologation. La DIREECTE dispose d’un délai de 15 jours pour se prononcer. A défaut, l’homologation est acquise. </p>
 
  <p className="desc">
-Maître Quentin MAMERI pourra vous conseiller utilement sur les procédures à engager, notamment sur l’opportunité d’un tel mode de rupture, et veillera, le cas échéant, à ce que vos droits soient respectés et notamment à ce que vos indemnités de départ soient correctement évaluées.  </p>
-
- <p className="desc">
-
-Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
+Si vous souhaitez être conseillée ou assister dans le cadre d’une telle démarche, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez- vous.</p>
 
 
 

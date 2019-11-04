@@ -15,6 +15,17 @@ import pic9 from '../images/image 7.png';
 import pic2 from '../images/quentinmameripic.png';
 import pic10 from '../images/image 16.png';
 
+import pic11 from '../images/ar.jpeg';
+import pic12 from '../images/am.jpeg';
+import pic13 from '../images/as.jpeg';
+import pic14 from '../images/avp.jpeg';
+
+import pic16 from '../images/ip.jpeg';
+import pic17 from '../images/agg.jpeg';
+import pic18 from '../images/image 16.png';
+
+
+
 const Indemnisation = () => (
   <Layout>
 
@@ -30,12 +41,12 @@ const Indemnisation = () => (
         <div className="blue2">
 
           <Link to="/accidents-de-la-route/"><div className="indemn2 ">
-          <img  src={pic4} className="picindex3" alt="fireSpot" />
+          <img  src={pic11} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENT DE LA ROUTE </h3>
           </div></Link>
 
           <Link to="/accidents-medicaux/"><div className="ass2 ">
-          <img  src={pic6} className="picindex3" alt="fireSpot" />
+          <img  src={pic12} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENTS MEDICAUX</h3>
           </div></Link>
         </div>
@@ -43,7 +54,7 @@ const Indemnisation = () => (
 
         <div className="blue2">
           <Link to="/accidents-de-sport/"><div className="indemn2 ">
-          <img  src={pic7} className="picindex3" alt="fireSpot" />
+          <img  src={pic13} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENT DE SPORT </h3>
 
 
@@ -51,7 +62,7 @@ const Indemnisation = () => (
           </div></Link>
 
           <Link to="/accidents-de-la-vie-privee/"><div className="ass2 ">
-          <img  src={pic9} className="picindex3" alt="fireSpot" />
+          <img  src={pic14} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENTS DE LA VIE PRIVÉE </h3>
 
 
@@ -64,13 +75,13 @@ const Indemnisation = () => (
           </div></Link>
 
           <Link to="/infractions-penales/"><div className="salar2 ">
-          <img  src={pic5} className="picindex3" alt="fireSpot" />
+          <img  src={pic16} className="picindex3" alt="fireSpot" />
           <h3> INFRACTIONS PÉNALES</h3>
           </div> </Link>
 
 
           <Link to="/aggravation/"><div className="salar2 ">
-          <img  src={pic10} className="picindex3" alt="fireSpot" />
+          <img  src={pic17} className="picindex3" alt="fireSpot" />
           <h3> RÉOUVERTURE EN AGGRAVATION </h3>
 
           </div></Link>

@@ -10,6 +10,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
+import pic10 from '../images/te.jpeg';
 
 const Rupturetorts = () => (
   <Layout>
@@ -20,6 +21,7 @@ const Rupturetorts = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> RUPTURE DU CONTRAT DE TRAVAIL AUX TORTS DE L'EMPLOYEUR </h1>
+        <img  src={pic10} className="picdefense" alt="fireSpot" />
     <p className="desc"> Votre employeur a commis des manquements graves dans l’exécution de votre contrat de travail rendant impossible le maintien de la relation de travail. Vous pouvez, dans certaines conditions, obtenir une rupture du contrat aux torts de votre employeur (prise d’acte de rupture du contrat ou résiliation judiciaire). </p>
 <p className="desc"> Maître Quentin MAMERI analysera votre dossier, vous conseillera utilement sur la procédure la plus adaptée au regard de votre situation, et assurera le défense de vos droits de salariés devant le conseil de prud’hommes.  </p>
 
