@@ -8,6 +8,7 @@ import VisitCard from '../components/VisitCard'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
+import pic16 from '../images/ip.jpeg';
 
 const Infos = () => (
   <Layout>
@@ -24,7 +25,7 @@ const Infos = () => (
        <div className="blue2">
 
   <Link to="/reparation-dommage-corporel/" ><div className="indemn2 ">
-    <img  src={pic2} className="picindex3" alt="fireSpot" />
+    <img  src={pic16} className="picindex3" alt="fireSpot" />
    <h3> REPARATION DU DOMMAGE CORPOREL</h3>
   </div></Link>
 
