@@ -8,6 +8,7 @@ import VisitCard from '../components/VisitCard'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
+import pic4 from '../images/la.jpg';
 
 const Conseils = () => (
   <Layout>
@@ -29,7 +30,7 @@ const Conseils = () => (
   </div></Link>
 
    <Link to="/conseils-aux-salaries/"> <div className="salar2 ">
-   <img  src={pic2} className="picindex3" alt="fireSpot" />
+   <img  src={pic4} className="picindex3" alt="fireSpot" />
   <h3> CONSEILS AUX SALARIÉS </h3>
 
 

@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#2a4b80`,
 
-       boxShadow: `0px 4px 20px rgba(189, 188, 188, 0.25)`,
+       boxShadow: `0px 2px 11px -2px rgba(0,0,0,0.63)`,
        position: `fixed`,
        width: `100%`,
        padding: `10px`,

@@ -19,6 +19,7 @@ import pic11 from '../images/ar.jpeg';
 import pic12 from '../images/am.jpeg';
 import pic13 from '../images/as.jpeg';
 import pic14 from '../images/avp.jpeg';
+import pic15 from '../images/gh.jpeg';
 
 import pic16 from '../images/ip.jpeg';
 import pic17 from '../images/agg.jpeg';
@@ -40,10 +41,7 @@ const Indemnisation = () => (
         </p>
         <div className="blue2">
 
-          <Link to="/accidents-de-la-route/"><div className="indemn2 ">
-          <img  src={pic11} className="picindex3" alt="fireSpot" />
-          <h3> ACCIDENT DE LA ROUTE </h3>
-          </div></Link>
+
 
           <Link to="/accidents-medicaux/"><div className="ass2 ">
           <img  src={pic12} className="picindex3" alt="fireSpot" />
@@ -57,9 +55,27 @@ const Indemnisation = () => (
           <img  src={pic13} className="picindex3" alt="fireSpot" />
           <h3> ACCIDENT DE SPORT </h3>
 
+          </div></Link>
 
+          <Link to="/accidents-de-la-route/"><div className="indemn2 ">
+          <img  src={pic11} className="picindex3" alt="fireSpot" />
+          <h3> ACCIDENT DE LA ROUTE </h3>
+          </div></Link>
+
+           <Link to="/accidents-du-travail/"><div className="salar2 ">
+          <img  src={pic8} className="picindex3" alt="fireSpot" />
+          <h3> ACCIDENTS DU TRAVAIL </h3>
 
           </div></Link>
+
+
+
+
+
+          <Link to="/infractions-penales/"><div className="salar2 ">
+          <img  src={pic16} className="picindex3" alt="fireSpot" />
+          <h3> INFRACTIONS PÉNALES</h3>
+          </div> </Link>
 
           <Link to="/accidents-de-la-vie-privee/"><div className="ass2 ">
           <img  src={pic14} className="picindex3" alt="fireSpot" />
@@ -68,16 +84,12 @@ const Indemnisation = () => (
 
           </div>  </Link>
 
-          <Link to="/accidents-du-travail/"><div className="salar2 ">
-          <img  src={pic8} className="picindex3" alt="fireSpot" />
-          <h3> ACCIDENTS DU TRAVAIL </h3>
 
-          </div></Link>
-
-          <Link to="/infractions-penales/"><div className="salar2 ">
-          <img  src={pic16} className="picindex3" alt="fireSpot" />
-          <h3> INFRACTIONS PÉNALES</h3>
+          <Link to="/grand-handicap/"><div className="salar2 ">
+          <img  src={pic15} className="picindex3" alt="fireSpot" />
+          <h3> INDEMNISATION DU GRAND HANDICAP</h3>
           </div> </Link>
+
 
 
           <Link to="/aggravation/"><div className="salar2 ">

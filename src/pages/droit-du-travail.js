@@ -18,7 +18,7 @@ const Droittravail = () => (
      <div className="bigbox">
       <div className="bleft">
 
-      <h1> DROIT DU TRAVAIL </h1>
+      <h1 id="PA"> DROIT DU TRAVAIL </h1>
 
       <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="10" height="10" fill="#F2DC17"/>
@@ -43,7 +43,7 @@ const Droittravail = () => (
 
 <p className="desc"> - Dans le cas contraire, la prise d’acte sera requalifiée en démission. Le salarié sera alors privé d’indemnités afférentes au licenciement et de dommages et intérêts et pourra être condamné à régler à son employeur une indemnité compensatrice de préavis. </p>
 
-<p className="desc">Eu égard aux risques inhérents à la prise d’acte, il est essentiel pour un salarié de prendre conseil auprès d’un avocat afin que celui-ci puisse le conseiller utilement sur l’opportunité d’une telle procédure et constituer un dossier solide et suffisamment étayé. </p>
+<p className="desc" id="RJ">Eu égard aux risques inhérents à la prise d’acte, il est essentiel pour un salarié de prendre conseil auprès d’un avocat afin que celui-ci puisse le conseiller utilement sur l’opportunité d’une telle procédure et constituer un dossier solide et suffisamment étayé. </p>
 
 <p className="desc">Si vous envisagez un tel mode de rupture, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
@@ -92,7 +92,7 @@ prononcer. A défaut, l’homologation est acquise.</p>
 
 
 
-<p className="desc" >Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
+<p className="desc" id="I" >Vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le
 formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-
 vous.</p>
 
@@ -116,7 +116,7 @@ indications émis par le médecin du travail, vous pouvez les contester devant l
 Conseil de prud’hommes dans un délai de 15 jours à compter de la notification de la
 décision.
 Ce délai est très court, soyez donc très vigilant !</p>
-<p className="desc" id="H">Si vous êtes en accord avec la position du médecin du travail mais que vous contestez
+<p className="desc" id="HM">Si vous êtes en accord avec la position du médecin du travail mais que vous contestez
 le licenciement prononcé par votre employeur, vous pouvez saisir le Conseil de
 Prud’hommes.</p>
 <p className="desc">Vous pouvez contacter Me Quentin MAMERI par téléphone, mail ou par le formulaire

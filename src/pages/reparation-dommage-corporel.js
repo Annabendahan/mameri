@@ -55,12 +55,12 @@ class Reparation extends  Component {
 
  <p className="desc"> En effet, l’indemnisation définitive des préjudices de la victime ne peut se faire que lorsque la victime est consolidée. </p>
 
-<p className="desc" id="RIP"> Cela ne signifie pas que la victime est guérie mais que son état de santé est stabilisé c’est-à-dire que son état n’est ni susceptible d’amélioration, ni d’aggravation. Tel n’est pas le cas si une intervention chirurgicale est programmée ou si des soins sont en cours car l’état de la victime sera encore susceptible d’évoluer positivement ou négativement.</p>
+<p className="desc" > Cela ne signifie pas que la victime est guérie mais que son état de santé est stabilisé c’est-à-dire que son état n’est ni susceptible d’amélioration, ni d’aggravation. Tel n’est pas le cas si une intervention chirurgicale est programmée ou si des soins sont en cours car l’état de la victime sera encore susceptible d’évoluer positivement ou négativement.</p>
 
 <p className="desc" > La phase de consolidation marque donc la séparation entre préjudices temporaires qui sont la conséquence des lésions faisant suite à l’accident ou l’infraction et des préjudices permanents qui correspondent à des séquelles (en savoir plus sur les préjudices indemnisables). </p>
 
 
-<p className="desc" > En matière d’accident du travail, la consolidation marque la fin du versement des indemnités journalières et donne lieu, en cas de séquelles, au versement d’une indemnisation sous forme de rente ou de capital. </p>
+<p className="desc" id="RIP"> En matière d’accident du travail, la consolidation marque la fin du versement des indemnités journalières et donne lieu, en cas de séquelles, au versement d’une indemnisation sous forme de rente ou de capital. </p>
 
 <p className="desc" > Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
@@ -154,7 +154,7 @@ avec l’établissement mis en cause ou son assureur.</p>
 <p className="desc-s">  <span className="bold"> Le cadre de la Commission de conciliation et d’indemnisation des accidents
 médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchner. Cette procédure présente l’avantage de la gratuité (procédure et frais d’expertise) et d’une certaine rapidité. Cependant, la CCI n’est compétente que pour les accidents les plus graves. Le seuil de gravité est fixé par décret.
 </p>
-<p className="desc-s">  <span className="bold">  Le cadre judiciaire : </span>  Ce recours auprès du Tribunal consiste à solliciter la désignation d’un expert indépendant. Les frais d’expertises sont à la charge du demandeur mais peuvent être pris en charge par une assurance de protection juridique dont vous seriez éventuellement titulaire.
+<p className="desc-s" id="AT">  <span className="bold">  Le cadre judiciaire : </span>  Ce recours auprès du Tribunal consiste à solliciter la désignation d’un expert indépendant. Les frais d’expertises sont à la charge du demandeur mais peuvent être pris en charge par une assurance de protection juridique dont vous seriez éventuellement titulaire.
 </p>
 <p className="desc"> Si vous souhaitez mettre en place une expertise médicale pour évaluer vos préjudicies, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.</p>
 
@@ -177,7 +177,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
 
 <p className="desc-s">- à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue.  </p>
-<p className="desc-s"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …). </p>
+<p className="desc-s" id="ATR"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …). </p>
 <p className="desc"> En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
@@ -191,7 +191,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
     <p className="desc"><span className="bold"> Il y a accident de trajet lorsque celui-ci est survenu pendant le trajet effectué entre sa résidence et son lieu de travail, ainsi que sur le trajet entre son lieu de travail et le lieu de restauration où le salarié se rend pendant la pause repas. </span> </p>
 
 
-      <p className="desc"> L’accident de trajet est assimilable à un accident du travail et ouvre droit aux mêmes avantages, à savoir :
+      <p className="desc" > L’accident de trajet est assimilable à un accident du travail et ouvre droit aux mêmes avantages, à savoir :
  </p>
 
 
@@ -204,7 +204,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
         <p className="desc-s"> - à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue. </p>
 
-        <p className="desc-s" id="FIE"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …).   </p>
+        <p className="desc-s" id="AM" > - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …).   </p>
 
 
   <p className="desc">En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.   </p>
@@ -218,7 +218,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
  </p>
 
 
-     <p className="desc"> En effet, le salarié effectuant une mission a droit à la protection (…) pendant tout le temps de la mission qu'il accomplit pour son employeur, peu important que l'accident survienne à l'occasion d'un acte professionnel ou d'un acte de la vie courante, sauf la possibilité pour l'employeur ou la caisse de rapporter la preuve que le salarié avait interrompu sa mission pour un motif personnel.  </p>
+     <p className="desc" id="FIE"> En effet, le salarié effectuant une mission a droit à la protection (…) pendant tout le temps de la mission qu'il accomplit pour son employeur, peu important que l'accident survienne à l'occasion d'un acte professionnel ou d'un acte de la vie courante, sauf la possibilité pour l'employeur ou la caisse de rapporter la preuve que le salarié avait interrompu sa mission pour un motif personnel.  </p>
 
        <p className="desc">Si vous avez subi un accident dans le cadre de votre mission, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
@@ -235,8 +235,8 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
      <p className="desc"> Pour que l’employeur soit tenu d’indemniser les préjudices du salarié, il vous faudra apporter la preuve de la faute inexcusable de votre employeur. Selon la jurisprudence, la faute est inexcusable lorsque l’employeur avait ou aurait dû avoir conscience du danger auquel était exposé le salarié, et qu’il n’a pas pris les mesures nécessaires pour l’en préserver.   </p>
 
-       <p className="desc">L’assistance d’un avocat est essentielle que ce soit au niveau de la reconnaissance de la faute inexcusable de votre employeur ou pour l’obtention de l’indemnisation de vos préjudices en cas de faute inexcusable. </p>
-       <p className="desc"> Pour engager une procédure de faute inexcusable de l’employeur, vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.  </p>
+       <p className="desc" id="IN">L’assistance d’un avocat est essentielle que ce soit au niveau de la reconnaissance de la faute inexcusable de votre employeur ou pour l’obtention de l’indemnisation de vos préjudices en cas de faute inexcusable. </p>
+       <p className="desc" > Pour engager une procédure de faute inexcusable de l’employeur, vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.  </p>
 
 
 
@@ -263,7 +263,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
   </p>
 
 
-<p className="desc"> Quand l’infection est survenue dans un cabinet libéral, la présomption ne s’applique pas et dans ce cas, le patient devra démontrer que le médecin a commis une faute d’hygiène ou d’asepsie qui a provoqué l’infection en cause.
+<p className="desc" id="AMNF"> Quand l’infection est survenue dans un cabinet libéral, la présomption ne s’applique pas et dans ce cas, le patient devra démontrer que le médecin a commis une faute d’hygiène ou d’asepsie qui a provoqué l’infection en cause.
   </p>
 
 <p className="desc"> Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.
@@ -307,7 +307,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
   <p className="desc-s"> - lorsque l'accident médical, l'affection iatrogène ou l'infection nosocomiale occasionne des troubles particulièrement graves, y compris d'ordre économique, dans ses conditions d'existence (TPGCE).
   </p>
 
-  <p className="desc">Pour pouvoir prétendre à ce dispositif, il faut, en outre, que le dommage du patient soit directement imputable à des actes de prévention, de diagnostic ou de soins et qu’ils aient eu pour le patient des conséquences anormales au regard de son état de santé comme de l’évolution prévisible de celui-ci.
+  <p className="desc" id="FM">Pour pouvoir prétendre à ce dispositif, il faut, en outre, que le dommage du patient soit directement imputable à des actes de prévention, de diagnostic ou de soins et qu’ils aient eu pour le patient des conséquences anormales au regard de son état de santé comme de l’évolution prévisible de celui-ci.
   </p>
 
   <p className="desc">

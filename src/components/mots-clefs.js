@@ -17,10 +17,10 @@ const MotsClefs= (props) => (
 
 
 
- <span className= "bold" >  {props.link1} </span> -
- <span className= "bold" >  {props.link2}</span> -
-  <span className= "bold" > {props.link3}</span> -
- <span className= "bold" >  {props.link4} </span>
+ <span className= "bold" >  {props.link1} </span> <br/>
+ <span className= "bold" >  {props.link2}</span><br/>
+  <span className= "bold" > {props.link3}</span><br/>
+ <span className= "bold" >  {props.link4} </span><br/>
   <span className= "bold" >  {props.link5} </span>
 
 </p>

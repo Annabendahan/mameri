@@ -38,7 +38,9 @@ Outre l’aggravation médicale, votre dossier peut être réouvert en cas d’a
 
 <p className="desc">Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
-<MotsClefs />
+ <MotsClefs
+link1=<Link to="/reparation-dommage-corporel/#EM"> Expertise médicale</Link>
+link2=<Link to="/reparation-dommage-corporel/#RIP"> Réparation intégrale</Link> />
 
       </div>
 <VisitCard />

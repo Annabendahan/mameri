@@ -499,7 +499,13 @@ address {
 }
 b {
   font-weight: bold;
-  color: #2a4b80;
+  color: #294B80;
+  text-decoration: underline;
+
+}
+
+b a {
+  text-decoration: none;
 }
 strong {
   font-weight: bold;
@@ -621,4 +627,48 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+a { text-decoration: none; }
+
+
+
+.background-hono{
+padding: 150px 8%;
+
+}
+
+.background-hono h1{
+  font-family: avenir;
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #2a4b80;
+  padding-bottom: 8px;
+
+
+}
+
+
+@media(max-width: 601px) {
+  .background-hono h1{
+margin-top: 10px;
+  }
+}
+
+
+@media(max-width: 1200px) {
+  .background-hono{
+padding: 150px  5%;
+
+ }
+}
+
+
+@media(max-width: 600px) {
+  .background-hono{
+padding: 10%;
+
+}
+
 }

@@ -44,6 +44,11 @@ const Salaries = () => (
    <h3> INAPTITUDE </h3>
   </div></Link>
 
+<Link to="/harcelement-moral/"><div className="ass2 ">
+   <img  src={pic12} className="picindex3" alt="fireSpot" />
+  <h3>  HARCÈLEMENT MORAL</h3>
+
+  </div></Link>
 
   <Link to="/rupture-conventionnelle/"><div className="indemn2 ">
     <img  src={pic13} className="picindex3" alt="fireSpot" />
@@ -56,16 +61,12 @@ const Salaries = () => (
 
 
   </div></Link>
-  <Link to="/harcelement-moral/"><div className="ass2 ">
-   <img  src={pic12} className="picindex3" alt="fireSpot" />
-  <h3>  HARCÈLEMENT MORAL</h3>
-
-  </div></Link>
 
 
-   <Link to="/sanction-disciplinaire/"><div className="ass2 ">
+
+   <Link to="/sanctions-disciplinaires/"><div className="ass2 ">
    <img  src={pic15} className="picindex3" alt="fireSpot" />
-  <h3> SANCTION DISCIPLINAIRE</h3>
+  <h3> SANCTIONS DISCIPLINAIRES</h3>
 
   </div></Link>
 

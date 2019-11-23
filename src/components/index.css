@@ -193,10 +193,10 @@ h3{
   display: flex;
   width: 100%;
 margin:auto;
-padding: 50px 8%;
+padding: 50px 6%;
 background: white;
 
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 
 
@@ -222,7 +222,7 @@ font-family: avenir;
 box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 width: 270px ;
 font-size: .7rem;
-margin: 20px;
+flex: 0 0 25%;
 background: #F8F8F8;
 max-height: 450px;
 
@@ -236,10 +236,8 @@ max-height: 450px;
 }
 
 .leftbox{
-  flex: 0 0 70%;
-  margin-right: 70px;
+  flex: 0 0 65%;
   margin-top: -50px
-
 }
 
 .uuup{
@@ -389,7 +387,7 @@ box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.35);
 }
 
 .profile-pic-contact{
-width: 270px;
+width: 100%;
 
 }
 
@@ -414,9 +412,7 @@ width: 270px;
   padding:30px 10%;
 }
 
-.leftbox{
-  margin-right: 30px;
-}
+
 }
 
 
@@ -442,11 +438,6 @@ margin-top:-20px;
 }
 
 
-@media(max-width: 600px) {
-  .leftbox{
-    margin-right:0px;
-  }
-}
 
 
 .arrow{

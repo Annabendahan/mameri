@@ -5,12 +5,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
-import pic1 from '../images/parispic.png';
-import pic2 from '../images/quentinmameripic.png';
-import pic3 from '../images/prejudice.png';
-import pic4 from '../images/work.png';
-import pic5 from '../images/handi3.png';
-import pic6 from '../images/image 15.png';
+
 import pic14 from '../images/la.jpg';
 
 const Abusifs = () => (

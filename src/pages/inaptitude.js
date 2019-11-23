@@ -29,9 +29,12 @@ const Inaptitude = () => (
 <p className="desc"> Si vous êtes en désaccord avec les avis, propositions, conclusions écrites ou indications émis par le médecin du travail, vous pouvez les contester devant le Conseil de prud’hommes dans un délai de 15 jours à compter de la notification de la décision. Ce délai est très court, soyez donc très vigilant ! </p>
 <p className="desc"> Si vous êtes en accord avec la position du médecin du travail mais que vous contestez le licenciement prononcé par votre employeur, vous pouvez saisir le Conseil de Prud’hommes. </p>
 <p className="desc">
-Si vous souhaitez être conseillée ou assistée dans le cadre d’une procédure d’inaptitude, vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
+Si vous souhaitez être conseillée ou assistée dans le cadre d’une procédure d’<span className="bold"><Link to="/droit-du-travail/#I">inaptitude</Link></span>, vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou par le formulaire de contact afin d’évoquer votre situation et de convenir d’un rendez-vous. </p>
 
 
+  <MotsClefs
+link1=<Link to="/droit-du-travail/#I"> Inaptitude </Link>
+ />
 
 
       </div>
