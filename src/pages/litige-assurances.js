@@ -3,7 +3,6 @@ import '../components/defense.css'
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
 import pic1 from '../images/parispic.png';
 import pic2 from '../images/quentinmameripic.png';

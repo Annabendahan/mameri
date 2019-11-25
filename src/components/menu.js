@@ -1,7 +1,8 @@
+import './menu.css'
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, {Component} from "react"
-import './menu.css'
+
 import { FaBars, FaFolderOpen, FaPhone } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';

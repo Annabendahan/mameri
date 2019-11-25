@@ -1,9 +1,11 @@
+import './header.css'
 import { NavLink, Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import './header.css'
+
 import pic1 from '../images/Qmameri_blanc.png';
 import Menu from './menu.js'
+
 
 const Header = ({ siteTitle }) => (
   <header

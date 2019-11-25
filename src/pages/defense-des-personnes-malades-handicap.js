@@ -3,7 +3,6 @@ import '../components/contact.css'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
 import pic3 from '../images/handi2.png';
 import pic4 from '../images/image 12.png';

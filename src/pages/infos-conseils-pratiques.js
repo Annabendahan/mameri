@@ -4,7 +4,6 @@ import '../components/liens.css'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import '../components/footer.css'
 import VisitCard from '../components/VisitCard'
 import pic3 from '../images/work2.png';
 import pic2 from '../images/quentinmameripic.png';
