@@ -2,13 +2,8 @@ import React from "react"
 import '../components/contact.css'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import VisitCard from '../components/VisitCard'
-import pic3 from '../images/handi2.png';
-import pic4 from '../images/image 12.png';
-import pic5 from '../images/image 13.png';
-import pic6 from '../images/Group 2.png';
-import pic2 from '../images/quentinmameripic.png';
 
 import pic10 from '../images/secu.jpeg';
 

@@ -1,12 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import '../components/contact.css'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import GoogleMap from "../components/maps"
+
 import VisitCard from '../components/VisitCard'
-import MapContainer from "../components/maps2"
-import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/logo_hd.png';
 import pic4 from '../images/ajdclogo.png';
 import pic5 from '../images/FranceAssosSante_logo.png';

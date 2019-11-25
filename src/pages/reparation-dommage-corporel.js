@@ -2,13 +2,9 @@ import React, {Component} from "react"
 import { Link } from "gatsby"
 import '../components/liens.css'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 import VisitCard from '../components/VisitCard'
-import GoogleMap from "../components/maps"
-import MapContainer from "../components/maps2"
-import pic2 from '../images/quentinmameripic.png';
-import Text1 from "./text1.js"
+
 
 class Reparation extends  Component {
 

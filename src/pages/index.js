@@ -3,12 +3,12 @@ import React from "react"
 import { Link } from "gatsby"
 import '../components/index.css'
 import Layout from "../components/layout"
-import Image from "../components/image"
+
 import SEO from "../components/seo"
 
 import VisitCard from '../components/VisitCard'
 import pic1 from '../images/P1012002.jpg';
-import pic2 from '../images/picq.png';
+
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';

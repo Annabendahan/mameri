@@ -1,8 +1,8 @@
 import React from "react"
 import '../components/defense.css'
 import Layout from "../components/layout"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
+
+
 import VisitCard from '../components/VisitCard'
 
 import pic14 from '../images/la.jpg';

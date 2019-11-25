@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import VisitCard from '../components/VisitCard'
 import '../components/posts.css'
-import pic2 from '../images/quentinmameripic.png';
+
 
 class PostsTemplate extends Component {
     render() {

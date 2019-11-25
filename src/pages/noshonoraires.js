@@ -4,8 +4,7 @@ import '../components/noshonoraires.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import VisitCard from '../components/VisitCard'
-import pic1 from '../images/pichonoraires.png';
-import pic2 from '../images/quentinmameripic.png';
+
 
 const NosHonoraires = () => (
   <Layout>

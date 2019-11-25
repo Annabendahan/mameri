@@ -3,10 +3,10 @@ import '../components/defense.css'
 import '../components/liens.css'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import VisitCard from '../components/VisitCard'
 import pic3 from '../images/work2.png';
-import pic2 from '../images/quentinmameripic.png';
+
 import pic4 from '../images/modeles-form.jpeg';
 import pic5 from '../images/liens-utiles.jpeg';
 import pic6 from '../images/conseils-pratiques.jpeg';

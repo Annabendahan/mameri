@@ -4,15 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import VisitCard from '../components/VisitCard'
-import pic3 from '../images/prejudice.png';
-import pic4 from '../images/image.png';
-import pic5 from '../images/image 2.png';
-import pic6 from '../images/image 3.png';
-import pic7 from '../images/image 4.png';
 import pic8 from '../images/AT.png';
-import pic9 from '../images/image 7.png';
-import pic2 from '../images/quentinmameripic.png';
-import pic10 from '../images/image 16.png';
+
+
 
 import pic11 from '../images/ar.jpeg';
 import pic12 from '../images/am.jpeg';
@@ -22,7 +16,7 @@ import pic15 from '../images/gh.jpeg';
 
 import pic16 from '../images/ip.jpeg';
 import pic17 from '../images/agg.jpeg';
-import pic18 from '../images/image 16.png';
+
 
 
 

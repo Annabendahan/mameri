@@ -1,11 +1,7 @@
 import './menu.css'
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React, {Component} from "react"
 
-import { FaBars, FaFolderOpen, FaPhone } from 'react-icons/fa';
-import { FaHome } from 'react-icons/fa';
-import { FaTimes } from 'react-icons/fa';
 import Backdrop from './backdrop'
 
 
@@ -106,15 +102,6 @@ render() {
             </div>
 
 
-  let svg1 = <svg id="svg"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line  x1="14" y1="15.5" x2="87" y2="15.5" stroke="black" stroke-width="3"/>
-<line  x1="14" y1="38.5" x2="87" y2="38.5" stroke="black" stroke-width="3"/>
-<line  x1="14" y1="61.5" x2="87" y2="61.5" stroke="black" stroke-width="3"/>
-</svg>
-
-let line1 = <svg className="line1" width="389" height="289" viewBox="0 0 389 289" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="76" y1="90.5" x2="268" y2="90.5" stroke="black" stroke-width="3"/>
-</svg>
 
 
 

@@ -4,11 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import VisitCard from '../components/VisitCard'
-import pic3 from '../images/work2.png';
-import pic4 from '../images/image 14.png';
-import pic5 from '../images/image 15.png';
-import pic6 from '../images/image 10.png';
-import pic2 from '../images/quentinmameripic.png';
 import pic10 from '../images/te.jpeg';
 import pic11 from '../images/inap.jpeg';
 import pic12 from '../images/hm.jpeg';

@@ -1,11 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import '../components/contact.css'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import VisitCard from '../components/VisitCard'
-import GoogleMap from "../components/maps"
-import MapContainer from "../components/maps2"
 import pic2 from '../images/quentinmameripic.png';
 import pdf from "../images/formulaire de demande.pdf"
 import pdf2 from "../images/certificat-medical.pdf"

@@ -5,9 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import VisitCard from '../components/VisitCard'
 import MotsClefs from '../components/Mots-Clefs'
-import GoogleMap from "../components/maps"
-import MapContainer from "../components/maps2"
-import pic2 from '../images/quentinmameripic.png';
+
 import pic15 from '../images/gh.jpeg';
 
 const Aggravation = () => (

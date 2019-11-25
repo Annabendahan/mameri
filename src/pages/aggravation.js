@@ -2,13 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import '../components/contact.css'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import VisitCard from '../components/VisitCard'
 import MotsClefs from '../components/Mots-Clefs'
-import GoogleMap from "../components/maps"
-import MapContainer from "../components/maps2"
-import pic2 from '../images/quentinmameripic.png';
-import pic3 from '../images/image 16.png';
+
+
 import pic17 from '../images/agg.jpeg';
 
 const Aggravation = () => (
