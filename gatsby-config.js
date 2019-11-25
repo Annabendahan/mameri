@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `For fun...`,
-    description: `...and more fun!`,
-    author: `@n8finch`
+    title: `Quentin Mameri`,
+    description: `Cabinet d'avocats`,
+    author: `Quentin Mameri`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -54,7 +54,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg` // This path is relative to the root of the site.
+        icon: `src/images/Qmameri_cmjn.png` // This path is relative to the root of the site.
       }
     },
     "gatsby-plugin-offline",
