@@ -222,9 +222,11 @@ const Contact = () => (
 
         <p>
           <button className="button2" type="submit">
-            Send
+            Envoyer
           </button>
         </p>
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
       </form>
     </div>
   </Layout>
