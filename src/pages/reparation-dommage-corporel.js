@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import '../components/liens.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import '../components/footer.css'
+
 import VisitCard from '../components/VisitCard'
 import GoogleMap from "../components/maps"
 import MapContainer from "../components/maps2"
