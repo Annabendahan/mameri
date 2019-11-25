@@ -3,7 +3,6 @@ import '../components/contact.css'
 import Layout from "../components/layout"
 
 import VisitCard from '../components/VisitCard'
-import pic2 from '../images/quentinmameripic.png';
 import pdf from "../images/formulaire de demande.pdf"
 import pdf2 from "../images/certificat-medical.pdf"
 import pdf3 from "../images/guide-pratique.pdf"

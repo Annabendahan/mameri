@@ -4,7 +4,6 @@ import '../components/contact.css'
 import Layout from "../components/layout"
 
 import VisitCard from '../components/VisitCard'
-import pic2 from '../images/quentinmameripic.png';
 import pic16 from '../images/ip.jpeg';
 import pic3 from '../images/P1012016.jpg';
 import pic4 from '../images/P1011958.jpg';

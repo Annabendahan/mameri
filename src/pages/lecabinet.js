@@ -1,15 +1,15 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import '../components/lecabinet.css'
 import Layout from "../components/layout"
 
 import VisitCard from '../components/VisitCard'
-import pic1 from '../images/quentinmameripic.png';
-import pic2 from '../images/mameri2.png';
+
 
 const LeCabinet = () => (
   <Layout>
-    <SEO title="Page two" />
+
 
 
 

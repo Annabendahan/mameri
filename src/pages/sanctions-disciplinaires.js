@@ -1,10 +1,9 @@
 import React from "react"
 import '../components/defense.css'
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+
 
 import VisitCard from '../components/VisitCard'
-import MotsClefs from '../components/Mots-Clefs'
 
 
 const Sanction = () => (

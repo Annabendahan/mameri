@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import { Link } from "gatsby"
 import '../components/liens.css'
 import Layout from "../components/layout"
 

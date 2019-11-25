@@ -1,12 +1,9 @@
 import React from "react"
 import '../components/contact.css'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { Link } from "gatsby"
 import VisitCard from '../components/VisitCard'
 import pic8 from '../images/AT.png';
-
-
 
 import pic11 from '../images/ar.jpeg';
 import pic12 from '../images/am.jpeg';

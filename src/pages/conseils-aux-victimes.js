@@ -5,8 +5,6 @@ import Layout from "../components/layout"
 
 import VisitCard from '../components/VisitCard'
 
-import pic2 from '../images/quentinmameripic.png';
-import Text1 from "./text1.js"
 
 class Conseils extends  Component {
 
