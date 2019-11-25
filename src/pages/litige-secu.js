@@ -43,8 +43,8 @@ Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le fo
 link1=<Link to="/protection-sociale/#TPT" > Temps-partiel thérapeutique</Link>
 link2=<Link to="/protection-sociale/#AT" > Arrêt de travail</Link>
 link3=<Link to="/protection-sociale/" className="underl">Pension d'invalidité</Link>
-link1=<Link to="/reparation-dommage-corporel/#EM">Expertise médicale</Link>
-link1=<Link to="/reparation-dommage-corporel/#EM">Expertise médicale</Link>
+link4=<Link to="/protection-sociale/#ALD">Affection de longue durée</Link>
+link5=<Link to="/reparation-dommage-corporel/#EM">Expertise médicale</Link>
  />
 
 

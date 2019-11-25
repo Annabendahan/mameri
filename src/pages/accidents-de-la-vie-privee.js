@@ -39,8 +39,8 @@ const Privée = () => (
 
     <p className="desc"> Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.  </p>
 
-<MotsClefs />
-link1=<Link to="/reparation-dommage-corporel/#EM"> Expertise médicale</Link>
+<MotsClefs
+link1=<Link to="/reparation-dommage-corporel/#EM"> Expertise médicale</Link> />
 
       </div>
 

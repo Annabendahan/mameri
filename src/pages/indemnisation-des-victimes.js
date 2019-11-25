@@ -10,7 +10,7 @@ import pic4 from '../images/image.png';
 import pic5 from '../images/image 2.png';
 import pic6 from '../images/image 3.png';
 import pic7 from '../images/image 4.png';
-import pic8 from '../images/image 5.png';
+import pic8 from '../images/AT.png';
 import pic9 from '../images/image 7.png';
 import pic2 from '../images/quentinmameripic.png';
 import pic10 from '../images/image 16.png';

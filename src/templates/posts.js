@@ -36,7 +36,7 @@ class PostsTemplate extends Component {
                                {node.title}</p>
 
 
-                        <p className="post-desc"  dangerouslySetInnerHTML={{__html: node.excerpt}} ></p>
+                        <p className="post-desc"  > {node.date} </p>
 
 
 
@@ -111,6 +111,7 @@ export const pageQuery = graphql`
                 node{
                     id
                     title
+
                     excerpt
                     slug
                     date(formatString: "MMMM DD, YYYY")

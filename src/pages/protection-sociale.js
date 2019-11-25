@@ -110,7 +110,7 @@ Pour bénéficier d’un placement en invalidité, il faut réunir des condition
     <p className="desc">L’arrêt de travail permet à un salarié dans l’impossibilité de travailler de justifier son absence à son employeur et de bénéficier du versement d’indemnités journalières par la sécurité sociale pour compenser sa perte de revenu. </p>
 
 
-      <p className="desc">Pour bénéficier du versement d’indemnités journalières, il faut réunir des conditions administratives (durée d’affiliation d’au moins 12 mois / durée de cotisation minimum) et médicales (être dans l’impossibilité de travailler).
+      <p className="desc" id="ALD">Pour bénéficier du versement d’indemnités journalières, il faut réunir des conditions administratives (durée d’affiliation d’au moins 12 mois / durée de cotisation minimum) et médicales (être dans l’impossibilité de travailler).
  </p>
 
 

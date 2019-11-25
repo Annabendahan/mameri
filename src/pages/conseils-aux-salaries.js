@@ -12,46 +12,6 @@ import Text1 from "./text1.js"
 
 class ConseilsSala extends  Component {
 
-  state ={
-
-    un: false,
-    deux: false,
-    trois: false,
-    quatre: false,
-    cinq: false
-  }
-
-
-  handle1 = () => {
-
-      this.setState({un : !this.state.un})
-  }
-
-  handle2 = () => {
-
-      this.setState({deux : !this.state.deux})
-  }
-
-  handle3 = () => {
-
-      this.setState({trois : !this.state.trois})
-  }
-
-  handle4 = () => {
-
-      this.setState({quatre : !this.state.quatre})
-  }
-
-  handle5 = () => {
-
-      this.setState({cinq : !this.state.cinq})
-  }
-
-
-  handle6 = () => {
-
-      this.setState({six : !this.state.six})
-  }
 
   render (){
 
@@ -117,7 +77,7 @@ Nombre de salariés démissionnent de leur emploi. Or, ce n’est pas toujours u
 
   <p className="desc"> Ainsi, voici quelques exemples de délai de prescription :</p>
 
-   <p className="desc"> Toute action portant sur l'exécution du contrat de travail : délai de 2 ans (Article L1471-1 du Code du travail)</p>
+   <p className="desc"> Toute action portant sur l'exécution du contrat de travail - délai de 2 ans (Article L1471-1 du Code du travail)</p>
     <p className="desc"> Toute action portant sur la rupture du contrat de travail – délai de 12 mois (Article L1471-1 du Code du travail)</p>
      <p className="desc"> Contestation d’un solde de tout compte – délai de 6 mois (Article L1234-20 du Code du travail)</p>
       <p className="desc"> A noter également que depuis la dernière réforme, le salarié licencié dispose d’un délai de  15 jours suivant la date de réception de la lettre de licenciement pour demander à l'employeur des précisions sur les motifs énoncés dans la lettre. Le salarié effectue sa demande par lettre recommandée avec avis de réception (LRAR) ou remise contre récépissé.</p>

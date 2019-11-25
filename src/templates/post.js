@@ -1,16 +1,20 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
+import Layout from "../components/layout"
+
 
 class PostTemplate extends Component {
     render() {
         const post = this.props.data.wordpressPost
 
         return (
-            <div>
-                <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
-                <div dangerouslySetInnerHTML={{ __html: post.content }} />
-            </div>
+            <Layout>
+              <div className="background-hono">
+                  <p className="high2"> {  post.title }</p>
+                  <p className="desc"> { post.content } </p>
+              </div>
+            </Layout>
         )
     }
 }

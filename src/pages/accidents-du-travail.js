@@ -11,7 +11,7 @@ import pic2 from '../images/quentinmameripic.png';
 import pic3 from '../images/prejudice.png';
 import pic4 from '../images/work.png';
 import pic5 from '../images/handi3.png';
-import pic8 from '../images/image 5.png';
+import pic8 from '../images/AT.png';
 
 const Travail = () => (
   <Layout>

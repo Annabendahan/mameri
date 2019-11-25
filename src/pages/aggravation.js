@@ -22,9 +22,10 @@ const Aggravation = () => (
 <div className="bigbox">
       <div className="bleft">
        <h1> AGGRAVATION </h1>
+       <img  src={pic17} className="picdefense" alt="fireSpot" />
 
     <p className="desc"> Si vos séquelles se sont aggravées depuis votre indemnisation judiciaire ou amiable, vous avez la possibilité de faire rouvrir votre dossier pour être indemnisé de vos nouveaux préjudices. </p>
-<img  src={pic17} className="picdefense" alt="fireSpot" />
+
 <p className="desc">Il peut s’agir d’une aggravation « médicale » se manifestant par l’apparition de nouvelles lésions ou d’une aggravation des séquelles préexistantes. </p>
 
 <p className="desc">

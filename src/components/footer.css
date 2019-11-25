@@ -40,22 +40,22 @@ z-index: 2;
 
 .footer2{
   padding: 5%;
-  visibility: hidden;
+  display: none;
   margin-top: 100px;
   position: relative;
 
 }
 
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
   .footer{
 
-  visibility: hidden;
+ display: none;
 
 }
 
 .footer2{
- visibility: visible;
+ display: block;
 }
 }
 

@@ -635,7 +635,7 @@ a { text-decoration: none; }
 
 
 .background-hono{
-padding: 150px 8%;
+padding: 250px 8%;
 
 }
 
@@ -659,7 +659,7 @@ margin-top: 10px;
 
 @media(max-width: 1200px) {
   .background-hono{
-padding: 150px  5%;
+padding: 250px  5%;
 
  }
 }
@@ -667,7 +667,7 @@ padding: 150px  5%;
 
 @media(max-width: 600px) {
   .background-hono{
-padding: 10%;
+padding:200px 7%;
 
 }
 

@@ -27,15 +27,21 @@ zIndex: 10
   }}>
 
 
-<div className="transparent"><h1 className="title"> QUENTIN MAMERI, AVOCAT AU BARREAU DE PARIS </h1> </div>
+<div className="transparent">
+
+ <h1> QUENTIN MAMERI, AVOCAT AU BARREAU DE PARIS </h1> </div>
 
   <div className="box">
 
 
+
   <div className="leftbox">
+
+
 
    <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="10" height="10" fill="#F2DC17"/>
+
       </svg> DÉFENSE DES VICTIMES, DES SALARIÉS ET DES MALADES  </h2>
 
 
@@ -51,6 +57,7 @@ Me MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité
   </div>
   <VisitCard />
   </div>
+
 
 
 

@@ -25,13 +25,15 @@ const Route = () => (
       <div className="bleft">
        <h1> ACCIDENTS DE LA ROUTE </h1>
 
+       <img  src={pic11} className="picdefense" alt="fireSpot" />
+
 
 <p className="desc"> Que vous soyez victime d’un accident en qualité de piéton, conducteur ou passager transporté d’une voiture, d’un camion, d’un deux-roues (vélo, moto, scooter …) ou de toute autre véhicule,  Maître MAMERI vous accompagnera à tous les stades de la procédure pour veiller au respect de vos droits de victimes et mettra tout en œuvre pour vous permettre d’obtenir la <span className= "bold" >  <Link to="/reparation-dommage-corporel/#RIP"> réparation intégrale</Link></span> de vos préjudices.</p>
 
 
 
 
-<img  src={pic11} className="picdefense" alt="fireSpot" />
+
 <p className="desc">Conscient qu’une victime est en situation de fragilité physique et psychologique à la suite d’un accident et qu’elle se retrouve seule à la merci des compagnies d’assurance, Maître Quentin MAMERI vous accompagnera dans un cadre amiable ou judiciaire afin de rétablir l’équilibre et de veiller à ce que vos intérêts et vos droits de victimes soient préservés et respectés.  </p>
 
 
