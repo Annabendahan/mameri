@@ -1,12 +1,12 @@
 require("dotenv").config({
-  path: `.env`
-});
+  path: `.env`,
+})
 
 module.exports = {
   siteMetadata: {
     title: `Quentin Mameri`,
     description: `Cabinet d'avocats`,
-    author: `Quentin Mameri`
+    author: `Quentin Mameri`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,8 +14,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
       resolve: `gatsby-source-wordpress`,
@@ -24,7 +24,7 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
          */
-        baseUrl: `mameriavocat.local`,
+        baseUrl: `4cb81ce4.ngrok.io`,
         // The protocol. This can be http or https.
         protocol: `http`,
         // Indicates whether the site is hosted on wordpress.com.
@@ -35,10 +35,7 @@ module.exports = {
         // If useACF is true, then the source plugin will try to import the WordPress ACF Plugin contents.
         // This feature is untested for sites hosted on WordPress.com
         useACF: false,
-        includedRoutes: [
-          "**/posts",
-          "**/pages",
-        ],
+        includedRoutes: ["**/posts", "**/pages"],
       },
     },
     `gatsby-transformer-sharp`,
@@ -54,10 +51,10 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/Qmameri_cmjn.png` // This path is relative to the root of the site.
-      }
+        icon: `src/images/Qmameri_cmjn.png`, // This path is relative to the root of the site.
+      },
     },
     "gatsby-plugin-offline",
-    `gatsby-plugin-netlify` // make sure to put last in the array
-  ]
-};
+    `gatsby-plugin-netlify`, // make sure to put last in the array
+  ],
+}
