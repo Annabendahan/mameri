@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import VisitCard from "../components/VisitCard"
 import MotsClefs from "../components/Mots-Clefs"
-import pic11 from "../images/ar.jpeg"
+import pic11 from "../images/ar.png"
 
 const Route = () => (
   <Layout>
