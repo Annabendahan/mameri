@@ -653,6 +653,12 @@ a {
   }
 }
 
+@media (min-width: 1500px) {
+  .background-hono {
+    padding: 300px 15%;
+  }
+}
+
 @media (max-width: 600px) {
   .background-hono {
     padding: 200px 7%;

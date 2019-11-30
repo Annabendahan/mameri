@@ -4,11 +4,11 @@
  *
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
-import 'babel-polyfill';
+import "babel-polyfill"
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import Footer  from "../components/footer"
+import Footer from "../components/footer"
 
 import Header from "./header"
 import "./layout.css"
@@ -35,8 +35,6 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-
-
         </div>
 
         <Footer />

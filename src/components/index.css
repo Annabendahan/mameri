@@ -1,3 +1,7 @@
+.container {
+  max-width: 1700px;
+}
+
 .banner {
   background-size: cover;
   position: relative;
@@ -217,6 +221,11 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
+@media (min-width: 1500px) {
+  .box {
+    padding: 50px 14%;
+  }
+}
 
 .box h2 {
   margin-bottom: 60px;
@@ -235,7 +244,8 @@ h3 {
   font-size: 0.7rem;
   flex: 0 0 25%;
   background: #f8f8f8;
-  max-height: 520px;
+  max-height: 600px;
+  max-width: 320px;
 }
 
 @media (max-width: 600px) {
@@ -311,6 +321,12 @@ h3 {
 @media (max-width: 800px) {
   .blue {
     display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .blue {
+    padding: 100px 14%;
   }
 }
 
@@ -402,12 +418,6 @@ h3 {
 
 .profile-pic-contact {
   width: 100%;
-}
-
-.contact-box {
-  position: relative;
-  font-size: 0.7rem;
-  background: #f8f8f8;
 }
 
 @media (max-width: 600px) {
