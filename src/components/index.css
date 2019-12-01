@@ -467,3 +467,7 @@ h3 {
   font-style: italic;
   margin-left: 20%;
 }
+
+.success {
+  color: green;
+}

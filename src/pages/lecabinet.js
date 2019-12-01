@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import SEO from "../components/seo"
 import "../components/lecabinet.css"
 import Layout from "../components/layout"
 
@@ -8,6 +8,7 @@ import VisitCard from "../components/VisitCard"
 
 const LeCabinet = () => (
   <Layout>
+    <SEO title="Le cabinet" />
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">

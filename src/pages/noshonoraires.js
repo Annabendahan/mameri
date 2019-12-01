@@ -7,7 +7,7 @@ import VisitCard from "../components/VisitCard"
 
 const NosHonoraires = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Nos honoraires" />
 
     <div className="background-hono">
       <div className="bigbox">

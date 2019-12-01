@@ -182,7 +182,12 @@ const Contact = () => (
         <VisitCard />
       </div>
 
-      <form name="contact" method="POST" data-netlify="true">
+      <form
+        name="contact"
+        method="POST"
+        action="../success"
+        data-netlify="true"
+      >
         <p>
           {" "}
           <b> CONTACT </b>{" "}

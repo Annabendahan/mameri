@@ -24,7 +24,7 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
          */
-        baseUrl: `15829386.ngrok.io`,
+        baseUrl: `9d37e442.ngrok.io`,
         // The protocol. This can be http or https.
         protocol: `http`,
         // Indicates whether the site is hosted on wordpress.com.

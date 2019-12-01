@@ -15,7 +15,7 @@ import pic16 from "../images/icone.jpeg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Le cabinet" />
+    <SEO title="Accueil" />
     <img src={pic1} className="banner" alt="fireSpot" />
 
     <div
