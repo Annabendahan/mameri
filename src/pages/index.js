@@ -1,7 +1,7 @@
 import "babel-polyfill"
 import React from "react"
 import { Link } from "gatsby"
-import "../components/index.css"
+
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
@@ -68,12 +68,12 @@ const IndexPage = () => (
 
           <p className="desc-r">
             {" "}
-            Me Quentin MAMERI intervient devant toutes les juridictions et sur
-            l’ensemble du territoire français y compris les DOM-TOM. Me MAMERI
-            reçoit uniquement sur rendez-vous. Si vous n’êtes pas en capacité de
-            vous déplacer, Me MAMERI pourra se rendre à votre domicile où dans
-            le lieu où vous êtes hospitalisé (établissement de santé, centre de
-            rééducation….).{" "}
+            Maître Quentin MAMERI intervient devant toutes les juridictions et
+            sur l’ensemble du territoire français y compris les DOM-TOM. Maître
+            MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en
+            capacité de vous déplacer, Maître MAMERI pourra se rendre à votre
+            domicile où dans le lieu où vous êtes hospitalisé (établissement de
+            santé, centre de rééducation….).{" "}
           </p>
         </div>
         <VisitCard />
@@ -86,7 +86,7 @@ const IndexPage = () => (
             <h3> DÉFENSE DES VICTIMES </h3>
             <p>
               Vous êtes victime d’un dommage corporel à la suite d’un accident
-              ou d’une infraction pénale.   Maître Quentin MAMERI intervient
+              ou d’une infraction pénale. Maître Quentin MAMERI intervient
               exclusivement pour les victimes et leurs proches et assurera votre
               défense contre le responsable, son assureur ou les fonds de
               garantie, par la voie amiable ou judiciaire, et mettra tout en

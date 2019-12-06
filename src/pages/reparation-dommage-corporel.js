@@ -94,35 +94,36 @@ d) La fiche de liaison infirmière ; <br/>
 3° Les informations mentionnant qu'elles ont été recueillies auprès de tiers n'intervenant pas dans la prise en charge thérapeutique ou concernant de tels tiers. 
 Sont seules communicables les informations énumérées aux 1° et 2°.</p> </div>
 
-    let text2 =  <p className="desc ">  "La demande de communication de dossier médical doit être adressée par courrier recommandé avec accusé de réception à l’attention du directeur si le dossier médical est détenu par un établissement de santé, ou directement auprès du professionnel de santé concernée dans le cadre d’une prise en charge libérale. <br/>Afin que le traitement de votre demande soit facilité, il est conseillé au demandeur de bien identifier dans son courrier les périodes ainsi que les services dans lequel il a été pris en charge et dont il souhaite obtenir la copie du dossier.
+    let text2 =  <p className="desc ">  La demande de communication de dossier médical doit être adressée par courrier recommandé avec accusé de réception à l’attention du directeur si le dossier médical est détenu par un établissement de santé, ou directement auprès du professionnel de santé concernée dans le cadre d’une prise en charge libérale.<br/> <br/>Afin que le traitement de votre demande soit facilité, il est conseillé au demandeur de bien identifier dans son courrier les périodes ainsi que les services dans lequel il a été pris en charge et dont il souhaite obtenir la copie du dossier.<br/>
 
 <br/>En aucun cas, vous n’avez l’obligation de motiver votre demande.
 
-La demande de communication du dossier médical doit être accompagnée de la copie recto-verso de la pièce d’identité de la personne qui le demande et, en cas de demande formée par les représentants légal d’un enfant mineur ou d’un majeure sous tutelle, le livret de famille ou la décision judiciaire désignant le tuteur.
+La demande de communication du dossier médical doit être accompagnée de la copie recto-verso de la pièce d’identité de la personne qui le demande et, en cas de demande formée par les représentants légal d’un enfant mineur ou d’un majeure sous tutelle, le livret de famille ou la décision judiciaire désignant le tuteur.<br/>
 <r/>
-Vous avez la possibilité de consulter le dossier sur place ou d’en demander une copie. Dans ce cas, les frais de reproduction et d’envoi seront à votre charge.
+Vous avez la possibilité de consulter le dossier sur place ou d’en demander une copie. Dans ce cas, les frais de reproduction et d’envoi seront à votre charge.<br/>
 
 <br/>S’agissant des établissements hospitaliers, le coût de la reproduction est encadré et ne peut être supérieur à 0,18 euros par page de format A4 en noir et blanc (arrêté du 1er octobre 2001 au lien suivant :
-https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000772503)
-
-<br/>Si vous souhaitez obtenir l’ensemble des pièces de votre dossier médical pour retracer la totalité de la prise en charge, le cabinet vous conseille de préciser dans votre courrier que vous souhaitez obtenir la communication de votre entier dossier d’hospitalisation incluant le dossier médical ainsi que le dossier infirmier et aide-soignant. Cela permettra d’avoir accès aux transmissions des professionnels soignants. " </p>
+<a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000772503"  target="blank"> https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000772503 </a>
+<br/>
+<br/>Si vous souhaitez obtenir l’ensemble des pièces de votre dossier médical pour retracer la totalité de la prise en charge, le cabinet vous conseille de préciser dans votre courrier que vous souhaitez obtenir la communication de votre entier dossier d’hospitalisation incluant le dossier médical ainsi que le dossier infirmier et aide-soignant. Cela permettra d’avoir accès aux transmissions des professionnels soignants.  </p>
 
 
 
 let text6 =  <p className="desc ">  La demande de communication de dossier médical doit être adressée par courrier recommandé avec accusé de réception à l’attention du directeur si le dossier médical est détenu par un établissement de santé, ou directement auprès du professionnel de santé concernée dans le cadre d’une prise en charge libérale.
+<br/>
 
 <br/> La demande de dossier médical ne peut être sollicitée pour un proche décédé que par ses ayants droit, son époux, son concubin ou son partenaire de PACS.
-
+<br/>
 <br/> S’agissant de l’ayant droit, il s’agit de l’héritier au sens de la succession (héritiers légaux ou testamentaires). Pour justifier sa qualité d’ayant droit, il faudra que le proche de la personne décédée joigne au courrier en plus de sa pièce d’identité un document justifiant de sa qualité d’héritier. Il peut s’agir d’un acte de notoriété qui doit être sollicité auprès du notaire .
-
+<br/>
 <br/> Pour l’époux, ou le partenaire de pacs, il faudra joindre une copie de la convention de pacs ou un acte de naissance ou livret de famille.
-
+<br/>
 <br/> A la différence d’une demande concernant son propre dossier médical, vous devez lorsque vous sollicitez le dossier médical d’un proche décédé motiver votre demande par l’un des objectifs prévus par la loi : connaitre les causes du décès, faire valoir ses droits ou défendre la mémoire du défunt.
-
+<br/>
 <br/>Il faut veiller à bien préciser les circonstances dans lesquelles la mémoire du défunt doit être défendue (attaque publique, atteinte à la vie privée...) ou la nature du droit que vous souhaitez faire valoir (action en indemnisation …).
-
+<br/>
 <br/>En fonction du motif invoqué, l’établissement procédera à un tri et ne vous remettra que les pièces médicales nécessaires pour parvenir à l’objectif sur lequel vous vous êtes positionné.
-
+<br/>
 Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir votre dossier médical.
 </p>
 
@@ -134,7 +135,7 @@ let text4 =  <p className="desc">  L’établissement de santé dispose d’un d
 
 
 let text5 = <p className="desc">
-En cas de refus de l’établissement résultant de son silence pendant cette période, ou en cas de refus explicite, vous avez la possibilité de saisir la Commission d’accès au document administratif ou si le refus émane d’un médecin libéral, auprès de l’ordre dont relève le professionnel concerné (Ordre des Médecins, Ordre des Chirurgiens-dentistes …). Vous avez également la possibilité d’agir par la voie judiciaire.
+En cas de refus de l’établissement résultant de son silence pendant cette période, ou en cas de refus explicite, vous avez la possibilité de saisir la Commission d’accès au document administratif ou si le refus émane d’un médecin libéral, auprès de l’ordre dont relève le professionnel concerné (Ordre des Médecins, Ordre des Chirurgiens-dentistes …). Vous avez également la possibilité d’agir par la voie judiciaire. <br/> <br/>
 
 Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir votre dossier médical</p>
 
@@ -199,7 +200,7 @@ Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir
 
 {quatre}
 
-<h3 className="o p" onClick={this.handle5}> Que faire en cas de refus de l’établissement ou du médecin ? {bas5}</h3>
+<h3 className="o " onClick={this.handle5}> Que faire en cas de refus de l’établissement ou du médecin ? {bas5}</h3>
 
 {cinq}
 
@@ -309,13 +310,15 @@ Ce certificat  initial est essentiel pour rattacher les lésions à l’acciden
 
   <p className="desc"> L’expertise médicale est une étape très importante de la procédure en réparation du dommage corporel en ce qu’elle a pour objet d’évaluer si les conditions de la responsabilité sont réunies et sur d’évaluer les préjudices subis par la victime sur le plan médical (en savoir plus sur les préjudices réparables).</p>
 <p className="desc">L’Expertise peut être mise en place dans différents cadres :</p>
-<p className="desc">  <span className="bold"> Le cadre purement amiable : </span> cela consiste en l’organisation d’une expertise amiable
+<p className="desc">  <span className="bold"> • Le cadre purement amiable : </span> cela consiste en l’organisation d’une expertise amiable
 avec l’établissement mis en cause ou son assureur.</p>
-<p className="desc-s">  <span className="bold"> Le cadre de la Commission de conciliation et d’indemnisation des accidents
+<p className="desc-s">  <span className="bold"> • Le cadre de la Commission de conciliation et d’indemnisation des accidents
 médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchner. Cette procédure présente l’avantage de la gratuité (procédure et frais d’expertise) et d’une certaine rapidité. Cependant, la CCI n’est compétente que pour les accidents les plus graves. Le seuil de gravité est fixé par décret.
 </p>
-<p className="desc-s" id="AT">  <span className="bold">  Le cadre judiciaire : </span>  Ce recours auprès du Tribunal consiste à solliciter la désignation d’un expert indépendant. Les frais d’expertises sont à la charge du demandeur mais peuvent être pris en charge par une assurance de protection juridique dont vous seriez éventuellement titulaire.
+<br/>
+<p className="desc-s" id="AT">  <span className="bold"> •  Le cadre judiciaire : </span>  Ce recours auprès du Tribunal consiste à solliciter la désignation d’un expert indépendant. Les frais d’expertises sont à la charge du demandeur mais peuvent être pris en charge par une assurance de protection juridique dont vous seriez éventuellement titulaire.
 </p>
+<br/>
 <p className="desc"> Si vous souhaitez mettre en place une expertise médicale pour évaluer vos préjudicies, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.</p>
 
 
@@ -338,6 +341,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
 <p className="desc-s">- à compter de la consolidation, en cas de séquelles, le versement d’une rente ou d’un capital en fonction du taux d’incapacité retenue.  </p>
 <p className="desc-s" id="ATR"> - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …). </p>
+<br/>
 <p className="desc"> En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
@@ -366,7 +370,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
         <p className="desc-s" id="AM" > - l’application de règles protectrices en droit du travail (doublement de l’indemnité de licenciement en cas de licenciement pour inaptitude ; protection contre le licenciement …).   </p>
 
-
+        <br/>
   <p className="desc">En cas de refus de reconnaissance d’un accident du travail ou de désaccord sur votre taux d’IPP, vous pouvez contacter Maitre Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.   </p>
 
    <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -379,7 +383,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
 
      <p className="desc" id="FIE"> En effet, le salarié effectuant une mission a droit à la protection (…) pendant tout le temps de la mission qu'il accomplit pour son employeur, peu important que l'accident survienne à l'occasion d'un acte professionnel ou d'un acte de la vie courante, sauf la possibilité pour l'employeur ou la caisse de rapporter la preuve que le salarié avait interrompu sa mission pour un motif personnel.  </p>
-
+     <br/>
        <p className="desc">Si vous avez subi un accident dans le cadre de votre mission, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 

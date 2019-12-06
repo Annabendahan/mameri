@@ -1,129 +1,112 @@
-.menu{
-background: #2a4b80;
-color:white;
-z-index: 300;
-top: -0px;
-padding: 50px 20px;
-font-weight: 500;
-position: absolute;
-height: 100vh;
-width:200px;
- transition: all .5s ease-out;
- font-family: avenir;
-
+.menu {
+  background: #2a4b80;
+  color: white;
+  z-index: 300;
+  top: -0px;
+  padding: 50px 20px;
+  font-weight: 500;
+  position: absolute;
+  height: 100vh;
+  width: 200px;
+  transition: right 0.5s ease-out;
+  font-family: avenir;
 }
 
-.ppetit p{
-  font-size: .3rem;
+.ppetit p {
+  font-size: 0.3rem;
   padding: 0px 10px;
   font-weight: 100;
 }
 
-.menu p{
-font-size: .6rem;
-font-weight: 700;
-margin-bottom: 10px
-}
-
-
-
-
-.menu p:hover{
+.menu p {
+  font-size: 0.6rem;
   font-weight: 700;
-    cursor: pointer;
+  margin-bottom: 10px;
 }
-.menu a{
+
+.menu p:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+.menu a {
   text-decoration: none;
   color: white;
-  font-size: .7rem;
-
+  font-size: 0.7rem;
 }
 
-.menu a:hover{
+.menu a:hover {
   font-weight: 900;
-    cursor: pointer;
+  cursor: pointer;
   transition: all 1s ease-out;
 }
 
-.menuSmall{
- width : 50px;
+.menuSmall {
+  width: 50px;
   color: black;
   z-index: 300;
   margin: 20px;
-  transition: all 2s ease-out;
+  transition: right 2s ease-out;
   visibility: hidden;
   position: absolute;
   top: 20px;
   right: -5px;
-
-
 }
 
-
-@media(max-width: 1300px) {
-  .menuSmall{
+@media (max-width: 1300px) {
+  .menuSmall {
     visibility: visible;
   }
 }
 
-
-.menu-svg{
-  transition: all 2s ease-out;
+.menu-svg {
+  transition: right 2s ease-out;
 }
 
-.menu-svg:hover .line{
-height: 2;
+.menu-svg:hover .line {
+  height: 2;
 }
 
-
-
-.line{
+.line {
   position: absolute;
   width: 30px;
 }
 
-.line2{
+.line2 {
   top: 10px;
 }
 
-.line3{
+.line3 {
   top: 20px;
 }
 
-
-.menu-svg{
+.menu-svg {
   position: relative;
   margin-top: 30px;
   margin-right: -20px;
   width: 50px;
   height: 50px;
-
 }
 
-svg#cross:hover{
-   width: 32px;
+svg#cross:hover {
+  width: 32px;
   height: 32px;
 }
-svg#svg{
-
+svg#svg {
   width: 50px;
   height: 100px;
   margin-right: 10px;
 }
 
 svg#svg:hover > #line1 {
-
   color: red;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-.menuSmall:hover{
+.menuSmall:hover {
   cursor: pointer;
-
 }
 
-
-.close{
+.close {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -131,14 +114,13 @@ svg#svg:hover > #line1 {
   padding: 10px 10px;
   font-weight: 100;
   margin-right: 10px;
-   margin-top: 0px;
+  margin-top: 0px;
 }
 
-.close:hover{
+.close:hover {
   cursor: pointer;
 }
 
-
-.Fa{
+.Fa {
   padding: 10px;
 }

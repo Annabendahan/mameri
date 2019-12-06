@@ -22,22 +22,22 @@ const Salaries = () => (
             manquements graves dans l’exécution de votre contrat de travail,
             vous venez d’être licencié, vous souhaitez rompre votre contrat aux
             torts de l’employeur, vous envisagez une rupture conventionnelle ….
-            Me MAMERI vous conseillera utilement et assurera la défense de vos
-            intérêts tant par la voie amiable que par la voie judiciaire
+            Maître MAMERI vous conseillera utilement et assurera la défense de
+            vos intérêts tant par la voie amiable que par la voie judiciaire
             notamment devant le Conseil de Prud’hommes.
           </p>
           <div className="blue2">
+            <Link to="/licenciements-abusifs/">
+              <div className="salar2 ">
+                <img src={pic14} className="picindex3" alt="fireSpot" />
+                <h3> LICENCIEMENTS ABUSIFS </h3>
+              </div>
+            </Link>
+
             <Link to="/rupture-torts-employeur/">
               <div className="indemn2 ">
                 <img src={pic10} className="picindex3" alt="fireSpot" />
                 <h3> RUPTURE AUX TORTS DE L'EMPLOYEUR </h3>
-              </div>
-            </Link>
-
-            <Link to="/inaptitude/">
-              <div className="indemn2 ">
-                <img src={pic11} className="picindex3" alt="fireSpot" />
-                <h3> INAPTITUDE </h3>
               </div>
             </Link>
 
@@ -55,10 +55,10 @@ const Salaries = () => (
               </div>
             </Link>
 
-            <Link to="/licenciements-abusifs/">
-              <div className="salar2 ">
-                <img src={pic14} className="picindex3" alt="fireSpot" />
-                <h3> LICENCIEMENTS ABUSIFS </h3>
+            <Link to="/inaptitude/">
+              <div className="indemn2 ">
+                <img src={pic11} className="picindex3" alt="fireSpot" />
+                <h3> INAPTITUDE </h3>
               </div>
             </Link>
 

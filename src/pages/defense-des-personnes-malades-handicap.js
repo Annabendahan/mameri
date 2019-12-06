@@ -22,8 +22,8 @@ const Malade = () => (
             la MDPH concernant des prestations sociales en lien avec la santé ou
             le handicap (refus de pension d’invalidité, refus d’AAH, refus de
             carte d’invalidité, refus de prestation de compensation du handicap,
-            refus d’indemnités journalières …). Me MAMERI vous représentera et
-            vous assistera dans l’ensemble des litiges de sécurité sociale et
+            refus d’indemnités journalières …). Maître MAMERI vous représentera
+            et vous assistera dans l’ensemble des litiges de sécurité sociale et
             d’aide sociale en matière de santé et de handicap.{" "}
           </p>
           <div className="blue2">

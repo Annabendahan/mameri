@@ -1,8 +1,8 @@
 import React from "react"
-import '../components/contact.css'
+import "../components/contact.css"
 import Layout from "../components/layout"
 
-import VisitCard from '../components/VisitCard'
+import VisitCard from "../components/VisitCard"
 import pdf from "../images/formulaire de demande.pdf"
 import pdf2 from "../images/certificat-medical.pdf"
 import pdf3 from "../images/guide-pratique.pdf"
@@ -21,86 +21,171 @@ import m11 from "../images/11.pdf"
 
 const Modeles = () => (
   <Layout>
-
-
     <div className="background-hono">
+      <div className="bigbox">
+        <div className="bleft">
+          <h1> MODELES ET FORMULAIRES </h1>
 
-     <div className="bigbox">
+          <h2 className="title">
+            {" "}
+            <svg
+              className="yellows"
+              width="15"
+              height="15"
+              viewBox="0 0 10 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="10" height="10" fill="#F2DC17" />
+            </svg>{" "}
+            MODÈLES{" "}
+          </h2>
 
-      <div className="bleft">
+          <h3 className="subt">
+            {" "}
+            MODÈLE DE DEMANDE DE COMMUNICATION DE DOSSIER MÉDICAL OU DENTAIRE{" "}
+          </h3>
 
-      <h1 > MODELES ET FORMULAIRES </h1>
+          <h3> - Demande de son propre dossier médical </h3>
 
-      <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="10" height="10" fill="#F2DC17"/>
-      </svg> MODÈLES  </h2>
+          <p className="desc-s">
+            {" "}
+            Auprès de médecins-conseils:{" "}
+            <a href={m8} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc-s">
+            {" "}
+            Auprès d'un médecin libéral:{" "}
+            <a href={m9} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc-s">
+            {" "}
+            Auprès d'un établissment médical:{" "}
+            <a href={m10} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc">
+            {" "}
+            Auprès d'un dentiste :{" "}
+            <a href={m11} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
 
+          <h3>
+            {" "}
+            - Demande de dossier médical en tant que représentant légal ou
+            tuteur, curateur{" "}
+          </h3>
 
+          <p className="desc-s">
+            {" "}
+            Auprès d'un médecin libéral :{" "}
+            <a href={m4} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc-s">
+            {" "}
+            Auprès de médecins-conseils :{" "}
+            <a href={m5} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc-s">
+            {" "}
+            Auprès d'un étabissement de santé :
+            <a href={m6} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc">
+            {" "}
+            Auprès d'un dentiste :{" "}
+            <a href={m7} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
 
+          <h3>
+            {" "}
+            - Demande de dossier médical en tant qu'ayant droit d'une personne
+            décédée{" "}
+          </h3>
 
+          <p className="desc-s">
+            {" "}
+            Auprès d'un établissement de santé : 
+            <a href={m1} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc-s">
+            {" "}
+            Auprès d'un médecin libéral :{" "}
+            <a href={m4} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+          <p className="desc">
+            {" "}
+            Auprès de médecins-conseils:{" "}
+            <a href={m3} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
 
-       <h3 className="subt"> MODÈLE DE DEMANDE DE COMMUNICATION DE DOSSIER MÉDICAL OU DENTAIRE  </h3>
+          <h2 className="title">
+            {" "}
+            <svg
+              className="yellows"
+              width="15"
+              height="15"
+              viewBox="0 0 10 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="10" height="10" fill="#F2DC17" />
+            </svg>{" "}
+            FORMULAIRES{" "}
+          </h2>
 
+          <h3 className="subt"> DEMANDES AUPRÈS DE LA MDPH  </h3>
 
-      <h3> - Demande de dossier médical en tant qu'ayant droit d'une personne décédée </h3>
+          <p className="desc-s">
+            {" "}
+            - Formulaire de demande :{" "}
+            <a href={pdf} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
 
+          <p className="desc-s">
+            {" "}
+            - Certificat médical MDPH :{" "}
+            <a href={pdf2} download>
+              Télécharger ici
+            </a>
+          </p>
 
-      <p className="desc-s"> Etablissement de santé : <a href={m1} download>Télécharger ici</a> </p>
- <p className="desc-s"> Médecin libéral : <a href={m2} download>Télécharger ici</a> </p>
-<p className="desc"> Médecins-conseils: <a href={m3} download>Télécharger ici</a> </p>
+          <p className="desc">
+            {" "}
+            - Guide MDPH :{" "}
+            <a href={pdf3} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+        </div>
 
-      <h3> - Demande de dossier médical en tant que représentant légal ou tuteur, curateur </h3>
-
-
-      <p className="desc-s"> Pour la personne elle-même :<a href={m4} download>Télécharger ici</a> </p>
-<p className="desc-s"> Médecin libéral : <a href={m5} download>Télécharger ici</a> </p>
-<p className="desc-s"> Médecins-conseils : <a href={m6} download>Télécharger ici</a> </p>
-<p className="desc"> Dentiste : <a href={m7} download>Télécharger ici</a> </p>
-
-
- <h3> - Demande de son propre dossier médical </h3>
-
-
-      <p className="desc-s"> Etablissement de santé : <a href={m8} download>Télécharger ici</a> </p>
-<p className="desc-s"> Médecin libéral: <a href={m9} download>Télécharger ici</a> </p>
-<p className="desc-s"> Pour un enfant mineur : <a href={m10} download>Télécharger ici</a> </p>
-<p className="desc"> Dentiste : <a href={m11} download>Télécharger ici</a> </p>
-
-
-
-
-      <h2 className="title"> <svg className="yellows" width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="10" height="10" fill="#F2DC17"/>
-      </svg> FORMULAIRES  </h2>
-
-
-      <h3 className="subt"> DEMANDES AUPRÈS DE LA MDPH  </h3>
-
-
-
-
-<p className="desc-s"> - Formulaire de demande :  <a href={pdf} download>Télécharger ici</a> </p>
-
- <p className="desc-s"> - Certificat médical MDPH   :  <a href={pdf2} download>Télécharger ici</a></p>
-
-<p className="desc">  - Guide MDPH :  <a href={pdf3} download>Télécharger ici</a> </p>
-
-
-
-         </div>
-
-
-
-<VisitCard />
-
-
-
+        <VisitCard />
+      </div>
     </div>
-
-    </div>
-
-
   </Layout>
 )
 
-export default Modeles;
+export default Modeles

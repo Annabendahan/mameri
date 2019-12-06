@@ -29,7 +29,7 @@ const LeCabinet = () => (
           </h2>
           <p className="desc">
             {" "}
-            Me Quentin MAMERI a suivi un{" "}
+            Maître Quentin MAMERI a suivi un{" "}
             <span className="bold">
               {" "}
               cursus universitaire très spécialisé{" "}

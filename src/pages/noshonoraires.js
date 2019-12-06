@@ -31,7 +31,7 @@ const NosHonoraires = () => (
             {" "}
             Le tarif de ce premier rendez-vous est fixé à 150 euros TTC, quelle
             que soit la durée de l&#39;entretien. Si à l&#39;issue du
-            rendez-vous, vous confiez à Me MAMERI la défense de vos intérêts, le
+            rendez-vous, vous confiez à MAMERI la défense de vos intérêts, le
             montant de la première consultation sera déduite du montant total de
             ses honoraires pour la procédure ou les démarches envisagées.
           </p>
@@ -53,13 +53,11 @@ const NosHonoraires = () => (
           <p className="desc">
             {" "}
             Dès le premier rendez-vous, la question des honoraires sera abordée
-            sans aucun tabou et en toute transparence. Me MAMERI vous adressera
-            une <span className="bold">
-              {" "}
-              convention d’honoraire détaillée 
-            </span>{" "}
-            qui vous permettra, avant de vous engager, de connaître, par avance,
-            le montant de ses honoraires pour les diligences envisagées.
+            sans aucun tabou et en toute transparence. Maître MAMERI vous
+            adressera une 
+            <span className="bold"> convention d’honoraire détaillée </span> qui
+            vous permettra, avant de vous engager, de connaître, par avance, le
+            montant de ses honoraires pour les diligences envisagées.
           </p>
 
           <h2 className="title">
@@ -77,11 +75,11 @@ const NosHonoraires = () => (
             LA FIXATION DES HONORAIRES{" "}
           </h2>
           <p className="desc">
-            Les honoraires de Me MAMERI se décomposent en un{" "}
+            Les honoraires de Maître MAMERI se décomposent en un{" "}
             <span className="bold"> honoraire fixe </span> qui correspond aux
             diligences envisagées auquel s’ajoute un{" "}
             <span className="bold"> honoraire de résultat </span>. L’honoraire
-            pratiquée par Me MAMERI est un{" "}
+            pratiquée par Maître MAMERI est un{" "}
             <span className="bold"> honoraire forfaitaire </span> afin que vous
             puissiez prévoir à l’avance ce que cela va vous coûter.
           </p>
@@ -102,8 +100,8 @@ const NosHonoraires = () => (
           </h2>
           <p className="desc">
             {" "}
-            Les honoraires fixes de Me Quentin MAMERI peuvent être couverts en
-            tout ou partie par une
+            Les honoraires fixes de Maître Quentin MAMERI peuvent être couverts
+            en tout ou partie par une
             <span className="bold">
               {" "}
               assurance de protection juridique{" "}

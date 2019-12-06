@@ -11,6 +11,8 @@ import pic4 from "../images/modeles-form.jpeg"
 import pic5 from "../images/liens-utiles.jpeg"
 import pic6 from "../images/conseils-pratiques.png"
 
+import pic15 from "../images/gh.jpeg"
+
 const LiensUtiles = () => (
   <Layout>
     <div className="background-hono">

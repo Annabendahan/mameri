@@ -13,11 +13,11 @@ const Contact = () => (
           <h1> CONTACT ET ACCÈS </h1>
           <p className="desc">
             {" "}
-            Dès le premier contact, Me MAMERI procédera à une première
+            Dès le premier contact, Maître MAMERI procédera à une première
             évaluation de votre situation pour vérifier si votre affaire
             s’intègre bien dans le champ de compétence de son Cabinet et vous
             conviendrez ensemble d’un premier rendez-vous. Chaque affaire étant
-            particulière, ce premier rendez-vous est essentiel pour que Me
+            particulière, ce premier rendez-vous est essentiel pour que Maître
             MAMERI puisse vous rencontrer, prendre connaissance des pièces du
             dossier et vous proposer une stratégie personnalisée.
           </p>
