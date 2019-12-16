@@ -15,7 +15,7 @@
 .banner2 {
   background-size: cover;
   position: relative;
-  top: 100px;
+  top: 0px;
   width: 100%;
   position: fixed;
   z-index: 1;
