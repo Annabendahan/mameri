@@ -12,11 +12,13 @@ import pic1 from "../images/P1011989.jpeg"
 import pic6 from "../images/P1011943.jpg"
 import pic15 from "../images/malade.jpeg"
 import pic16 from "../images/icone.jpeg"
+import pic2 from "../images/mameriMain.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Accueil" />
-    <img src={pic1} className="banner" alt="fireSpot" />
+    {/* <img src={pic1} className="banner" alt="fireSpot" /> */}
+    <img src={pic2} className="banner2" alt="fireSpot" />
 
     <div
       className="home-div"
