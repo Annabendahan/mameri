@@ -47,11 +47,10 @@ const Modeles = () => (
           </h3>
 
           <h3> - Demande de son propre dossier médical </h3>
-
           <p className="desc-s">
             {" "}
-            Auprès de médecins-conseils:{" "}
-            <a href={m8} download>
+            Auprès d'un établissement de santé:{" "}
+            <a href={m10} download>
               Télécharger ici
             </a>{" "}
           </p>
@@ -62,17 +61,18 @@ const Modeles = () => (
               Télécharger ici
             </a>{" "}
           </p>
+
           <p className="desc-s">
             {" "}
-            Auprès d'un établissment médical:{" "}
-            <a href={m10} download>
+            Auprès d'un dentiste :{" "}
+            <a href={m11} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc">
             {" "}
-            Auprès d'un dentiste :{" "}
-            <a href={m11} download>
+            Auprès d'un médecin-conseil:{" "}
+            <a href={m8} download>
               Télécharger ici
             </a>{" "}
           </p>
@@ -85,29 +85,31 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
+            Auprès d'un établissement de santé :
+            <a href={m6} download>
+              Télécharger ici
+            </a>{" "}
+          </p>
+
+          <p className="desc-s">
+            {" "}
             Auprès d'un médecin libéral :{" "}
             <a href={m4} download>
               Télécharger ici
             </a>{" "}
           </p>
+
           <p className="desc-s">
             {" "}
-            Auprès de médecins-conseils :{" "}
-            <a href={m5} download>
-              Télécharger ici
-            </a>{" "}
-          </p>
-          <p className="desc-s">
-            {" "}
-            Auprès d'un étabissement de santé :
-            <a href={m6} download>
+            Auprès d'un dentiste :{" "}
+            <a href={m7} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc">
             {" "}
-            Auprès d'un dentiste :{" "}
-            <a href={m7} download>
+            Auprès d'un médecin-conseil :{" "}
+            <a href={m5} download>
               Télécharger ici
             </a>{" "}
           </p>
@@ -134,7 +136,7 @@ const Modeles = () => (
           </p>
           <p className="desc">
             {" "}
-            Auprès de médecins-conseils:{" "}
+            Auprès de médecin-conseil:{" "}
             <a href={m3} download>
               Télécharger ici
             </a>{" "}

@@ -177,30 +177,30 @@ Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir
 
 
 
-<h3 className="o" onClick={this.handle1}> Que contient le dossier médical? {bas1} </h3>
+<h3 className="o" onClick={this.handle1}> • Que contient le dossier médical? {bas1} </h3>
 {un}
 
 <h3> COMMENT FAIRE LA DEMANDE DE DOSSIER MEDICAL ?  </h3>
 
-<h3 className="o" onClick={this.handle2}>  La demande de son propre dossier médical {bas2} </h3>
+<h3 className="o" onClick={this.handle2}>  • La demande de son propre dossier médical {bas2} </h3>
 
 {deux}
 
-<h3 className="o" onClick={this.handle6}>  La demande du dossier médical d’un proche décédé {bas6}</h3>
+<h3 className="o" onClick={this.handle6}>  • La demande du dossier médical d’un proche décédé {bas6}</h3>
 
 {six}
 
 
-<h3 className="o" onClick={this.handle3}> Délai de conservation du dossier médical {bas3}</h3>
+<h3 className="o" onClick={this.handle3}> • Délai de conservation du dossier médical {bas3}</h3>
 
 {trois}
 
-<h3 className="o" onClick={this.handle4}> Dans quel délai l’établissement ou le médecin doit il me remettre mon dossier médical ? {bas4} </h3>
+<h3 className="o" onClick={this.handle4}> • Dans quel délai l’établissement ou le médecin doit il me remettre mon dossier médical ? {bas4} </h3>
 
 
 {quatre}
 
-<h3 className="o " onClick={this.handle5}> Que faire en cas de refus de l’établissement ou du médecin ? {bas5}</h3>
+<h3 className="o " onClick={this.handle5}> • Que faire en cas de refus de l’établissement ou du médecin ? {bas5}</h3>
 
 {cinq}
 
@@ -383,7 +383,7 @@ médicaux:  </span>  Cette commission a été créée en 2002 par la loi Kouchne
 
 
      <p className="desc" id="FIE"> En effet, le salarié effectuant une mission a droit à la protection (…) pendant tout le temps de la mission qu'il accomplit pour son employeur, peu important que l'accident survienne à l'occasion d'un acte professionnel ou d'un acte de la vie courante, sauf la possibilité pour l'employeur ou la caisse de rapporter la preuve que le salarié avait interrompu sa mission pour un motif personnel.  </p>
-     <br/>
+     
        <p className="desc">Si vous avez subi un accident dans le cadre de votre mission, vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous. </p>
 
 
