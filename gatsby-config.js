@@ -24,7 +24,7 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
          */
-        baseUrl: `qmavocattm.cluster028.hosting.ovh.net`,
+        baseUrl: `qmavocattm.cluster028.hosting.ovh.net/wp-admin`,
         //baseUrl: `07130aed.ngrok.io`,
         // The protocol. This can be http or https.
         protocol: `http`,
@@ -35,7 +35,7 @@ module.exports = {
         hostingWPCOM: false,
         // If useACF is true, then the source plugin will try to import the WordPress ACF Plugin contents.
         // This feature is untested for sites hosted on WordPress.com
-        useACF: false,
+        useACF: true,
         includedRoutes: ["**/posts", "**/pages"],
       },
     },
