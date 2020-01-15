@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import VisitCard from "../components/VisitCard"
-import "../components/posts.css"
+
 import { graphql } from "gatsby"
 
 class PostsTemplate extends Component {
