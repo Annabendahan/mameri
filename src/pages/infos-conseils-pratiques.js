@@ -1,6 +1,5 @@
 import React from "react"
-import "../components/defense.css"
-import "../components/liens.css"
+
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 

@@ -1,4 +1,3 @@
-import "./menu.css"
 import { Link } from "gatsby"
 import React, { Component } from "react"
 

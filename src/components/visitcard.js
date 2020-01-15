@@ -1,5 +1,4 @@
 import React from "react"
-import "../components/defense.css"
 
 import { Link } from "gatsby"
 
@@ -81,7 +80,7 @@ const VisitCard = () => (
               fill="#2a4b80"
             />
           </svg>
-          mameri@qmavocat.com
+          mameri@qm-avocat.com
         </p>
       </div>
     </Link>

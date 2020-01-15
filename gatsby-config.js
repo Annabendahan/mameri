@@ -25,7 +25,7 @@ module.exports = {
          * Example : 'dev-gatbsyjswp.pantheonsite.io' or 'www.example-site.com'
          */
         baseUrl: `qmavocattm.cluster028.hosting.ovh.net`,
-        //baseUrl: `07130aed.ngrok.io`,
+        //baseUrl: `mameri.local`,
         // The protocol. This can be http or https.
         protocol: `http`,
         // Indicates whether the site is hosted on wordpress.com.

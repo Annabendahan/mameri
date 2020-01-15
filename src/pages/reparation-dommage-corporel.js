@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import '../components/liens.css'
+
 import Layout from "../components/layout"
 
 import VisitCard from '../components/VisitCard'

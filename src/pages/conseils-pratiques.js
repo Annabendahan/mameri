@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../components/contact.css"
+
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"

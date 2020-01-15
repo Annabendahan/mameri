@@ -1,4 +1,3 @@
-import "./header.css"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
@@ -407,7 +406,7 @@ const Header = ({ siteTitle }) => (
             fill="white"
           />
         </svg>{" "}
-        mameri@qmavocat.com{" "}
+        mameri@qm-avocat.com{" "}
       </div>{" "}
     </p>
   </header>
