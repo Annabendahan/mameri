@@ -91,10 +91,11 @@ label {
 
 form {
   text-align: center;
-  background: #f8f8f8;
+  background: white;
   padding: 10%;
-  margin: 100px auto;
+  margin: 100px auto !important;
   font-family: avenir;
+  padding: 30px !important;
 }
 
 .input-group {
