@@ -17,7 +17,7 @@ const Footer = () => (
       <div className="footer-left">
         <p className="high-s">
           {" "}
-          © 2019 Quentin Mameri - Tous droits réservés - Création par{" "}
+          © 2019 Quentin Mameri - Tous droits réservés - Créé par{" "}
           <a className="ab" href="http://annabdh.com">
             {" "}
             Anna Bendahan{" "}
@@ -64,7 +64,7 @@ const Footer = () => (
               fill="#2a4b80"
             />
           </svg>
-          qmameri.avocat@gmail.com
+          mameri@qm-avocat.com
         </p>
       </div>
 
