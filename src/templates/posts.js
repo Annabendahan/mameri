@@ -34,10 +34,16 @@ class PostsTemplate extends Component {
               <div>
                 {data.allWordpressPost.edges.map(({ node }) => (
                   <div key={node.slug} className={"article"}>
-                    <p className="high2">{node.title}</p>
-                    <br />
-                    <p className="post-desc"> {node.content} </p>
-                    <br />
+                    <p
+                      className="high2"
+                      dangerouslySetInnerHTML={{ __html: node.title }}
+                    />
+
+                    <p
+                      className="desc"
+                      dangerouslySetInnerHTML={{ __html: node.content }}
+                    />
+
                     <p className="post-desc"> {node.date} </p>
                   </div>
                 ))}
