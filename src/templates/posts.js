@@ -34,11 +34,11 @@ class PostsTemplate extends Component {
               <div>
                 {data.allWordpressPost.edges.map(({ node }) => (
                   <div key={node.slug} className={"article"}>
-                    <Link to={"posts/" + node.slug}>
-                      <p className="high2">{node.title}</p>
-
-                      <p className="post-desc"> {node.date} </p>
-                    </Link>
+                    <p className="high2">{node.title}</p>
+                    <br />
+                    <p className="post-desc"> {node.content} </p>
+                    <br />
+                    <p className="post-desc"> {node.date} </p>
                   </div>
                 ))}
               </div>
@@ -148,7 +148,7 @@ export const pageQuery = graphql`
         node {
           id
           title
-
+          content
           excerpt
           slug
           date(formatString: "MMMM DD, YYYY")
