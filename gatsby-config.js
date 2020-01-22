@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Quentin Mameri`,
-    description: `Cabinet d'avocats`,
+    description: `Avocat à la Cour`,
     author: `Quentin Mameri`,
   },
   plugins: [
