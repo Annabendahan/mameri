@@ -43,8 +43,6 @@ class PostsTemplate extends Component {
                       className="desc"
                       dangerouslySetInnerHTML={{ __html: node.content }}
                     />
-
-                    <p className="post-desc"> {node.date} </p>
                   </div>
                 ))}
               </div>
