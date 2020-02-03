@@ -36,7 +36,7 @@ const LiensUtiles = () => (
             <Link to="/modeles-et-formulaires/">
               <div className="ass2 ">
                 <img src={pic4} className="picindex3" alt="fireSpot" />
-                <h3> MODELES ET FORMULAIRES </h3>
+                <h3> MODÈLES ET FORMULAIRES </h3>
               </div>
             </Link>
 

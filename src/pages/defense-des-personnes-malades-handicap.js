@@ -30,20 +30,20 @@ const Malade = () => (
             <Link to="/litige-secu/">
               <div className="indemn2 ">
                 <img src={pic10} className="picindex3" alt="fireSpot" />
-                <h3> LITIGE AVEC LA SECURITE SOCIALE </h3>
+                <h3> LITIGES AVEC LA SECURITE SOCIALE </h3>
               </div>{" "}
             </Link>
             <Link to="/litige-mdph/">
               <div className="salar2 ">
                 <img src={pic12} className="picindex3" alt="fireSpot" />
-                <h3> LITIGE AVEC LA MDPH </h3>
+                <h3> LITIGES AVEC LA MDPH </h3>
               </div>
             </Link>
             <Link to="/litige-assurances/">
               {" "}
               <div className="ass2 ">
                 <img src={pic13} className="picindex3" alt="fireSpot" />
-                <h3> LITIGE AVEC LES ASSURANCES</h3>
+                <h3> LITIGES AVEC LES ASSURANCES</h3>
               </div>{" "}
             </Link>
           </div>

@@ -9,7 +9,7 @@ import VisitCard from "../components/VisitCard"
 const LeCabinet = () => (
   <Layout>
     <SEO title="Le cabinet" />
-    <div className="background-hono">
+    <div className="background-hono spe">
       <div className="bigbox">
         <div className="bleft">
           <h1> LE CABINET </h1>
@@ -32,7 +32,10 @@ const LeCabinet = () => (
             Maître Quentin MAMERI a suivi un{" "}
             <span className="bold">
               {" "}
-              cursus universitaire très spécialisé{" "}
+              <b>
+                cursus universitaire en droit de la santé et de la sécurité
+                sociale
+              </b>{" "}
             </span>{" "}
             qui lui a permis d’acquérir une solide expertise dans ses domaines
             d’intervention.{" "}
@@ -46,7 +49,7 @@ const LeCabinet = () => (
             intervient depuis plusieurs années en qualité d’écoutant sur{" "}
             <span className="bold">
               {" "}
-              la ligne juridique Santé Info Droit mise en place par l’Union
+              la ligne juridique Santé Info Droits mise en place par l’Union
               Nationale des Associations Agréées du Système de Santé (France
               Assos Santé)
             </span>
@@ -66,7 +69,7 @@ const LeCabinet = () => (
             assuré des{" "}
             <span className="bold">
               {" "}
-              formations auprès des membres de CHSCT ou de professionnels de
+              formations auprès de membres de CHSCT ou de professionnels de
               santé
             </span>
             .

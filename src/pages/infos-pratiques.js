@@ -19,7 +19,7 @@ const Infos = () => (
             <Link to="/reparation-dommage-corporel/">
               <div className="indemn2 ">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
-                <h3> REPARATION DU DOMMAGE CORPOREL</h3>
+                <h3> RÉPARATION DU DOMMAGE CORPOREL</h3>
               </div>
             </Link>
 

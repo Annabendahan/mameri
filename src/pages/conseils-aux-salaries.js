@@ -25,7 +25,7 @@ class ConseilsSala extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                NE DÉMISSIONEZ PAS SANS AVOIR SOLLICITÉ PRÉALABLEMENT L'AVIS
+                NE DÉMISSIONNEZ PAS SANS AVOIR SOLLICITÉ PRÉALABLEMENT L'AVIS
                 D'UN AVOCAT{" "}
               </h2>
 
@@ -40,12 +40,10 @@ class ConseilsSala extends Component {
               <p className="desc">
                 {" "}
                 La démission n’est pas sans conséquence. En cas de démission,
-                vous n’aurez le droLa démission n’est pas sans conséquence. En
-                cas de démission, vous n’aurez le droit à aucune indemnité de
-                départ et vous vous ne pourrez pas bénéficier du versement des
-                allocations chômages. La démission vous privera, en outre, du
-                bénéfice de la portabilité de vos contrats d’assurance mutuelle
-                et prévoyance.{" "}
+                vous n’aurez le droit à aucune indemnité de départ et vous vous
+                ne pourrez pas bénéficier du versement des allocations chômages.
+                La démission vous privera, en outre, du bénéfice de la
+                portabilité de vos contrats d’assurance mutuelle et prévoyance.{" "}
               </p>
 
               <p className="desc">

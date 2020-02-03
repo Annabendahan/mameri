@@ -1,146 +1,136 @@
-.logo{
-  width: 120px;
+.logo {
+  width: 130px;
+  margin-bottom: 0px;
+  margin-top: -10px;
 }
 
-
-.onglets{
-margin-top: 30px;
-visibility: hidden;
+.onglets {
+  margin-top: 30px;
+  visibility: hidden;
 }
-.ong{
+.ong {
   padding: 10px 0px;
 }
 
-.ong:hover{
+.ong:hover {
   font-weight: 900;
 }
 
-.polygon{
-margin-bottom: 3px;
-margin-left: 3px;
+.polygon {
+  margin-bottom: 3px;
+  margin-left: 3px;
 }
 
-
-.active{
+.active {
   color: red;
   font-weight: 900;
 }
 
-.top{
+.top {
   position: absolute;
   top: 10px;
   right: 30px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
-.top2{
+.top2 {
   position: absolute;
   top: 30px;
   right: 30px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
-
-.so{
+.so {
   margin-top: -6px;
   visibility: hidden;
   background: #2a4b80;
 
-  padding-left:10px;
+  padding-left: 10px;
   padding-top: 10px;
   color: white;
   width: 300px;
 }
 
-.so a{
+.so a {
   text-decoration: none;
   color: white;
 }
 
-
-.so2{
+.so2 {
   margin-top: 0px;
   visibility: visible;
   background: #2a4b80;
 
-  padding-left:10px;
+  padding-left: 10px;
   padding-top: 10px;
   color: white;
   width: 300px;
-  text-decoration: none
-}
-
-.so2 a{
-
   text-decoration: none;
-  color:white;
 }
 
+.so2 a {
+  text-decoration: none;
+  color: white;
+}
 
-.so3{
+.so3 {
   margin-top: 0px;
   visibility: visible;
-  background:#2a4b80;
+  background: #2a4b80;
 
-  padding-left:10px;
+  padding-left: 10px;
   padding-top: 10px;
   color: white;
   width: 300px;
 }
 
-.so3 a{
-
+.so3 a {
   text-decoration: none;
   color: white;
 }
 
-.so4{
+.so4 {
   margin-top: 0px;
   visibility: visible;
   background: white;
 
-  padding-left:10px;
+  padding-left: 10px;
   padding-top: 10px;
   color: #2a4b80;
   width: 300px;
 }
 
-.so4 a{
-
+.so4 a {
   text-decoration: none;
   color: white;
 }
 
-.so2:hover{
+.so2:hover {
   visibility: visible;
-
 }
 
-.so3:hover{
-  visibility: visible
+.so3:hover {
+  visibility: visible;
 }
 
-.so4:hover{
-  visibility: visible
+.so4:hover {
+  visibility: visible;
 }
 
-.sub-onglet4{
-  visibility:  hidden;
+.sub-onglet4 {
+  visibility: hidden;
   padding: 10px;
-   position: absolute;
+  position: absolute;
   top: 20px;
   left: 280px;
   background: #2a4b80;
   color: white;
-   text-decoration: none
+  text-decoration: none;
 }
 
-
-
-
-.sub-onglet5{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet5 {
+  visibility: hidden;
+  position: absolute;
   top: 55px;
   left: 280px;
   background: #2a4b80;
@@ -148,12 +138,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-
-.sub-onglet6{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet6 {
+  visibility: hidden;
+  position: absolute;
   top: 85px;
   left: 280px;
   background: #2a4b80;
@@ -161,11 +148,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-.sub-onglet7{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet7 {
+  visibility: hidden;
+  position: absolute;
   top: 50px;
   left: 280px;
   background: #2a4b80;
@@ -173,12 +158,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-
-.sub-onglet8{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet8 {
+  visibility: hidden;
+  position: absolute;
   top: 85px;
   left: 280px;
   background: #2a4b80;
@@ -186,11 +168,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-.sub-onglet9{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet9 {
+  visibility: hidden;
+  position: absolute;
   top: 115px;
   left: 280px;
   background: #2a4b80;
@@ -198,12 +178,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-
-.sub-onglet10{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet10 {
+  visibility: hidden;
+  position: absolute;
   top: 115px;
   left: 280px;
   background: #2a4b80;
@@ -211,11 +188,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-.sub-onglet11{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet11 {
+  visibility: hidden;
+  position: absolute;
   top: 145px;
   left: 280px;
   background: #2a4b80;
@@ -223,10 +198,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-.sub-onglet12{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet12 {
+  visibility: hidden;
+  position: absolute;
   top: 175px;
   left: 280px;
   background: #2a4b80;
@@ -234,11 +208,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-.sub-onglet13{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet13 {
+  visibility: hidden;
+  position: absolute;
   top: 80px;
   left: 280px;
   background: #2a4b80;
@@ -246,11 +218,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-.sub-onglet14{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet14 {
+  visibility: hidden;
+  position: absolute;
   top: 115px;
   left: 280px;
   background: #2a4b80;
@@ -258,12 +228,9 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-
-.sub-onglet15{
-  visibility:  hidden;
-   position: absolute;
+.sub-onglet15 {
+  visibility: hidden;
+  position: absolute;
   top: 145px;
   left: 280px;
   background: #2a4b80;
@@ -271,200 +238,176 @@ margin-left: 3px;
   padding: 10px;
 }
 
-
-
-
-.sub-onglet{
+.sub-onglet {
   position: absolute;
   top: 25px;
   left: -10px;
-  background:#2a4b80;
+  background: #2a4b80;
   color: white;
-
 }
 
-
-.sub-onglet:hover{
+.sub-onglet:hover {
   font-weight: 900;
 }
 
-.sub-onglet:hover ~ .so2{
+.sub-onglet:hover ~ .so2 {
   visibility: visible;
 }
 
-.sub-onglet:hover ~ .sub-onglet4{
+.sub-onglet:hover ~ .sub-onglet4 {
   visibility: visible;
 }
 
-.sub-onglet:hover ~ .sub-onglet5{
+.sub-onglet:hover ~ .sub-onglet5 {
   visibility: visible;
 }
 
-.sub-onglet:hover ~ .sub-onglet6{
+.sub-onglet:hover ~ .sub-onglet6 {
   visibility: visible;
 }
 
-
-.sub-onglet:hover ~ .sub-onglet10{
+.sub-onglet:hover ~ .sub-onglet10 {
   visibility: visible;
 }
 
-.sub-onglet:hover ~ .sub-onglet11{
+.sub-onglet:hover ~ .sub-onglet11 {
   visibility: visible;
 }
 
-.sub-onglet:hover ~ .sub-onglet12{
+.sub-onglet:hover ~ .sub-onglet12 {
   visibility: visible;
 }
 
-
-.sub-onglet2{
+.sub-onglet2 {
   position: absolute;
   top: 55px;
   left: -10px;
   background: #2a4b80;
   color: white;
 }
-.sub-onglet2:hover{
+.sub-onglet2:hover {
   font-weight: 900;
 }
 
-.sub-onglet2:hover ~ .sub-onglet7{
+.sub-onglet2:hover ~ .sub-onglet7 {
   visibility: visible;
 }
 
-.sub-onglet2:hover ~ .sub-onglet8{
+.sub-onglet2:hover ~ .sub-onglet8 {
   visibility: visible;
 }
 
-.sub-onglet2:hover ~ .sub-onglet9{
+.sub-onglet2:hover ~ .sub-onglet9 {
   visibility: visible;
 }
 
-
-
-.sub-onglet3{
+.sub-onglet3 {
   position: absolute;
   top: 85px;
   left: -10px;
   background: #2a4b80;
   color: white;
 }
-.sub-onglet3:hover{
+.sub-onglet3:hover {
   font-weight: 900;
 }
 
-
-.sub-onglet3:hover ~ .sub-onglet13{
+.sub-onglet3:hover ~ .sub-onglet13 {
   visibility: visible;
 }
 
-.sub-onglet3:hover ~ .sub-onglet14{
+.sub-onglet3:hover ~ .sub-onglet14 {
   visibility: visible;
 }
 
-.sub-onglet3:hover ~ .sub-onglet15{
+.sub-onglet3:hover ~ .sub-onglet15 {
   visibility: visible;
 }
 
-
-
-
-.de:hover > .so{
- visibility: visible;
+.de:hover > .so {
+  visibility: visible;
 }
 
-
-
-
-@media(min-width: 1301px) {
-  .onglets{
+@media (min-width: 1301px) {
+  .onglets {
     visibility: visible;
   }
 }
 
-
-.m{
-margin-bottom: 0px; }
-
-.m:hover{
-font-weight: 900}
-
-
-.onge:hover > .so{
-visibility: visible
+.m {
+  margin-bottom: 0px;
 }
 
-.onge{
+.m:hover {
+  font-weight: 900;
+}
+
+.onge:hover > .so {
+  visibility: visible;
+}
+
+.onge {
   position: relative;
 }
 
-.soo1{
+.soo1 {
   position: absolute;
   top: 20px;
-  left:-10px;
+  left: -10px;
 }
 
-.soo1:hover{
+.soo1:hover {
   font-weight: 900;
 }
 
-
-.soo2{
+.soo2 {
   position: absolute;
   top: 55px;
-  left:-10px;
+  left: -10px;
 }
 
-.soo2:hover{
+.soo2:hover {
   font-weight: 900;
 }
 
-
-.soo3{
+.soo3 {
   position: absolute;
   top: 85px;
-  left:-10px;
+  left: -10px;
 }
 
-.soo3:hover{
+.soo3:hover {
   font-weight: 900;
 }
 
-
-.soo4{
+.soo4 {
   position: absolute;
   top: 115px;
-  left:-10px;
+  left: -10px;
 }
 
-.soo4:hover{
+.soo4:hover {
   font-weight: 900;
 }
 
-.soo1:hover ~ .soo11{
-  visibility: visible
+.soo1:hover ~ .soo11 {
+  visibility: visible;
 }
 
-
-.soo2:hover ~ .soo12{
-  visibility: visible
+.soo2:hover ~ .soo12 {
+  visibility: visible;
 }
 
-.soo11:hover{
-    visibility: visible;
-
+.soo11:hover {
+  visibility: visible;
 }
 
-
-.soo12:hover{
-    visibility: visible;
-
+.soo12:hover {
+  visibility: visible;
 }
 
-
-.soo11{
-   visibility:hidden;
+.soo11 {
+  visibility: hidden;
   position: absolute;
   left: 210px;
   top: 25px;
@@ -472,15 +415,13 @@ visibility: visible
   background: #2a4b80;
   color: white;
 }
-.soo11 a{
+.soo11 a {
   text-decoration: none;
   color: white;
 }
 
-
-
-.soo12{
-   visibility:hidden;
+.soo12 {
+  visibility: hidden;
   position: absolute;
   left: 210px;
   top: 60px;
@@ -488,12 +429,7 @@ visibility: visible
   background: #2a4b80;
   color: white;
 }
-.soo12 a{
+.soo12 a {
   text-decoration: none;
   color: white;
 }
-
-
-
-
-

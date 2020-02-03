@@ -11,7 +11,7 @@ const Secu = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> LITIGE AVEC LA SÉCURITÉ SOCIALE </h1>
+          <h1> LITIGES AVEC LA SÉCURITÉ SOCIALE </h1>
           <img src={pic10} className="picdefense" alt="fireSpot" />
           <p className="desc">
             {" "}

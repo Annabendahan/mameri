@@ -11,7 +11,7 @@ const Mdph = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> LITIGE AVEC LA MDPH </h1>
+          <h1> LITIGES AVEC LA MDPH </h1>
           <img src={pic12} className="picdefense" alt="fireSpot" />
           <p className="desc">
             {" "}

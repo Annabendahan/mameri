@@ -2,15 +2,15 @@ import React from "react"
 
 import Layout from "../components/layout"
 import VisitCard from "../components/VisitCard"
-import pic13 from "../images/ass.jpeg"
+import pic13 from "../images/ass1.png"
 
 const Assurance = () => (
   <Layout>
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> LITIGE AVEC LES ASSURANCES </h1>
-          <img src={pic13} className="picdefense" alt="fireSpot" />
+          <h1> LITIGES AVEC LES ASSURANCES </h1>
+          <img src={pic13} className="picdefense spe" alt="fireSpot" />
           <p className="desc">
             {" "}
             Vous êtes en litige avec une compagnie d’assurance concernant une

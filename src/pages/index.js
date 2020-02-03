@@ -50,7 +50,7 @@ const IndexPage = () => (
 
           <p className="desc-r">
             {" "}
-            Maître Quentin MAMERI est Avocat au barreau de Paris.{" "}
+            Maître Quentin MAMERI est Avocat au Barreau de Paris.{" "}
           </p>
 
           <p className="desc-r">
@@ -61,9 +61,9 @@ const IndexPage = () => (
               défense des victimes d’accidents et d’infractions pénales{" "}
             </b>{" "}
             pour obtenir réparation de leur dommage corporel , la{" "}
-            <b> défense des salariés </b> dans le cadre de l’exécution ou la
+            <b> défense des salariés</b> dans le cadre de l’exécution ou la
             rupture de la relation de travail ainsi que la{" "}
-            <b> défense des personnes malades </b> et en situation de handicap
+            <b> défense des personnes malades et en situation de handicap</b>
             dans leurs litiges avec la sécurité sociale, la MDPH ou les
             compagnies d’assurance.{" "}
           </p>
@@ -71,11 +71,11 @@ const IndexPage = () => (
           <p className="desc-r">
             {" "}
             Maître Quentin MAMERI intervient devant toutes les juridictions et
-            sur l’ensemble du territoire français y compris les DOM-TOM. Maître
-            MAMERI reçoit uniquement sur rendez-vous. Si vous n’êtes pas en
-            capacité de vous déplacer, Maître MAMERI pourra se rendre à votre
-            domicile où dans le lieu où vous êtes hospitalisé (établissement de
-            santé, centre de rééducation….).{" "}
+            sur l’ensemble du territoire français y compris l'Outre Mer. <br />
+            <br /> Maître MAMERI reçoit uniquement sur rendez-vous. Si vous
+            n’êtes pas en capacité de vous déplacer, Maître MAMERI pourra se
+            rendre à votre domicile ou dans le lieu où vous êtes hospitalisé
+            (établissement de santé, centre de rééducation….).{" "}
           </p>
         </div>
         <VisitCard />

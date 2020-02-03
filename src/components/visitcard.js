@@ -13,7 +13,7 @@ const VisitCard = () => (
 
       <div className="contact-right">
         <h3 className="titleQ"> QUENTIN MAMERI </h3>
-        <h4 className="av"> Avocat à la cour </h4>
+        <h4 className="av"> Avocat à la Cour </h4>
 
         <p className="uuup"> 16 rue Sauffroy, 75017 PARIS </p>
 

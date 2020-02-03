@@ -24,7 +24,7 @@ const Modeles = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> MODELES ET FORMULAIRES </h1>
+          <h1> MODÈLES ET FORMULAIRES </h1>
 
           <h2 className="title">
             {" "}
@@ -175,12 +175,26 @@ const Modeles = () => (
             </a>
           </p>
 
+          <p className="desc-s">
+            {" "}
+            - Guide-Barème pour l'évaluation des déficiences et incapacités :{" "}
+            <a
+              href="https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000027037614&cidTexte=LEGITEXT000006074069"
+              target="blank"
+            >
+              Voir ici
+            </a>{" "}
+          </p>
+
           <p className="desc">
             {" "}
-            - Guide MDPH :{" "}
-            <a href={pdf3} download>
-              Télécharger ici
-            </a>{" "}
+            - Guide "Facile à lire et à comprendre" (documentation CNSA) :{" "}
+            <a
+              href="https://www.cnsa.fr/documentation/cnsa_fiche_facilealire_7-aah-vf.pdf"
+              target="blank"
+            >
+              Voir ici
+            </a>
           </p>
         </div>
 

@@ -6,16 +6,40 @@ import Backdrop from "./backdrop"
 class Menu extends Component {
   state = {
     show: false,
+    show2: false,
+    show3: false,
   }
-
   menuAppearsHandler = () => {
     this.setState({ show: true })
+    setTimeout(
+      function() {
+        this.setState({ show2: true })
+      }.bind(this),
+      200
+    )
+    setTimeout(
+      function() {
+        this.setState({ show3: true })
+      }.bind(this),
+      600
+    )
   }
 
   iconeAppearsHandler = () => {
-    this.setState({ show: false })
+    this.setState({ show2: false })
+    setTimeout(
+      function() {
+        this.setState({ show: false })
+      }.bind(this),
+      200
+    )
+    setTimeout(
+      function() {
+        this.setState({ show3: false })
+      }.bind(this),
+      400
+    )
   }
-
   render() {
     let menuIcone = (
       <div className="menuSmall" onClick={this.menuAppearsHandler}>
@@ -51,8 +75,8 @@ class Menu extends Component {
       <div
         className="menu"
         style={{
-          right: this.state.show ? "-10px" : "-300px",
-          opacity: this.state.show ? "1" : "O ",
+          right: this.state.show2 ? "-10px" : "-300px",
+          display: this.state.show ? "block" : "none",
         }}
       >
         <Link to="/">
@@ -97,7 +121,7 @@ class Menu extends Component {
           {" "}
           <p>
             {" "}
-            DOMAINES D'EXPERTISES{" "}
+            NOS DOMAINES D'EXPERTISES{" "}
             <svg
               className="polygon"
               width="10"
@@ -353,7 +377,11 @@ class Menu extends Component {
 
     return (
       <div>
-        <Backdrop show={this.state.show} clicked={this.iconeAppearsHandler} />
+        <Backdrop
+          show3={this.state.show3}
+          show2={this.state.show2}
+          clicked={this.iconeAppearsHandler}
+        />
         {menuIcone}
         {menu}
       </div>

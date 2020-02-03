@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => (
             position: `relative`,
           }}
         >
-          DOMAINES D'EXPERTISE{" "}
+          NOS DOMAINES D'EXPERTISE{" "}
           <svg
             className="polygon"
             width="10"

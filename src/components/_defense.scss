@@ -1,68 +1,56 @@
-.salaries{
+.salaries {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
-
-
-
-
-.picindex3{
+.picindex3 {
   width: 100px;
   margin-bottom: 0px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
-.picindex4{
+.picindex4 {
   width: 80px;
   margin-bottom: 0px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
-.b:hover{
-
- box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
-
+.b:hover {
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }
-.blue2{
-
-
+.blue2 {
   color: #2a4b80;
   font-family: avenir;
   font-weight: 700;
   justify-content: space-between;
 }
 
-@media(max-width: 1200px) {
-  .blue2{
-
-  display: block;
-  margin-top:0px;
-
-}
+@media (max-width: 1200px) {
+  .blue2 {
+    display: block;
+    margin-top: 0px;
+  }
 }
 
-.blue2 h3{
-  font-size: .8rem;
-   color: #2a4b80;
-   margin-bottom:0px;
+.blue2 h3 {
+  font-size: 0.8rem;
+  color: #2a4b80;
+  margin-bottom: 0px;
 }
 
-.blue2 p{
-  font-weight:100;
-  font-size: .7rem;
-   color: #2a4b80;
+.blue2 p {
+  font-weight: 100;
+  font-size: 0.7rem;
+  color: #2a4b80;
 }
-
-
 
 .blue2 a {
   color: white;
   font-weight: 900;
 }
 
-.picdefense{
+.picdefense {
   height: 150px;
   width: 100%;
   background-size: cover;
@@ -70,98 +58,86 @@
   margin: 25px 0px;
 }
 
-.picdefense2{
+.spe {
+}
+
+.picdefense2 {
   width: 200px;
 }
 
-
-
-.salaries-right{
-flex: 0 0 30%;
-text-align: justify;
-margin-right: 0px;
-margin-top: 0px;
+.salaries-right {
+  flex: 0 0 30%;
+  text-align: justify;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
-.salaries-left{
+.salaries-left {
   flex: 0 0 60%;
- margin-right: 50px;
+  margin-right: 50px;
 }
 
-
-@media(max-width: 600px) {
-  .salaries{
-
-  display: block;
-
-}
-.salaries-left{
-  margin-right: 0px
-
+@media (max-width: 600px) {
+  .salaries {
+    display: block;
   }
-.picdefense{
-  margin:20px auto;
-  }}
+  .salaries-left {
+    margin-right: 0px;
+  }
+  .picdefense {
+    margin: 20px auto;
+  }
+}
 
-
-
-.indemn2{
-
+.indemn2 {
   display: flex;
   padding: 15px;
   min-height: 100px;
 
   align-items: center;
-  margin:  20px 0px;
-    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
+  margin: 20px 0px;
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
-
-
-.indemn2 p{
+.indemn2 p {
   text-align: justify;
 }
 
 .indemn2:hover {
- box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }
 
-.salar2{
+.salar2 {
+  display: flex;
+  min-height: 100px;
 
-  display:flex;
-min-height: 100px;
-
-  margin:  20px 0px;
+  margin: 20px 0px;
   align-items: center;
   padding: 15px;
-    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
-.salar2 p{
+.salar2 p {
   text-align: justify;
 }
 
 .salar2:hover {
- box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }
 
-
-
-.ass2{
-
-  display:flex;
+.ass2 {
+  display: flex;
   padding: 15px;
   align-items: center;
   min-height: 100px;
-  margin:  20px 0px;
+  margin: 20px 0px;
   box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
 }
 
-
-.ass2 p{
+.ass2 p {
   text-align: justify;
 }
 
 .ass2:hover {
- box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
 }
