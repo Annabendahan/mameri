@@ -36,12 +36,16 @@ const Mentions = () => (
 
           <p className="desc">
             <b>Responsable de la publication : </b> Me Quentin MAMERI, Siret
-            n°789 279 783 00052, 16 rue Sauffroy, 75017 PARIS - Téléphone : +33
-            (0)6 40 84 36 19 - Télécopie : +33 (0)1 84 10 55 86 e-mail :
-            mameri@qm-avocat.com. Me Quentin MAMERI, en sa qualité d’avocat
-            inscrit au barreau de Paris, est soumis aux règles professionnelles
-            applicables à la profession d’avocat. <br /> <b>Créatrice : </b>{" "}
-            Madame Anne BENDAHAN <br />
+            n°789 279 783 00052, 16 rue Sauffroy, 75017 PARIS <br /> - Téléphone
+            : +33 (0)6 40 84 36 19 <br /> - Télécopie : +33 (0)1 84 10 55 86{" "}
+            <br /> - E-mail : mameri@qm-avocat.com.
+            <br /> Me Quentin MAMERI, en sa qualité d’avocat inscrit au barreau
+            de Paris, est soumis aux règles professionnelles applicables à la
+            profession d’avocat. <br /> <b>Créatrice : </b> Madame{" "}
+            <a href="annabdh.com" target="blank">
+              Anna BENDAHAN{" "}
+            </a>{" "}
+            <br />
             <b>Hébergeur :</b> Société OVH - RCS Lille Métropole 424 761 419
             00045 - Siège social : 2 rue Kellermann - 59100 Roubaix (France).
             <br /> <b>Crédit photo : </b>© Quentin MAMERI, © Adobestock
@@ -136,7 +140,7 @@ const Mentions = () => (
             consommation-avocat.fr/contacter-le-mediateur/.
           </p>
 
-          <h2 className="title">VII - LOI ET JURIDICTION COMPÉTENTE" "}</h2>
+          <h2 className="title">VII - LOI ET JURIDICTION COMPÉTENTE</h2>
 
           <p className="desc">
             La loi française est applicable tant pour les règles de forme que de
