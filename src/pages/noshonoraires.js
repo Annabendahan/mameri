@@ -13,7 +13,6 @@ const NosHonoraires = () => (
       <div className="bigbox">
         <div className="bleft">
           <h1> NOS HONORAIRES </h1>
-
           <h2 className="title">
             {" "}
             <svg
@@ -37,7 +36,6 @@ const NosHonoraires = () => (
             vous permettra, avant de vous engager, de connaître, par avance, le
             montant de ses honoraires pour les diligences envisagées.
           </p>
-
           <h2 className="title">
             {" "}
             <svg
@@ -59,9 +57,8 @@ const NosHonoraires = () => (
             <span className="bold"> honoraire de résultat </span>. L’honoraire
             pratiquée par Maître MAMERI est, sauf cas particulier, un{" "}
             <span className="bold"> honoraire forfaitaire </span> afin que vous
-            puissiez prévoir à l’avance ce que cela va vous coûter.
+            puissiez prévoir à l'avance le montant de ce qui vous sera facturé.
           </p>
-
           <h2 className="title">
             {" "}
             <svg
@@ -87,11 +84,12 @@ const NosHonoraires = () => (
             dont vous seriez éventuellement titulaire (assurance habitation,
             assurance des moyens de paiement,…).  Maître MAMERI pourra se
             rapprocher de votre compagnie d’assurance pour l’interroger sur la
-            mise en œuvre et sur l’étendue de sa prise en charge. <br /> Enfin,
-            sachez que la loi prévoit la possibilité pour la partie gagnante de
-            solliciter auprès du juge remboursement des frais d’avocat qu’elle a
-            exposé pour se défendre. Généralement, les tribunaux font droit à
-            cette demande au moins partiellement.
+            mise en œuvre et sur l’étendue de sa prise en charge. <br />
+            <br />
+            Enfin, sachez que la loi prévoit la possibilité pour la partie
+            gagnante de solliciter auprès du juge remboursement des frais
+            d’avocat qu’elle a exposés pour se défendre. Généralement, les
+            tribunaux font droit à cette demande au moins partiellement.
           </p>
         </div>
 
