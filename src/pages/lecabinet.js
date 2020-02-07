@@ -80,7 +80,7 @@ const LeCabinet = () => (
       </div>
     </div>
 
-    <div className="parcours">
+    <div className="parcours ">
       <h2 className="title">
         <svg
           className="yellows"

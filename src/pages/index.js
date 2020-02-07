@@ -63,7 +63,7 @@ const IndexPage = () => (
             pour obtenir réparation de leur dommage corporel , la{" "}
             <b> défense des salariés</b> dans le cadre de l’exécution ou la
             rupture de la relation de travail ainsi que la{" "}
-            <b> défense des personnes malades et en situation de handicap</b>
+            <b> défense des personnes malades et en situation de handicap </b>
             dans leurs litiges avec la sécurité sociale, la MDPH ou les
             compagnies d’assurance.{" "}
           </p>

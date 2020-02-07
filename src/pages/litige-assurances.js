@@ -10,7 +10,7 @@ const Assurance = () => (
       <div className="bigbox">
         <div className="bleft">
           <h1> LITIGES AVEC LES ASSURANCES </h1>
-          <img src={pic13} className="picdefense spe" alt="fireSpot" />
+          <img src={pic13} className="picdefense " alt="fireSpot" />
           <p className="desc">
             {" "}
             Vous êtes en litige avec une compagnie d’assurance concernant une

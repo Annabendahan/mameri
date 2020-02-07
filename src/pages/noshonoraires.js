@@ -13,28 +13,6 @@ const NosHonoraires = () => (
       <div className="bigbox">
         <div className="bleft">
           <h1> NOS HONORAIRES </h1>
-          <h2 className="title">
-            {" "}
-            <svg
-              className="yellows"
-              width="15"
-              height="15"
-              viewBox="0 0 10 10"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="10" height="10" fill="#F2DC17" />
-            </svg>{" "}
-            LA FACTURATION DU PREMIER RENDEZ-VOUS{" "}
-          </h2>
-          <p className="desc">
-            {" "}
-            Le tarif de ce premier rendez-vous est fixé à 150 euros TTC, quelle
-            que soit la durée de l&#39;entretien. Si à l&#39;issue du
-            rendez-vous, vous confiez à MAMERI la défense de vos intérêts, le
-            montant de la première consultation sera déduite du montant total de
-            ses honoraires pour la procédure ou les démarches envisagées.
-          </p>
 
           <h2 className="title">
             {" "}
@@ -79,7 +57,7 @@ const NosHonoraires = () => (
             <span className="bold"> honoraire fixe </span> qui correspond aux
             diligences envisagées auquel s’ajoute un{" "}
             <span className="bold"> honoraire de résultat </span>. L’honoraire
-            pratiquée par Maître MAMERI est un{" "}
+            pratiquée par Maître MAMERI est, sauf cas particulier, un{" "}
             <span className="bold"> honoraire forfaitaire </span> afin que vous
             puissiez prévoir à l’avance ce que cela va vous coûter.
           </p>
@@ -109,8 +87,8 @@ const NosHonoraires = () => (
             dont vous seriez éventuellement titulaire (assurance habitation,
             assurance des moyens de paiement,…).  Maître MAMERI pourra se
             rapprocher de votre compagnie d’assurance pour l’interroger sur la
-            mise en œuvre et sur l’étendue de sa prise en charge. Enfin, sachez
-            que la loi prévoit la possibilité pour la partie gagnante de
+            mise en œuvre et sur l’étendue de sa prise en charge. <br /> Enfin,
+            sachez que la loi prévoit la possibilité pour la partie gagnante de
             solliciter auprès du juge remboursement des frais d’avocat qu’elle a
             exposé pour se défendre. Généralement, les tribunaux font droit à
             cette demande au moins partiellement.
