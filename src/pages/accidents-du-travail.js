@@ -82,19 +82,19 @@ const Travail = () => (
 
           <p className="desc">
             {" "}
-            - refus de reconnaissance d’un accident du travail{" "}
+            - refus de reconnaissance d’un accident du travail ;
           </p>
           <p className="desc">
             {" "}
-            - désaccord sur la date de consolidation fixée par la CPAM{" "}
+            - désaccord sur la date de consolidation fixée par la CPAM ;
           </p>
           <p className="desc">
             {" "}
-            - désaccord avec le taux d’incapacité fixé par la CPAM{" "}
+            - désaccord avec le taux d’incapacité fixé par la CPAM ;
           </p>
           <p className="desc">
             {" "}
-            - procédure en faute inexcusable contre l’employeur.{" "}
+            - procédure en faute inexcusable contre l’employeur ;
           </p>
 
           <p className="desc">

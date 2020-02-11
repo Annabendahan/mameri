@@ -60,8 +60,8 @@ const Route = () => (
 
           <p className="desc">
             {" "}
-            L’objectif affiché de ce dispositif est d’accélérer l’indemnisation
-            mais n’est en réalité pas dans l’intérêt des victimes mais des
+            L’objectif affiché de ce dispositif est d’accélérer l’indemnisation.
+            Ce n’est en réalité pas dans l’intérêt des victimes mais des
             assureurs. Il contribue à diminuer la vigilance des victimes qui
             sont naturellement enclines à faire confiance à leur propre assureur
             pour gérer leur indemnisation et se voit ainsi exposée au risque de
@@ -89,7 +89,7 @@ const Route = () => (
             Il vous apportera non seulement un soutien juridique et technique
             mais également un soutien humain. Il vous fera bénéficier de son
             réseau de médecin-conseil et de professionnels qualifiés
-            (ergothérapeute, architecte …).{" "}
+            (ergothérapeute, architecte…).{" "}
           </p>
 
           <p className="desc">

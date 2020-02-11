@@ -16,38 +16,32 @@ const Mdph = () => (
           <p className="desc">
             {" "}
             Vous avez sollicité auprès de la MDPH une prestation pour vous
-            garantir des ressources et/ou pour compenser votre handicap ({" "}
+            garantir des ressources et/ou pour compenser votre handicap (
             <span className="bold">
-              {" "}
               <Link to="/protection-sociale/#AAH" className="underl">
-                {" "}
                 allocations aux adultes handicapés
-              </Link>{" "}
+              </Link>
             </span>
-            , allocation d’éducation de l’enfant handicapé,{" "}
+            , allocation d’éducation de l’enfant handicapé,
             <span className="bold">
               {" "}
               <Link to="/protection-sociale/#PCH" className="underl">
                 {" "}
                 prestation de compensation du handicap
-              </Link>{" "}
+              </Link>
             </span>
             ), pour faciliter vos déplacements ou vos transports (
             <span className="bold">
-              {" "}
               <Link to="/protection-sociale/#CMI" className="underl">
-                {" "}
                 Carte de mobilité-inclusion
               </Link>{" "}
             </span>{" "}
             priorité ou stationnement) ou bien encore pour que votre handicap
             soit pris en compte au niveau de l’emploi (
             <span className="bold">
-              {" "}
               <Link to="/protection-sociale/" className="underl">
-                {" "}
                 Reconnaissance de qualité de travailleurs handicapés
-              </Link>{" "}
+              </Link>
             </span>
             ).{" "}
           </p>
@@ -57,9 +51,10 @@ const Mdph = () => (
           </p>
           <p className="desc">
             Maître Quentin MAMERI vous accompagnera dans vos démarches de
-            contestation amiables ou judiciaires notamment devant le TGI pôle
-            social désormais compétent pour les litiges de sécurité sociale (le
-            TGI remplace le TASS et le TCI).{" "}
+            contestation amiables ou judiciaires notamment devant le Tribunal
+            Judiciaire pôle social désormais compétent pour les litiges de
+            sécurité sociale (le Tribunal Judiciaire remplace le TASS et le
+            TCI).{" "}
           </p>
 
           <p className="desc">

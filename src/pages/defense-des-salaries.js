@@ -21,7 +21,7 @@ const Salaries = () => (
             Vous avez un litige avec votre employeur, l’employeur a commis des
             manquements graves dans l’exécution de votre contrat de travail,
             vous venez d’être licencié, vous souhaitez rompre votre contrat aux
-            torts de l’employeur, vous envisagez une rupture conventionnelle ….
+            torts de l’employeur, vous envisagez une rupture conventionnelle….
             Maître MAMERI vous conseillera utilement et assurera la défense de
             vos intérêts tant par la voie amiable que par la voie judiciaire
             notamment devant le Conseil de Prud’hommes.

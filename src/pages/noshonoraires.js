@@ -54,8 +54,8 @@ const NosHonoraires = () => (
             Les honoraires de Maître MAMERI se décomposent en un{" "}
             <span className="bold"> honoraire fixe </span> qui correspond aux
             diligences envisagées auquel s’ajoute un{" "}
-            <span className="bold"> honoraire de résultat </span>. L’honoraire
-            pratiquée par Maître MAMERI est, sauf cas particulier, un{" "}
+            <span className="bold"> honoraire de résultat</span>. L’honoraire
+            pratiqué par Maître MAMERI est, sauf cas particulier, un{" "}
             <span className="bold"> honoraire forfaitaire </span> afin que vous
             puissiez prévoir à l'avance le montant de ce qui vous sera facturé.
           </p>
@@ -82,7 +82,7 @@ const NosHonoraires = () => (
               assurance de protection juridique{" "}
             </span>{" "}
             dont vous seriez éventuellement titulaire (assurance habitation,
-            assurance des moyens de paiement,…).  Maître MAMERI pourra se
+            assurance des moyens de paiement, etc.).  Maître MAMERI pourra se
             rapprocher de votre compagnie d’assurance pour l’interroger sur la
             mise en œuvre et sur l’étendue de sa prise en charge. <br />
             <br />

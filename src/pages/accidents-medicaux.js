@@ -68,7 +68,7 @@ const Médicaux = () => (
           <p className="desc">
             {" "}
             Il sera présent à vos côtés à chaque stade de la procédure y compris
-            lors de l’{" "}
+            lors de l’
             <span className="bold">
               <Link to="/reparation-dommage-corporel/#EM">
                 expertise médicale
@@ -84,7 +84,7 @@ const Médicaux = () => (
             {" "}
             Maître Quentin MAMERI vous fera bénéficier de son réseau de
             médecin-conseil et de professionnels qualifiés (ergothérapeute,
-            architecte …).{" "}
+            architecte…).{" "}
           </p>
 
           <p className="desc">

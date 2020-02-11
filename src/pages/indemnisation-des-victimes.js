@@ -23,21 +23,20 @@ const Indemnisation = () => (
           <p className="desc">
             {" "}
             Vous êtes victime d’un dommage corporel à la suite d’un accident ou
-            d’une infraction pénale.   Maître Quentin MAMERI intervient
-            exclusivement pour les victimes et leurs proches et assurera votre
-            défense contre le responsable, son assureur ou les fonds de
-            garantie, par la voie amiable ou judiciaire, et mettra tout en œuvre
-            pour vous permettre d’obtenir la réparation intégrale de vos
-            préjudices.
-            <br /> Maître Quentin MAMERI vous apportera non seulement un soutien
-            juridique et technique mais également humain tout au long de la
-            procédure et veillera à ce que vos droits de victimes soient
-            préservés et respectés. Maître Quentin MAMERI intervient pour tous
-            types d’accident et ce quel que soit la nature de votre handicap
-            qu’il soit physique, neurologique ou psychique.   Vous pouvez
-            contacter Maître Quentin MAMERI par téléphone, mail ou par le
-            formulaire de contact afin de lui exposer votre situation et
-            convenir d’un rendez-vous.
+            d’une infraction pénale. <br />
+            <br />
+            Maître Quentin MAMERI intervient exclusivement pour les victimes et
+            leurs proches et assurera votre défense contre le responsable, son
+            assureur ou les fonds de garantie, par la voie amiable ou
+            judiciaire, et mettra tout en œuvre pour vous permettre d’obtenir la
+            réparation intégrale de vos préjudices. Il vous apportera non
+            seulement un soutien juridique et technique mais également humain
+            tout au long de la procédure et veillera à ce que vos droits de
+            victimes soient préservés et respectés. <br />
+            <br /> Si vous avez subi un dommage corporel à la suite d’un
+            accident ou d’une agression, n’hésitez pas à contacter Maître
+            Quentin MAMERI par téléphone, mail ou par le formulaire de contact
+            afin de lui exposer votre situation et convenir d’un rendez-vous.
           </p>
           <div className="blue2">
             <Link to="/accidents-de-la-route/">

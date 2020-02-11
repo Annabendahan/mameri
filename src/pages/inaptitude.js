@@ -44,7 +44,7 @@ const Inaptitude = () => (
             vous pouvez saisir le Conseil de Prud’hommes.{" "}
           </p>
           <p className="desc">
-            Si vous souhaitez être conseillée ou assistée dans le cadre d’une
+            Si vous souhaitez être conseillé ou assisté dans le cadre d’une
             procédure d’
             <span className="bold">
               <Link to="/droit-du-travail/#I">inaptitude</Link>

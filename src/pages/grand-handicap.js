@@ -17,7 +17,7 @@ const Aggravation = () => (
           <p className="desc">
             {" "}
             Le grand handicap correspond à un handicap visible (amputation,
-            grand brûlés, paraplégie, hémiplégie …) ou un handicap invisible
+            grand brûlés, paraplégie, hémiplégie…) ou un handicap invisible
             comme c’est le cas en matière de traumatisme crânien où l’évaluation
             des séquelles et de leur retentissement nécessite une évaluation
             spécifique par des professionnels spécialisés.{" "}
@@ -26,7 +26,7 @@ const Aggravation = () => (
           <p className="desc">
             {" "}
             Maître Quentin MAMERI intervient dans l’indemnisation du grand
-            handicap et ce quel que soit l’origine de l’accident.
+            handicap et ce quelle que soit l’origine de l’accident.
           </p>
 
           <p className="desc">
@@ -52,7 +52,7 @@ const Aggravation = () => (
             Il vous apportera non seulement un soutien juridique et technique
             mais également un soutien humain. Il vous fera bénéficier de son
             réseau de médecin-conseil et de professionnels qualifiés
-            (ergothérapeute, architecte …).{" "}
+            (ergothérapeute, architecte…).{" "}
           </p>
 
           <p className="desc">

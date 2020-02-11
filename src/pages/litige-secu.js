@@ -40,7 +40,7 @@ const Secu = () => (
                 pension d'invalidité
               </Link>{" "}
             </span>{" "}
-            …) ou obtenir un statut protecteur (affection de longue durée …).{" "}
+            …) ou obtenir un statut protecteur (affection de longue durée…).{" "}
           </p>
 
           <p className="desc">

@@ -25,7 +25,7 @@ const Agression = () => (
           <p className="desc">
             {" "}
             Les infractions pénales peuvent être de nature diverse : agression,
-            homicide involontaire, délits routiers …{" "}
+            homicide involontaire, délits routiers…{" "}
           </p>
           <p className="desc">
             Quelle que soit la nature ou la gravité de l’infraction, Maître

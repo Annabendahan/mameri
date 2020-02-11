@@ -55,12 +55,11 @@ const IndexPage = () => (
 
           <p className="desc-r">
             {" "}
-            Il assure  la{" "}
+            Il assure la{" "}
             <b>
-              {" "}
               défense des victimes d’accidents et d’infractions pénales{" "}
             </b>{" "}
-            pour obtenir réparation de leur dommage corporel , la{" "}
+            pour obtenir réparation de leur dommage corporel, la{" "}
             <b> défense des salariés</b> dans le cadre de l’exécution ou la
             rupture de la relation de travail ainsi que la{" "}
             <b> défense des personnes malades et en situation de handicap </b>
@@ -75,7 +74,7 @@ const IndexPage = () => (
             <br /> Maître MAMERI reçoit uniquement sur rendez-vous. Si vous
             n’êtes pas en capacité de vous déplacer, Maître MAMERI pourra se
             rendre à votre domicile ou dans le lieu où vous êtes hospitalisé
-            (établissement de santé, centre de rééducation….).{" "}
+            (établissement de santé, centre de rééducation…).{" "}
           </p>
         </div>
         <VisitCard />

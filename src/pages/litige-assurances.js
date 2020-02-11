@@ -15,7 +15,7 @@ const Assurance = () => (
             {" "}
             Vous êtes en litige avec une compagnie d’assurance concernant une
             prestation d’assurance en lien avec la santé et le handicap
-            (prévoyance, assurance de prêt immobilier …).
+            (prévoyance, assurance de prêt immobilier…).
           </p>
           <p className="desc">
             Le désaccord est d’ordre administratif ou médical.

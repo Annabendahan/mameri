@@ -92,16 +92,16 @@ const LeCabinet = () => (
         >
           <rect width="10" height="10" fill="#F2DC17" />
         </svg>
-        DIPLOMES{" "}
+        DIPLÔMES{" "}
       </h2>
-      <p> • Master II Règlement des Différends, Rouen </p>
-      <p> • Master II Droit de la Santé, Faculté de droit de Poitiers </p>
+      <p> • Master II Règlement des Différends, Faculté de Droit de Rouen </p>
+      <p> • Master II Droit de la Santé, Faculté de Droit de Poitiers </p>
       <p>
         {" "}
         • DU Actions et Contentieux de la Sécurité sociale, Faculté de Droit de
         Montpellier{" "}
       </p>
-      <p> • DU éthiques, soins et santé, Faculté de médecine de Rouen </p>
+      <p> • DU éthiques, soins et santé, Faculté de Médecine de Rouen </p>
     </div>
 
     <p
