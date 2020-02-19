@@ -70,7 +70,7 @@ const IndexPage = () => (
           <p className="desc-r">
             {" "}
             Maître Quentin MAMERI intervient devant toutes les juridictions et
-            sur l’ensemble du territoire français y compris l'Outre Mer. <br />
+            sur l’ensemble du territoire français y compris l'Outre-Mer. <br />
             <br /> Maître MAMERI reçoit uniquement sur rendez-vous. Si vous
             n’êtes pas en capacité de vous déplacer, Maître MAMERI pourra se
             rendre à votre domicile ou dans le lieu où vous êtes hospitalisé

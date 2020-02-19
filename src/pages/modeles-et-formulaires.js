@@ -46,17 +46,17 @@ const Modeles = () => (
             MODÈLE DE DEMANDE DE COMMUNICATION DE DOSSIER MÉDICAL OU DENTAIRE{" "}
           </h3>
 
-          <h3> - Demande de son propre dossier médical </h3>
+          <h3> Demande de son propre dossier médical </h3>
           <p className="desc-s">
             {" "}
-            Auprès d'un établissement de santé:{" "}
+            • Auprès d'un établissement de santé:{" "}
             <a href={m10} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc-s">
             {" "}
-            Auprès d'un médecin libéral:{" "}
+            • Auprès d'un médecin libéral:{" "}
             <a href={m9} download>
               Télécharger ici
             </a>{" "}
@@ -64,14 +64,14 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            Auprès d'un dentiste :{" "}
+            • Auprès d'un dentiste :{" "}
             <a href={m11} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc">
             {" "}
-            Auprès d'un médecin-conseil:{" "}
+            • Auprès d'un médecin-conseil:{" "}
             <a href={m8} download>
               Télécharger ici
             </a>{" "}
@@ -79,13 +79,13 @@ const Modeles = () => (
 
           <h3>
             {" "}
-            - Demande de dossier médical en tant que représentant légal ou
-            tuteur, curateur{" "}
+            Demande de dossier médical en tant que représentant légal ou tuteur,
+            curateur{" "}
           </h3>
 
           <p className="desc-s">
             {" "}
-            Auprès d'un établissement de santé :
+            • Auprès d'un établissement de santé :
             <a href={m6} download>
               Télécharger ici
             </a>{" "}
@@ -93,7 +93,7 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            Auprès d'un médecin libéral :{" "}
+            • Auprès d'un médecin libéral :{" "}
             <a href={m4} download>
               Télécharger ici
             </a>{" "}
@@ -101,14 +101,14 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            Auprès d'un dentiste :{" "}
+            • Auprès d'un dentiste :{" "}
             <a href={m7} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc">
             {" "}
-            Auprès d'un médecin-conseil :{" "}
+            • Auprès d'un médecin-conseil :{" "}
             <a href={m5} download>
               Télécharger ici
             </a>{" "}
@@ -116,27 +116,27 @@ const Modeles = () => (
 
           <h3>
             {" "}
-            - Demande de dossier médical en tant qu'ayant droit d'une personne
+            Demande de dossier médical en tant qu'ayant droit d'une personne
             décédée{" "}
           </h3>
 
           <p className="desc-s">
             {" "}
-            Auprès d'un établissement de santé : 
+            • Auprès d'un établissement de santé : 
             <a href={m1} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc-s">
             {" "}
-            Auprès d'un médecin libéral :{" "}
+            • Auprès d'un médecin libéral :{" "}
             <a href={m4} download>
               Télécharger ici
             </a>{" "}
           </p>
           <p className="desc">
             {" "}
-            Auprès de médecin-conseil:{" "}
+            • Auprès de médecin-conseil:{" "}
             <a href={m3} download>
               Télécharger ici
             </a>{" "}
@@ -161,7 +161,7 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            - Formulaire de demande :{" "}
+            • Formulaire de demande :{" "}
             <a href={pdf} download>
               Télécharger ici
             </a>{" "}
@@ -169,7 +169,7 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            - Certificat médical MDPH :{" "}
+            • Certificat médical MDPH :{" "}
             <a href={pdf2} download>
               Télécharger ici
             </a>
@@ -177,7 +177,7 @@ const Modeles = () => (
 
           <p className="desc-s">
             {" "}
-            - Guide-Barème pour l'évaluation des déficiences et incapacités :{" "}
+            • Guide-Barème pour l'évaluation des déficiences et incapacités :{" "}
             <a
               href="https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000027037614&cidTexte=LEGITEXT000006074069"
               target="blank"
@@ -188,7 +188,7 @@ const Modeles = () => (
 
           <p className="desc">
             {" "}
-            - Guide "Facile à lire et à comprendre" (documentation CNSA) :{" "}
+            • Guide "Facile à lire et à comprendre" (documentation CNSA) :{" "}
             <a
               href="https://www.cnsa.fr/documentation/cnsa_fiche_facilealire_7-aah-vf.pdf"
               target="blank"

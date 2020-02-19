@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
 
-import pic14 from "../images/la.jpg"
+import pic4 from "../images/t.png"
 
 const Abusifs = () => (
   <Layout>
@@ -12,7 +12,7 @@ const Abusifs = () => (
       <div className="bigbox">
         <div className="bleft">
           <h1> LICENCIEMENTS ABUSIFS </h1>
-          <img src={pic14} className="picdefense" alt="fireSpot" />
+          <img src={pic4} className="picdefense" alt="fireSpot" />
           <p className="desc">
             {" "}
             Vous avez été licencié pour faute par votre employeur ou pour tout

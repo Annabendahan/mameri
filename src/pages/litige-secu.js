@@ -16,11 +16,9 @@ const Secu = () => (
           <p className="desc">
             {" "}
             Vous avez sollicité une prestation auprès de la sécurité sociale
-            pour pallier une perte de revenu ({" "}
+            pour pallier une perte de revenu (
             <span className="bold">
-              {" "}
               <Link to="/protection-sociale/#TPT" className="underl">
-                {" "}
                 temps-partiel thérapeutique
               </Link>{" "}
             </span>
@@ -29,8 +27,8 @@ const Secu = () => (
               {" "}
               <Link to="/protection-sociale/#AT" className="underl">
                 {" "}
-                arrêts de travail
-              </Link>{" "}
+                arrêt de travail
+              </Link>
             </span>
             ,{" "}
             <span className="bold">
@@ -38,9 +36,15 @@ const Secu = () => (
               <Link to="/protection-sociale/" className="underl">
                 {" "}
                 pension d'invalidité
-              </Link>{" "}
-            </span>{" "}
-            …) ou obtenir un statut protecteur (affection de longue durée…).{" "}
+              </Link>
+            </span>
+            …) ou obtenir un statut protecteur (
+            <span className="bold">
+              <Link to="/protection-sociale/#ALD">
+                affection de longue durée
+              </Link>
+            </span>
+            …){" "}
           </p>
 
           <p className="desc">

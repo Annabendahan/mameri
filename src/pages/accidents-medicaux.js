@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 import VisitCard from "../components/VisitCard"
 import MotsClefs from "../components/Mots-Clefs"
 
-import pic12 from "../images/am.jpeg"
+import pic12 from "../images/bannam.png"
 
 const Médicaux = () => (
   <Layout>
@@ -31,17 +31,9 @@ const Médicaux = () => (
                 infection nosocomiale
               </Link>{" "}
             </span>{" "}
-            ou même d’un{" "}
-            <span className="bold">
-              {" "}
-              <Link to="/reparation-dommage-corporel/#AMNF">
-                {" "}
-                accident médical non fautif
-              </Link>
-            </span>{" "}
-            (aléa thérapeutique), Maître Quentin MAMERI mettra tout en œuvre
-            pour que la responsabilité du professionnel ou de l’établissement de
-            santé soit reconnue et que vous puissiez obtenir{" "}
+            Maître Quentin MAMERI mettra tout en œuvre pour que la
+            responsabilité du professionnel ou de l’établissement de santé soit
+            reconnue et que vous puissiez obtenir{" "}
             <span className="bold">
               {" "}
               <Link to="/reparation-dommage-corporel/#RIP">
@@ -49,20 +41,30 @@ const Médicaux = () => (
                 réparation intégrale
               </Link>{" "}
             </span>{" "}
-            de vos préjudices.{" "}
+            de vos préjudices. <br />
+            En cas d’
+            <span className="bold">
+              <Link to="/reparation-dommage-corporel/#AMNF">
+                accident médical non fautif
+              </Link>
+            </span>
+             (aléa thérapeutique), sachez que vous pouvez obtenir indemnisation
+            par la solidarité nationale (ONIAM) sous certaines conditions
+            notamment si vous atteignez un certain seuil de gravité.
           </p>
 
           <p className="desc">
             {" "}
             Maître Quentin MAMERI intervient exclusivement pour les victimes et
-            leurs proches.{" "}
+            leurs proches et vous garantira une indépendance face aux
+            professionnels de santé et à leur compagnie d’assurance.{" "}
           </p>
 
           <p className="desc">
-            Il intervient sur l’ensemble du territoire français y compris les
-            DOM-TOM, devant toutes les juridictions civiles ou administratives
-            mais également devant les commissions de conciliation et
-            d’indemnisation des accidents médicaux (CCI).{" "}
+            Il intervient sur l’ensemble du territoire français y compris
+            l’Outre-Mer, devant toutes les juridictions civiles ou
+            administratives mais également devant les commissions de
+            conciliation et d’indemnisation des accidents médicaux (CCI).
           </p>
 
           <p className="desc">
@@ -89,9 +91,11 @@ const Médicaux = () => (
 
           <p className="desc">
             {" "}
-            Vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou
-            par le formulaire de contact afin de lui exposer votre situation et
-            convenir d’un rendez-vous.
+            Si vous êtes victime d’un accident médical, d’un accident dentaire
+            ou bien encore d’une infection nosocomiale ou du défaut d’un produit
+            de santé, n’hésitez pas à contacter Maître Quentin MAMERI par
+            téléphone, mail ou par le formulaire de contact afin de lui exposer
+            votre situation et convenir d’un rendez-vous.
           </p>
 
           <MotsClefs

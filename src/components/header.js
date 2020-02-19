@@ -208,12 +208,7 @@ const Header = ({ siteTitle }) => (
               <p className="m"> - INAPTITUDE </p>
             </Link>
 
-            <Link to="/harcelement-moral/">
-              {" "}
-              <p className="m"> - HARCÈLEMENT MORAL </p>
-            </Link>
-
-            <Link to="/sanction-disciplinaire/">
+            <Link to="/sanctions-disciplinaires/">
               {" "}
               <p className="m"> - SANCTION DISCIPLINAIRE </p>
             </Link>

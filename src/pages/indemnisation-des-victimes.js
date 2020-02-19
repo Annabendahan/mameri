@@ -6,13 +6,13 @@ import VisitCard from "../components/VisitCard"
 import pic8 from "../images/AT.png"
 
 import pic11 from "../images/ar.png"
-import pic12 from "../images/am.jpeg"
+import pic12 from "../images/am.png"
 import pic13 from "../images/as.jpeg"
 import pic14 from "../images/avp.jpeg"
 import pic15 from "../images/gh.jpeg"
 
 import pic16 from "../images/ip.jpeg"
-import pic17 from "../images/agg.jpeg"
+import pic17 from "../images/agg.png"
 
 const Indemnisation = () => (
   <Layout>

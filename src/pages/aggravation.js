@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import VisitCard from "../components/VisitCard"
 import MotsClefs from "../components/Mots-Clefs"
 
-import pic17 from "../images/agg.jpeg"
+import pic17 from "../images/bannagg.png"
 
 const Aggravation = () => (
   <Layout>

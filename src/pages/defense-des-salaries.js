@@ -5,10 +5,10 @@ import { Link } from "gatsby"
 import VisitCard from "../components/VisitCard"
 import pic10 from "../images/te.jpeg"
 import pic11 from "../images/inap.png"
-import pic12 from "../images/hm.jpeg"
+import pic12 from "../images/hm.png"
 import pic13 from "../images/rc.jpeg"
 import pic14 from "../images/la.jpg"
-import pic15 from "../images/sd.jpeg"
+import pic15 from "../images/sd.png"
 
 const Salaries = () => (
   <Layout>

@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
+import pic15 from "../images/bannsanc.png"
 
 const Sanction = () => (
   <Layout>
@@ -10,6 +11,7 @@ const Sanction = () => (
       <div className="bigbox">
         <div className="bleft">
           <h1> SANCTIONS DISCIPLINAIRES</h1>
+          <img src={pic15} className="picdefense" alt="fireSpot" />
 
           <p className="desc">
             {" "}

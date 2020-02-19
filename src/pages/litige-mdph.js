@@ -11,12 +11,17 @@ const Mdph = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> LITIGES AVEC LA MDPH </h1>
+          <h1>
+            {" "}
+            LITIGES AVEC LA MAISON DÉPARTEMENTALE DES PERSONNES HANDICAPÉES
+            (MDPH){" "}
+          </h1>
           <img src={pic12} className="picdefense" alt="fireSpot" />
           <p className="desc">
             {" "}
-            Vous avez sollicité auprès de la MDPH une prestation pour vous
-            garantir des ressources et/ou pour compenser votre handicap (
+            Vous avez sollicité auprès de la Maison Départementale des Personnes
+            Handicapées une prestation pour vous garantir des ressources et/ou
+            pour compenser votre handicap (
             <span className="bold">
               <Link to="/protection-sociale/#AAH" className="underl">
                 allocations aux adultes handicapés
@@ -34,13 +39,13 @@ const Mdph = () => (
             <span className="bold">
               <Link to="/protection-sociale/#CMI" className="underl">
                 Carte de mobilité-inclusion
-              </Link>{" "}
-            </span>{" "}
-            priorité ou stationnement) ou bien encore pour que votre handicap
-            soit pris en compte au niveau de l’emploi (
+              </Link>
+            </span>
+            ) ou bien encore pour que votre handicap soit pris en compte au
+            niveau de l’emploi (
             <span className="bold">
               <Link to="/protection-sociale/" className="underl">
-                Reconnaissance de qualité de travailleurs handicapés
+                Reconnaissance de qualité de travailleur handicapé
               </Link>
             </span>
             ).{" "}
@@ -53,14 +58,15 @@ const Mdph = () => (
             Maître Quentin MAMERI vous accompagnera dans vos démarches de
             contestation amiables ou judiciaires notamment devant le Tribunal
             Judiciaire pôle social désormais compétent pour les litiges de
-            sécurité sociale (le Tribunal Judiciaire remplace le TASS et le
-            TCI).{" "}
+            sécurité sociale (le Tribunal Judiciaire Pôle Social remplace le
+            TASS et le TCI).{" "}
           </p>
 
           <p className="desc">
-            Vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou
-            par le formulaire de contact afin de lui exposer votre situation et
-            convenir d’un rendez-vous.{" "}
+            Si vous avez un litige avec la MDPH, n’hésitez pas à contacter
+            Maître Quentin MAMERI par téléphone, mail ou par le formulaire de
+            contact afin de lui exposer votre situation et convenir d’un
+            rendez-vous.{" "}
           </p>
 
           <MotsClefs
@@ -70,13 +76,13 @@ const Mdph = () => (
             </Link>
             link2=<Link to="/protection-sociale/#PCH">
               {" "}
-              Prestation de compasation de handicap
+              Prestation de compensation de handicap
             </Link>
             link3=<Link to="/protection-sociale/CMI" className="underl">
               Carte de mobilité-inclusion
             </Link>
             link4=<Link to="/protection-sociale/">
-              Reconnaissance de qualité de travailleurs handicapés
+              Reconnaissance de qualité de travailleur handicapé
             </Link>
           />
         </div>

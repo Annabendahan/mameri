@@ -33,7 +33,7 @@ class Protection extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                LA RQTH{" "}
+                LA RECONNAISSANCE DE QUALITÉ DE TRAVAILLEUR HANDICAPÉ (RQTH){" "}
               </h2>
 
               <p className="desc">
@@ -235,16 +235,16 @@ class Protection extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                AFFECTION DE LONGUE DURÉE
+                AFFECTION DE LONGUE DURÉE (ALD)
               </h2>
 
               <p className="desc" id="AAH">
                 {" "}
-                L’affection de longue durée (ALD) permet à un assuré social de
-                bénéficier d’une prise en charge de ses frais de santé à 100 %,
-                d’une dispense d’absence de frais, et d’un prolongement de la
-                durée de ses droits aux indemnités journalières (3 ans à compter
-                du premier arrêt en lien avec l’ALD).{" "}
+                L'ALD permet à un assuré social de bénéficier d’une prise en
+                charge de ses frais de santé à 100 %, d’une dispense d’absence
+                de frais, et d’un prolongement de la durée de ses droits aux
+                indemnités journalières (3 ans à compter du premier arrêt en
+                lien avec l’ALD).{" "}
               </p>
 
               <p className="desc">
@@ -272,7 +272,7 @@ class Protection extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                ALLOCATIONS AUX ADULTES HANDICAPÉS
+                ALLOCATION AUX ADULTES HANDICAPÉS (AAH)
               </h2>
 
               <p className="desc">
@@ -309,7 +309,7 @@ class Protection extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                CARTE DE MOBILITÉ-INCLUSION
+                CARTE DE MOBILITÉ-INCLUSION (CMI)
               </h2>
 
               <p className="desc">
@@ -380,7 +380,7 @@ class Protection extends Component {
                 >
                   <rect width="10" height="10" fill="#F2DC17" />
                 </svg>{" "}
-                PRESTATION DE COMPENSATION DU HANDICAP
+                PRESTATION DE COMPENSATION DU HANDICAP (PCH)
               </h2>
 
               <p className="desc">

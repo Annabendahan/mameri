@@ -242,7 +242,7 @@ Maître MAMERI pourra vous conseiller utilement et vous accompagner pour obtenir
 </p>
 
 
- <p className="desc" id="PI"> Le rôle d’un avocat de victime est essentiel pour vous permettre que tous vos préjudices soient bien évalués lors de l’expertise médicale mais également par la suite.</p>
+ <p className="desc" id="PR"> Le rôle d’un avocat de victime est essentiel pour vous permettre que tous vos préjudices soient bien évalués lors de l’expertise médicale mais également par la suite.</p>
 
  <p className="desc"> Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui exposer votre situation et convenir d’un rendez-vous.</p>
 

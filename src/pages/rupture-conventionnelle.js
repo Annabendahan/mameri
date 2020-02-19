@@ -31,7 +31,6 @@ const Rupture = () => (
           <p className="desc">
             Dans ce cas, d’autres modes de ruptures pourraient être envisagées (
             <span className="bold">
-              {" "}
               <Link to="/droit-du-travail">
                 prise d’acte de rupture du contrat
               </Link>

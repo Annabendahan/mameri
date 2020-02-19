@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import VisitCard from "../components/VisitCard"
 import MotsClefs from "../components/Mots-Clefs"
-import pic12 from "../images/hm.jpeg"
+import pic12 from "../images/bannhm.png"
 
 const Harcelement = () => (
   <Layout>

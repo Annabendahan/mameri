@@ -16,21 +16,13 @@ const Agression = () => (
           <p className="desc">
             {" "}
             Vous êtes victime d’une infraction pénale à l’origine d’un dommage
-            corporel.{" "}
+            corporel : agression, homicide involontaire, délits routiers…{" "}
           </p>
-          <p className="desc">
-            {" "}
-            Il peut s’agir d’une contravention, d’un délit ou d’un crime.{" "}
-          </p>
-          <p className="desc">
-            {" "}
-            Les infractions pénales peuvent être de nature diverse : agression,
-            homicide involontaire, délits routiers…{" "}
-          </p>
+
           <p className="desc">
             Quelle que soit la nature ou la gravité de l’infraction, Maître
             MAMERI mettra tout en œuvre pour que vos droits soient défendus et
-            que vous obteniez{" "}
+            que vous obteniez
             <span className="bold">
               {" "}
               <Link to="/reparation-dommage-corporel/#RIP">
@@ -38,27 +30,36 @@ const Agression = () => (
                 réparation intégrale
               </Link>
             </span>{" "}
-            de vos préjudices en tant que victime directe ou proches.{" "}
+            de vos préjudices.{" "}
           </p>
           <p className="desc">
             {" "}
             Maître Quentin MAMERI intervient exclusivement pour les victimes et
-            leurs proches. Il intervient sur l’ensemble du territoire français y
-            compris les DOM-TOM et défendra vos intérêts devant l’ensemble des
-            juridictions pénales (tribunal de police, tribunal
-            correctionnel,...) et devant les Commissions d’Indemnisation des
-            Victimes d’Infractions.{" "}
+            leurs proches, sur l’ensemble du territoire français y compris
+            l’Outre-Mer et défendra vos intérêts devant l’ensemble des
+            juridictions civiles, pénales (tribunal de police, tribunal
+            correctionnel …) et devant les Commissions d’Indemnisation des
+            Victimes d’Infractions (CIVI).{" "}
           </p>
           <p className="desc">
-            Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou
-            par le formulaire de contact afin de lui exposer votre situation et
+            Si vous avez êtes victime d’une infraction pénale, n’hésitez pas à
+            contacter Maître Quentin MAMERI, par téléphone, mail ou par le
+            formulaire de contact afin de lui exposer votre situation et
             convenir d’un rendez-vous.{" "}
           </p>
 
           <MotsClefs
             link1=<Link to="/reparation-dommage-corporel/#RIP">
               {" "}
-              Réparation intégrale
+              Réparation intégrale des préjudices
+            </Link>
+            link2=<Link to="/reparation-dommage-corporel/#EM">
+              {" "}
+              Expertise médicale
+            </Link>
+            link3=<Link to="/reparation-dommage-corporel/#PR">
+              {" "}
+              Préjudices réparables
             </Link>
           />
         </div>

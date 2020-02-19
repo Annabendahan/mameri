@@ -20,13 +20,15 @@ const Aggravation = () => (
             grand brûlés, paraplégie, hémiplégie…) ou un handicap invisible
             comme c’est le cas en matière de traumatisme crânien où l’évaluation
             des séquelles et de leur retentissement nécessite une évaluation
-            spécifique par des professionnels spécialisés.{" "}
+            spécifique par des professionnels spécialisés (neuropsychologue pour
+            évaluer les troubles cognitifs, neurologue ...){" "}
           </p>
 
           <p className="desc">
             {" "}
             Maître Quentin MAMERI intervient dans l’indemnisation du grand
-            handicap et ce quelle que soit l’origine de l’accident.
+            handicap et ce quelle que soit l’origine de l’accident ou de
+            l’infraction pénale.
           </p>
 
           <p className="desc">
@@ -57,9 +59,10 @@ const Aggravation = () => (
 
           <p className="desc">
             {" "}
-            Vous pouvez contacter Maître Quentin MAMERI, par téléphone, mail ou
-            par le formulaire de contact afin de lui exposer votre situation et
-            convenir d’un rendez-vous.{" "}
+            Si vous êtes victime d’un accident ou d’une infraction pénale à
+            l’origine d’un grand handicap, n’hésitez pas à contacter Maître
+            Quentin MAMERI, par téléphone, mail ou par le formulaire de contact
+            afin de lui exposer votre situation et convenir d’un rendez-vous.{" "}
           </p>
 
           <MotsClefs
@@ -69,7 +72,11 @@ const Aggravation = () => (
             </Link>
             link2=<Link to="/reparation-dommage-corporel/#RIP">
               {" "}
-              Réparation intégrale
+              Réparation intégrale des préjudices
+            </Link>
+            link3=<Link to="/reparation-dommage-corporel/#C">
+              {" "}
+              Consolidation
             </Link>
           />
         </div>
