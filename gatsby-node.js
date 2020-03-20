@@ -37,7 +37,6 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-
     }
   `)
 
@@ -47,7 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Access query results via object destructuring
-  const { allWordpressPage, allWordpressPost, allLocationData  } = result.data
+  const { allWordpressPage, allWordpressPost, allLocationData } = result.data
 
   // Create Page pages.
   const pageTemplate = path.resolve(`./src/templates/page.js`)
@@ -72,34 +71,36 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-
   exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
-  if (stage === 'build-javascript') {
-    const config = getConfig()
-    const miniCssExtractPlugin = config.plugins.find(
-      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
-    )
-    if (miniCssExtractPlugin) {
-      miniCssExtractPlugin.options.ignoreOrder = true
+    if (stage === "build-javascript") {
+      const config = getConfig()
+      const miniCssExtractPlugin = config.plugins.find(
+        plugin => plugin.constructor.name === "MiniCssExtractPlugin"
+      )
+      if (miniCssExtractPlugin) {
+        miniCssExtractPlugin.options.ignoreOrder = true
+      }
+      actions.replaceWebpackConfig(config)
     }
-    actions.replaceWebpackConfig(config)
   }
-}
-
-
-
 
   const postTemplate = path.resolve(`./src/templates/post.js`)
 
+  const actualiteTemplate = path.resolve(`./src/templates/actualite.js`)
 
+  const postsTemplate = path.resolve(`./src/templates/posts.js`)
 
-   const postsTemplate = path.resolve(`./src/templates/posts.js`)
+  createPage({
+    path: `/posts/`,
+    component: slash(postsTemplate),
+  })
 
-   createPage({
-      path: `/posts/`,
-      component: slash(postsTemplate),
+  const actualitesTemplate = path.resolve(`./src/templates/actualites.js`)
 
-    })
+  createPage({
+    path: `/actualites/`,
+    component: slash(actualitesTemplate),
+  })
 
   // We want to create a detailed page for each post node.
   // The path field stems from the original WordPress link
@@ -114,7 +115,19 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-}/**
+
+  allWordpressPost.edges.forEach(edge => {
+    createPage({
+      path: `/actualites${edge.node.path}`,
+      component: slash(actualiteTemplate),
+      context: {
+        id: edge.node.id,
+      },
+    })
+  })
+}
+
+/**
  * Implement Gatsby's Node APIs in this file.
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/

@@ -260,6 +260,20 @@ const Header = ({ siteTitle }) => (
         </Link>
 
         <Link
+          to="/actualites/"
+          activeClassName="active"
+          className="ong"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            fontFamily: `Avenir`,
+            marginRight: `30px`,
+          }}
+        >
+          ACTUALITES
+        </Link>
+
+        <Link
           to="/infos-conseils-pratiques"
           activeClassName="active"
           className="onge"

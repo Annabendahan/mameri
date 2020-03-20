@@ -492,3 +492,55 @@ h3 {
 .success {
   color: green;
 }
+
+.selectCat {
+  width: 250px;
+  position: relative;
+  background-color: #f1f1f1;
+  p {
+    padding: 7px 15px;
+    text-align: left;
+  }
+  svg {
+    margin-left: 130px;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.searchCat {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+
+  width: 250px;
+}
+
+.searchCat:hover > .cats {
+  display: block;
+}
+
+.cats {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
+  padding: 10px;
+  top: 40px;
+  width: 250px;
+  z-index: 9;
+  p {
+    width: 250px;
+    z-index: 9;
+    position: relative;
+    margin: 3px 0px;
+  }
+  p:hover {
+    cursor: pointer;
+    font-weight: 600;
+  }
+}

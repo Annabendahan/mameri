@@ -155,7 +155,7 @@ export default PostsTemplate
 
 export const pageQuery = graphql`
   query postsQuery {
-    allWordpressPost {
+    allWordpressPost(filter: { categories: { eq: 3 } }) {
       edges {
         node {
           id
