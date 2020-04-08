@@ -121,7 +121,7 @@ class Menu extends Component {
           {" "}
           <p>
             {" "}
-            NOS DOMAINES D'EXPERTISES{" "}
+            DOMAINES D'EXPERTISES{" "}
             <svg
               className="polygon"
               width="10"
@@ -196,7 +196,7 @@ class Menu extends Component {
         <Link to="/noshonoraires/">
           {" "}
           <p>
-            NOS HONORAIRES{" "}
+            HONORAIRES{" "}
             <svg
               width="5"
               height="7"
@@ -215,7 +215,7 @@ class Menu extends Component {
           {" "}
           <p>
             {" "}
-            NOS PUBLICATIONS{" "}
+            PUBLICATIONS{" "}
             <svg
               width="5"
               height="7"
@@ -234,7 +234,7 @@ class Menu extends Component {
           {" "}
           <p>
             {" "}
-            NOS INFOS ET CONSEILS PRATIQUES{" "}
+            INFOS ET CONSEILS PRATIQUES{" "}
             <svg
               className="polygon"
               width="10"

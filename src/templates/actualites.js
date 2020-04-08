@@ -11,7 +11,7 @@ class ActualitesTemplate extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      cat: [4, 5],
+      cat: [4, 5, 6, 7],
       displayOptions: false,
       word: "Catégories",
     }
@@ -31,7 +31,7 @@ class ActualitesTemplate extends Component {
 
   resetCat = () => {
     this.setState({
-      cat: [4, 5],
+      cat: [4, 5, 6, 7],
       displayOptions: !this.state.displayOptions,
       word: "Afficher tout",
     })
@@ -80,17 +80,31 @@ class ActualitesTemplate extends Component {
                     </p>
                     <p
                       className="cat"
-                      onClick={() => this.selectCat(4, "Droit Social")}
+                      onClick={() => this.selectCat(4, "Dommage corporel")}
                     >
                       {" "}
-                      Droit Social{" "}
+                      Actualités dommage corporel{" "}
                     </p>
                     <p
                       className="cat"
-                      onClick={() => this.selectCat(5, "Droit de la Santé")}
+                      onClick={() => this.selectCat(5, "Droit du travail")}
                     >
                       {" "}
-                      Droit de la Santé{" "}
+                      Actualités droit du travail{" "}
+                    </p>
+                    <p
+                      className="cat"
+                      onClick={() => this.selectCat(6, "Protection sociale")}
+                    >
+                      {" "}
+                      Actualités protection sociale{" "}
+                    </p>
+                    <p
+                      className="cat"
+                      onClick={() => this.selectCat(7, "Droit des assurances")}
+                    >
+                      {" "}
+                      Actualités droit des assurances{" "}
                     </p>
                   </div>
                 ) : null}

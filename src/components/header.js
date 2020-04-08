@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => (
             position: `relative`,
           }}
         >
-          NOS DOMAINES D'EXPERTISE{" "}
+          DOMAINES D'EXPERTISE{" "}
           <svg
             className="polygon"
             width="10"
@@ -242,7 +242,7 @@ const Header = ({ siteTitle }) => (
             marginRight: `30px`,
           }}
         >
-          NOS HONORAIRES
+          HONORAIRES
         </Link>
 
         <Link
@@ -256,7 +256,7 @@ const Header = ({ siteTitle }) => (
             marginRight: `30px`,
           }}
         >
-          NOS PUBLICATIONS
+          PUBLICATIONS
         </Link>
 
         <Link
@@ -284,7 +284,7 @@ const Header = ({ siteTitle }) => (
             marginRight: `30px`,
           }}
         >
-          NOS INFOS ET CONSEILS PRATIQUES
+          INFOS ET CONSEILS PRATIQUES
           <span className="so soo1">
             {" "}
             <Link to="/conseils-pratiques/">
