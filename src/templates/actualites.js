@@ -116,6 +116,18 @@ class ActualitesTemplate extends Component {
                     {/* <p className="high2"> {node.date} </p> */}
                     {this.state.cat.includes(node.tags[0]) ? (
                       <div className={"article"}>
+                        {node.tags == 4 ? (
+                          <p className="cat">DOMMAGE CORPOREL</p>
+                        ) : null}
+                        {node.tags == 5 ? (
+                          <p className="cat">DROIT DU TRAVAIL</p>
+                        ) : null}
+                        {node.tags == 6 ? (
+                          <p className="cat">PROTECTION SOCIALE</p>
+                        ) : null}
+                        {node.tags == 7 ? (
+                          <p className="cat">DROIT DES ASSURANCES</p>
+                        ) : null}
                         <p
                           className="high2"
                           dangerouslySetInnerHTML={{ __html: node.title }}
@@ -174,7 +186,10 @@ export default ActualitesTemplate
 
 export const pageQuery = graphql`
   query actualitesQuery {
-    allWordpressPost(filter: { categories: { eq: 2 } }) {
+    allWordpressPost(
+      filter: { categories: { eq: 2 } }
+      sort: { fields: date, order: DESC }
+    ) {
       edges {
         node {
           id

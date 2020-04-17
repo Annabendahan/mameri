@@ -203,14 +203,14 @@ h3 {
 
 .desc {
   font-family: "Open Sans";
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #313030;
   text-align: justify;
 }
 
 .desc-s {
   font-family: "Open Sans";
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #313030;
   margin-bottom: 0px;
 
@@ -219,17 +219,22 @@ h3 {
 
 .desc-w {
   font-family: "Open Sans";
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: white;
 }
 
 .desc-r {
   font-family: "Open Sans";
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #313030;
 
   text-align: justify;
   margin-bottom: 15px;
+}
+
+.desc-small {
+  color: #313030;
+  font-size: 0.9rem;
 }
 
 .box {
@@ -463,6 +468,7 @@ h3 {
 
 .contact-right p {
   color: #313030;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 900px) {
@@ -543,4 +549,30 @@ h3 {
     cursor: pointer;
     font-weight: 600;
   }
+}
+
+.actualites {
+  background: white;
+  padding: 3% 10%;
+}
+
+.actualite {
+  box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
+  padding: 20px;
+  height: 200px;
+  margin: 40px 0px;
+  &:hover {
+    box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.55);
+    cursor: pointer;
+  }
+}
+
+.cat {
+  color: #313030;
+  font-size: 0.7rem;
+  font-family: "Open Sans";
+}
+
+.grey {
+  background: grey;
 }
