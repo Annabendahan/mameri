@@ -13,6 +13,7 @@ export default () => (
             node {
               id
               title
+              excerpt
 
               content
               tags
@@ -37,7 +38,7 @@ export default () => (
 
                 <p
                   className="desc-small"
-                  dangerouslySetInnerHTML={{ __html: node.content }}
+                  dangerouslySetInnerHTML={{ __html: node.excerpt }}
                 />
               </div>
             ))}
