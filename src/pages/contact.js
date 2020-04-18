@@ -248,15 +248,18 @@ class Contact extends Component {
                 onClick={() => this.buttonHandler()}
               />
               <label for="subscribeNews">
-                <span>
+                <p className="desc legal">
                   Conditions d'utilisation: en transmettant ce formulaire, vous
                   acceptez de nous communiquer les données qu'il contient,
                   protégées par notre charte de confidentialité et la loi sur la
-                  protection des données. Pour connaître et exercer vos droits,
-                  notamment de retrait de votre consentementà l'utilisation des
-                  données collectées, veuillez consulter nos{" "}
-                  <Link to="mentions-legales">mentions légales</Link>.
-                </span>
+                  protection des données.{" "}
+                  <span className="small">
+                    Pour connaître et exercer vos droits, notamment de retrait
+                    de votre consentement à l'utilisation des données
+                    collectées, veuillez consulter nos{" "}
+                    <Link to="mentions-legales">mentions légales</Link>.
+                  </span>{" "}
+                </p>
               </label>
             </p>
 
