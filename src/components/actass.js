@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 export default () => (
   <StaticQuery
     query={graphql`
@@ -14,6 +15,7 @@ export default () => (
               id
               title
               excerpt
+              path
 
               content
               tags
@@ -29,17 +31,19 @@ export default () => (
           <div>
             {data.allWordpressPost.edges.map(({ node }) => (
               <div key={node.slug} className={"actualite"}>
-                {/* <p className="high2"> {node.date} </p> */}
-                <p className="cat"> DROIT DES ASSURANCES</p>
-                <p
-                  className="high3"
-                  dangerouslySetInnerHTML={{ __html: node.title }}
-                />
+                <Link to={`/actualites/${node.path}`}>
+                  {/* <p className="high2"> {node.date} </p> */}
+                  <p className="cat"> DROIT DES ASSURANCES</p>
+                  <p
+                    className="high3"
+                    dangerouslySetInnerHTML={{ __html: node.title }}
+                  />
 
-                <p
+                  {/* <p
                   className="desc-small"
                   dangerouslySetInnerHTML={{ __html: node.excerpt }}
-                />
+                /> */}
+                </Link>
               </div>
             ))}
           </div>
