@@ -270,7 +270,7 @@ const Header = ({ siteTitle }) => (
             marginRight: `30px`,
           }}
         >
-          ACTUALITES
+          ACTUALITÉS
         </Link>
 
         <Link

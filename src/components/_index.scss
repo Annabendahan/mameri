@@ -560,6 +560,7 @@ h3 {
 }
 
 .actualite {
+  position: relative;
   box-shadow: 0px 4px 20px rgba(189, 188, 188, 0.25);
   padding: 20px;
 
@@ -573,7 +574,7 @@ h3 {
 
 .cat {
   color: #2a4b80;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: "Open Sans";
 
   padding: 5px;
@@ -598,4 +599,20 @@ h3 {
 
 .bleft p {
   text-align: justify;
+}
+
+.see {
+  svg {
+    margin-left: 10px;
+  }
+  a {
+    color: #2a4b80;
+    text-decoration: underline;
+  }
+}
+
+.plus {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.8rem;
 }

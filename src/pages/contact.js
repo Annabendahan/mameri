@@ -240,27 +240,29 @@ class Contact extends Component {
             </p>
 
             <p className="input-group">
-              <input
-                type="checkbox"
-                id="subscribeNews"
-                name="subscribe"
-                value="newsletter"
-                onClick={() => this.buttonHandler()}
-              />
-              <label for="subscribeNews">
-                <p className="desc legal">
-                  Conditions d'utilisation: en transmettant ce formulaire, vous
-                  acceptez de nous communiquer les données qu'il contient,
-                  protégées par notre charte de confidentialité et la loi sur la
-                  protection des données.{" "}
-                  <span className="small">
-                    Pour connaître et exercer vos droits, notamment de retrait
-                    de votre consentement à l'utilisation des données
-                    collectées, veuillez consulter nos{" "}
-                    <Link to="mentions-legales">mentions légales</Link>.
-                  </span>{" "}
-                </p>
-              </label>
+              <span>
+                <input
+                  type="checkbox"
+                  id="subscribeNews"
+                  name="subscribe"
+                  value="newsletter"
+                  onClick={() => this.buttonHandler()}
+                />
+                <label for="subscribeNews">
+                  <p className="desc legal">
+                    Conditions d'utilisation: en transmettant ce formulaire,
+                    vous acceptez de nous communiquer les données qu'il
+                    contient, protégées par notre charte de confidentialité et
+                    la loi sur la protection des données. <br /> <br />
+                    <span className="small">
+                      Pour connaître et exercer vos droits, notamment de retrait
+                      de votre consentement à l'utilisation des données
+                      collectées, veuillez consulter nos{" "}
+                      <Link to="mentions-legales">mentions légales</Link>.
+                    </span>{" "}
+                  </p>
+                </label>
+              </span>
             </p>
 
             <p>
