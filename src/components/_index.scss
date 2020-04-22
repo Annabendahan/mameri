@@ -366,8 +366,9 @@ h3 {
 
 .blue p {
   font-weight: 100;
-  font-size: 0.7rem;
-  margin-bottom: -0.3rem;
+  font-size: 0.9rem;
+  font-family: "Open Sans";
+  margin-bottom: 1rem;
 }
 
 .blue a {
@@ -389,6 +390,9 @@ h3 {
 .lire p {
   color: white;
   margin: 0px;
+  font-size: 0.8rem;
+  font-weight: 300;
+
   padding: 10px;
 }
 
@@ -505,14 +509,16 @@ h3 {
 .selectCat {
   width: 250px;
   position: relative;
-  background-color: #f1f1f1;
+  background-color: #2a4b80;
   p {
     padding: 7px 15px;
     text-align: left;
+    color: white;
   }
   svg {
     margin-left: 130px;
     position: absolute;
+    color: yellow;
     right: 10px;
     top: 17px;
   }
@@ -525,6 +531,7 @@ h3 {
   position: relative;
   z-index: 2;
   background-color: white;
+  margin: auto;
 
   width: 250px;
 }

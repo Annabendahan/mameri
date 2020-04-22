@@ -63,10 +63,7 @@ class ActualitesTemplate extends Component {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        d="M6 6L11.1962 0.75H0.803848L6 6Z"
-                        fill="#313030"
-                      />
+                      <path d="M6 6L11.1962 0.75H0.803848L6 6Z" fill="yellow" />
                     </svg>
                   </p>
                 </div>
