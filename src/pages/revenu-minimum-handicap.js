@@ -25,52 +25,58 @@ const Rmh = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Victime de harcèlement moral : quelles voies de recours ?
+            Puis-je prétendre à un revenu minimum en raison de mon handicap ?
           </h2>
 
           <p className="desc">
             {" "}
             <span className="bold">
               {" "}
-              Le harcèlement moral correspond à des agissements répétés exercés
-              par la hiérarchie ou non à l’encontre d’un salarié qui ont pour
-              objet ou pour effet une dégradation des conditions de travail
-              susceptible de porter atteinte à ses droits et à sa dignité,
-              d'altérer sa santé physique ou mentale ou de compromettre son
-              avenir professionnel.
+              Oui. L’allocation aux adultes handicapés (AAH) est une prestation
+              octroyée par la Maison Départementale des Personnes Handicapées
+              (MDPH) qui garantit un minimum de revenu aux personnes en
+              situation de handicap ayant de faibles ressources et atteint d’un
+              certain niveau d’incapacité.
             </span>
           </p>
 
           <p className="desc">
             {" "}
-            Le harcèlement moral peut prendre plusieurs formes comme, notamment,
-            des brimades, des injures, des violences, une procédure
-            disciplinaire injustifiée, une « placardisation » …
+            D’un point de vue médical, l’AAH est attribué :
+            <br />
+            - aux personnes atteintes d’un taux d’incapacité de 80 %
+            <br />- aux personnes atteintes d’un taux d’incapacité compris entre
+            50 et 79 % et présentant une restriction substantielle et durable
+            d’accès à l’emploi.
           </p>
 
           <p className="desc">
             {" "}
-            En cas de recours, il vous appartient uniquement de présenter les
-            éléments de fait laissant supposer l’existence d’un harcèlement
-            moral. Votre employeur devra démontrer que les faits allégués ne
-            correspondent pas une situation de harcèlement moral.
+            D’un point de vue administratif, pour bénéficier de l’AAH, il faut
+            également résider en France de manière permanente et être âgé de 20
+            ans ou plus.
           </p>
 
           <p className="desc">
             {" "}
-            En cas de harcèlement moral, il est possible d’engager la
-            responsabilité de son employeur. Il est également possible de rompre
-            son contrat de travail à ses torts exclusifs ou bien encore
-            d’engager une procédure pour faire requalifier son inaptitude en
-            licenciement abusif.
+            Le montant de l’AAH est actuellement de 900 euros.
+          </p>
+
+          <p className="desc"> Il ne peut pas être récupéré sur succession.</p>
+
+          <p className="desc">
+            {" "}
+            Pour faire une demande d’AAH, vous devez adresser à la MDPH le
+            formulaire de demande unique accompagné du certificat médical dûment
+            rempli.
           </p>
 
           <p className="desc">
             {" "}
-            Si vous êtes victime de harcèlement moral et que vous envisagez un
-            recours contre votre employeur, n’hésitez pas à contacter Maître
-            Quentin MAMERI par téléphone, mail ou par le formulaire de contact
-            afin d’évoquer votre situation et de convenir d’un rendez-vous.
+            En cas de refus d’AAH pour des raisons médicales ou administratives,
+            n’hésitez pas à contacter Maître Quentin MAMERI par téléphone, mail
+            ou par le formulaire de contact afin d’évoquer votre situation et de
+            convenir d’un rendez-vous.
           </p>
         </div>
 
