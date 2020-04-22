@@ -21,16 +21,14 @@ const Agression = () => (
 
           <p className="desc">
             Quelle que soit la nature ou la gravité de l’infraction, Maître
-            MAMERI mettra tout en œuvre pour que vos droits soient défendus et
-            que vous obteniez
+            MAMERI défendra vos droits de victime à tous les stades de la
+            procédure y compris pendant la phase
             <span className="bold">
-              {" "}
-              <Link to="/reparation-dommage-corporel/#RIP">
-                {" "}
-                réparation intégrale
-              </Link>
-            </span>{" "}
-            de vos préjudices.{" "}
+              <Link to="/reparation-dommage-corporel/#EM">
+                expertise médicale
+              </Link>{" "}
+            </span>
+            .{" "}
           </p>
           <p className="desc">
             {" "}

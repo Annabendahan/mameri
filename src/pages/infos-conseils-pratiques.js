@@ -17,7 +17,7 @@ const LiensUtiles = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> NOS INFOS ET CONSEILS PRATIQUES </h1>
+          <h1> INFOS ET CONSEILS PRATIQUES </h1>
 
           <div className="blue2">
             <Link to="/conseils-pratiques/">

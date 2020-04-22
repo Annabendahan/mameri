@@ -31,29 +31,25 @@ const Sport = () => (
           </p>
           <p className="desc">
             Toutefois, si vous êtes licencié en club, vous bénéficiez d’une
-            assurance à ce titre qui pourra être mobilisée.
+            assurance à ce titre qui pourrait être mobilisée.
           </p>
 
           <p className="desc">
-            Maître Quentin MAMERI vous conseillera utilement et mettra tout en
-            œuvre pour vous permettre d’obtenir{" "}
-            <span className="bold">
-              <Link to="/reparation-dommage-corporel/#RIP">
-                réparation intégrale
-              </Link>
-            </span>{" "}
-            de vos préjudices.{" "}
-          </p>
-
-          <p className="desc">
-            Il vous accompagnera tout au long de la procédure y compris pendant
-            la phase d’
+            Maître Quentin MAMERI vous conseillera utilement et défendra vos
+            intérêts à tous les stades de la procédure y compris pendant la
+            phase d'
             <span className="bold">
               <Link to="/reparation-dommage-corporel/#EM">
                 expertise médicale
               </Link>{" "}
             </span>
             .{" "}
+          </p>
+          <p className="desc">
+            Il vous apportera non seulement un soutien juridique et technique
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours et les professionnels qualifiés (ergothérapeute,
+            architecte…) avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

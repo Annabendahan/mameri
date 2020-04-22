@@ -112,7 +112,7 @@ const LeCabinet = () => (
     >
       <Link to="/domaines-d-expertise/" className="button bt2">
         {" "}
-        NOS DOMAINES D'EXPERTISE{" "}
+        DOMAINES D'EXPERTISE{" "}
         <svg
           className="yellowr"
           width="14"

@@ -15,7 +15,7 @@ class PostsTemplate extends Component {
         <div className="background-hono">
           <div className="bigbox">
             <div className="bleft">
-              <h1> NOS PUBLICATIONS </h1>
+              <h1> PUBLICATIONS </h1>
 
               <h2 className="title">
                 <svg

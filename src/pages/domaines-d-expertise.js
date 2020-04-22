@@ -14,7 +14,7 @@ const DomainesDexpertise = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> NOS DOMAINES D'EXPERTISES </h1>
+          <h1> DOMAINES D'EXPERTISES </h1>
 
           <div className="blue2">
             <Link to="/indemnisation-des-victimes/">

@@ -40,8 +40,7 @@ const Privée = () => (
                 expertise médicale
               </Link>
             </span>
-             et mettra tout en œuvre pour obtenir indemnisation des préjudices
-            qui vous est due contractuellement.{" "}
+            .{" "}
           </p>
 
           <p className="desc">
@@ -55,6 +54,14 @@ const Privée = () => (
             </span>{" "}
             que celle relative à la négociation financière de vos préjudices
             afin d’obtenir la réparation qui vous est due contractuellement.{" "}
+          </p>
+
+          <p className="desc">
+            {" "}
+            Il vous apportera non seulement un soutien juridique et technique
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours les professionnels qualifiés (ergothérapeute, architecte…)
+            avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

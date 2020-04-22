@@ -28,7 +28,7 @@ const Médicaux = () => (
               {" "}
               <Link to="/reparation-dommage-corporel/#IN">
                 {" "}
-                infection nosocomiale
+                infection nosocomiale,
               </Link>{" "}
             </span>{" "}
             Maître Quentin MAMERI mettra tout en œuvre pour que la
@@ -84,9 +84,10 @@ const Médicaux = () => (
 
           <p className="desc">
             {" "}
-            Maître Quentin MAMERI vous fera bénéficier de son réseau de
-            médecin-conseil et de professionnels qualifiés (ergothérapeute,
-            architecte…).{" "}
+            Il vous apportera non seulement un soutien juridique et technique
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours et les professionnels qualifiés (ergothérapeute,
+            architecte…) avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

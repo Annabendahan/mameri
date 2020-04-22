@@ -12,7 +12,7 @@ const NosHonoraires = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> NOS HONORAIRES </h1>
+          <h1> HONORAIRES </h1>
           <h2 className="title">
             {" "}
             <svg

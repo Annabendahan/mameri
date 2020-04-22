@@ -36,19 +36,10 @@ const Route = () => (
           <p className="desc">
             Conscient qu’une victime est en situation de fragilité physique et
             psychologique à la suite d’un accident et qu’elle se retrouve seule
-            à la merci des compagnies d’assurance, Maître Quentin MAMERI vous
+            face aux compagnies d’assurance, Maître Quentin MAMERI vous
             accompagnera dans un cadre amiable ou judiciaire afin de rétablir
             l’équilibre et de veiller à ce que vos intérêts et vos droits de
             victimes soient préservés et respectés.{" "}
-          </p>
-
-          <p className="desc">
-            {" "}
-            <i>
-              {" "}
-              Restez toujours vigilant face aux compagnies d’assurance. Elles ne
-              défendent pas l’intérêt des victimes !{" "}
-            </i>{" "}
           </p>
 
           <p className="desc">
@@ -75,9 +66,15 @@ const Route = () => (
             mais également dans le cadre de l’offre d’indemnisation.{" "}
           </p>
           <p className="desc">
-            Même si votre interlocuteur est votre propre assureur, n’oubliez
-            jamais qu’il ne défend pas vos intérêts mais ceux de sa
-            corporation !
+            En effet, vous pouvez légitimement craindre un conflit d’intérêt
+            lorsque le médecin- expert est désigné par l’assureur payeur.
+          </p>
+
+          <p className="desc">
+            Le rôle d’un avocat impliqué dans la défense des victimes est de
+            vous accompagner à tous les stades de la procédure pour vérifier que
+            vos droits soient respectés et vos préjudices correctement évalués
+            et de manière impartiale.
           </p>
           <p className="desc">
             Bon à savoir – Si vous êtes victime d’un accident de la route sans
@@ -86,8 +83,8 @@ const Route = () => (
             d’une garantie du conducteur. Cette assurance est soit intégrée dans
             votre contrat d’assurance automobile (ce n’est pas systématique),
             soit vous en avez souscrite une de manière autonome. Le rôle d’un
-            avocat est essentiel pour obtenir réparation des préjudices qui vous
-            est due contractuellement.
+            avocat est essentiel pour faire en sorte que vos préjudices soient
+            correctement évalués, conformément aux stipulations contractuelles.
           </p>
 
           <p className="desc">
@@ -100,9 +97,9 @@ const Route = () => (
 
           <p className="desc">
             Il vous apportera non seulement un soutien juridique et technique
-            mais également humain. Il vous fera bénéficier de son réseau de
-            médecin-conseil et de professionnels qualifiés (ergothérapeute,
-            architecte…).{" "}
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours et les professionnels qualifiés (ergothérapeute,
+            architecte…) avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

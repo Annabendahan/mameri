@@ -34,27 +34,16 @@ const Aggravation = () => (
           <p className="desc">
             {" "}
             Il vous accompagnera dans un cadre amiable ou judiciaire et à tous
-            les stades de la procédure notamment lors de l’
-            <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
-                expertise médicale
-              </Link>{" "}
-            </span>{" "}
-            et mettra tout en œuvre pour que vous puissiez obtenir la{" "}
-            <span className="bold">
-              <Link to="/reparation-dommage-corporel/#RIP">
-                réparation intégrale
-              </Link>
-            </span>{" "}
-            de vos préjudices.
+            les stades de la procédure notamment lors de l’expertise médicale où
+            il sera présent à vos côtés pour défendre vos intérêts.
           </p>
 
           <p className="desc">
             {" "}
             Il vous apportera non seulement un soutien juridique et technique
-            mais également un soutien humain. Il vous fera bénéficier de son
-            réseau de médecin-conseil et de professionnels qualifiés
-            (ergothérapeute, architecte…).{" "}
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours et les professionnels qualifiés (ergothérapeute,
+            architecte…) avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

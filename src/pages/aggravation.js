@@ -68,8 +68,14 @@ const Aggravation = () => (
                 expertise médicale
               </Link>{" "}
             </span>{" "}
-            et vous fera bénéficier de son réseau de médecin-conseil de
-            victimes.{" "}
+            .{" "}
+          </p>
+
+          <p className="desc">
+            Il vous apportera non seulement un soutien juridique et technique
+            mais également humain. Il pourra vous orienter vers les médecins de
+            recours et les professionnels qualifiés (ergothérapeute,
+            architecte…) avec lesquels il travaille habituellement.
           </p>
 
           <p className="desc">

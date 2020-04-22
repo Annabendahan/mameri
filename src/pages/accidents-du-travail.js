@@ -93,7 +93,7 @@ const Travail = () => (
           </p>
           <p className="desc">
             {" "}
-            • procédure en faute inexcusable contre l’employeur ;
+            • procédure en faute inexcusable contre l’employeur.
           </p>
 
           <p className="desc">
