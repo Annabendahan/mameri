@@ -4,9 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
-import pic16 from "../images/ip.jpeg"
-import pic3 from "../images/la.jpg"
-import pic4 from "../images/P1011958.jpg"
+
+import pic14 from "../images/p14.jpeg"
+import pic13 from "../images/p13.jpeg"
+import pic8 from "../images/p8.jpeg"
+import pic15 from "../images/p15.jpeg"
+import pic16 from "../images/p16.jpeg"
+import pic17 from "../images/p17.jpeg"
+import pic3 from "../images/p3.jpeg"
 
 const InfoDt = () => (
   <Layout>
@@ -18,7 +23,7 @@ const InfoDt = () => (
           <div className="blue2">
             <Link to="/expertise-medicale-litiges-securite-sociale/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic8} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -55,7 +60,7 @@ const InfoDt = () => (
 
             <Link to="/revenu-minimum-handicap/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic13} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -91,7 +96,7 @@ const InfoDt = () => (
 
             <Link to="/temps-partiel-therapeutique/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic14} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -132,7 +137,7 @@ const InfoDt = () => (
 
             <Link to="/indemnites-arret-travail/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic15} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>Les indemnités journalières en cas d’arrêt de travail</h3>
                   <p className="desc-n">
@@ -203,7 +208,7 @@ const InfoDt = () => (
 
             <Link to="/aide-financiere-handicap/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic17} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Comment obtenir une aide financière pour prendre en charge
@@ -239,7 +244,7 @@ const InfoDt = () => (
 
             <Link to="/carte-mobilite-inclusion/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic3} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Quel statut pour faciliter mes transports et déplacements en

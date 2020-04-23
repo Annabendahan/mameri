@@ -4,9 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
-import pic16 from "../images/ip.jpeg"
-import pic3 from "../images/la.jpg"
-import pic4 from "../images/P1011958.jpg"
+import pic1 from "../images/p1.png"
 
 const Accpro = () => (
   <Layout>

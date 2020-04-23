@@ -4,9 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
-import pic16 from "../images/ip.jpeg"
-import pic3 from "../images/la.jpg"
-import pic4 from "../images/P1011958.jpg"
+
+import pic1 from "../images/p1.png"
+
+import pic5 from "../images/p5.jpeg"
+import pic6 from "../images/p6.jpeg"
+import pic7 from "../images/p7.jpeg"
 
 const InfoDt = () => (
   <Layout>
@@ -18,7 +21,7 @@ const InfoDt = () => (
           <div className="blue2">
             <Link to="/faute-grave-employeur/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic1} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -55,7 +58,7 @@ const InfoDt = () => (
 
             <Link to="/rompre-amiablement-contrat-travail/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic5} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -91,7 +94,7 @@ const InfoDt = () => (
 
             <Link to="/victime-harcelement-moral/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic6} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -128,7 +131,7 @@ const InfoDt = () => (
 
             <Link to="/inaptitude-salaries/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic7} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>L’inaptitude des salariés</h3>
                   <p className="desc-n">

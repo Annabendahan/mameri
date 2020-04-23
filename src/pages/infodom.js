@@ -4,9 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
-import pic16 from "../images/ip.jpeg"
-import pic3 from "../images/la.jpg"
-import pic4 from "../images/P1011958.jpg"
+import pic8 from "../images/p8.jpeg"
+import pic9 from "../images/p9.jpeg"
+import pic10 from "../images/p10.jpeg"
+import pic11 from "../images/p11.jpeg"
+import pic1 from "../images/p1.png"
+import pic12 from "../images/p12.jpeg"
 
 const InfoDom = () => (
   <Layout>
@@ -18,7 +21,7 @@ const InfoDom = () => (
           <div className="blue2">
             <Link to="/reparation-dommage-corporel/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic8} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3> L’accès au dossier médical</h3>
                   <p className="desc-n">
@@ -51,7 +54,7 @@ const InfoDom = () => (
 
             <Link to="/expertise-medicale-dommage-corporel/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic9} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -88,7 +91,7 @@ const InfoDom = () => (
 
             <Link to="/victime-accident-infraction/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic10} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
@@ -126,7 +129,7 @@ const InfoDom = () => (
 
             <Link to="/consolidation/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic9} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3> Qu’est-ce que la consolidation ?</h3>
                   <p className="desc-n">
@@ -159,7 +162,7 @@ const InfoDom = () => (
 
             <Link to="/certificat-medical-initial/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic10} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Pourquoi le certificat médical initial est-il une pièce
@@ -195,7 +198,7 @@ const InfoDom = () => (
 
             <Link to="/accident-cadre-professionnel/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic1} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>L’accident survenu dans un cadre professionnel </h3>
                   <p className="desc-n">
@@ -228,7 +231,7 @@ const InfoDom = () => (
 
             <Link to="/faute-inexcusable/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic1} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Comment engager la responsabilité de mon employeur s’il a
@@ -265,7 +268,7 @@ const InfoDom = () => (
 
             <Link to="/erreur-medicale/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic12} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Victime d’une erreur médicale, les règles d’indemnisation{" "}
