@@ -39,7 +39,7 @@ const Sport = () => (
             intérêts à tous les stades de la procédure y compris pendant la
             phase d'
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>
@@ -60,19 +60,16 @@ const Sport = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#EM">
+            link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#RIP">
+            link2=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale des préjudices
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#C">
-              {" "}
-              Consolidation
-            </Link>
-            link4=<Link to="/reparation-dommage-corporel/#PR">
+            link3=<Link to="/consolidation/"> Consolidation</Link>
+            link4=<Link to="/prejudices-reparables/">
               {" "}
               Préjudices réparables
             </Link>

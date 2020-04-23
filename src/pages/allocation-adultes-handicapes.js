@@ -69,6 +69,11 @@ const Rmh = () => (
             Pour faire une demande d’AAH, vous devez adresser à la MDPH le
             formulaire de demande unique accompagné du certificat médical dûment
             rempli.
+            <span className="bold underlined">
+              <Link to="/modeles-et-formulaires/">
+                (accéder à ces formulaires).
+              </Link>
+            </span>
           </p>
 
           <p className="desc">

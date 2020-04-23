@@ -68,7 +68,12 @@ const Inas = () => (
             {" "}
             Si votre inaptitude a pour origine un manquement de l’employeur,
             pourra se poser la question de l’opportunité d’un recours tendant à
-            rompre votre contrat de travail au tort de l’employeur.
+            rompre votre contrat de travail{" "}
+            <span className="bold underlined">
+              <Link to="/rupture-torts-employeur/">
+                au tort de l’employeur.
+              </Link>
+            </span>
           </p>
 
           <p className="desc">

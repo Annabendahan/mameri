@@ -57,10 +57,13 @@ const Consolidation = () => (
           <p className="desc">
             {" "}
             Si vous avez subi un accident du travail, de trajet ou de mission
-            (en savoir plus), la consolidation marque la fin du versement des
-            indemnités journalières par la sécurité sociale et donne lieu, en
-            cas de séquelles, au versement d’une indemnisation sous forme de
-            rente ou de capital. 
+            <span className="bold underlined">
+              <Link to="/accident-cadre-professionnel/">(en savoir plus)</Link>
+            </span>
+            , la consolidation marque la fin du versement des indemnités
+            journalières par la sécurité sociale et donne lieu, en cas de
+            séquelles, au versement d’une indemnisation sous forme de rente ou
+            de capital. 
           </p>
           <br />
 

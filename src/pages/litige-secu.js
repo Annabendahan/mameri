@@ -18,17 +18,14 @@ const Secu = () => (
             Vous avez sollicité une prestation auprès de la sécurité sociale
             pour pallier une perte de revenu (
             <span className="bold">
-              <Link to="/protection-sociale/#TPT" className="underl">
+              <Link to="/temps-partiel-therapeutique/">
                 temps-partiel thérapeutique
               </Link>{" "}
             </span>
             ,{" "}
             <span className="bold">
               {" "}
-              <Link to="/protection-sociale/#AT" className="underl">
-                {" "}
-                arrêt de travail
-              </Link>
+              <Link to="/indemnites-arret-travail/"> arrêt de travail</Link>
             </span>
             ,{" "}
             <span className="bold">
@@ -38,13 +35,7 @@ const Secu = () => (
                 pension d'invalidité
               </Link>
             </span>
-            …) ou obtenir un statut protecteur (
-            <span className="bold">
-              <Link to="/protection-sociale/#ALD">
-                affection de longue durée
-              </Link>
-            </span>
-            …){" "}
+            …) ou obtenir un statut protecteur (affection de longue durée…){" "}
           </p>
 
           <p className="desc">
@@ -56,7 +47,7 @@ const Secu = () => (
             Maître Quentin MAMERI vous accompagnera dans vos démarches de
             contestation amiables ou judiciaires y compris pendant les phases d’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-litiges-securite-sociale/">
                 expertises médicales
               </Link>
             </span>{" "}
@@ -70,18 +61,13 @@ const Secu = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/protection-sociale/#TPT">
+            link1=<Link to="/temps-partiel-therapeutique/">
               {" "}
               Temps-partiel thérapeutique
             </Link>
-            link2=<Link to="/protection-sociale/#AT"> Arrêt de travail</Link>
-            link3=<Link to="/protection-sociale/" className="underl">
-              Pension d'invalidité
-            </Link>
-            link4=<Link to="/protection-sociale/#ALD">
-              Affection de longue durée
-            </Link>
-            link5=<Link to="/reparation-dommage-corporel/#EM">
+            link2=<Link to="/indemnites-arret-travail/"> Arrêt de travail</Link>
+            link3=<Link to="/invalidite/">Pension d'invalidité</Link>
+            link4=<Link to="/expertise-medicale-litiges-securite-sociale/">
               Expertise médicale
             </Link>
           />

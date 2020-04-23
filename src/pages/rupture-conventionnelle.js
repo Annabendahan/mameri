@@ -37,7 +37,7 @@ const Rupture = () => (
             </span>
             ,{" "}
             <span className="bold">
-              <Link to="/droit-du-travail/#RJ">résiliation judiciaire</Link>
+              <Link to="/faute-grave-employeur/">résiliation judiciaire</Link>
             </span>
             …).{" "}
           </p>
@@ -63,11 +63,11 @@ const Rupture = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/droit-du-travail">
+            link1=<Link to="/rompre-amiablement-contrat-travail/">
               {" "}
               Prise d’acte de rupture du contrat{" "}
             </Link>
-            link2=<Link to="/droit-du-travail/#RJ">
+            link2=<Link to="/faute-grave-employeur/">
               {" "}
               Résiliation judiciaire
             </Link>

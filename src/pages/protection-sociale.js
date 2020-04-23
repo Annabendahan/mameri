@@ -1,435 +1,326 @@
-import React, { Component } from "react"
+import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
 
-class Protection extends Component {
-  state = {
-    un: false,
-    deux: false,
-    trois: false,
-    quatre: false,
-    cinq: false,
-  }
+import pic14 from "../images/p14.jpeg"
+import pic13 from "../images/p13.jpeg"
+import pic8 from "../images/p8.jpeg"
+import pic15 from "../images/p15.jpeg"
+import pic16 from "../images/p16.jpeg"
+import pic17 from "../images/p17.jpeg"
+import pic3 from "../images/p3.jpeg"
 
-  render() {
-    return (
-      <Layout>
-        <div className="background-hono">
-          <div className="bigbox">
-            <div className="bleft">
-              <h1> PROTECTION SOCIALE </h1>
+const InfoDt = () => (
+  <Layout>
+    <div className="background-hono">
+      <div className="bigbox">
+        <div className="bleft">
+          <h1> PROTECTION SOCIALE </h1>
 
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                LA RECONNAISSANCE DE QUALITÉ DE TRAVAILLEUR HANDICAPÉ (RQTH){" "}
-              </h2>
+          <div className="blue2">
+            <Link to="/expertise-medicale-litiges-securite-sociale/">
+              <div className="ip">
+                <img src={pic8} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    {" "}
+                    L’expertise médicale, étape préalable des litiges médicaux
+                    avec la sécurité sociale
+                  </h3>
+                  <p className="desc-n">
+                    L’expertise médicale est un moment clef de la procédure en
+                    réparation du dommage corporel. En effet, elle constitue le
+                    préalable à l’indemnisation car c’est à cette occasion que
+                    le médecin-expert évaluera l’ensemble de vos préjudices sur
+                    le plan médical.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                {" "}
-                La RQTH est reconnue à toute personne dont les possibilités
-                d'obtenir ou de conserver un emploi sont effectivement réduites
-                par suite de l'altération d'une ou plusieurs fonctions
-                (physique, sensorielle, mentale ou psychique).{" "}
-              </p>
+            <Link to="/allocation-adultes-handicapes/">
+              <div className="ip">
+                <img src={pic13} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    {" "}
+                    Puis-je prétendre à un revenu minimum en raison de mon
+                    handicap ?{" "}
+                  </h3>
+                  <p className="desc-n">
+                    Oui. L’allocation aux adultes handicapés est une prestation
+                    octroyée par la MDPH qui garantit un minimum de revenu aux
+                    personnes en situation de handicap ayant de faibles
+                    ressources et atteint d’un certain niveau d’incapacité.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                {" "}
-                Ce statut permet de bénéficier de plusieurs avantages au niveau
-                de l’emploi (bénéfice de l’obligation d’emploi pour les
-                personnes en situation de handicap, dispositifs d’insertion
-                professionnelle…).{" "}
-              </p>
+            <Link to="/temps-partiel-therapeutique/">
+              <div className="ip">
+                <img src={pic14} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    {" "}
+                    Comment aménager temporairement mon temps de travail en
+                    raison de ma maladie ?
+                  </h3>
+                  <p className="desc-n">
+                    Le temps partiel thérapeutique (TPT) est une prestation de
+                    la sécurité sociale permettant au salarié malade de
+                    reprendre son travail à temps réduit pour favoriser une
+                    amélioration de son état de santé. Dans le langage courant,
+                    on parle souvent de mi-temps thérapeutique à tort car le
+                    temps partiel thérapeutique n’est pas nécessairement un
+                    mi-temps. En matière d’accident du travail, on ne parle pas
+                    de temps partiel thérapeutique mais de reprise de travail
+                    léger.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                {" "}
-                En cas de refus de RQTH, vous pouvez contacter Maître Quentin
-                MAMERI par téléphone, mail ou par le formulaire de contact afin
-                d’évoquer votre situation et de convenir d’un rendez-vous.{" "}
-              </p>
+            <Link to="/indemnites-arret-travail/">
+              <div className="ip">
+                <img src={pic15} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>Les indemnités journalières en cas d’arrêt de travail</h3>
+                  <p className="desc-n">
+                    L’arrêt de travail permet à un salarié dans l’impossibilité
+                    de travailler de justifier son absence à son employeur et de
+                    bénéficier du versement d’indemnités journalières par la
+                    sécurité sociale pour compenser sa perte de revenu. Ces
+                    indemnités journalières sont versées selon certaines
+                    conditions et modalités.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                INVALIDITÉ{" "}
-              </h2>
+            <Link to="/invalidite/">
+              <div className="ip">
+                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    Comment aménager durablement mon temps de travail en raison
+                    de mon handicap ou de ma maladie ?
+                  </h3>
+                  <p className="desc-n">
+                    L’invalidité est un statut accordé par la sécurité sociale à
+                    un assuré dont la capacité de travail est réduite des 2/3
+                    suite à un accident ou une maladie sans caractère
+                    professionnel et qui lui donne droit notamment au versement
+                    d’une pension et à une prise en charge de ses frais de santé
+                    à 100 %.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                L’invalidité est un statut accordé par la sécurité sociale à un
-                assuré dont la capacité de travail est réduite des 2/3 suite à
-                un accident ou une maladie sans caractère professionnel et qui
-                lui donne droit notamment au versement d’une pension et à une
-                prise en charge de ses frais de santé à 100 %.{" "}
-              </p>
+            <Link to="/prestation-de-compensation-handicap/">
+              <div className="ip">
+                <img src={pic17} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    Comment obtenir une aide financière pour prendre en charge
+                    les frais nécessités par mon handicap ?
+                  </h3>
+                  <p className="desc-n">
+                    Deux prestations principales permettent de prendre en charge
+                    les aide humaines et techniques nécessités par le handicap :
+                    la prestation de compensation du handicap octroyée par la
+                    MDPH (PCH) et l’Allocation Personnalisée d’Autonomie (APA)
+                    par le département.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                En effet, si la restriction de la capacité de travail fait suite
-                à un accident du travail ou une maladie professionnelle, le
-                salarié relève de la législation sur les risques professionnels
-                et pourra bénéficier, en cas de consolidation avec séquelles,
-                d’une rente ou d’un capital.
-              </p>
+            <Link to="/carte-mobilite-inclusion/">
+              <div className="ip">
+                <img src={pic3} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    Quel statut pour faciliter mes transports et déplacements en
+                    raison de mon handicap ?
+                  </h3>
+                  <p className="desc-n">
+                    La Carte de mobilité inclusion (CMI) est un statut accordé
+                    par la MDPH qui permet notamment de faciliter les transports
+                    et les déplacements des personnes en situation de handicap.
+                    Il existe 3 sortes de CMI, mention invalidité, mention
+                    priorité et mention stationnement.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
-              <p className="desc">
-                Pour bénéficier d’un placement en invalidité, il faut réunir des
-                conditions administratives (durée d’affiliation d’au moins 12
-                mois / durée de cotisation minimum) et médicales (restriction de
-                la capacité de travail des 2/3 au moins).{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                Le montant de la pension d’invalidité varie en fonction du
-                niveau d’invalidité :{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                -{" "}
-                <span className="bold">
-                  {" "}
-                  Pension d’invalidité catégorie 1  :{" "}
-                </span>{" "}
-                Invalides capables d'exercer une activité rémunérée. (30 % du
-                salaire de référence)
-              </p>
-              <p className="desc">
-                -{" "}
-                <span className="bold">
-                  {" "}
-                  Pension d’invalidité catégorie 2 :{" "}
-                </span>{" "}
-                Invalides absolument incapables d'exercer une profession
-                quelconque, (50 % du salaire de référence)
-              </p>
-              <p className="desc" id="TPT">
-                -{" "}
-                <span className="bold">
-                  {" "}
-                  Pension d’invalidité catégorie 3 :{" "}
-                </span>
-                 Invalides qui, étant absolument incapables d'exercer une
-                profession, sont, en outre, dans l'obligation d'avoir recours à
-                l'assistance d'une tierce personne pour effectuer les actes
-                ordinaires de la vie, (50 % du salaire de référence).
-              </p>
-
-              <p className="desc">
-                En cas de refus d’invalidité pour des raisons médicales ou
-                administratives ou en cas de contestation du niveau
-                d’invalidité, vous pouvez contacter Maître Quentin MAMERI par
-                téléphone, mail ou par le formulaire de contact afin d’évoquer
-                votre situation et de convenir d’un rendez-vous.
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                TEMPS PARTIEL THÉRAPEUTIQUE{" "}
-              </h2>
-
-              <p className="desc">
-                Le temps partiel thérapeutique est une prestation de la sécurité
-                sociale permettant au salarié malade de reprendre son travail à
-                temps réduit pour favoriser une amélioration de son état de
-                santé.{" "}
-              </p>
-
-              <p className="desc" id="AT">
-                {" "}
-                Le temps partiel thérapeutique a pour finalité de permettre au
-                salarié de reprendre progressivement son activité
-                professionnelle. La Caisse de sécurité sociale versera au
-                salarié un complément du revenu qu’il perçoit à temps partiel
-                sous forme d’indemnités journalières.
-              </p>
-
-              <p className="desc">
-                {" "}
-                Le temps-partiel thérapeutique est limitée dans le temps.{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                En cas de refus de temps partiel thérapeutique, vous pouvez
-                contacter Maître Quentin MAMERI par téléphone, mail ou par le
-                formulaire de contact afin d’évoquer votre situation et de
-                convenir d’un rendez-vous.{" "}
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                ARRÊT DE TRAVAIL{" "}
-              </h2>
-
-              <p className="desc">
-                L’arrêt de travail permet à un salarié dans l’impossibilité de
-                travailler de justifier son absence à son employeur et de
-                bénéficier du versement d’indemnités journalières par la
-                sécurité sociale pour compenser sa perte de revenu.{" "}
-              </p>
-
-              <p className="desc" id="ALD">
-                Pour bénéficier du versement d’indemnités journalières, il faut
-                réunir des conditions administratives (durée d’affiliation d’au
-                moins 12 mois / durée de cotisation minimum) et médicales (être
-                dans l’impossibilité de travailler).
-              </p>
-
-              <p className="desc">
-                En cas de refus ou de cessation du versement d’indemnités
-                journalières pour des raisons administratives ou médicales, vous
-                pouvez contacter Maître Quentin MAMERI par téléphone, mail ou
-                par le formulaire de contact afin d’évoquer votre situation et
-                de convenir d’un rendez-vous.{" "}
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                AFFECTION DE LONGUE DURÉE (ALD)
-              </h2>
-
-              <p className="desc" id="AAH">
-                {" "}
-                L'ALD permet à un assuré social de bénéficier d’une prise en
-                charge de ses frais de santé à 100 %, d’une dispense d’absence
-                de frais, et d’un prolongement de la durée de ses droits aux
-                indemnités journalières (3 ans à compter du premier arrêt en
-                lien avec l’ALD).{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                La demande d’ALD est faite par l’intermédiaire du
-                médecin-traitant.
-              </p>
-
-              <p className="desc">
-                {" "}
-                En cas de refus d’ALD, vous pouvez contacter Maître Quentin
-                MAMERI par téléphone, mail ou par le formulaire de contact afin
-                d’évoquer votre situation et de convenir d’un rendez-vous.
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                ALLOCATION AUX ADULTES HANDICAPÉS (AAH)
-              </h2>
-
-              <p className="desc">
-                {" "}
-                L’allocation aux adultes handicapés garantit un minimum de
-                revenu aux personnes en situation de handicap ayant de faibles
-                ressources et atteint d’un certain niveau d’incapacité.
-              </p>
-
-              <p className="desc" id="CMI">
-                {" "}
-                D’un point de vue médical, l’AAH est attribué : - aux personnes
-                atteintes d’un taux d’incapacité de 80 % - aux personnes
-                atteintes d’un taux d’incapacité compris entre 50 et 79 % et
-                présentant une restriction substantielle et durable d’accès à
-                l’emploi. D’un point de vue administratif, pour bénéficier de
-                l’AAH, il faut également résider en France de manière permanente
-                et être âgé de 20 ans ou plus. En cas de refus d’AAH pour des
-                raisons médicales ou administratives, vous pouvez contacter
-                Maître Quentin MAMERI par téléphone, mail ou par le formulaire
-                de contact afin d’évoquer votre situation et de convenir d’un
-                rendez-vous.
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                CARTE DE MOBILITÉ-INCLUSION (CMI)
-              </h2>
-
-              <p className="desc">
-                {" "}
-                <span className="bold">
-                  La CMI permet de faciliter les transports et les déplacements.{" "}
-                </span>
-              </p>
-              <p className="desc">Il existe trois sortes de CMI :</p>
-
-              <p className="desc">
-                {" "}
-                - <span className="bold"> La CMI mention invalidité </span>{" "}
-                permet d'obtenir une priorité d'accès aux places dans les
-                transports en commun, dans les espaces et salles d'attente dans
-                les établissements et les manifestations accueillant du public,
-                et de bénéficier de certains avantages commerciaux. Elle est
-                attribuée aux personnes qui présentent un taux d'incapacité
-                permanente d'au moins 80 %, ou qui sont en invalidité 3ème
-                catégorie, ou pour les bénéficiaires de l’Allocation
-                personnalisé d’autonomie (APA) classé en groupe 1 ou 2 de la
-                grille Aggir.{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                - <span className="bold"> La CMI mention priorité </span> permet
-                d'obtenir une priorité d'accès aux places dans les transports en
-                commun, dans les espaces et salles d'attente dans les
-                établissements et les manifestations accueillant du public. Elle
-                est attribuée aux personnes atteintes d'une incapacité
-                inférieure à 80 % rendant la station debout pénible.{" "}
-              </p>
-
-              <p className="desc" id="PCH">
-                {" "}
-                - <span className="bold">
-                  {" "}
-                  La CMI mention stationnement{" "}
-                </span>{" "}
-                permet d'utiliser gratuitement et sans limitation de durée,
-                toutes les places de stationnement ouvertes au public. Elle est
-                attribuée aux personnes atteintes d'un handicap qui réduit de
-                manière importante et durable leur capacité et leur autonomie de
-                déplacement à pied ou qui impose qu’elles soient accompagnées
-                par une tierce personne dans ses déplacements ou pour les
-                bénéficiaires de l’Allocation personnalisé d’autonomie (APA)
-                classé en groupe 1 ou 2 de la grille Aggir.{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                En cas de refus de CMI pour des raisons médicales ou
-                administratives, vous pouvez contacter Me Quentin MAMERI par
-                téléphone, mail ou par le formulaire de contact afin d’évoquer
-                votre situation et de convenir d’un rendez-vous.
-              </p>
-
-              <h2 className="title">
-                {" "}
-                <svg
-                  className="yellows"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 10 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="10" height="10" fill="#F2DC17" />
-                </svg>{" "}
-                PRESTATION DE COMPENSATION DU HANDICAP (PCH)
-              </h2>
-
-              <p className="desc">
-                {" "}
-                La PCH est une prestation permettant de prendre en charge les
-                dépenses liées au handicap des personnes résidant en France
-                (aide humaine, aides techniques, aménagements …).{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                Pour pouvoir bénéficier de la PCH, vous devez vous trouver, sur
-                le plan médical, dans l'une des situations suivantes :{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                - Vous rencontrez une difficulté absolue pour la réalisation
-                d'une activité (mobilité, entretien personnel, communication,
-                tâches et exigences générales et relations avec autrui). La
-                difficulté est qualifiée d'absolue si l'activité ne peut pas du
-                tout être réalisée par la personne elle-même,{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                - Vous avez une difficulté grave pour la réalisation d'au moins
-                2 activités (mobilité, entretien personnel, communication,
-                tâches et exigences générales et relations avec autrui). La
-                difficulté à accomplir ces activités est qualifiée de grave
-                lorsqu'elles sont réalisées difficilement et de façon altérée
-                par elle-même.{" "}
-              </p>
-
-              <p className="desc">
-                {" "}
-                En cas de refus de PCH ou d’un désaccord quant à l’évaluation
-                des besoins, vous pouvez contacter Maître Quentin MAMERI par
-                téléphone, mail ou par le formulaire de contact afin d’évoquer
-                votre situation et de convenir d’un rendez-vous.{" "}
-              </p>
-            </div>
-
-            <VisitCard />
+            <Link to="/reconnaissance-travailleur-handicape">
+              <div className="ip">
+                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3>
+                    Comment obtenir une reconnaissance administrative de mon
+                    handicap sur le plan professionnel ?
+                  </h3>
+                  <p className="desc-n">
+                    La Reconnaissance de Qualité de Travailleur Handicapé (RQTH)
+                    est un statut reconnu par la MDPH à toute personne dont les
+                    possibilités d'obtenir ou de conserver un emploi sont
+                    effectivement réduites par suite de l'altération d'une ou
+                    plusieurs fonctions (physique, sensorielle, mentale ou
+                    psychique).
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
-      </Layout>
-    )
-  }
-}
 
-export default Protection
+        <VisitCard />
+      </div>
+    </div>
+  </Layout>
+)
+
+export default InfoDt

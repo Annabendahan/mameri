@@ -19,19 +19,19 @@ const Travail = () => (
             Vous venez d’être victime d’un{" "}
             <span className="bold">
               {" "}
-              <Link to="/reparation-dommage-corporel/#AT">
+              <Link to="/accident-cadre-professionnel/">
                 accident du travail
               </Link>
             </span>
             , d’un{" "}
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#ATR">
+              <Link to="/accident-cadre-professionnel/">
                 accident de trajet
               </Link>
             </span>{" "}
             ou d’un{" "}
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#AM">
+              <Link to="/accident-cadre-professionnel/">
                 accident de mission
               </Link>
             </span>
@@ -44,7 +44,7 @@ const Travail = () => (
             bénéficier en cas d’arrêt de travail du versement d’un revenu de
             remplacement sous forme d’indemnités journalières jusqu’à la{" "}
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#C"> consolidation</Link>{" "}
+              <Link to="/consolidation/">consolidation</Link>{" "}
             </span>
             et par la suite, en cas de séquelles, d’obtenir une indemnisation
             par la sécurité sociale sous forme de rente ou de capital en
@@ -58,10 +58,7 @@ const Travail = () => (
             matière d’accident du travail, le salarié devra agir contre
             l’employeur en{" "}
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#FIE">
-                {" "}
-                faute inexcusable
-              </Link>
+              <Link to="/faute-inexcusable/"> faute inexcusable</Link>
             </span>
             .{" "}
           </p>
@@ -105,26 +102,20 @@ const Travail = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#AT">
+            link1=<Link to="/accident-cadre-professionnel/">
               {" "}
               Accident du travail{" "}
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#AM">
+            link2=<Link to="/accident-cadre-professionnel/">
               {" "}
               Accident de mission
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#ATR">
+            link3=<Link to="/accident-cadre-professionnel/">
               {" "}
               Accident de trajet
             </Link>
-            link4=<Link to="/reparation-dommage-corporel/#C">
-              {" "}
-              Consolidation
-            </Link>
-            link5=<Link to="/reparation-dommage-corporel/#FIE">
-              {" "}
-              Faute inexcusable
-            </Link>
+            link4=<Link to="/consolidation/"> Consolidation</Link>
+            link5=<Link to="/faute-inexcusable/"> Faute inexcusable</Link>
           />
         </div>
 

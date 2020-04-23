@@ -25,10 +25,7 @@ const Route = () => (
             mettra tout en œuvre pour vous permettre d’obtenir la{" "}
             <span className="bold">
               {" "}
-              <Link to="/reparation-dommage-corporel/#RIP">
-                {" "}
-                réparation intégrale
-              </Link>
+              <Link to="/prejudices-reparables/"> réparation intégrale</Link>
             </span>{" "}
             de vos préjudices.
           </p>
@@ -58,7 +55,7 @@ const Route = () => (
             pour gérer leur indemnisation et se voient ainsi exposées au risque
             de minimisation de leurs préjudices non seulement au stade de l'
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>{" "}
@@ -110,22 +107,19 @@ const Route = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#RIP">
+            link1=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale des préjudices
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#EM">
+            link2=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#PR">
+            link3=<Link to="/prejudices-reparables/">
               {" "}
               Préjudices réparables
             </Link>
-            link4=<Link to="/reparation-dommage-corporel/#C">
-              {" "}
-              Consolidation
-            </Link>
+            link4=<Link to="/consolidation/"> Consolidation</Link>
           />
         </div>
 

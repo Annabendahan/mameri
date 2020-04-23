@@ -47,7 +47,7 @@ const Inaptitude = () => (
             Si vous souhaitez être conseillé ou assisté dans le cadre d’une
             procédure d’
             <span className="bold">
-              <Link to="/droit-du-travail/#I">inaptitude</Link>
+              <Link to="/inaptitude-salaries/">inaptitude</Link>
             </span>
             , vous pouvez contacter Maître Quentin MAMERI par téléphone, mail ou
             par le formulaire de contact afin d’évoquer votre situation et de
@@ -55,7 +55,7 @@ const Inaptitude = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/droit-du-travail/#I"> Inaptitude </Link>
+            link1=<Link to="/inaptitude-salaries/"> Inaptitude </Link>
           />
         </div>
 

@@ -36,7 +36,7 @@ const Privée = () => (
             garantie mais également lorsque celle-ci est mobilisée. Maître
             MAMERI défendra vos intérêts pendant la phase d’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>
             </span>
@@ -48,7 +48,7 @@ const Privée = () => (
             Il est important d’être assisté par un professionnel dans ces
             démarches que ce soit pendant la phase d’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>{" "}
@@ -74,7 +74,7 @@ const Privée = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#EM">
+            link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>

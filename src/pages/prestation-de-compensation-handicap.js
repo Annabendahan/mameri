@@ -90,7 +90,12 @@ const Afh = () => (
             {" "}
             Pour faire une demande de PCH, vous devez adresser à la MDPH le
             formulaire de demande unique accompagné du certificat médical dûment
-            rempli (accéder à ces formulaires)
+            rempli{" "}
+            <span className="bold underlined">
+              <Link to="/modeles-et-formulaires/">
+                (accéder à ces formulaires)
+              </Link>
+            </span>
           </p>
 
           <p className="desc">

@@ -70,18 +70,18 @@ const Mdph = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/protection-sociale/#AAH">
+            link1=<Link to="/allocation-adultes-handicapes/">
               {" "}
               Allocation adultes handicapés
             </Link>
-            link2=<Link to="/protection-sociale/#PCH">
+            link2=<Link to="/prestation-de-compensation-handicap/">
               {" "}
               Prestation de compensation de handicap
             </Link>
-            link3=<Link to="/protection-sociale/CMI" className="underl">
+            link3=<Link to="/carte-mobilite-inclusion/">
               Carte de mobilité-inclusion
             </Link>
-            link4=<Link to="/protection-sociale/">
+            link4=<Link to="/reconnaissance-travailleur-handicape">
               Reconnaissance de qualité de travailleur handicapé
             </Link>
           />

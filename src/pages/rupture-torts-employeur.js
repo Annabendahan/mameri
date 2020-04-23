@@ -20,13 +20,13 @@ const Rupturetorts = () => (
             relation de travail. Vous pouvez, dans certaines conditions, obtenir
             une rupture du contrat aux torts de votre employeur (
             <span className="bold">
-              <Link to="/droit-du-travail">
+              <Link to="/faute-grave-employeur/">
                 prise d’acte de rupture du contrat
               </Link>{" "}
             </span>{" "}
             ou{" "}
             <span className="bold">
-              <Link to="/droit-du-travail/#RJ">résiliation judiciaire</Link>
+              <Link to="/faute-grave-employeur/">résiliation judiciaire</Link>
             </span>
             ).{" "}
           </p>
@@ -46,11 +46,11 @@ const Rupturetorts = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/droit-du-travail">
+            link1=<Link to="/rompre-amiablement-contrat-travail/">
               {" "}
               Prise d’acte de rupture du contrat{" "}
             </Link>
-            link2=<Link to="/droit-du-travail/#RJ">
+            link2=<Link to="/faute-grave-employeur/">
               {" "}
               Résiliation judiciaire
             </Link>

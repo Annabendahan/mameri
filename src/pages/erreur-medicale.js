@@ -80,7 +80,13 @@ const Err = () => (
           <p className="desc">
             {" "}
             Pour déterminer si une faute médicale a été commise, il convient de
-            diligenter une expertise médicale (en savoir plus).
+            diligenter une{" "}
+            <span className="bold underlined">
+              <Link to="/expertise-medicale-dommage-corporel/">
+                expertise médicale
+              </Link>
+            </span>
+            .
           </p>
 
           <p className="desc">

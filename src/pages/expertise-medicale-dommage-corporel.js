@@ -25,7 +25,7 @@ const ExpMed = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’EXPÉRTISE MÉDICALE, PHASE PRÉALABLE INCONTOURNABLE DE LA PROCÈDURE
+            L’EXPERTISE MÉDICALE, PHASE PRÉALABLE INCONTOURNABLE DE LA PROCÈDURE
             EN RÉPARATION DE DOMMAGE CORPOREL
           </h2>
 
@@ -44,13 +44,20 @@ const ExpMed = () => (
             pour déterminer si les conditions de l’indemnisation sont réunies.
             Il s’agira par exemple de se prononcer sur le fait de savoir si le
             professionnel ou l’établissement de santé a respecté les règles de
-            l’art autrement dit s’il a commis une faute médicale (en savoir
-            plus). En l’absence de faute, l’expertise permettra de déterminer si
+            l’art autrement dit s’il a commis une{" "}
+            <span className="bold underlined">
+              <Link to="/erreur-medicale/">faute médicale</Link>
+            </span>
+            . En l’absence de faute, l’expertise permettra de déterminer si
             l’accident médical que vous avez subi répond aux conditions
             médicales pour ouvrir droit à une indemnisation par l’état (en
             savoir plus) et dans le cadre d’une infection survenue dans un
             établissement de santé, l’expert indiquera s’il s’agit d’une
-            infection pouvant être qualifiée de nosocomiale (en savoir plus).
+            infection pouvant être qualifiée de{" "}
+            <span className="bold underlined">
+              <Link to="/infection-nosocomiale/">nosocomiale</Link>
+            </span>
+            .
           </p>
           <p className="desc">
             L’Expertise peut être mise en place dans différents cadres :

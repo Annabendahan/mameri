@@ -53,7 +53,10 @@ const Harcelement = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/droit-du-travail/#HM"> Harcèlement moral </Link>
+            link1=<Link to="/victime-harcelement-moral/">
+              {" "}
+              Harcèlement moral{" "}
+            </Link>
           />
         </div>
 

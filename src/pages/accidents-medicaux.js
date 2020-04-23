@@ -20,13 +20,13 @@ const Médicaux = () => (
             Que vous soyez victime d’une{" "}
             <span className="bold">
               {" "}
-              <Link to="/reparation-dommage-corporel/#FM">faute médicale</Link>
+              <Link to="/erreur-medicale/"> faute médicale</Link>
             </span>{" "}
             ou dentaire (faute de diagnostic, faute technique, défaut
             d’information …), du défaut d’un produit de santé, d’une{" "}
             <span className="bold">
               {" "}
-              <Link to="/reparation-dommage-corporel/#IN">
+              <Link to="/infection-nosocomiale/">
                 {" "}
                 infection nosocomiale,
               </Link>{" "}
@@ -36,7 +36,7 @@ const Médicaux = () => (
             reconnue et que vous puissiez obtenir{" "}
             <span className="bold">
               {" "}
-              <Link to="/reparation-dommage-corporel/#RIP">
+              <Link to="/prejudices-reparables/">
                 {" "}
                 réparation intégrale
               </Link>{" "}
@@ -44,9 +44,7 @@ const Médicaux = () => (
             de vos préjudices. <br />
             En cas d’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#AMNF">
-                accident médical non fautif
-              </Link>
+              <Link to="/erreur-medicale/">accident médical non fautif</Link>
             </span>
              (aléa thérapeutique), sachez que vous pouvez obtenir indemnisation
             par la solidarité nationale (ONIAM) sous certaines conditions
@@ -72,7 +70,7 @@ const Médicaux = () => (
             Il sera présent à vos côtés à chaque stade de la procédure y compris
             lors de l’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>{" "}
@@ -100,26 +98,19 @@ const Médicaux = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#EM">
+            link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#IN">
+            link2=<Link to="/infection-nosocomiale/">
               {" "}
               Infection nosocomiale
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#AMNF">
-              {" "}
-              Accident médical non fautif
-            </Link>
-            link4=<Link to="/reparation-dommage-corporel/#RIP">
+            link3=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale
             </Link>
-            link5=<Link to="/reparation-dommage-corporel/#FM">
-              {" "}
-              Faute médicale
-            </Link>
+            link4=<Link to="/erreur-medicale/"> Erreur médicale</Link>
           />
         </div>
 

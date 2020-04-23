@@ -47,7 +47,7 @@ const Agression = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#RIP">
+            link1=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale des préjudices
             </Link>
@@ -55,7 +55,7 @@ const Agression = () => (
               {" "}
               Expertise médicale
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#PR">
+            link3=<Link to="/prejudices-reparables/">
               {" "}
               Préjudices réparables
             </Link>

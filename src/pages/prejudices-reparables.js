@@ -51,7 +51,10 @@ const ExpMed = () => (
             particulièrement le cas dans les situations de grand handicap.
             Malheureusement, une fois l’accord conclu ou le jugement rendu, il
             ne sera plus possible de solliciter une nouvelle indemnisation, sauf
-            situation d’aggravation (en savoir plus).
+            situation
+            <span className="bold underlined">
+              <Link to="/aggravation/">d’aggravation.</Link>
+            </span>
           </p>
 
           <p className="desc">

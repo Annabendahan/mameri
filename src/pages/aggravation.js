@@ -35,7 +35,7 @@ const Aggravation = () => (
             et établissant le lien avec l’accident initial. Ce certificat est
             essentiel pour mettre en place une nouvelle évaluation par voie d’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>{" "}
@@ -56,7 +56,7 @@ const Aggravation = () => (
             Maître MAMERI mettra tout en œuvre pour faire reconnaitre votre
             situation d’aggravation et vous permettre d’obtenir{" "}
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#RIP">
+              <Link to="/prejudices-reparables/">
                 {" "}
                 réparation intégrale de vos préjudices.{" "}
               </Link>{" "}
@@ -64,7 +64,7 @@ const Aggravation = () => (
             Il défendra vos droits de victime à chaque stade de la procédure y
             compris pendant l’
             <span className="bold">
-              <Link to="/reparation-dommage-corporel/#EM">
+              <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>{" "}
             </span>{" "}
@@ -85,11 +85,11 @@ const Aggravation = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#EM">
+            link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#RIP">
+            link2=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale
             </Link>

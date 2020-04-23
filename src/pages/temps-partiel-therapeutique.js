@@ -54,7 +54,10 @@ const Tpt = () => (
             Pour bénéficier d’un temps partiel thérapeutique, il doit en faire
             la demande par l’intermédiaire de son médecin-traitant ou le médecin
             du travail. Depuis 2018, il n’est plus nécessaire que la demande de
-            temps partiel thérapeutique soit précédé d’un arrêt de travail.
+            temps partiel thérapeutique soit précédé d’un{" "}
+            <span className="bold underlined">
+              <Link to="/indemnites-arret-travail/">arrêt de travail.</Link>
+            </span>
           </p>
 
           <p className="desc">

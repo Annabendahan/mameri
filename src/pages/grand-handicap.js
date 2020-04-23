@@ -55,18 +55,15 @@ const Aggravation = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/reparation-dommage-corporel/#EM">
+            link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
               Expertise médicale
             </Link>
-            link2=<Link to="/reparation-dommage-corporel/#RIP">
+            link2=<Link to="/prejudices-reparables/">
               {" "}
               Réparation intégrale des préjudices
             </Link>
-            link3=<Link to="/reparation-dommage-corporel/#C">
-              {" "}
-              Consolidation
-            </Link>
+            link3=<Link to="/consolidation/"> Consolidation</Link>
           />
         </div>
 
