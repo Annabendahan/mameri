@@ -25,8 +25,8 @@ const Tpt = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Comment aménager temporairement mon temps de travail en raison de de
-            ma maladie ?
+            COMMENT AMÉNAGER TEMPORAIREMENT MON TEMPS DE TRAVAIL EN RAISON DE DE
+            MA MALADIE ?
           </h2>
 
           <p className="desc">

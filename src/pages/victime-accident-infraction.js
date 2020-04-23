@@ -25,8 +25,8 @@ const ExpMed = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Victime d’un accident ou d’une infraction : Quels préjudices
-            réparables ?
+            VICTIME D’UN ACCIDENT OU D’UNE INFRACTION : QUELS PRÉJUDICES
+            RÉPARABLES ?
           </h2>
 
           <p className="desc">

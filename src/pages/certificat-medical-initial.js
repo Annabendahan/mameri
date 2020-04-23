@@ -25,8 +25,8 @@ const Cmi = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Pourquoi le certificat médical initial est-il une pièce essentielle
-            d’un dossier en réparation de dommage corporel ?
+            POURQUOI LE CERTIFICAT MÉDICAL INITIAL EST-IL UNE PIÈCE ESSENTIELLE
+            D’UN DOSSIER EN RÉPARATION DE DOMMAGE CORPOREL ?
           </h2>
 
           <p className="desc">

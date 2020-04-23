@@ -25,8 +25,8 @@ const Afh = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Comment obtenir une aide financière pour prendre en charge les frais
-            nécessités par mon handicap ?
+            COMMENT OBTENIR UNE AIDE FINANCIÈRE POUR PRENDRE EN CHARGE LES FRAIS
+            NÉCESSITÉS PAR MON HANDICAP ?
           </h2>
 
           <p className="desc">
@@ -120,6 +120,32 @@ const Afh = () => (
               proche qui vous héberge, <br /> - soit chez un accueillant
               familial, <br /> - soit dans une résidence autonomie (anciennement
               appelé foyer-logement).
+            </p>
+            <p className="desc">
+              {" "}
+              Vous devez, en outre, habiter en France de manière stable et
+              régulière. Sur le plan médical, vous devez être dans une situation
+              de perte d'autonomie (besoin d'aide pour accomplir les actes de la
+              vie courante, ou état de santé nécessitant une surveillance
+              constante).
+            </p>
+            <p className="desc">
+              {" "}
+              La perte d'autonomie se mesure à l'aide de la grille Agir. Cette
+              grille définit plusieurs degrés de perte d'autonomie, allant du
+              Gir 1 (perte d'autonomie la plus forte) au Gir 6 (perte
+              d'autonomie la plus faible).
+            </p>
+            <p className="desc">
+              {" "}
+              Seules les personnes relevant des Gir 1, Gir 2, Gir 3 ou Gir 4
+              peuvent percevoir l’APA.
+              <br />
+              <br />
+              En cas de refus d’APA ou de désaccord quant à l’évaluation de
+              votre perte d’autonomie, n’hésitez pas à contacter Maître Quentin
+              MAMERI par téléphone, mail ou par le formulaire de contact afin
+              d’évoquer votre situation et de convenir d’un rendez-vous.
             </p>
           </p>
         </div>

@@ -8,7 +8,7 @@ import pic16 from "../images/ip.jpeg"
 import pic3 from "../images/la.jpg"
 import pic4 from "../images/P1011958.jpg"
 
-const Harc = () => (
+const Rqth = () => (
   <Layout>
     <div className="background-hono">
       <div className="bigbox">
@@ -25,35 +25,39 @@ const Harc = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            VICTIME DE HARCÈLEMENT MORAL : QUELLES VOIES DE RECOURS ?
+            COMMENT OBTENIR UNE RECONNAISSANCE ADMINISTRATIVE DE MON HANDICAP
+            SUR LE PLAN PROFESSIONNEL ?
           </h2>
 
           <p className="desc">
             {" "}
             <span className="bold">
               {" "}
-              Le harcèlement moral correspond à des agissements répétés exercés
-              par la hiérarchie ou non à l’encontre d’un salarié qui ont pour
-              objet ou pour effet une dégradation des conditions de travail
-              susceptible de porter atteinte à ses droits et à sa dignité,
-              d'altérer sa santé physique ou mentale ou de compromettre son
-              avenir professionnel.
+              La Reconnaissance de Qualité de Travailleur Handicapé (RQTH) est
+              un statut reconnu par la MDPH à toute personne dont les
+              possibilités d'obtenir ou de conserver un emploi sont
+              effectivement réduites par suite de l'altération d'une ou
+              plusieurs fonctions (physique, sensorielle, mentale ou psychique).
             </span>
           </p>
 
           <p className="desc">
             {" "}
-            Le harcèlement moral peut prendre plusieurs formes comme, notamment,
-            des brimades, des injures, des violences, une procédure
-            disciplinaire injustifiée, une « placardisation » …
+            Ce statut permet de bénéficier de plusieurs avantages au niveau de
+            l’emploi :
+            <br />
+            - dispositifs dédiés à l'insertion professionnelle
+            <br />- aménagement de vos horaires et poste de travail,
+            <br /> - soutiens spécialisés pour la recherche d'emploi au sein,
+            par exemple, de Cap Emploi, etc.
+            <br />- obligation d’emploi
           </p>
 
           <p className="desc">
             {" "}
-            En cas de recours, il vous appartient uniquement de présenter les
-            éléments de fait laissant supposer l’existence d’un harcèlement
-            moral. Votre employeur devra démontrer que les faits allégués ne
-            correspondent pas une situation de harcèlement moral.
+            Pour faire une demande de RQTH, vous devez adresser à la MDPH le
+            formulaire de demande unique accompagné du certificat médical dûment
+            rempli.
           </p>
 
           <p className="desc">
@@ -80,4 +84,4 @@ const Harc = () => (
   </Layout>
 )
 
-export default Harc
+export default Rqth

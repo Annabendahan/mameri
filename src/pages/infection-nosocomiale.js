@@ -25,7 +25,7 @@ const Inf = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Victime d’une infection nosocomiale, quel régime d’indemnisation ?
+            VICTIME D’UNE INFECTION NOSOCOMIALE, QUEL RÉGIME D’INDEMNISATION ?
           </h2>
 
           <p className="desc">

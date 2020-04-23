@@ -49,7 +49,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/expertise-medicale-dommage-corporel/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -86,7 +86,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/victime-accident-infraction/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -124,7 +124,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/consolidation/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -157,7 +157,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/certificat-medical-initial/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -193,7 +193,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/accident-cadre-professionnel/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">

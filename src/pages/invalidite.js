@@ -25,8 +25,8 @@ const Invalidite = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Comment aménager durablement mon temps de travail en raison de mon
-            handicap ou de ma maladie ?
+            COMMENT AMÉNAGER DURABLEMENT MON TEMPS DE TRAVAIL EN RAISON DE MON
+            HANDICAP OU DE MA MALADIE ?
           </h2>
 
           <p className="desc">

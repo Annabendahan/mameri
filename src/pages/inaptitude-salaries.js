@@ -25,7 +25,7 @@ const Inas = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’inaptitude des salariés
+            L’INAPTITUDE DES SALARIÉS
           </h2>
 
           <p className="desc">

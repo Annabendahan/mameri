@@ -25,7 +25,7 @@ const Amia = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Rompre amiablement son contrat de travail, mode d’emploi !
+            ROMPRE AMIABLEMENT SON CONTRAT DE TRAVAIL, MODE D’EMPLOI !
           </h2>
 
           <p className="desc">

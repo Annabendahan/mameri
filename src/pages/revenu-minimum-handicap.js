@@ -25,7 +25,7 @@ const Rmh = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Puis-je prétendre à un revenu minimum en raison de mon handicap ?
+            PUIS-JE PRÉTENDRE À UN REVENU MINIMUM EN RAISON DE MON HANDICAP ?
           </h2>
 
           <p className="desc">

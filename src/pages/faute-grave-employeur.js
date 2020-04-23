@@ -25,8 +25,8 @@ const Err = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Un salarié peut-il rompre son contrat de travail en raison d’une
-            faute grave de son employeur ?
+            UN SALARIÉ PEUT-IL ROMPRE SON CONTRAT DE TRAVAIL EN RAISON D’UNE
+            FAUTE GRAVE DE SON EMPLOYEUR ?
           </h2>
 
           <p className="desc">

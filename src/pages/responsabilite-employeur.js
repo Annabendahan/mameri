@@ -25,8 +25,8 @@ const Respemp = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Comment engager la responsabilité de mon employeur s’il a commis une
-            faute à l’origine de mon accident du travail ?
+            COMMENT ENGAGER LA RESPONSABILITÉ DE MON EMPLOYEUR S’IL A COMMIS UNE
+            FAUTE À L’ORIGINE DE MON ACCIDENT DU TRAVAIL ?
           </h2>
 
           <p className="desc">

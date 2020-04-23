@@ -25,7 +25,7 @@ const Accpro = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’accident survenu dans un cadre professionnel
+            L’ACCIDENT SURVENU DANS UN CADRE PROFESSIONNEL
           </h2>
 
           <p className="desc">

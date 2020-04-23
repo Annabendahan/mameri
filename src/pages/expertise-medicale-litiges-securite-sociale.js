@@ -25,8 +25,8 @@ const Expml = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’expertise médicale, étape préalable des litiges médicaux avec la
-            sécurité sociale
+            L’EXPERTISE MÉDICALE, ÉTAPE PRÉALABLE DES LITIGES MÉDICAUX AVEC LA
+            SÉCURITÉ SOCIALE
           </h2>
 
           <p className="desc">

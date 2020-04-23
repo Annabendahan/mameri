@@ -25,7 +25,7 @@ const Consolidation = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Qu’est-ce que la consolidation ?
+            QU’EST-CE QUE LA CONSOLIDATION ?
           </h2>
 
           <p className="desc">

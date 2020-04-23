@@ -25,7 +25,7 @@ const Iat = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            Les indemnités journalières en cas d’arrêt de travail
+            LES INDEMNITÉS JOURNALIÈRES EN CAS D’ARRÊT DE TRAVAIL
           </h2>
 
           <p className="desc">
