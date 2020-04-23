@@ -16,7 +16,7 @@ const InfoDt = () => (
           <h1> PROTECTION SOCIALE </h1>
 
           <div className="blue2">
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/expertise-medicale-litiges-securite-sociale/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -53,7 +53,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/revenu-minimum-handicap/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -89,7 +89,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/temps-partiel-therapeutique/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -130,7 +130,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/indemnites-arret-travail/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -164,7 +164,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/invalidite/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -201,7 +201,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/aide-financiere-handicap/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -237,7 +237,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/carte-mobilite-inclusion/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -273,7 +273,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/reconnaissance-travailleur-handicape">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">

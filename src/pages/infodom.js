@@ -226,7 +226,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/faute-inexcusable/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -263,7 +263,7 @@ const InfoDom = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/erreur-medicale/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">

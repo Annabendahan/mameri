@@ -16,7 +16,7 @@ const InfoDt = () => (
           <h1> DROIT DU TRAVAIL </h1>
 
           <div className="blue2">
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/faute-grave-employeur/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -53,7 +53,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/rompre-amiablement-contrat-travail/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -89,7 +89,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/victime-harcelement-moral/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
@@ -126,7 +126,7 @@ const InfoDt = () => (
               </div>
             </Link>
 
-            <Link to="/reparation-dommage-corporel/">
+            <Link to="/inaptitude-salaries/">
               <div className="ip">
                 <img src={pic16} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
