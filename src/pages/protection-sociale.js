@@ -5,13 +5,13 @@ import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
 
-import pic14 from "../images/p14.jpeg"
-import pic13 from "../images/p13.jpeg"
-import pic8 from "../images/p8.jpeg"
-import pic15 from "../images/p15.jpeg"
+import pic14 from "../images/p14.png"
+import pic13 from "../images/p13.png"
+import pic8 from "../images/p8.png"
+import pic15 from "../images/p15.png"
 import pic16 from "../images/p16.jpeg"
-import pic17 from "../images/p17.jpeg"
-import pic3 from "../images/p3.jpeg"
+import pic17 from "../images/p4.png"
+import pic3 from "../images/p3.png"
 
 const InfoDt = () => (
   <Layout>
@@ -171,7 +171,7 @@ const InfoDt = () => (
 
             <Link to="/invalidite/">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic14} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Comment aménager durablement mon temps de travail en raison
@@ -280,7 +280,7 @@ const InfoDt = () => (
 
             <Link to="/reconnaissance-travailleur-handicape">
               <div className="ip">
-                <img src={pic16} className="picindex3" alt="fireSpot" />
+                <img src={pic14} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     Comment obtenir une reconnaissance administrative de mon

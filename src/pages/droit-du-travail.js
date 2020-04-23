@@ -7,9 +7,9 @@ import VisitCard from "../components/VisitCard"
 
 import pic1 from "../images/p1.png"
 
-import pic5 from "../images/p5.jpeg"
-import pic6 from "../images/p6.jpeg"
-import pic7 from "../images/p7.jpeg"
+import pic5 from "../images/p5.png"
+import pic6 from "../images/p6.png"
+import pic7 from "../images/p7.png"
 
 const InfoDt = () => (
   <Layout>

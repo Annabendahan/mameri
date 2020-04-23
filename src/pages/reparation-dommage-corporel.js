@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import VisitCard from "../components/VisitCard"
-import pic8 from "../images/p8.jpeg"
-import pic9 from "../images/p9.jpeg"
-import pic10 from "../images/p10.jpeg"
-import pic11 from "../images/p11.jpeg"
+import pic8 from "../images/p8.png"
+import pic9 from "../images/p7.png"
+import pic10 from "../images/p10.png"
+import pic11 from "../images/p11.png"
 import pic1 from "../images/p1.png"
 import pic12 from "../images/p12.jpeg"
 
@@ -54,7 +54,7 @@ const InfoDom = () => (
 
             <Link to="/expertise-medicale-dommage-corporel/">
               <div className="ip">
-                <img src={pic9} className="picindex3" alt="fireSpot" />
+                <img src={pic11} className="picindex3" alt="fireSpot" />
                 <div className="ip__text">
                   <h3>
                     {" "}
