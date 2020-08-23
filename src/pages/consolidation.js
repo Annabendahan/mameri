@@ -51,21 +51,18 @@ const Consolidation = () => (
             santé est consolidé. La date de consolidation marquera la séparation
             entre les préjudices temporaires, qui sont la conséquence de vos
             lésions faisant suite à l’accident ou l’infraction, et les
-            préjudices permanents qui correspondent à vos séquelles (en savoir
-            plus).
+            préjudices permanents qui correspondent à vos séquelles.
           </p>
           <p className="desc">
             {" "}
             Si vous avez subi un accident du travail, de trajet ou de mission
-            <span className="bold underlined">
-              <Link to="/accident-cadre-professionnel/">(en savoir plus)</Link>
-            </span>
+
             , la consolidation marque la fin du versement des indemnités
             journalières par la sécurité sociale et donne lieu, en cas de
             séquelles, au versement d’une indemnisation sous forme de rente ou
-            de capital. 
+            de capital.
           </p>
-          <br />
+
 
           <p className="desc">
             {" "}
@@ -79,6 +76,16 @@ const Consolidation = () => (
 
         <VisitCard />
       </div>
+
+      <p className="desc">
+        <b>Articles associés :</b><br />
+
+
+- <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link><br />
+- Préjudices <br />
+
+      </p>
+
     </div>
   </Layout>
 )

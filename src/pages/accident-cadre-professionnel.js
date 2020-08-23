@@ -23,7 +23,7 @@ const Accpro = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’ACCIDENT SURVENU DANS UN CADRE PROFESSIONNEL
+            L’ACCIDENT SURVENU DANS LE CADRE DU TRAVAIL (ACCIDENT DU TRAVAIL)
           </h2>
 
           <p className="desc">
@@ -48,25 +48,28 @@ const Accpro = () => (
             {" "}
             - l’accident du travail au sens strict
             <br />
+            <br />
             Un accident est qualifié d’accident du travail lorsqu’il est survenu
             ou salarié par le fait ou à l’occasion du travail et ce quelqu’un
-            soit la cause. 
+            soit la cause.
           </p>
 
           <p className="desc">
             {" "}
             - l’accident de trajet
             <br />
+            <br />
             Un accident est reconnu comme un accident de trajet lorsque celui-ci
             est survenu pendant le trajet effectué par le salarié entre sa
             résidence et son lieu de travail, ainsi que sur le trajet entre son
             lieu de travail et le lieu de restauration où le salarié se rend
-            pendant la pause repas. 
+            pendant la pause repas.
           </p>
 
           <p className="desc">
             {" "}
             - l’accident de mission
+            <br />
             <br />
             La jurisprudence assimile à un accident du travail l’accident
             survenu au salarié lors d’une mission professionnelle que lui a
@@ -78,14 +81,14 @@ const Accpro = () => (
             important que l'accident survienne à l'occasion d'un acte
             professionnel ou d'un acte de la vie courante, sauf la possibilité
             pour l'employeur ou la caisse de rapporter la preuve que le salarié
-            avait interrompu sa mission pour un motif personnel. 
+            avait interrompu sa mission pour un motif personnel.
             <br />
             Le Cabinet de Maître Quentin MAMERI, Avocat de victimes, vous
             accompagnera et défendra vos intérêts dans l’ensemble des litiges
             avec l’employeur ou la sécurité sociale pour faire reconnaître votre
             accident.
           </p>
-          <br />
+
 
           <p className="desc">
             <span className="bold">
@@ -98,6 +101,7 @@ const Accpro = () => (
             {" "}
             L’accident de travail, de mission, et de trajet ouvre droit aux
             mêmes avantages, à savoir :
+            <br />
             <br />
             - une prise en charge des frais de santé à 100 % ;
             <br />
@@ -114,7 +118,7 @@ const Accpro = () => (
             (doublement de l’indemnité de licenciement en cas de licenciement
             pour inaptitude ; protection contre le licenciement, arrêt maladie
             considéré comme du temps de travail effectif ouvrant droit à congés
-            payés…). 
+            payés…).
             <br />
           </p>
 
@@ -131,6 +135,7 @@ const Accpro = () => (
             Ainsi, Maître MAMERI intervient par exemple dans les litiges
             suivants :
             <br />
+            <br />
             - contestation de la date de consolidation ;
             <br />
             - contestation du taux d’incapacité permanente fixée par la sécurité
@@ -145,7 +150,18 @@ const Accpro = () => (
             contact afin de lui exposer votre situation et convenir d’un
             rendez-vous.
           </p>
+
+
+          <p className="desc">
+            <b>Articles associés :</b><br />
+
+- <Link to="/faute-inexcusable/"> La faute inexcusable</Link><br />
+
+
+          </p>
         </div>
+
+
 
         <VisitCard />
       </div>

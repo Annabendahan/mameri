@@ -55,14 +55,14 @@ const Inaptitude = () => (
           </p>
 
           <MotsClefs
-            link1=<Link to="/inaptitude-salaries/"> Inaptitude </Link>
+            link1=<Link to="/inaptitude-salaries/"> L'inaptitude </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Inaptitude

@@ -45,12 +45,12 @@ const Inf = () => (
             hospitalier, instrument, personnel…) ou endogène c’est à dire que le
             patient a été contaminé par les propres germes dont il est porteur
             sain, en général à l’occasion d’un acte invasif (intervention
-            chirurgicale, piqûre …) 
+            chirurgicale, piqûre …)
           </p>
           <p className="desc">
             En matière d’infection nosocomiale, la loi a mis en place un régime
             d’indemnisation spécifique favorable aux victimes d’infections
-            nosocomiales survenues en établissement de santé. 
+            nosocomiales survenues en établissement de santé.
           </p>
 
           <p className="desc">
@@ -105,6 +105,16 @@ const Inf = () => (
             convenir d’un rendez-vous.
           </p>
           <br />
+          <p className="desc">
+            <b>Articles associés :</b><br />
+
+- <Link to="/dossier-medical/"> L’accès au dossier médical</Link><br />
+- <Link to="/erreur-medicale/"> L'erreur médicale</Link><br />
+- <Link to="/victime-erreur-medicale-reparation/"> L'erreur médicale - règles d'indemnisation</Link><br />
+- <Link to="/victime-erreur-medicale-cci/"> Saisir la commission de conciliation et d’indemnisation des accidents médicaux (CCI/CRCI) </Link><br />
+
+
+          </p>
         </div>
 
         <VisitCard />

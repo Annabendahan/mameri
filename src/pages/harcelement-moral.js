@@ -55,15 +55,15 @@ const Harcelement = () => (
           <MotsClefs
             link1=<Link to="/victime-harcelement-moral/">
               {" "}
-              Harcèlement moral{" "}
+              Le harcèlement moral{" "}
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Harcelement

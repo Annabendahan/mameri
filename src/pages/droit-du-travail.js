@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import VisitCard from "../components/VisitCard"
 
 import pic1 from "../images/p1.png"
+import pic8 from "../images/p8.png"
+
 
 import pic5 from "../images/p5.png"
 import pic6 from "../images/p6.png"
@@ -19,6 +21,39 @@ const InfoDt = () => (
           <h1> DROIT DU TRAVAIL </h1>
 
           <div className="blue2">
+            <Link to="/dossier-medical/">
+              <div className="ip">
+                <img src={pic8} className="picindex3" alt="fireSpot" />
+                <div className="ip__text">
+                  <h3> L’accès au dossier médical</h3>
+                  <p className="desc-n">
+                    Obtenir la communication de son dossier médical est une
+                    étape essentielle pour engager une procédure amiable ou
+                    judiciaire concernant un litige en lien avec la santé ou le
+                    handicap. Maître Quentin MAMERI répond aux questions que
+                    vous vous posez sur l’accès au dossier médical.
+                  </p>
+                  <p className="pluss">
+                    {" "}
+                    EN SAVOIR PLUS{" "}
+                    <svg
+                      className="arrow"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+                        fill="#2a4b80"
+                      />
+                    </svg>{" "}
+                  </p>
+                </div>
+              </div>
+            </Link>
+
             <Link to="/faute-grave-employeur/">
               <div className="ip">
                 <img src={pic1} className="picindex3" alt="fireSpot" />

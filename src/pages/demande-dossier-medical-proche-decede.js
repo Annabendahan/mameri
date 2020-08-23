@@ -67,7 +67,7 @@ const Ddp = () => (
             A la différence d’une demande concernant son propre dossier médical,
             vous devez impérativement lorsque vous sollicitez le dossier médical
             d’un proche décédé motiver votre demande par l’un des objectifs
-            prévus par la loi : <br />
+            prévus par la loi : <br /><br />
             - connaitre les causes du décès <br />
             - faire valoir ses droits <br />- défendre la mémoire du défunt.
           </p>
@@ -82,14 +82,14 @@ const Ddp = () => (
 
           <p className="desc">
             {" "}
-             En fonction du motif invoqué, l’établissement procédera à un tri et
+            En fonction du motif invoqué, l’établissement procédera à un tri et
             ne vous remettra que les pièces médicales nécessaires pour parvenir
             à l’objectif invoqué.
           </p>
 
           <p className="desc">
             {" "}
-            Bon à savoir - en cas de décès d'une personne mineure, les
+            <b> Bon à savoir</b> - en cas de décès d'une personne mineure, les
             titulaires de l'autorité parentale conservent leur droit d'accès à
             la totalité des informations médicales la concernant, à l'exception
             des éléments relatifs aux décisions médicales pour lesquelles la

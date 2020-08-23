@@ -31,16 +31,15 @@ const Privée = () => (
 
           <p className="desc">
             {" "}
-            Il est important d’être assisté par un professionnel non seulement
-            en cas de litiges avec la compagnie sur la mise en œuvre de la
-            garantie mais également lorsque celle-ci est mobilisée. Maître
-            MAMERI défendra vos intérêts pendant la phase d’
-            <span className="bold">
+            Il est important d’être assisté par un avocat non seulement en cas de litiges avec la
+compagnie sur la mise en œuvre de la garantie mais également lorsque celle-ci est
+mobilisée pour que vos droits de victime soit défendus tant au stade de  l'<span className="bold">
               <Link to="/expertise-medicale-dommage-corporel/">
                 expertise médicale
               </Link>
-            </span>
-            .{" "}
+            </span> que lors de l’évaluation de votre indemnisation.
+
+
           </p>
 
           <p className="desc">
@@ -66,25 +65,25 @@ const Privée = () => (
 
           <p className="desc">
             {" "}
-            Si vous souhaitez mobiliser un tel contrat ou si vous êtes en litige
-            avec votre assureur sur l’exécution de cette garantie, n’hésitez pas
-            à contacter Maître Quentin MAMERI, par téléphone, mail ou par le
-            formulaire de contact afin de lui exposer votre situation et
-            convenir d’un rendez-vous.
+            Si vous souhaitez mobiliser un tel contrat, si vous êtes en litige avec votre assureur
+sur l’exécution de celui-ci ou si vous souhaitez tout simplement être accompagné
+dans les démarches pour obtenir réparation, n’hésitez pas à contacter Maître
+Quentin MAMERI, par téléphone, mail ou par le formulaire de contact afin de lui
+exposer votre situation et convenir d’un rendez-vous.
           </p>
 
           <MotsClefs
             link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
-              Expertise médicale
+              L'expertise médicale
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Privée

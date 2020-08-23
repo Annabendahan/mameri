@@ -72,25 +72,25 @@ const Mdph = () => (
           <MotsClefs
             link1=<Link to="/allocation-adultes-handicapes/">
               {" "}
-              Allocation adultes handicapés
+              L'allocation adultes handicapés
             </Link>
             link2=<Link to="/prestation-de-compensation-handicap/">
-              {" "}
-              Prestation de compensation de handicap
+          {" "}
+              La prestation de compensation de handicap
             </Link>
             link3=<Link to="/carte-mobilite-inclusion/">
-              Carte de mobilité-inclusion
+          La carte de mobilité-inclusion
             </Link>
             link4=<Link to="/reconnaissance-travailleur-handicape">
-              Reconnaissance de qualité de travailleur handicapé
+          La reconnaissance de qualité de travailleur handicapé
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Mdph

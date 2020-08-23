@@ -25,7 +25,7 @@ const Err = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            VICTIME D’UNE ERREUR MÉDICALE, LES RÈGLES D’INDEMNISATION
+            VICTIME D’ERREUR MÉDICALE : LES RÈGLES D’INDEMNISATION
           </h2>
 
           <p className="desc">
@@ -49,13 +49,13 @@ const Err = () => (
           </p>
 
           <p className="desc">
-            <span className="bold">
-              {" "}
+
+            {" "}
               Pour engager la responsabilité d’un établissement ou d’un
               professionnel de santé, il faut démontrer que ces derniers ont
               commis une faute médicale autrement dit qu’ils n’ont pas respecté
-              les règles de l’art. 
-            </span>
+              les règles de l’art.
+
           </p>
           <p className="desc">
             Les fautes médicales avoir été commises à tous les stades de la
@@ -163,6 +163,16 @@ const Err = () => (
 
         <VisitCard />
       </div>
+
+      <p className="desc">
+        <b>Articles associés :</b><br />
+
+- <Link to="/dossier-medical/"> L’accès au dossier médical</Link> <br />
+- <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link><br />
+- <Link to="/procedure-reparation/"> Les grandes étapes d’une
+procédure en réparation de dommage corporel </Link><br />
+
+      </p>
     </div>
   </Layout>
 )

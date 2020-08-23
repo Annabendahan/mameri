@@ -51,6 +51,7 @@ const Travail = () => (
             fonction du taux incapacité (entre 1 et 9 %, versement d’un capital,
             au-delà versement d’une rente périodique).{" "}
           </p>
+          <br />
 
           <p className="desc-s">
             {" "}
@@ -104,25 +105,25 @@ const Travail = () => (
           <MotsClefs
             link1=<Link to="/accident-cadre-professionnel/">
               {" "}
-              Accident du travail{" "}
+              L'accident du travail{" "}
             </Link>
             link2=<Link to="/accident-cadre-professionnel/">
-              {" "}
-              Accident de mission
+          {" "}
+              L'accident de mission
             </Link>
             link3=<Link to="/accident-cadre-professionnel/">
-              {" "}
-              Accident de trajet
+          {" "}
+              L'accident de trajet
             </Link>
-            link4=<Link to="/consolidation/"> Consolidation</Link>
-            link5=<Link to="/faute-inexcusable/"> Faute inexcusable</Link>
+            link4=<Link to="/consolidation/"> La consolidation</Link>
+            link5=<Link to="/faute-inexcusable/"> La faute inexcusable</Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Travail

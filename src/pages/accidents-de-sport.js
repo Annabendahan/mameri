@@ -62,24 +62,24 @@ const Sport = () => (
           <MotsClefs
             link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
-              Expertise médicale
+              L'expertise médicale
             </Link>
             link2=<Link to="/prejudices-reparables/">
-              {" "}
-              Réparation intégrale des préjudices
+          {" "}
+              La réparation intégrale des préjudices
             </Link>
-            link3=<Link to="/consolidation/"> Consolidation</Link>
+            link3=<Link to="/consolidation/"> La consolidation</Link>
             link4=<Link to="/prejudices-reparables/">
-              {" "}
+          {" "}
               Préjudices réparables
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Sport

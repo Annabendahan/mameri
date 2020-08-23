@@ -25,7 +25,7 @@ const NosHonoraires = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            DES HONORAIRES CLAIRS ET DETERMINÉS PAR AVANCE{" "}
+            DES HONORAIRES CLAIRS ET DÉTERMINÉS PAR AVANCE{" "}
           </h2>
           <p className="desc">
             {" "}

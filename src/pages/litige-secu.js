@@ -65,18 +65,18 @@ const Secu = () => (
               {" "}
               Temps-partiel thérapeutique
             </Link>
-            link2=<Link to="/indemnites-arret-travail/"> Arrêt de travail</Link>
-            link3=<Link to="/invalidite/">Pension d'invalidité</Link>
+            link2=<Link to="/indemnites-arret-travail/"> L'arrêt de travail</Link>
+            link3=<Link to="/invalidite/">La pension d'invalidité</Link>
             link4=<Link to="/expertise-medicale-litiges-securite-sociale/">
-              Expertise médicale
+          L'expertise médicale
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Secu

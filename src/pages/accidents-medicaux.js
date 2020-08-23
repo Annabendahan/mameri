@@ -17,38 +17,32 @@ const Médicaux = () => (
           <img src={pic12} className="picdefense" alt="fireSpot" />
           <p className="desc">
             {" "}
-            Que vous soyez victime d’une{" "}
-            <span className="bold">
+            Maître Quentin MAMERI assure la défense de vos intérêts dans toutes les procédures
+tendant à engager la responsabilité d’un établissement ou d’un professionnel de
+santé, que vous soyez victime d’une  <span className="bold">
               {" "}
               <Link to="/erreur-medicale/"> faute médicale</Link>
-            </span>{" "}
-            ou dentaire (faute de diagnostic, faute technique, défaut
-            d’information …), du défaut d’un produit de santé, d’une{" "}
-            <span className="bold">
+            </span>{" "} ou dentaire (faute de diagnostic,
+faute technique, défaut d’information, etc.), du défaut d’un produit de santé, d’une
+affection iatrogène, d’une <span className="bold"> <Link to="/infection-nosocomiale/">
               {" "}
-              <Link to="/infection-nosocomiale/">
-                {" "}
                 infection nosocomiale,
-              </Link>{" "}
-            </span>{" "}
-            Maître Quentin MAMERI mettra tout en œuvre pour que la
-            responsabilité du professionnel ou de l’établissement de santé soit
-            reconnue et que vous puissiez obtenir{" "}
-            <span className="bold">
-              {" "}
-              <Link to="/prejudices-reparables/">
-                {" "}
-                réparation intégrale
-              </Link>{" "}
-            </span>{" "}
-            de vos préjudices. <br />
-            En cas d’
-            <span className="bold">
-              <Link to="/erreur-medicale/">accident médical non fautif</Link>
-            </span>
-             (aléa thérapeutique), sachez que vous pouvez obtenir indemnisation
-            par la solidarité nationale (ONIAM) sous certaines conditions
-            notamment si vous atteignez un certain seuil de gravité.
+              </Link>{" "} </span> ou de tout autre accident médical et
+ce quel que soit la nature et l’importance de votre handicap.
+
+
+
+
+           <br /> <br />
+
+           Si vous êtes victime d’un  <span className="bold">
+              <Link to="/erreur-medicale/">accident médical sans faute</Link>
+            </span> (aléa thérapeutique), sachez
+que vous pouvez obtenir indemnisation par la solidarité nationale (ONIAM), sous
+réserve que certaines conditions soient réunies et notamment que vous atteigniez un
+certain seuil de gravité fixé par décret.
+
+
           </p>
 
           <p className="desc">
@@ -100,24 +94,24 @@ const Médicaux = () => (
           <MotsClefs
             link1=<Link to="/expertise-medicale-dommage-corporel/">
               {" "}
-              Expertise médicale
+              L'expertise médicale
             </Link>
             link2=<Link to="/infection-nosocomiale/">
-              {" "}
-              Infection nosocomiale
+          {" "}
+              L'infection nosocomiale
             </Link>
             link3=<Link to="/prejudices-reparables/">
-              {" "}
-              Réparation intégrale
+          {" "}
+              La réparation intégrale
             </Link>
-            link4=<Link to="/erreur-medicale/"> Erreur médicale</Link>
+            link4=<Link to="/erreur-medicale/"> L'erreur médicale</Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Médicaux

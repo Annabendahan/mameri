@@ -41,17 +41,7 @@ const Afh = () => (
             </span>
           </p>
 
-          <p className="desc">
-            {" "}
-            <span className="bold">
-              {" "}
-              Deux prestations principales permettent de prendre en charge les
-              aide humaines et techniques nécessités par le handicap : la
-              prestation de compensation du handicap octroyée par la MDPH (PCH)
-              et l’Allocation Personnalisée d’autonomie (APA) par le
-              département.
-            </span>
-          </p>
+         
 
           <p className="desc">
             <span className="bold">

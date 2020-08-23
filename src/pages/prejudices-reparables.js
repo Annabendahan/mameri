@@ -51,7 +51,7 @@ const ExpMed = () => (
             particulièrement le cas dans les situations de grand handicap.
             Malheureusement, une fois l’accord conclu ou le jugement rendu, il
             ne sera plus possible de solliciter une nouvelle indemnisation, sauf
-            situation
+            situation {" "}
             <span className="bold underlined">
               <Link to="/aggravation/">d’aggravation.</Link>
             </span>
@@ -59,7 +59,7 @@ const ExpMed = () => (
 
           <p className="desc">
             {" "}
-            <span className="bold"> Le principe de réparation intégrale</span>
+            <span className="bold"> • Le principe de réparation intégrale</span>
           </p>
 
           <p className="desc">
@@ -76,7 +76,7 @@ const ExpMed = () => (
           <p className="desc">
             {" "}
             <span className="bold">
-              Les victimes pouvant obtenir réparation
+              •  Les victimes pouvant obtenir réparation
             </span>
           </p>
 
@@ -94,7 +94,7 @@ const ExpMed = () => (
 
           <p className="desc">
             {" "}
-            <span className="bold">Les préjudices indemnisables</span>
+            <span className="bold">  • Les préjudices indemnisables</span>
           </p>
 
           <p className="desc">
@@ -216,6 +216,23 @@ const ExpMed = () => (
 
         <VisitCard />
       </div>
+
+      <p className="desc">
+        <b>Articles associés :</b><br />
+
+
+        - <Link to="/dossier-medical/"> L’accès au dossier médical</Link> <br />
+- <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link> <br />
+- <Link to="/consolidation/"> La consolidation</Link><br />
+- <Link to="/expertise-medicale-dommage-corporel/">
+          {" "}
+              L'expertise médicale
+            </Link><br />
+- <Link to="/procedure-reparation/"> Les grandes étapes d’une
+procédure en réparation de dommage corporel </Link>  <br />
+
+      </p>
+
     </div>
   </Layout>
 )

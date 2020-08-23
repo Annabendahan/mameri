@@ -17,17 +17,11 @@ const Route = () => (
 
           <p className="desc">
             {" "}
-            Que vous soyez victime d’un accident de la circulation en qualité de
-            piéton, conducteur ou passager transporté d’une voiture, d’un
-            camion, d’un deux-roues (vélo, moto, scooter …) ou de tout autre
-            véhicule, Maître MAMERI vous accompagnera à tous les stades de la
-            procédure pour veiller au respect de vos droits de victimes et
-            mettra tout en œuvre pour vous permettre d’obtenir la{" "}
-            <span className="bold">
-              {" "}
-              <Link to="/prejudices-reparables/"> réparation intégrale</Link>
-            </span>{" "}
-            de vos préjudices.
+            Maître Quentin MAMERI assure la défense de vos intérêts dans toutes les procédures
+tendant à obtenir réparation de vos préjudices consécutifs à un accident de la route
+que vous soyez victime en qualité de piéton, conducteur ou passager transporté
+d’une voiture, d’un camion, d’un deux-roues (vélo, moto, scooter,…) ou de tout autre
+véhicule et ce quel que soit la nature et l’importance de votre handicap.
           </p>
 
           <p className="desc">
@@ -74,7 +68,7 @@ const Route = () => (
             et de manière impartiale.
           </p>
           <p className="desc">
-            Bon à savoir – Si vous êtes victime d’un accident de la route sans
+            <b>Bon à savoir</b> – Si vous êtes victime d’un accident de la route sans
             tiers-responsable autrement dit si vous avez causé vous-même votre
             accident, vous ne pourrez être indemnisé que si vous bénéficiez
             d’une garantie du conducteur. Cette assurance est soit intégrée dans
@@ -109,24 +103,24 @@ const Route = () => (
           <MotsClefs
             link1=<Link to="/prejudices-reparables/">
               {" "}
-              Réparation intégrale des préjudices
+              La réparation intégrale des préjudices
             </Link>
             link2=<Link to="/expertise-medicale-dommage-corporel/">
-              {" "}
-              Expertise médicale
+          {" "}
+              L'expertise médicale
             </Link>
             link3=<Link to="/prejudices-reparables/">
-              {" "}
+          {" "}
               Préjudices réparables
             </Link>
-            link4=<Link to="/consolidation/"> Consolidation</Link>
+            link4=<Link to="/consolidation/"> Le consolidation</Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Route

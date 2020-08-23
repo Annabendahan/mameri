@@ -34,7 +34,7 @@ const Dcd = () => (
             conservation du dossier médical pendant un délai de 20 ans à compter
             de la date du dernier séjour de son titulaire dans l'établissement
             ou de la dernière consultation externe en son sein sauf dans
-            certaines hypothèses : <br />
+            certaines hypothèses : <br /> <br />
             - Dossiers médicaux des enfants de moins de 8 ans : jusqu’à ce que
             ce dernier ait atteint l’âge de 28 ans. <br />
             - En cas de décès de la personne moins de 10 ans après son dernier

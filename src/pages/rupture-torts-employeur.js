@@ -48,19 +48,19 @@ const Rupturetorts = () => (
           <MotsClefs
             link1=<Link to="/rompre-amiablement-contrat-travail/">
               {" "}
-              Prise d’acte de rupture du contrat{" "}
+              La prise d’acte de rupture du contrat{" "}
             </Link>
             link2=<Link to="/faute-grave-employeur/">
-              {" "}
-              Résiliation judiciaire
+          {" "}
+              La résiliation judiciaire
             </Link>
           />
         </div>
 
-        <VisitCard />
-      </div>
+      <VisitCard />
     </div>
-  </Layout>
+    </div>
+  </Layout >
 )
 
 export default Rupturetorts

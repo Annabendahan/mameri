@@ -32,12 +32,8 @@ const Dos = () => (
             {" "}
             Obtenir la communication de son dossier médical est une étape
             essentielle avant d’engager une procédure amiable ou judiciaire
-            concernant un litige en lien avec la santé ou le handicap{" "}
-            <span className="bold underlined">
-              <Link to="/modeles-et-formulaires/">
-                (accéder aux modèles de demande de dossier médical).
-              </Link>
-            </span>
+            concernant un litige en lien avec la santé ou le handicap.{" "}
+
           </p>
 
           <p className="desc">
@@ -72,7 +68,7 @@ const Dos = () => (
           <p className="desc">
             {" "}
             Maître Quentin MAMERI répond aux questions que vous vous posez sur
-            l’accès au dossier médical.
+            l’accès au dossier médical:
           </p>
 
           <p className="desc">
@@ -135,7 +131,7 @@ const Dos = () => (
               <span className="bold underlined">
                 {" "}
                 - Dans quel délai un établissement ou un professionnel de santé
-                doit-il me remettre mon dossier médical ? 
+                doit-il me remettre mon dossier médical ?
               </span>
             </Link>
           </p>
@@ -152,9 +148,50 @@ const Dos = () => (
           </p>
         </div>
 
+
+
         <VisitCard />
       </div>
+      <p className="desc">
+        <b>Articles associés :</b><br />
+
+- <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link> <br />
+- <Link to="/expertise-medicale-dommage-corporel/">
+          {" "}
+              L'expertise médicale
+            </Link><br />
+- <Link to="/procedure-reparation/"> Les grandes étapes d’une
+procédure en réparation de dommage corporel </Link> <br />
+
+      </p>
     </div>
+    <p
+      style={{
+        width: `420px`,
+        margin: `auto`,
+      }}
+    >
+      {" "}
+      <Link to="/modeles-et-formulaires/" className="button bt2">
+        {" "}
+        MODÈLE DE DEMANDE DE DOSSIER MÉDICAL{" "}
+        <svg
+          className="yellowr"
+          width="14"
+          height="8"
+          viewBox="0 0 14 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.3536 4.35355C13.5488 4.15829 13.5488 3.84171 13.3536 3.64645L10.1716 0.464466C9.97631 0.269204 9.65973 0.269204 9.46447 0.464466C9.2692 0.659728 9.2692 0.976311 9.46447 1.17157L12.2929 4L9.46447 6.82843C9.2692 7.02369 9.2692 7.34027 9.46447 7.53553C9.65973 7.7308 9.97631 7.7308 10.1716 7.53553L13.3536 4.35355ZM0 4.5L13 4.5V3.5L0 3.5L0 4.5Z"
+            fill="yellow"
+          />
+        </svg>{" "}
+      </Link>{" "}
+    </p>
+
+
   </Layout>
 )
 

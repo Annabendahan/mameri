@@ -22,7 +22,7 @@ const Agression = () => (
           <p className="desc">
             Quelle que soit la nature ou la gravité de l’infraction, Maître
             MAMERI défendra vos droits de victime à tous les stades de la
-            procédure y compris pendant la phase
+            procédure y compris pendant la phase d'
             <span className="bold">
               <Link to="/reparation-dommage-corporel/#EM">
                 expertise médicale
@@ -46,20 +46,7 @@ const Agression = () => (
             convenir d’un rendez-vous.{" "}
           </p>
 
-          <MotsClefs
-            link1=<Link to="/prejudices-reparables/">
-              {" "}
-              Réparation intégrale des préjudices
-            </Link>
-            link2=<Link to="/reparation-dommage-corporel/#EM">
-              {" "}
-              Expertise médicale
-            </Link>
-            link3=<Link to="/prejudices-reparables/">
-              {" "}
-              Préjudices réparables
-            </Link>
-          />
+         
         </div>
 
         <VisitCard />

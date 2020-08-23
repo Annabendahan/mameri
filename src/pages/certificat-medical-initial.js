@@ -44,7 +44,7 @@ const Cmi = () => (
             accident et hospitalisé, l’établissement d’accueil devra établir un
             certificat médical initial (CMI). Ce certificat médical initial fera
             l’inventaire des blessures constatées et mentionnera un taux
-            d’incapacité. 
+            d’incapacité.
           </p>
           <p className="desc">
             En tant que victime, vous devez bien vérifier que chacune de vos
@@ -59,9 +59,9 @@ const Cmi = () => (
             Dans le cas où vous ne seriez pas hospitalisé, il est conseillé de
             vous rendre sans tarder chez votre médecin traitant afin que ce
             dernier puisse certifier des lésions qu’il a lui-même constaté suite
-            à son examen clinique. 
+            à son examen clinique.
           </p>
-          <br />
+
 
           <p className="desc">
             {" "}
@@ -81,6 +81,16 @@ const Cmi = () => (
 
         <VisitCard />
       </div>
+
+      <p className="desc">
+        <b>Articles associés :</b><br />
+
+
+        - <Link to="/dossier-medical/"> L’accès au dossier médical</Link> <br />
+- Préjudices <br />
+
+      </p>
+
     </div>
   </Layout>
 )

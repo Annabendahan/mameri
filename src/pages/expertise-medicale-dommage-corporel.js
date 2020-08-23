@@ -25,7 +25,7 @@ const ExpMed = () => (
             >
               <rect width="10" height="10" fill="#F2DC17" />
             </svg>{" "}
-            L’EXPERTISE MÉDICALE, PHASE PRÉALABLE INCONTOURNABLE DE LA PROCÈDURE
+            L’EXPERTISE MÉDICALE, PHASE PRÉALABLE INCONTOURNABLE DE LA PROCÉDURE
             EN RÉPARATION DE DOMMAGE CORPOREL
           </h2>
 
@@ -71,7 +71,7 @@ const ExpMed = () => (
             de santé vous proposera une expertise amiable par ses propres
             médecins-conseils ce qui pose un problème d’impartialité.
           </p>
-          <br />
+       
 
           <p className="desc-s" id="AT">
             {" "}
