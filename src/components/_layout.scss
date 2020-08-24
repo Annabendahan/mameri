@@ -664,3 +664,11 @@ a {
     padding: 200px 7%;
   }
 }
+
+
+
+.desc {
+  a { 
+  color: map-get($colors, blue ) !important;
+}
+}
