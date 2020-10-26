@@ -280,7 +280,7 @@ faute ?
             </Link><br />
 - <Link to="/procedure-reparation/"> Les grandes étapes d’une
 procédure en réparation de dommage corporel </Link><br />
-- Préjudices<br />
+- <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 - <Link to="/consolidation/"> Le consolidation</Link><br />
 - <Link to="/victime-infraction-recours/"> Service d’Aide aux Recouvrement des Victimes</Link><br />
                     </p>

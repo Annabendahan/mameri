@@ -311,7 +311,7 @@ dommage à un autre titre.
 - <Link to="/procedure-reparation/"> Les grandes étapes d’une
 procédure en réparation de dommage corporel </Link> <br />
 - <Link to="/consolidation/"> La consolidation</Link><br />
-- Les préjudices réparables <br />
+- <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
                     </p>
                     <br />
                 </div>

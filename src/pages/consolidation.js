@@ -82,7 +82,7 @@ const Consolidation = () => (
 
 
 - <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link><br />
-- Préjudices <br />
+- <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 
       </p>
 

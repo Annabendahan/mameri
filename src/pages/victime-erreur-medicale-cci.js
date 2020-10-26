@@ -262,7 +262,7 @@ alternative au rapprochement amiable avec l’assureur et à la saisine d’un T
                             {" "}
               L'infection nosocomiale
             </Link> <br />
-- Préjudices indemnisables<br />
+            - <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 - <Link to="/consolidation/"> La consolidation</Link><br />
 - <Link to="/expertise-medicale-dommage-corporel/">
                             {" "}

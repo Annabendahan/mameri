@@ -75,7 +75,7 @@ accident de loisirs, accident médicaux, etc.
 
 - <Link to="/dossier-medical/"> L’accès au dossier médical</Link><br />
 - <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link><br />
-- Préjudices indemnisables<br />
+- <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 - <Link to="/consolidation/"> La consolidation</Link><br />
           </p>
           <br />

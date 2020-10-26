@@ -87,7 +87,7 @@ const Cmi = () => (
 
 
         - <Link to="/dossier-medical/"> L’accès au dossier médical</Link> <br />
-- Préjudices <br />
+        - <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 
       </p>
 

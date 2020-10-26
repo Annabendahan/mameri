@@ -206,7 +206,7 @@ préparation du dossier, la phase d’expertise médicale et la phase de répara
 
 - <Link to="/dossier-medical/"> L’accès au dossier médical</Link> <br />
 - <Link to="/certificat-medical-initial/"> Le certificat médical initial</Link><br />
-- Les préjudices indemnisables<br />
+- <Link to="/prejudices-reparables/"> Les préjudices indemnisables</Link><br />
 - <Link to="/consolidation/"> La consolidation</Link><br />
 - <Link to="/victime-erreur-medicale-cci/"> Saisir la commission de conciliation et d’indemnisation des accidents médicaux (CCI/CRCI) </Link><br />
 - <Link to="/infection-nosocomiale/">
