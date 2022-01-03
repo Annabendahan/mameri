@@ -11,17 +11,17 @@ const Route = () => (
     <div className="background-hono">
       <div className="bigbox">
         <div className="bleft">
-          <h1> ACCIDENTS DE LA ROUTE </h1>
+          <h1> ACCIDENTS DE LA ROUTE  </h1>
 
           <img src={pic11} className="picdefense" alt="fireSpot" />
 
           <p className="desc">
             {" "}
             Maître Quentin MAMERI assure la défense de vos intérêts dans toutes les procédures
-tendant à obtenir réparation de vos préjudices consécutifs à un accident de la route
-que vous soyez victime en qualité de piéton, conducteur ou passager transporté
-d’une voiture, d’un camion, d’un deux-roues (vélo, moto, scooter,…) ou de tout autre
-véhicule et ce quel que soit la nature et l’importance de votre handicap.
+            tendant à obtenir réparation de vos préjudices consécutifs à un accident de la route
+            que vous soyez victime en qualité de piéton, conducteur ou passager transporté
+            d’une voiture, d’un camion, d’un deux-roues (vélo, moto, scooter,…) ou de tout autre
+            véhicule et ce quel que soit la nature et l’importance de votre handicap.
           </p>
 
           <p className="desc">
@@ -102,23 +102,23 @@ véhicule et ce quel que soit la nature et l’importance de votre handicap.
 
           <MotsClefs
             link1=<Link to="/prejudices-reparables/">
-              {" "}
-              La réparation intégrale des préjudices
-            </Link>
-            link2=<Link to="/expertise-medicale-dommage-corporel/">
-          {" "}
-              L'expertise médicale
-            </Link>
-            link3=<Link to="/prejudices-reparables/">
-          {" "}
-              Préjudices réparables
-            </Link>
-            link4=<Link to="/consolidation/"> Le consolidation</Link>
+            {" "}
+            La réparation intégrale des préjudices
+          </Link>
+          link2=<Link to="/expertise-medicale-dommage-corporel/">
+            {" "}
+            L'expertise médicale
+          </Link>
+          link3=<Link to="/prejudices-reparables/">
+            {" "}
+            Préjudices réparables
+          </Link>
+          link4=<Link to="/consolidation/"> Le consolidation</Link>
           />
         </div>
 
-      <VisitCard />
-    </div>
+        <VisitCard />
+      </div>
     </div>
   </Layout >
 )
